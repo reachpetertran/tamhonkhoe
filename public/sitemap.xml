@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://tamhonkhoe.com/</loc></url>
+  <url><loc>https://tamhonkhoe.com/bang-chung/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/about/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/body/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/changelog/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/convergence/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/evidence/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/privacy/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/sources-and-licences/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/traditions/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/traditions/buddhism/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/traditions/christianity/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/traditions/islam/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/traditions/judaism/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/traditions/non-duality/</loc></url>
+  <url><loc>https://tamhonkhoe.com/en/traditions/stoicism/</loc></url>
   <url><loc>https://tamhonkhoe.com/giao-thoa/</loc></url>
+  <url><loc>https://tamhonkhoe.com/gioi-thieu/</loc></url>
   <url><loc>https://tamhonkhoe.com/khe/</loc></url>
   <url><loc>https://tamhonkhoe.com/khe/bat-nhi/</loc></url>
   <url><loc>https://tamhonkhoe.com/khe/do-thai-giao/</loc></url>
@@ -10,5 +27,7 @@
   <url><loc>https://tamhonkhoe.com/khe/kito-giao/</loc></url>
   <url><loc>https://tamhonkhoe.com/khe/phat-giao/</loc></url>
   <url><loc>https://tamhonkhoe.com/nguon-va-ban-quyen/</loc></url>
+  <url><loc>https://tamhonkhoe.com/nhat-ky-sua-doi/</loc></url>
+  <url><loc>https://tamhonkhoe.com/rieng-tu/</loc></url>
   <url><loc>https://tamhonkhoe.com/than-the/</loc></url>
 </urlset>

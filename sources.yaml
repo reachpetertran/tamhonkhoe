@@ -5,8 +5,10 @@
 #   Nguồn có checked_on trống thì build.py KHÔNG cho bài dùng nguồn đó lên public.
 # - license: PD | CC0 | CC-BY | CC-BY-NC | NO-MODIFY | COPYRIGHTED
 # - may_translate: true chỉ khi giấy phép cho phép tự dịch/sửa (PD, CC0, CC-BY, CC-BY-NC).
+# - chi_link: true khi nguồn chỉ được đặt link, không được trích dù ngắn (build.py chặn mọi khối kinh dùng nguồn này).
 # - url_status: ghi chú Claude đã mở thử link hay chưa. Đây KHÔNG thay cho checked_on.
-# - Trạng thái giấy phép dưới đây lấy từ đợt nghiên cứu 03/11/2026 trong kế hoạch, chưa được Peter xác nhận.
+# - Nguồn có checked_on: Peter đã xác nhận (03/11 tự chụp; 04/11 qua ảnh Claude chụp trong giay-phep/2026-11-04/).
+#   Nguồn chưa có checked_on: chưa xác nhận.
 
 # ---------------- Phật giáo ----------------
 mn10-sujato:
@@ -17,19 +19,19 @@ mn10-sujato:
   url: "https://suttacentral.net/mn10/en/sujato"
   license: CC0
   may_translate: true
-  checked_on:
-  url_status: "Claude mở ngày 2026-11-03: trang chạy bằng JavaScript, công cụ không đọc được nội dung. Peter mở bằng trình duyệt để xác nhận."
+  checked_on: 2026-11-03
+  url_status: "Peter mở 2026-11-03, mục Info → License: Creative Commons Zero (CC0), Bhikkhu Sujato từ bỏ mọi quyền với Middle Discourses. Đã chụp màn hình."
 
 minhchau-nikaya:
   title: "Kinh tạng Nikaya (bản Việt)"
   khe: phat-giao
   lang: vi
   translator: "HT Thích Minh Châu"
-  url: ""
+  url: "https://suttacentral.net/mn10/vi/minh_chau"
   license: COPYRIGHTED
   may_translate: false
   checked_on:
-  url_status: "Kế hoạch ghi nguồn budsas.net; chưa có link từng bài. Chỉ đặt link hoặc trích dưới 15 chữ."
+  url_status: "Peter chụp trang Licensing của SuttaCentral 2026-11-04 (giay-phep/2026-11-04/11-suttacentral-licensing-peter-chup.png): phần trong ảnh là mục 1 (tài liệu SuttaCentral tự tạo, CC0). Bản HT Minh Châu thuộc nhóm bên thứ ba giữ bản quyền; chưa thấy điều khoản riêng của bản này. Giữ COPYRIGHTED: chỉ đặt link hoặc trích dưới 15 chữ. checked_on để trống đến khi thấy điều khoản của chính bản Minh Châu."
 
 # ---------------- Kitô giáo ----------------
 web-bible:
@@ -37,33 +39,33 @@ web-bible:
   khe: kito-giao
   lang: en
   translator: "World English Bible (eBible.org)"
-  url: "https://ebible.org/web/copyright.htm"
+  url: "https://ebible.org/engwebp/copyright.htm"
   license: PD
   may_translate: true
-  checked_on:
-  url_status: "Link trang bản quyền lấy từ kết quả tìm kiếm 2026-11-03, Claude chưa mở. Bản đã sửa không được gọi là \"WEB\"."
+  checked_on: 2026-11-03
+  url_status: "Peter mở 2026-11-03: trang ghi bản dịch được hiến tặng vào Public Domain, chép và chia sẻ tự do; bản 2020 stable text edition, 66 sách (protocanon). Đã chụp màn hình. Bản đã sửa không được gọi là \"WEB\"."
 
 kinhthanh-truyen-thong:
-  title: "Kinh Thánh – Bản Truyền Thống"
+  title: "Kinh Thánh tiếng Việt (bản 1923/1925)"
   khe: kito-giao
   lang: vi
-  translator: ""
-  url: ""
+  translator: "William Cadman (1883-1948), Christian and Missionary Alliance"
+  url: "https://ebible.org/vie1934/copyright.htm"
   license: PD
   may_translate: true
-  checked_on:
-  url_status: "[Cần kiểm chứng] eBible ghi Public Domain; năm 1923/1934 còn mâu thuẫn. Nếu hiệu đính chính tả phải ghi \"đã hiệu đính chính tả\"."
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. eBible ghi Public Domain: Tân Ước xuất bản 1923, Cựu Ước 1925; hết hạn bảo hộ 01/01/2019 (Tân Ước) và 01/01/2021 (Cựu Ước). Mâu thuẫn năm 1923/1934 được giải thích: mã eBible là vie1934 nhưng trang ghi 1923/1925. Nếu hiệu đính chính tả phải ghi \"đã hiệu đính chính tả\". Peter xác nhận 2026-11-04 qua ảnh 04 do Claude chụp."
 
 lawrence-practice:
   title: "The Practice of the Presence of God"
   khe: kito-giao
   lang: en
-  translator: "Brother Lawrence (CCEL)"
-  url: ""
+  translator: "Brother Lawrence (Project Gutenberg #13871)"
+  url: "https://www.gutenberg.org/ebooks/13871"
   license: PD
   may_translate: true
-  checked_on:
-  url_status: "Chưa có link. Kế hoạch ghi nguồn CCEL."
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. Gutenberg #13871: Public domain in the USA. KHÔNG dùng CCEL (chỉ cho dùng cá nhân/giáo dục/phi lợi nhuận, đăng lại phải xin phép) và KHÔNG dùng Gutenberg #5657 (ghi Copyrighted). [Cần kiểm chứng] tên dịch giả bản #13871. Peter xác nhận 2026-11-04 qua ảnh 07 do Claude chụp."
 
 # ---------------- Hồi giáo ----------------
 quranenc-vi-hassan:
@@ -74,41 +76,42 @@ quranenc-vi-hassan:
   url: "https://quranenc.com/en/browse/vietnamese_hassan/1-1"
   license: NO-MODIFY
   may_translate: false
-  checked_on:
-  url_status: "Link theo mẫu địa chỉ thấy trong kết quả tìm kiếm 2026-11-03, Claude chưa mở. Được đăng lại nguyên văn, không sửa; ghi số phiên bản."
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. Hộp \"Terms and Policies\" trên trang bản dịch: được tải và đăng lại với 7 điều kiện, gồm không sửa/thêm/bớt, ghi rõ QuranEnc.com, ghi số phiên bản, cập nhật theo bản mới nhất, không kèm quảng cáo không phù hợp. Giữ NO-MODIFY. Peter xác nhận 2026-11-04 qua ảnh 01 do Claude chụp."
 
 tanzil-arabic:
   title: "Văn bản Qur'an tiếng Ả Rập (Tanzil)"
   khe: hoi-giao
   lang: ar
   translator: "Tanzil Project"
-  url: ""
+  url: "https://tanzil.net/docs/Text_License"
   license: NO-MODIFY
   may_translate: false
-  checked_on:
-  url_status: "Kế hoạch ghi CC BY 3.0 kèm điều kiện không sửa. Chưa có link."
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. Trang Text License: Creative Commons Attribution 3.0; được chép và phân phối bản nguyên văn, KHÔNG được thay đổi; phải ghi nguồn Tanzil, link tanzil.net, giữ thông báo bản quyền. Giữ NO-MODIFY. Peter xác nhận 2026-11-04 qua ảnh 02 do Claude chụp."
 
 khattab-qurancom:
   title: "The Clear Quran"
   khe: hoi-giao
   lang: en
   translator: "Dr. Mustafa Khattab (quran.com)"
-  url: ""
+  url: "https://theclearquran.org/copyright"
   license: COPYRIGHTED
   may_translate: false
-  checked_on:
-  url_status: "Chỉ đặt link."
+  chi_link: true
+  checked_on: 2026-11-04
+  url_status: "Peter tự chụp trang Copyright 2026-11-04 (giay-phep/2026-11-04/12-theclearquran-copyright-peter-chup.png): chỉ cấp giấy phép giới hạn cho tổ chức 501(c)(3), trích tối đa 10%, chỉ cho giáo dục, phải ghi dịch giả, nhà xuất bản và link. tamhonkhoe không phải 501(c)(3) nên không áp dụng. Chỉ đặt link, không trích."
 
 sunnah-com:
   title: "Hadith (sunnah.com)"
   khe: hoi-giao
   lang: en
   translator: "sunnah.com"
-  url: ""
+  url: "https://sunnah.com/about"
   license: COPYRIGHTED
   may_translate: false
-  checked_on:
-  url_status: "[Cần kiểm chứng điều khoản]. Tạm xếp COPYRIGHTED cho an toàn đến khi Peter đọc điều khoản."
+  checked_on: 2026-11-04
+  url_status: "Mục 8 trang About (Peter tự chụp 2026-11-04, giay-phep/2026-11-04/03-sunnah-peter-chup.png): cấm scraping và chép hàng loạt cả bộ sách; cho phép trích từng hadith hoặc một số hadith để dạy/trình bày; chưa nêu tên dịch giả tiếng Anh. Giữ COPYRIGHTED, không tự dịch. Peter xác nhận 2026-11-04."
 
 # ---------------- Do Thái giáo ----------------
 jps1917:
@@ -116,22 +119,22 @@ jps1917:
   khe: do-thai-giao
   lang: en
   translator: "Jewish Publication Society (1917)"
-  url: ""
+  url: "https://www.sefaria.org/Genesis.1?ven=english|The_Holy_Scriptures:_A_New_Translation_(JPS_1917)&lang=en"
   license: PD
   may_translate: true
-  checked_on:
-  url_status: "Chưa có link."
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. Sefaria, bản \"The Holy Scriptures: A New Translation (JPS 1917)\": License Public Domain. CHÚ Ý: bản mặc định \"Tanakh: The Holy Scriptures, published by JPS\" là JPS 1985, CC-BY-NC – không dùng nhầm. Peter xác nhận 2026-11-04 qua ảnh 05 do Claude chụp."
 
 steinsaltz-sefaria:
   title: "Talmud – bản Steinsaltz (Sefaria)"
   khe: do-thai-giao
   lang: en
   translator: "Rabbi Adin Even-Israel Steinsaltz (Sefaria)"
-  url: ""
+  url: "https://www.sefaria.org/william-davidson-talmud"
   license: CC-BY-NC
   may_translate: true
-  checked_on:
-  url_status: "Trang có bản tự dịch từ nguồn này phải dùng CC BY-NC 4.0 cho toàn trang (build.py tự làm)."
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. Trang William Davidson Talmud: bản Koren Noé Talmud kèm chú giải Steinsaltz phát hành theo CC BY-NC (Koren Publishers). Trang có bản tự dịch từ nguồn này dùng CC BY-NC 4.0 cho toàn trang (build.py tự làm). Peter xác nhận 2026-11-04 qua ảnh 06 do Claude chụp."
 
 pirkei-avot-gorfinkle:
   title: "Pirke Avot: The Sayings of the Jewish Fathers"
@@ -141,8 +144,8 @@ pirkei-avot-gorfinkle:
   url: "https://www.gutenberg.org/ebooks/8547"
   license: PD
   may_translate: true
-  checked_on:
-  url_status: "Claude mở ngày 2026-11-03: đúng tên sách và dịch giả; trang ghi \"Public domain in the USA\"."
+  checked_on: 2026-11-03
+  url_status: "Peter mở trang sách #8547 2026-11-03: Copyright = Public domain in the USA. Đã chụp màn hình. [Cần kiểm chứng] tình trạng bảo hộ tại Việt Nam."
 
 # ---------------- Khắc kỷ ----------------
 epictetus-long:
@@ -153,19 +156,19 @@ epictetus-long:
   url: "https://gutenberg.org/ebooks/10661"
   license: PD
   may_translate: true
-  checked_on:
-  url_status: "Link từ kết quả tìm kiếm 2026-11-03, Claude chưa mở; cần xác nhận dịch giả là George Long."
+  checked_on: 2026-11-03
+  url_status: "Peter mở trang sách #10661 2026-11-03: Copyright = Public domain in the USA. Ảnh chưa cho thấy dòng dịch giả. Claude mở trang #10661 và file văn bản 2026-11-04: Translator = Long, George, 1800-1879; trang tên sách ghi TRANSLATED BY GEORGE LONG. Peter xem lại khi tiện."
 
 meditations-long:
-  title: "Meditations (Marcus Aurelius)"
+  title: "Thoughts of Marcus Aurelius Antoninus (Meditations)"
   khe: khac-ky
   lang: en
   translator: "George Long"
-  url: ""
+  url: "https://www.gutenberg.org/ebooks/15877"
   license: PD
   may_translate: true
-  checked_on:
-  url_status: "[Cần kiểm chứng link]."
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. Gutenberg #15877: Translator Long, George, 1800-1879; Public domain in the USA. CHÚ Ý: #2680 không ghi dịch giả Long – không dùng. Peter xác nhận 2026-11-04 qua ảnh 08 do Claude chụp."
 
 # ---------------- Bất nhị / Hiện diện ----------------
 gita-arnold:
@@ -176,16 +179,16 @@ gita-arnold:
   url: "https://www.gutenberg.org/ebooks/2388"
   license: PD
   may_translate: true
-  checked_on:
-  url_status: "Link từ kết quả tìm kiếm 2026-11-03, Claude chưa mở."
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. Gutenberg #2388: Translator Arnold, Edwin, Sir, 1832-1904; Public domain in the USA. Peter xác nhận 2026-11-04 qua ảnh 09 do Claude chụp."
 
 upanishads-muller:
   title: "The Upanishads"
   khe: bat-nhi
   lang: en
   translator: "F. Max Müller"
-  url: ""
+  url: "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_1"
   license: PD
   may_translate: true
   checked_on:
-  url_status: "[Cần kiểm chứng]."
+  url_status: "[Cần kiểm chứng] Wikisource có Sacred Books of the East tập 1 (1879) và tập 15, dịch F. Max Müller; tập 1 ghi chưa chép xong. Chân trang Wikisource ghi CC BY-SA (Peter chụp trang CC BY-SA 4.0, giay-phep/2026-11-04/13-cc-by-sa-4-peter-chup.png). [Suy luận] CC BY-SA ở chân trang là giấy phép chung của trang wiki; bản dịch Müller 1879 có thể thuộc phạm vi công cộng – chưa xác nhận. Nếu coi là CC BY-SA thì trang tự dịch phải dùng CC BY-SA, mà build.py chưa hỗ trợ. Chưa cần cho Giao thoa 0."
