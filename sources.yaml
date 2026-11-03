@@ -22,6 +22,17 @@ mn10-sujato:
   checked_on: 2026-11-03
   url_status: "Peter mở 2026-11-03, mục Info → License: Creative Commons Zero (CC0), Bhikkhu Sujato từ bỏ mọi quyền với Middle Discourses. Đã chụp màn hình."
 
+an2-sujato:
+  title: "AN 2.118–129 (Numbered Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato"
+  url: "https://suttacentral.net/an2.118-129/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on:
+  url_status: "Claude lấy nguyên văn AN 2.119 ngày 2026-11-04 từ kho bilara-data của SuttaCentral trên GitHub (nhánh published, file an2.118-129_translation-en-sujato.json). [Suy luận] Cùng dịch giả và cùng chính sách CC0 như MN 10, nhưng Peter mới xác nhận trang giấy phép cho Middle Discourses. Peter mở trang này, mục Info → License, chụp màn hình rồi ghi checked_on."
+
 minhchau-nikaya:
   title: "Kinh tạng Nikaya (bản Việt)"
   khe: phat-giao

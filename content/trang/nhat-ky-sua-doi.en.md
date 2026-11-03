@@ -19,4 +19,5 @@ Each time an article moves from the internal area to the public site, it gets it
 | 4 Nov 2026 | Drafts of the core pages and Convergence 0 – Week 1 "Pause" (internal area) | Steps 10–11 of the plan | Not yet |
 | 4 Nov 2026 | Licences confirmed for 10 more sources (QuranEnc, Tanzil, Vietnamese Bible 1923/1925, JPS 1917, Steinsaltz, Lawrence, Meditations, Gita, sunnah.com, The Clear Quran – link only) | Peter checked the licence pages | – |
 | 4 Nov 2026 | Site made bilingual: every article has a Vietnamese original and an English version under /en/ | Peter's decision | – |
+| 4 Nov 2026 | Draft of Convergence 0 – Week 2 "Gratitude", Vietnamese and English (internal area); added source AN 2 – Sujato | Step 11 of the plan | Not yet |
 | 4 Nov 2026 | Published the 5 core pages in Vietnamese and English: Home, About and principles, Privacy, Evidence, Changelog | The core pages present no tradition's own teaching; the project owner reviewed them and checked Vietnamese law. Convergence 0 – Week 1 is waiting for reviewers from two traditions | Project owner |

@@ -19,4 +19,5 @@ Mỗi lần một bài chuyển từ khu nội bộ lên trang công khai là m�
 | 04/11/2026 | Soạn nháp trang nền và Giao thoa 0 – Tuần 1 "Dừng lại" (khu nội bộ) | Bước 10–11 của kế hoạch | Chưa có |
 | 04/11/2026 | Xác nhận giấy phép thêm 10 nguồn (QuranEnc, Tanzil, Kinh Thánh 1923/1925, JPS 1917, Steinsaltz, Lawrence, Meditations, Gita, sunnah.com, The Clear Quran – chỉ link) | Peter xem trang giấy phép | – |
 | 04/11/2026 | Trang chuyển sang song ngữ: mọi bài có bản tiếng Việt gốc và bản tiếng Anh ở /en/ | Peter quyết định | – |
+| 04/11/2026 | Soạn nháp Giao thoa 0 – Tuần 2 "Biết ơn", cả bản Việt và Anh (khu nội bộ); thêm nguồn AN 2 – Sujato | Bước 11 của kế hoạch | Chưa có |
 | 04/11/2026 | Đăng 5 trang nền, cả bản tiếng Việt và tiếng Anh: Trang chủ, Giới thiệu và nguyên tắc, Riêng tư, Bằng chứng, Nhật ký sửa đổi | Trang nền không trình bày giáo lý riêng của truyền thống nào; chủ dự án đã duyệt và đã tra luật Việt Nam. Bài Giao thoa 0 – Tuần 1 chờ người duyệt từ hai truyền thống | Chủ dự án |
