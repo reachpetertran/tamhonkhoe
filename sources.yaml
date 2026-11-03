@@ -1,0 +1,191 @@
+# Danh mục nguồn kinh điển và giấy phép – tamhonkhoe.com
+#
+# QUY TẮC
+# - checked_on: Peter tự mở link, đọc trang giấy phép, chụp màn hình rồi mới ghi ngày (YYYY-MM-DD).
+#   Nguồn có checked_on trống thì build.py KHÔNG cho bài dùng nguồn đó lên public.
+# - license: PD | CC0 | CC-BY | CC-BY-NC | NO-MODIFY | COPYRIGHTED
+# - may_translate: true chỉ khi giấy phép cho phép tự dịch/sửa (PD, CC0, CC-BY, CC-BY-NC).
+# - url_status: ghi chú Claude đã mở thử link hay chưa. Đây KHÔNG thay cho checked_on.
+# - Trạng thái giấy phép dưới đây lấy từ đợt nghiên cứu 03/11/2026 trong kế hoạch, chưa được Peter xác nhận.
+
+# ---------------- Phật giáo ----------------
+mn10-sujato:
+  title: "MN 10 Satipaṭṭhāna Sutta"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato"
+  url: "https://suttacentral.net/mn10/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on:
+  url_status: "Claude mở ngày 2026-11-03: trang chạy bằng JavaScript, công cụ không đọc được nội dung. Peter mở bằng trình duyệt để xác nhận."
+
+minhchau-nikaya:
+  title: "Kinh tạng Nikaya (bản Việt)"
+  khe: phat-giao
+  lang: vi
+  translator: "HT Thích Minh Châu"
+  url: ""
+  license: COPYRIGHTED
+  may_translate: false
+  checked_on:
+  url_status: "Kế hoạch ghi nguồn budsas.net; chưa có link từng bài. Chỉ đặt link hoặc trích dưới 15 chữ."
+
+# ---------------- Kitô giáo ----------------
+web-bible:
+  title: "World English Bible"
+  khe: kito-giao
+  lang: en
+  translator: "World English Bible (eBible.org)"
+  url: "https://ebible.org/web/copyright.htm"
+  license: PD
+  may_translate: true
+  checked_on:
+  url_status: "Link trang bản quyền lấy từ kết quả tìm kiếm 2026-11-03, Claude chưa mở. Bản đã sửa không được gọi là \"WEB\"."
+
+kinhthanh-truyen-thong:
+  title: "Kinh Thánh – Bản Truyền Thống"
+  khe: kito-giao
+  lang: vi
+  translator: ""
+  url: ""
+  license: PD
+  may_translate: true
+  checked_on:
+  url_status: "[Cần kiểm chứng] eBible ghi Public Domain; năm 1923/1934 còn mâu thuẫn. Nếu hiệu đính chính tả phải ghi \"đã hiệu đính chính tả\"."
+
+lawrence-practice:
+  title: "The Practice of the Presence of God"
+  khe: kito-giao
+  lang: en
+  translator: "Brother Lawrence (CCEL)"
+  url: ""
+  license: PD
+  may_translate: true
+  checked_on:
+  url_status: "Chưa có link. Kế hoạch ghi nguồn CCEL."
+
+# ---------------- Hồi giáo ----------------
+quranenc-vi-hassan:
+  title: "Bản dịch nghĩa Qur'an tiếng Việt"
+  khe: hoi-giao
+  lang: vi
+  translator: "Hasan Abdul-Karim (QuranEnc)"
+  url: "https://quranenc.com/en/browse/vietnamese_hassan/1-1"
+  license: NO-MODIFY
+  may_translate: false
+  checked_on:
+  url_status: "Link theo mẫu địa chỉ thấy trong kết quả tìm kiếm 2026-11-03, Claude chưa mở. Được đăng lại nguyên văn, không sửa; ghi số phiên bản."
+
+tanzil-arabic:
+  title: "Văn bản Qur'an tiếng Ả Rập (Tanzil)"
+  khe: hoi-giao
+  lang: ar
+  translator: "Tanzil Project"
+  url: ""
+  license: NO-MODIFY
+  may_translate: false
+  checked_on:
+  url_status: "Kế hoạch ghi CC BY 3.0 kèm điều kiện không sửa. Chưa có link."
+
+khattab-qurancom:
+  title: "The Clear Quran"
+  khe: hoi-giao
+  lang: en
+  translator: "Dr. Mustafa Khattab (quran.com)"
+  url: ""
+  license: COPYRIGHTED
+  may_translate: false
+  checked_on:
+  url_status: "Chỉ đặt link."
+
+sunnah-com:
+  title: "Hadith (sunnah.com)"
+  khe: hoi-giao
+  lang: en
+  translator: "sunnah.com"
+  url: ""
+  license: COPYRIGHTED
+  may_translate: false
+  checked_on:
+  url_status: "[Cần kiểm chứng điều khoản]. Tạm xếp COPYRIGHTED cho an toàn đến khi Peter đọc điều khoản."
+
+# ---------------- Do Thái giáo ----------------
+jps1917:
+  title: "Tanakh – JPS 1917"
+  khe: do-thai-giao
+  lang: en
+  translator: "Jewish Publication Society (1917)"
+  url: ""
+  license: PD
+  may_translate: true
+  checked_on:
+  url_status: "Chưa có link."
+
+steinsaltz-sefaria:
+  title: "Talmud – bản Steinsaltz (Sefaria)"
+  khe: do-thai-giao
+  lang: en
+  translator: "Rabbi Adin Even-Israel Steinsaltz (Sefaria)"
+  url: ""
+  license: CC-BY-NC
+  may_translate: true
+  checked_on:
+  url_status: "Trang có bản tự dịch từ nguồn này phải dùng CC BY-NC 4.0 cho toàn trang (build.py tự làm)."
+
+pirkei-avot-gorfinkle:
+  title: "Pirke Avot: The Sayings of the Jewish Fathers"
+  khe: do-thai-giao
+  lang: en
+  translator: "Joseph I. Gorfinkle"
+  url: "https://www.gutenberg.org/ebooks/8547"
+  license: PD
+  may_translate: true
+  checked_on:
+  url_status: "Claude mở ngày 2026-11-03: đúng tên sách và dịch giả; trang ghi \"Public domain in the USA\"."
+
+# ---------------- Khắc kỷ ----------------
+epictetus-long:
+  title: "A Selection from the Discourses of Epictetus with the Encheiridion"
+  khe: khac-ky
+  lang: en
+  translator: "George Long"
+  url: "https://gutenberg.org/ebooks/10661"
+  license: PD
+  may_translate: true
+  checked_on:
+  url_status: "Link từ kết quả tìm kiếm 2026-11-03, Claude chưa mở; cần xác nhận dịch giả là George Long."
+
+meditations-long:
+  title: "Meditations (Marcus Aurelius)"
+  khe: khac-ky
+  lang: en
+  translator: "George Long"
+  url: ""
+  license: PD
+  may_translate: true
+  checked_on:
+  url_status: "[Cần kiểm chứng link]."
+
+# ---------------- Bất nhị / Hiện diện ----------------
+gita-arnold:
+  title: "The Song Celestial; or, Bhagavad-Gîtâ"
+  khe: bat-nhi
+  lang: en
+  translator: "Sir Edwin Arnold"
+  url: "https://www.gutenberg.org/ebooks/2388"
+  license: PD
+  may_translate: true
+  checked_on:
+  url_status: "Link từ kết quả tìm kiếm 2026-11-03, Claude chưa mở."
+
+upanishads-muller:
+  title: "The Upanishads"
+  khe: bat-nhi
+  lang: en
+  translator: "F. Max Müller"
+  url: ""
+  license: PD
+  may_translate: true
+  checked_on:
+  url_status: "[Cần kiểm chứng]."

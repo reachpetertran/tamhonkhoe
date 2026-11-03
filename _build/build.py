@@ -1,0 +1,172 @@
+"""Sinh trang tĩnh cho tamhonkhoe.
+
+    python3 _build/build.py --site noibo                 # mọi bài -> public/ (site nội bộ, có Access)
+    python3 _build/build.py --site public --src <kho>    # chỉ dùng trong publish.py
+
+Dừng build (thoát mã 1) khi nội dung vi phạm luật: dịch nguồn không cho dịch, trích quá dài,
+quá 3 đoạn kinh, thiếu "Dừng tập khi", nguồn chưa xác nhận khi lên public...
+"""
+import argparse
+import html
+import os
+import shutil
+import sys
+
+sys.path.insert(0, os.path.dirname(__file__))
+from khung import (GATE_KEYS, GATE_TEN, HEADERS_CHUNG, HEADERS_NOIBO_THEM, KHE, LICENSE_TEN,
+                   LoiNoiDung, doc_nguon, doc_tat_ca_bai, render_bai, trang)
+
+NHAN_STATUS = {'nhap': 'Bản nháp', 'day-thu': 'Đang dạy thử', 'da-duyet': 'Đã duyệt'}
+
+
+def _the(b, che_do):
+    if che_do != 'noibo':
+        return ''
+    m = b.meta
+    vis = 'Public' if m['visibility'] == 'public' else 'Chỉ admin'
+    ok = sum(1 for k in GATE_KEYS if m['gate'][k])
+    return (f'<span class="tag">{vis}</span> <span class="tag soon">{NHAN_STATUS[m["status"]]}</span> '
+            f'<span class="tag soon">Cổng {ok}/5</span>')
+
+
+def _ds(bais, che_do):
+    if not bais:
+        return '<p class="muted">Chưa có bài.</p>'
+    return ''.join(f'<a class="card" href="{b.url}">{_the(b, che_do)}<h3>{html.escape(b.title)}</h3>'
+                   f'<p>{html.escape(str(b.meta.get("description", "")))}</p></a>' for b in bais)
+
+
+def build(src, out, che_do):
+    nguon = doc_nguon(os.path.join(src, 'sources.yaml'))
+    bais = doc_tat_ca_bai(os.path.join(src, 'content'))
+    if che_do == 'public':
+        sai = [b.rel for b in bais if not b.qua_cong()[0]]
+        if sai:
+            raise LoiNoiDung('Có bài chưa qua cổng trong bản public: ' + ', '.join(sai))
+    if os.path.isdir(out):
+        shutil.rmtree(out)
+    os.makedirs(out)
+
+    # Tài nguyên tĩnh
+    shutil.copytree(os.path.join(src, 'assets'), os.path.join(out, 'assets'))
+    for fn in ('favicon.svg', 'favicon.ico', 'apple-touch-icon.png'):
+        p = os.path.join(src, 'assets', 'logo', fn)
+        if os.path.exists(p):
+            shutil.copy(p, os.path.join(out, fn))
+
+    # Bài
+    da_co = set()
+    for b in bais:
+        noi_dung, gp, ds_nguon = render_bai(b, nguon, che_do)
+        meta = ''
+        if che_do == 'noibo':
+            gate = ''.join(f'<li>{"✔" if b.meta["gate"][k] else "✘"} {GATE_TEN[k]}</li>' for k in GATE_KEYS)
+            duyet = ', '.join(b.meta.get('reviewers') or []) or 'chưa có'
+            meta = (f'<div class="box noibo-meta"><p>{_the(b, che_do)}</p><p class="small">Tệp: <code>'
+                    f'{html.escape(b.rel)}</code> · Người duyệt: {html.escape(duyet)}</p><ul class="small">{gate}</ul></div>')
+        nguon_html = ''
+        if ds_nguon:
+            nguon_html = '<section class="sec"><h2>Nguồn kinh điển</h2><ul>' + ''.join(
+                f'<li>{html.escape(nguon[s]["title"])} – {html.escape(nguon[s].get("translator", ""))} '
+                f'({LICENSE_TEN[nguon[s]["license"]]})'
+                + (f' · <a href="{html.escape(nguon[s]["url"])}" rel="noopener">link</a>' if nguon[s].get('url') else '')
+                + '</li>' for s in ds_nguon) + '</ul></section>'
+        trang(out, b.url, b.title, str(b.meta.get('description', b.title)),
+              f'<article class="lesson">{meta}<h1>{html.escape(b.title)}</h1>{noi_dung}{nguon_html}</article>',
+              che_do, giay_phep=gp)
+        da_co.add(b.url)
+
+    nhom = lambda pre: [b for b in bais if b.rel.startswith(pre)]
+
+    # Trang mục lục (chỉ sinh nếu không có bài tự viết cho địa chỉ đó)
+    def muc(url, title, desc, body, current=None):
+        if url not in da_co:
+            trang(out, url, title, desc, body, che_do, current=current)
+            da_co.add(url)
+
+    muc('/', 'Tâm Hồn Khỏe', 'Tự học đời sống tinh thần qua kinh điển gốc của nhiều truyền thống.',
+        '<p class="eyebrow">Tự học miễn phí</p><h1>Tâm Hồn Khỏe</h1>'
+        '<p class="lead">Trang đang được xây dựng. Các bài sẽ lên đây khi đã được người trong từng truyền thống duyệt.</p>'
+        '<div class="cta"><a class="btn primary" href="/giao-thoa/">Giao thoa</a>'
+        '<a class="btn" href="/khe/">Các truyền thống</a>'
+        '<a class="btn warm" href="https://daynentang.com/can-giup-ngay/">Tôi cần giúp ngay</a></div>', current='/')
+    muc('/giao-thoa/', 'Giao thoa', 'Những điểm chung trong thực hành của các truyền thống.',
+        '<h1>Giao thoa</h1>' + _ds(nhom('giao-thoa/'), che_do), current='/giao-thoa/')
+    khe_html = ''
+    for slug, ten in KHE:
+        ds = nhom(f'khe/{slug}/')
+        muc(f'/khe/{slug}/', ten, f'Khe {ten} trên tamhonkhoe.com', f'<h1>{ten}</h1>' + _ds(ds, che_do))
+        khe_html += f'<a class="card" href="/khe/{slug}/"><h3>{ten}</h3><p class="muted">{len(ds)} bài</p></a>'
+    muc('/khe/', 'Các truyền thống', 'Các khe truyền thống trên tamhonkhoe.com',
+        '<h1>Các truyền thống</h1><p>Mỗi truyền thống được trình bày theo lời của chính truyền thống đó, '
+        'không xếp hơn kém.</p><div class="grid">' + khe_html + '</div>', current='/khe/')
+    muc('/than-the/', 'Thân thể', 'Ăn uống và kỷ luật thân thể như một lựa chọn tùy ý cho người lớn khỏe mạnh.',
+        '<h1>Thân thể</h1>' + _ds(nhom('than-the/'), che_do), current='/than-the/')
+
+    # Nguồn và bản quyền – sinh tự động từ sources.yaml
+    rows = ''.join(
+        f'<tr><td>{html.escape(s["title"])}</td><td>{html.escape(s.get("translator", ""))}</td>'
+        f'<td>{LICENSE_TEN[s["license"]]}</td><td>{"Có" if s.get("may_translate") else "Không"}</td>'
+        f'<td>{html.escape(str(s.get("checked_on") or "chưa kiểm"))}</td>'
+        f'<td>{"<a href=" + chr(34) + html.escape(s["url"]) + chr(34) + " rel=noopener>link</a>" if s.get("url") else "–"}</td></tr>'
+        for sid, s in nguon.items())
+    muc('/nguon-va-ban-quyen/', 'Nguồn và bản quyền', 'Danh mục nguồn kinh điển và giấy phép.',
+        '<h1>Nguồn và bản quyền</h1><p>Bài viết, hình SVG và bản tự dịch của tamhonkhoe dùng '
+        '<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Trang có bản tự dịch từ nguồn CC BY-NC '
+        'dùng CC BY-NC 4.0 cho toàn trang. Đoạn trích từ nguồn không cho sửa ghi giấy phép gốc ngay dưới đoạn trích.</p>'
+        '<div class="table-wrap"><table><thead><tr><th>Nguồn</th><th>Dịch giả</th><th>Giấy phép</th>'
+        '<th>Được tự dịch</th><th>Ngày kiểm</th><th>Link</th></tr></thead><tbody>' + rows + '</tbody></table></div>',
+        current='/nguon-va-ban-quyen/')
+
+    if che_do == 'noibo':
+        muc('/goc-rieng/', 'Góc riêng', 'Góc riêng của gia đình – luôn là admin.',
+            '<h1>Góc riêng</h1>' + _ds(nhom('goc-rieng/'), che_do), current='/goc-rieng/')
+        rows = ''
+        for b in bais:
+            ok, ly_do = b.qua_cong()
+            rows += (f'<tr><td><a href="{b.url}">{html.escape(b.title)}</a><br><code class="small">{html.escape(b.rel)}</code></td>'
+                     f'<td>{b.meta["visibility"]}</td><td>{NHAN_STATUS[b.meta["status"]]}</td>'
+                     f'<td>{"Sẽ lên public" if ok else html.escape("; ".join(ly_do))}</td></tr>')
+        muc('/quan-tri/', 'Quản trị', 'Tình trạng cổng xuất bản của từng bài.',
+            '<h1>Quản trị: cổng xuất bản</h1><p>Bảng này cho biết bài nào sẽ được publish.py sao chép sang kho public.</p>'
+            '<div class="table-wrap"><table><thead><tr><th>Bài</th><th>Hiển thị</th><th>Trạng thái</th>'
+            '<th>Cổng</th></tr></thead><tbody>' + (rows or '<tr><td colspan="4">Chưa có bài.</td></tr>')
+            + '</tbody></table></div>', current='/quan-tri/')
+
+    trang(out, '/404.html', 'Không tìm thấy trang', 'Trang không tồn tại.',
+          '<h1>Không tìm thấy trang</h1><p>Trang này không có hoặc đã đổi địa chỉ.</p>'
+          '<p><a class="btn primary" href="/">Về trang chủ</a></p>', che_do)
+
+    # Header bảo mật, robots, sitemap
+    with open(os.path.join(out, '_headers'), 'w', encoding='utf-8') as f:
+        f.write(HEADERS_CHUNG + (HEADERS_NOIBO_THEM if che_do == 'noibo' else ''))
+    with open(os.path.join(out, 'robots.txt'), 'w', encoding='utf-8') as f:
+        if che_do == 'noibo':
+            f.write('User-agent: *\nDisallow: /\n')
+        else:
+            f.write('User-agent: *\nAllow: /\n\nSitemap: https://tamhonkhoe.com/sitemap.xml\n')
+    if che_do == 'public':
+        urls = sorted(u for u in da_co if u != '/404.html')
+        with open(os.path.join(out, 'sitemap.xml'), 'w', encoding='utf-8') as f:
+            f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                    + ''.join(f'  <url><loc>https://tamhonkhoe.com{u}</loc></url>\n' for u in urls) + '</urlset>\n')
+    return bais
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--site', choices=['noibo', 'public'], default='noibo')
+    ap.add_argument('--src', default=os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+    ap.add_argument('--out', default=None)
+    a = ap.parse_args()
+    out = a.out or os.path.join(a.src, 'public')
+    try:
+        bais = build(a.src, out, a.site)
+    except LoiNoiDung as e:
+        print('DỪNG BUILD:', e, file=sys.stderr)
+        sys.exit(1)
+    print(f'Đã build {len(bais)} bài, site {a.site} -> {out}')
+
+
+if __name__ == '__main__':
+    main()
