@@ -7,6 +7,11 @@
 # - may_translate: true chỉ khi giấy phép cho phép tự dịch/sửa (PD, CC0, CC-BY, CC-BY-NC).
 # - chi_link: true khi nguồn chỉ được đặt link, không được trích dù ngắn (build.py chặn mọi khối kinh dùng nguồn này).
 # - url_status: ghi chú Claude đã mở thử link hay chưa. Đây KHÔNG thay cho checked_on.
+# - Thời hạn bảo hộ (Peter quyết định 04/11/2026, áp dụng cho mọi dự án): theo Luật SHTT Việt Nam,
+#   đời tác giả/dịch giả + 50 năm. Bản dịch coi là hết bảo hộ khi dịch giả mất cách đây trên 50 năm
+#   (ví dụ mất 1969 → hết bảo hộ sau năm 2019). Thay cho chuẩn cũ ">70 năm". Vẫn cần checked_on do Peter xác nhận.
+#   Căn cứ: Luật SHTT 50/2005/QH11 Điều 27; Luật sửa đổi 131/2025/QH15 (hiệu lực 01/4/2026) theo Cục Bản quyền
+#   không liệt kê Điều 27 trong các điều sửa (suy luận: thời hạn giữ nguyên; chưa đọc văn bản gốc).
 # - Nguồn có checked_on: Peter đã xác nhận (03/11 tự chụp; 04/11 qua ảnh Claude chụp trong giay-phep/2026-11-04/).
 #   Nguồn chưa có checked_on: chưa xác nhận.
 
@@ -189,8 +194,8 @@ seneca-gummere:
   url: "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius"
   license: PD
   may_translate: true
-  checked_on:
-  url_status: "Claude lấy nguyên văn Thư 1, 13, 47 từ Wikisource ngày 2026-11-04. Trang mục lục gắn nhãn {{PD/US|1969}}: phạm vi công cộng tại Mỹ (xuất bản 1917–1925); dịch giả Gummere mất 1969. Chưa đạt chuẩn \"dịch giả mất >70 năm\" dự án vẫn dùng (57 năm). [Cần kiểm chứng] thời hạn bảo hộ theo luật Việt Nam hiện hành (các trang tư vấn ghi đời tác giả + 50 năm; có đề xuất nâng lên 75 năm). Peter quyết định rồi mới ghi checked_on. Không có bản Gutenberg."
+  checked_on: 2026-11-04
+  url_status: "Claude lấy nguyên văn Thư 1, 13, 47 từ Wikisource ngày 2026-11-04. Trang mục lục gắn nhãn {{PD/US|1969}}: phạm vi công cộng tại Mỹ (xuất bản 1917–1925); dịch giả Gummere mất 1969. Theo quy tắc đời dịch giả + 50 năm (Peter quyết định 04/11/2026): Gummere mất 1969, hết bảo hộ sau 2019 → được tự dịch. Peter xác nhận 2026-11-04 qua ảnh 15 do Claude chụp (giay-phep/2026-11-04/). Không có bản Gutenberg."
 
 seneca-stewart:
   title: "Minor Dialogues, Together with the Dialogue on Clemency (On Anger)"
@@ -200,8 +205,8 @@ seneca-stewart:
   url: "https://www.gutenberg.org/ebooks/64576"
   license: PD
   may_translate: true
-  checked_on:
-  url_status: "Claude mở trang Gutenberg #64576 ngày 2026-11-04: Translator = Stewart, Aubrey, 1844-1918; Copyright = Public domain in the USA. Bàn về giận dữ quyển III = \"The Fifth Book of the Dialogues\" trong bản này; chương XXXVI. Peter mở trang, chụp màn hình rồi ghi checked_on."
+  checked_on: 2026-11-04
+  url_status: "Claude mở trang Gutenberg #64576 ngày 2026-11-04: Translator = Stewart, Aubrey, 1844-1918; Copyright = Public domain in the USA. Bàn về giận dữ quyển III = \"The Fifth Book of the Dialogues\" trong bản này; chương XXXVI. Dịch giả mất 1918, đạt quy tắc đời + 50 năm. Peter xác nhận 2026-11-04 qua ảnh 14 do Claude chụp (giay-phep/2026-11-04/)."
 
 # ---------------- Bất nhị / Hiện diện ----------------
 gita-arnold:
