@@ -130,6 +130,26 @@ nghien_cuu:
     url: "https://doi.org/10.2478/gp-2018-0002"
     vi: "Tổng quan: tác động của Ramadan lên sức khỏe tinh thần nhìn chung nhỏ, nhưng người mắc tâm thần phân liệt hoặc rối loạn lưỡng cực có nguy cơ tái phát cao hơn."
     en: "Review: Ramadan’s effect on mental health is generally small, but people with schizophrenia or bipolar disorder have a higher risk of relapse."
+  pinquart2012:
+    trich: "Pinquart & Forstmeier 2012, Aging & Mental Health 16(5)"
+    url: "https://doi.org/10.1080/13607863.2011.651434"
+    vi: "128 thử nghiệm có đối chứng về hồi tưởng, ôn lại đời mình: giảm trầm cảm (g = 0,57) và tăng cảm giác trọn vẹn về đời mình (g = 0,64) ở mức vừa; phần lớn ở người lớn tuổi, có người hướng dẫn."
+    en: "128 controlled trials of reminiscence and life review: moderate reductions in depression (g = 0.57) and gains in ego-integrity (g = 0.64); mostly older adults, with guidance."
+  burke2010:
+    trich: "Burke, Martens & Faucher 2010, Personality and Social Psychology Review 14(2)"
+    url: "https://doi.org/10.1177/1088868309352321"
+    vi: "Phân tích gộp 277 thí nghiệm trong phòng thí nghiệm: khi được nhắc tới cái chết, người ta bảo vệ quan điểm và lòng tự trọng mạnh hơn (r = 0,35)."
+    en: "Meta-analysis of 277 laboratory experiments: when reminded of death, people defended their views and self-esteem more strongly (r = 0.35)."
+  klein2022:
+    trich: "Klein et al. 2022, Collabra: Psychology 8(1)"
+    url: "https://doi.org/10.1525/collabra.35271"
+    vi: "Dự án lặp lại ở 17 phòng thí nghiệm, 1.550 người: không lặp lại được hiệu ứng kinh điển của việc nhắc tới cái chết trong điều kiện nào."
+    en: "Replication project in 17 laboratories, 1,550 people: the classic effect of reminding people of death was not reproduced under any condition."
+  lundorff2017:
+    trich: "Lundorff et al. 2017, Journal of Affective Disorders 212"
+    url: "https://doi.org/10.1016/j.jad.2017.01.030"
+    vi: "14 nghiên cứu trên người lớn có người thân mất (không do bạo lực): khoảng 9,8% có nguy cơ rối loạn tang kéo dài; phương pháp các nghiên cứu khác nhau nhiều."
+    en: "14 studies of bereaved adults (non-violent loss): about 9.8% were at risk of prolonged grief disorder; methods varied widely."
 
 khoa:
   # ------------------------------------------------------------ GIAO THOA
@@ -254,21 +274,28 @@ khoa:
     nhom: khac-ky
     ten: "Vô thường và cái chết theo Khắc kỷ"
     ten_en: "Change and death in Stoicism"
-    mo_ta: "Seneca và Marcus Aurelius về thời gian, mất mát và cái chết. Không có Góc trẻ."
-    mo_ta_en: "Seneca and Marcus Aurelius on time, loss and death. No kids’ corner."
+    mo_ta: "Seneca và Marcus Aurelius về tuổi già, nỗi sợ, thời gian và những người đi trước. Góc trẻ chỉ nói về thay đổi trong tự nhiên."
+    mo_ta_en: "Seneca and Marcus Aurelius on old age, fear, time and those who went before. The kids’ corner is only about change in nature."
     tang: "3"
     phut: "30–45"
-    trang_thai: chua-bat-dau
-    duyet: noi-bo
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    co_goc_tre: true
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [pinquart2012, gloster2020, frattaroli2006, burke2010, klein2022, goyal2014, farias2020, lundorff2017, karl2022]
+    bai_tep: [khe/khac-ky/kk3-tuan-01, khe/khac-ky/kk3-tuan-02, khe/khac-ky/kk3-tuan-03, khe/khac-ky/kk3-tuan-04, khe/khac-ky/kk3-tuan-05, khe/khac-ky/kk3-tuan-06]
     bai:
-      - "Tuổi già và từng ngày | Old age and each day | Seneca, Thư 12 || Seneca, Letter 12"
-      - "Nỗi sợ trước điều chưa đến | Fear of what has not come | Seneca, Thư 24 || Seneca, Letter 24"
-      - "Đời ngắn | Life is short | Seneca, Thư 49 || Seneca, Letter 49"
-      - "Mọi thứ trôi qua | Everything passes | Suy tưởng II.11 || Meditations II.11"
-      - "Những người đã đi trước | Those who went before | Suy tưởng IV.48 || Meditations IV.48"
-      - "Ôn tập | Review | –"
+      - "Tuổi già và từng ngày | Old age and each day | Seneca, Thư 12 || Seneca, Letter 12 | \"Hôm nay tôi đã sống\" + 3 dòng, ≥5/7 tối | ‘Today I have lived’ and three lines, on 5 of 7 evenings"
+      - "Nỗi sợ trước điều chưa đến | Fear of what has not come | Seneca, Thư 24 || Seneca, Letter 24 | Đo 1 nỗi lo/ngày theo 4 cột, ≥5/7 | Measure one worry a day in four columns, on 5 of 7 days"
+      - "Đời ngắn | Life is short | Seneca, Thư 49 || Seneca, Letter 49 | 30 phút/ngày cho 1 điều quan trọng, ≥5/7 | 30 minutes a day for one thing that matters, on 5 of 7 days"
+      - "Mọi thứ trôi qua | Everything passes | Suy tưởng II.11–12 || Meditations II.11–12 | 1 quan sát thay đổi + 1 việc trọn vẹn, ≥5/7 | One observation of change and one task done fully, on 5 of 7 days"
+      - "Những người đã đi trước | Those who went before | Suy tưởng IV.48 || Meditations IV.48 | 1 thư cảm ơn không gửi + tiếp nối ≥3 ngày | One unsent thank-you letter, carrying it on for 3 days"
+      - "Ôn tập | Review | Seneca, Thư 12, 49 || Seneca, Letters 12, 49 | Tự chấm 5 thói quen, giữ 2, ≥5/7 | Rate five habits, keep two, on 5 of 7 days"
+    gioi_han: "Khóa chỉ trích phần các tác giả Khắc kỷ nói về cách sống; không trích và không theo những đoạn họ bàn về việc tự rời bỏ cuộc sống. Không dành cho người đang có tang mới, đang bệnh nặng hay đang có ý nghĩ muốn chết. Không tập câu nhắc kiểu \"có thể bạn sẽ không thức dậy nữa\". Chưa có nghiên cứu đánh giá trực tiếp chương trình này."
+    gioi_han_en: "The course quotes only what the Stoic writers say about how to live; it does not quote or follow the passages where they discuss leaving life by one’s own choice. It is not for people who are newly bereaved, seriously ill or having thoughts of dying. It does not practise reminders like ‘you may not wake again’. No study has evaluated this programme directly."
 
   - ma: KK4
     slug: khac-ky-4
