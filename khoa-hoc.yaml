@@ -75,6 +75,11 @@ nghien_cuu:
     url: "https://doi.org/10.1177/00110000251352566"
     vi: "65 nghiên cứu: khiêm nhường đi kèm sức khỏe tinh thần tốt hơn một chút (liên hệ nhỏ). Đây là tương quan. Chưa có phân tích gộp về chương trình luyện khiêm nhường."
     en: "65 studies: humility goes with slightly better mental health (small associations). This is a correlation. There is no meta-analysis of humility training yet."
+  frattaroli2006:
+    trich: "Frattaroli 2006, Psychological Bulletin 132(6)"
+    url: "https://doi.org/10.1037/0033-2909.132.6.823"
+    vi: "146 nghiên cứu ngẫu nhiên về viết ra trải nghiệm và cảm xúc: hiệu quả chung dương tính nhưng rất nhỏ (r = 0,075)."
+    en: "146 randomised studies of writing about experiences and feelings: a positive but very small overall effect (r = 0.075)."
   karl2022:
     trich: "Karl et al. 2022, Journal of Happiness Studies 23(7)"
     url: "https://doi.org/10.1007/s10902-022-00563-w"
@@ -223,21 +228,25 @@ khoa:
     mo_ta_en: "The disciplines of desire, action and judgement through eight weeks of journaling."
     tang: "2"
     phut: "20–30"
-    trang_thai: chua-bat-dau
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 8 tuần"
+    tien_do_en: "All 8 weeks published"
     duyet: chu-du-an
-    ra_mat: "Nửa cuối 2027"
-    ra_mat_en: "Second half of 2027"
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [frattaroli2006, karl2022, gloster2020, atjak2015, goyal2014, friese2017, curry2018]
+    bai_tep: [khe/khac-ky/kk2-tuan-01, khe/khac-ky/kk2-tuan-02, khe/khac-ky/kk2-tuan-03, khe/khac-ky/kk2-tuan-04, khe/khac-ky/kk2-tuan-05, khe/khac-ky/kk2-tuan-06, khe/khac-ky/kk2-tuan-07, khe/khac-ky/kk2-tuan-08]
     bai:
-      - "Điều thuộc về ta | What belongs to us | Discourses I.1"
-      - "Không phải sự việc, mà ý nghĩ về nó | Not things, but our opinions of them | Enchiridion 5"
-      - "Nơi ẩn náu bên trong | The inner retreat | Suy tưởng IV.3 || Meditations IV.3"
-      - "Đọc ít mà sâu | Reading a few books deeply | Seneca, Thư 2 || Seneca, Letter 2"
-      - "Tập thiếu thốn nhẹ | Practising mild hardship | Seneca, Thư 18 || Seneca, Letter 18"
-      - "Hành động vì cái chung | Acting for the common good | Suy tưởng VI.30 || Meditations VI.30"
-      - "Bám chấp và mất mát | Attachment and loss | Discourses III.24"
-      - "Ôn tập | Review | –"
-    gioi_han: "Bài \"tập thiếu thốn\" chỉ là việc nhỏ như ngủ đất cứng hay mặc áo mỏng một buổi; không nhịn ăn."
-    gioi_han_en: "‘Practising hardship’ means small things like a plain meal or a thin coat for an afternoon; no fasting."
+      - "Điều thuộc về ta | What belongs to us | Bài giảng III.2, I.1 || Discourses III.2, I.1 | Nhật ký ba cột ≥5/7 tối | Three-column journal on 5 of 7 evenings"
+      - "Không phải sự việc, mà ý nghĩ về nó | Not things, but our opinions of them | Encheiridion 5 | ≥1 tình huống/ngày theo 3 cột, ≥5/7 | At least one situation a day in three columns, on 5 of 7 days"
+      - "Nơi ẩn náu bên trong | The inner retreat | Suy tưởng IV.3 || Meditations IV.3 | ≥3 lần lui vào trong/ngày, ≥5/7 | At least three inner retreats a day, on 5 of 7 days"
+      - "Đọc ít mà sâu | Reading a few books deeply | Seneca, Thư 2 || Seneca, Letter 2 | Chép 1 câu + 1 dòng nhật ký, ≥5/7 | Copy one sentence and write one line, on 5 of 7 days"
+      - "Tập thiếu thốn nhẹ | Practising mild hardship | Seneca, Thư 18 || Seneca, Letter 18 | 2 ngày giản dị/tuần; nhật ký ≥5/7 | Two simple days a week; journal on 5 of 7 evenings"
+      - "Hành động vì cái chung | Acting for the common good | Suy tưởng VI.30 || Meditations VI.30 | 1 việc nhỏ cho người khác/ngày, ≥5/7 | One small act for someone a day, on 5 of 7 days"
+      - "Bám chấp và mất mát | Attachment and loss | Bài giảng III.24 || Discourses III.24 | 1 điều \"được cho mượn\"/tối, ≥5/7 | One thing ‘on loan’ each evening, on 5 of 7"
+      - "Ôn tập | Review | Encheiridion 48, 50 | Tự chấm 3 kỷ luật + chọn 3 thói quen | Rate the three disciplines and choose three habits"
+    gioi_han: "Bài \"tập thiếu thốn\" chỉ là việc nhỏ như không mua sắm một ngày hay đi bộ thay đi xe; không bớt ăn, không nhịn ăn, không bớt ngủ. Chưa có nghiên cứu đánh giá trực tiếp chương trình này."
+    gioi_han_en: "‘Practising hardship’ means small things like a day without shopping or walking instead of driving; no eating less, no fasting, no sleeping less. No study has evaluated this programme directly."
 
   - ma: KK3
     slug: khac-ky-3
