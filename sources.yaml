@@ -36,7 +36,7 @@ an2-sujato:
   license: CC0
   may_translate: true
   checked_on:
-  url_status: "Claude lấy nguyên văn AN 2.119 ngày 2026-11-04 từ kho bilara-data của SuttaCentral trên GitHub (nhánh published, file an2.118-129_translation-en-sujato.json). [Suy luận] Cùng dịch giả và cùng chính sách CC0 như MN 10, nhưng Peter mới xác nhận trang giấy phép cho Middle Discourses. Peter mở trang này, mục Info → License, chụp màn hình rồi ghi checked_on."
+  url_status: "Claude lấy nguyên văn AN 2.119 ngày 2026-11-04 từ kho bilara-data của SuttaCentral trên GitHub (nhánh published, file an2.118-129_translation-en-sujato.json). [Suy luận] Cùng dịch giả và cùng chính sách CC0 như MN 10, nhưng Peter mới xác nhận trang giấy phép cho Middle Discourses. Peter mở trang này, mục Info → License, chụp màn hình rồi ghi checked_on. Claude chụp trang Info → License ngày 2026-11-04 (giay-phep/2026-11-04/18-suttacentral-an2-sujato-license.png): CC0, Sujato từ bỏ mọi quyền với Numbered Discourses. Mục About this license có lời đề nghị (không ràng buộc pháp lý theo CC0) dùng theo giá trị của cộng đồng Phật giáo và không dùng bản dịch trong dữ liệu huấn luyện AI, phát triển mô hình AI hay công nghệ dẫn xuất từ AI. MN 10 có cùng lời đề nghị (ảnh 19). Chờ Peter quyết định."
 
 minhchau-nikaya:
   title: "Kinh tạng Nikaya (bản Việt)"
@@ -114,8 +114,8 @@ quran-pickthall:
   url: "https://www.gutenberg.org/ebooks/16955"
   license: PD
   may_translate: true
-  checked_on:
-  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/17-gutenberg-16955-pickthall.png); chờ Peter xác nhận. Gutenberg #16955: Translator Pickthall, Marmaduke William, 1875-1936; Public domain in the USA. Dịch giả mất 1936, đạt quy tắc đời + 50 năm. CHỈ dùng dòng \"P:\" (Pickthall); KHÔNG dùng dòng Y: (Yusuf Ali, không rõ bản 1934 hay bản sửa) và S: (Shakir). Lời đầu tệp ghi văn bản gốc không rõ xuất xứ, đã đối chiếu lại với bản in. Dùng cho bản tiếng Anh; bản Việt dùng QuranEnc (nguyên văn)."
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/17-gutenberg-16955-pickthall.png); chờ Peter xác nhận. Gutenberg #16955: Translator Pickthall, Marmaduke William, 1875-1936; Public domain in the USA. Dịch giả mất 1936, đạt quy tắc đời + 50 năm. CHỈ dùng dòng \"P:\" (Pickthall); KHÔNG dùng dòng Y: (Yusuf Ali, không rõ bản 1934 hay bản sửa) và S: (Shakir). Lời đầu tệp ghi văn bản gốc không rõ xuất xứ, đã đối chiếu lại với bản in. Dùng cho bản tiếng Anh; bản Việt dùng QuranEnc (nguyên văn). Peter xác nhận 2026-11-04 qua ảnh 17 do Claude chụp."
 
 khattab-qurancom:
   title: "The Clear Quran"
@@ -228,8 +228,8 @@ ddk-legge:
   url: "https://www.gutenberg.org/ebooks/216"
   license: PD
   may_translate: true
-  checked_on:
-  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/16-gutenberg-216-legge.png); chờ Peter xác nhận. Gutenberg #216: Translator Legge, James, 1815-1897; Public domain in the USA. Dịch giả mất 1897, đạt quy tắc đời + 50 năm. Bản Việt Nguyễn Hiến Lê, Nguyễn Duy Cần còn bản quyền: chỉ link hoặc trích ngắn."
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/16-gutenberg-216-legge.png); chờ Peter xác nhận. Gutenberg #216: Translator Legge, James, 1815-1897; Public domain in the USA. Dịch giả mất 1897, đạt quy tắc đời + 50 năm. Bản Việt Nguyễn Hiến Lê, Nguyễn Duy Cần còn bản quyền: chỉ link hoặc trích ngắn. Peter xác nhận 2026-11-04 qua ảnh 16 do Claude chụp."
 
 # ---------------- Bất nhị / Hiện diện ----------------
 gita-arnold:
