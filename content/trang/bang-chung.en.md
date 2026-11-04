@@ -29,6 +29,8 @@ Claims without a reliable enough source are marked "needs verification" in draft
 | 27 studies, 3,675 people: gratitude exercises reduce symptoms of depression and anxiety by a small amount (g = −0.29 post-test; −0.23 follow-up); smaller against active control groups | [Verified] | Cregg & Cheavens 2021, Journal of Happiness Studies 22(1), [doi:10.1007/s10902-020-00236-6](https://doi.org/10.1007/s10902-020-00236-6) | Convergence 0 – Week 2 (not yet published) |
 | 64 randomised trials of gratitude exercises: most at high risk of bias; certainty of evidence low or very low | [Verified] | Diniz et al. 2023, Einstein (São Paulo) 21, [doi:10.31744/einstein_journal/2023RW0371](https://doi.org/10.31744/einstein_journal/2023RW0371) | Convergence 0 – Week 2 (not yet published) |
 
+Studies used in the curriculum outline (not yet used in any lesson) are listed under [Courses – Studies used in this outline](/en/courses/#nghien-cuu).
+
 ## Table 2. Scripture passages checked against the original
 
 | Passage | Tradition | Version used | Licence | Vietnamese page | English page | Checked verbatim | Meaning reviewed by | Used in |

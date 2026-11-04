@@ -31,13 +31,23 @@ Khủng hoảng, đường dây nóng, kế hoạch an toàn và kỹ năng tự
 
 ## Năm câu trước khi một bài lên trang
 
-Mọi bài mới nằm ở khu nội bộ. Bài chỉ lên trang khi trả lời "có" cả năm câu:
+Bài chỉ lên trang khi trả lời "có" cả năm câu:
 
 1. **Mô tả, không phán xét**: bài viết theo kiểu "truyền thống này dạy…", không có câu "bạn nên tin…".
 2. **Không gây chia rẽ**: không xếp hơn kém, không phê phán tôn giáo, niềm tin hay nhóm người nào, không bàn chính trị.
 3. **Nguồn sạch**: câu kinh đã đối chiếu với trang gốc, giấy phép đã ghi.
-4. **Đã duyệt**: bài về một truyền thống có ít nhất một người duyệt từ trong truyền thống đó; bài Giao thoa có ít nhất hai người duyệt từ hai truyền thống khác nhau.
+4. **Đã duyệt**, theo mức nhạy cảm của khóa (xem bên dưới).
 5. **An toàn**: có mục "Dừng tập khi", không có lời khuyên y tế, góc trẻ không có nhịn ăn hay ăn kiêng.
+
+### Ai duyệt, theo mức nhạy cảm
+
+| Mức | Gồm | Ai duyệt |
+|---|---|---|
+| Ít nhạy cảm | Nội dung không trình bày giáo lý hay nghi lễ riêng của một tôn giáo: trang nền, khung chương trình, khóa Khắc kỷ, Thân thể (ăn chậm, vận động) | Chủ dự án. Trang ghi rõ là chưa có người duyệt từ trong truyền thống |
+| Cần người trong truyền thống | Khóa về một tôn giáo; khóa Giao thoa | Ít nhất một người duyệt từ trong truyền thống đó; Giao thoa cần hai người từ hai truyền thống |
+| Soạn ở khu nội bộ trước | Tầng 3 (Thượng Đế, ngã, cái chết), so sánh giáo lý sâu, nhịn ăn chi tiết, nội dung đang tranh luận | Chỉ lên trang sau khi có người duyệt phù hợp |
+
+Bốn câu còn lại (mô tả, không chia rẽ, nguồn sạch, an toàn) áp dụng cho mọi bài, ở mọi mức. Nhận định chưa kiểm chứng không bao giờ lên trang.
 
 Bản tiếng Việt và bản tiếng Anh của một bài lên trang cùng lúc, và chỉ khi cả hai đều đạt. Khi nghi ngờ, bài ở lại khu nội bộ. Mỗi lần một bài lên trang được ghi lại trong [Nhật ký sửa đổi](/nhat-ky-sua-doi/).
 
@@ -74,7 +84,7 @@ Những việc AI không quyết định:
 
 - **Nguồn và giấy phép**: Peter tự mở trang gốc, đọc điều khoản và xác nhận trước khi một nguồn được dùng.
 - **Nghĩa của câu kinh**: bản tự dịch phải được người trong truyền thống đó kiểm lại nghĩa.
-- **Việc lên trang**: bài chỉ lên trang khi người duyệt và Peter đã đồng ý, theo năm câu ở trên.
+- **Việc lên trang**: bài chỉ lên trang khi Peter đồng ý, và khi cần thì cả người duyệt từ truyền thống, theo năm câu ở trên.
 
 AI có thể sai. Nếu bạn thấy một câu kinh dịch lệch, một số liệu sai, hay một cách trình bày chưa công bằng, hãy báo cho chúng tôi; mỗi lần sửa được ghi trong [Nhật ký sửa đổi](/nhat-ky-sua-doi/).
 

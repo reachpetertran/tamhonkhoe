@@ -1,0 +1,957 @@
+# Khung chương trình tamhonkhoe.com – dữ liệu cho trang /khoa-hoc/ và /en/courses/.
+# Nguồn: docs/nghien-cuu/ (nghiên cứu 04/11/2026). Vị trí câu kinh: Peter đã đối chiếu 04/11/2026.
+#
+# Mỗi dòng bài:  "Tên VI | Tên EN | Kinh VI || Kinh EN | Mục tiêu VI | Mục tiêu EN"
+#   - "|| Kinh EN" bỏ trống nếu giống bản Việt; mục tiêu có thể bỏ trống.
+# duyet (mức đăng, xem README "Nguyên tắc đăng"):
+#   chu-du-an   = ít nhạy cảm, đăng thẳng khi chủ dự án duyệt
+#   truyen-thong = cần người duyệt từ trong truyền thống (Giao thoa: 2 người, 2 truyền thống)
+#   noi-bo      = giữ ở khu nội bộ (Tầng 3, nhịn ăn chi tiết...)
+# trang_thai: dang-mo | dang-soan | chua-bat-dau
+# Không ghi nhãn "cần kiểm chứng" (dạng có ngoặc vuông) ở đây: build public sẽ dừng.
+
+nhom:
+  - {id: giao-thoa, ten: "Giao thoa", ten_en: "Convergence",
+     mo_ta: "Những thực hành nhiều truyền thống cùng có. Mỗi tuần ba đoạn kinh từ ba truyền thống, và một mục \"Nơi các truyền thống khác nhau\".",
+     mo_ta_en: "Practices that many traditions share. Each week has three passages from three traditions and a section on where the traditions differ."}
+  - {id: khac-ky, ten: "Khắc kỷ", ten_en: "Stoicism", mo_ta: "Epictetus, Seneca, Marcus Aurelius.", mo_ta_en: "Epictetus, Seneca, Marcus Aurelius."}
+  - {id: phat-giao, ten: "Phật giáo", ten_en: "Buddhism", mo_ta: "Kinh Pali qua bản dịch của Bhikkhu Sujato (CC0).", mo_ta_en: "Pali suttas in Bhikkhu Sujato’s translation (CC0)."}
+  - {id: kito-giao, ten: "Kitô giáo", ten_en: "Christianity", mo_ta: "Kinh Thánh, Brother Lawrence, Gương Chúa Giêsu.", mo_ta_en: "The Bible, Brother Lawrence, The Imitation of Christ."}
+  - {id: hoi-giao, ten: "Hồi giáo", ten_en: "Islam", mo_ta: "Qur'an và hadith, trình bày từ góc người tìm hiểu, không hướng dẫn nghi lễ.", mo_ta_en: "The Qur'an and hadith, presented for learners, not as ritual instruction."}
+  - {id: do-thai-giao, ten: "Do Thái giáo", ten_en: "Judaism", mo_ta: "Torah, Talmud, Pirkei Avot.", mo_ta_en: "Torah, Talmud, Pirkei Avot."}
+  - {id: bat-nhi, ten: "Bất nhị / Hiện diện", ten_en: "Non-duality / Presence", mo_ta: "Upanishad và Bhagavad Gita.", mo_ta_en: "The Upanishads and the Bhagavad Gita."}
+  - {id: dao-giao, ten: "Đạo giáo", ten_en: "Taoism", mo_ta: "Đạo Đức Kinh và Trang Tử, đọc như văn bản Đạo gia; không dạy nghi lễ.", mo_ta_en: "The Tao Te Ching and Zhuangzi, read as Taoist texts; no ritual instruction."}
+  - {id: than-the, ten: "Thân thể", ten_en: "Body", mo_ta: "Ăn uống và vận động như một thực hành. Kỷ luật ăn chỉ là lựa chọn tùy ý cho người lớn khỏe mạnh.", mo_ta_en: "Eating and movement as practice. Eating disciplines are only an optional choice for healthy adults."}
+  - {id: goc-tre, ten: "Góc trẻ 6+", ten_en: "Kids’ corner 6+", mo_ta: "Hoạt động 5–10 phút, luôn có người lớn đi cùng.", mo_ta_en: "5–10 minute activities, always with an adult."}
+
+nghien_cuu:
+  goyal2014:
+    trich: "Goyal et al. 2014, JAMA Internal Medicine 174(3)"
+    url: "https://doi.org/10.1001/jamainternmed.2013.13018"
+    vi: "47 thử nghiệm ngẫu nhiên, 3.515 người: chương trình thiền chánh niệm giảm lo âu, trầm cảm ở mức nhỏ đến vừa; không tốt hơn các can thiệp chủ động khác."
+    en: "47 randomised trials, 3,515 people: mindfulness meditation programmes reduce anxiety and depression by a small-to-moderate amount; not better than other active treatments."
+  farias2020:
+    trich: "Farias et al. 2020, Acta Psychiatrica Scandinavica 142(5)"
+    url: "https://doi.org/10.1111/acps.13225"
+    vi: "Tổng quan 83 nghiên cứu: khoảng 8% người tập thiền gặp trải nghiệm bất lợi (khoảng 4% trong nghiên cứu thực nghiệm), thường là lo âu, trầm cảm; có thể xảy ra cả ở người chưa có tiền sử bệnh tâm thần."
+    en: "Review of 83 studies: about 8% of meditators reported an adverse experience (about 4% in experimental studies), most often anxiety or depression; it can happen to people with no history of mental illness."
+  cregg2021:
+    trich: "Cregg & Cheavens 2021, Journal of Happiness Studies 22(1)"
+    url: "https://doi.org/10.1007/s10902-020-00236-6"
+    vi: "27 nghiên cứu, 3.675 người: bài tập biết ơn giảm triệu chứng trầm cảm, lo âu ở mức nhỏ; nhỏ hơn khi so với nhóm đối chứng tích cực."
+    en: "27 studies, 3,675 people: gratitude exercises reduce depression and anxiety symptoms by a small amount; less so against active control groups."
+  curry2018:
+    trich: "Curry et al. 2018, Journal of Experimental Social Psychology 76"
+    url: "https://www.sciencedirect.com/science/article/pii/S0022103117303451"
+    vi: "27 nghiên cứu thực nghiệm, 4.045 người: làm việc tử tế tăng cảm giác hạnh phúc ở mức nhỏ đến vừa; các nghiên cứu thường nhỏ."
+    en: "27 experiments, 4,045 people: acts of kindness raise well-being by a small-to-moderate amount; the studies are often small."
+  friese2017:
+    trich: "Friese et al. 2017, Perspectives on Psychological Science 12(6)"
+    url: "https://doi.org/10.1177/1745691617697076"
+    vi: "33 nghiên cứu về luyện tự kiểm soát: hiệu quả nhỏ, và còn nhỏ hơn sau khi hiệu chỉnh sai lệch xuất bản."
+    en: "33 studies of self-control training: a small effect, smaller still after correcting for publication bias."
+  wendsche2017:
+    trich: "Wendsche & Lohmann-Haislah 2017, Frontiers in Psychology 7"
+    url: "https://doi.org/10.3389/fpsyg.2016.02072"
+    vi: "38.124 người lao động: người tách được khỏi công việc lúc nghỉ ít kiệt sức hơn, ngủ tốt hơn. Đây là tương quan."
+    en: "38,124 workers: people who detach from work when off duty report less exhaustion and better sleep. This is a correlation."
+  jenkinson2013:
+    trich: "Jenkinson et al. 2013, BMC Public Health 13:773"
+    url: ""
+    vi: "5 nghiên cứu đoàn hệ: người làm tình nguyện có nguy cơ tử vong thấp hơn. Đây là tương quan; thử nghiệm ngẫu nhiên chưa cho thấy lợi ích rõ."
+    en: "5 cohort studies: volunteers had lower mortality. This is a correlation; randomised trials have not shown clear benefit."
+  wade2014:
+    trich: "Wade et al. 2014, Journal of Consulting and Clinical Psychology 82(1)"
+    url: "https://doi.org/10.1037/a0035268"
+    vi: "53 nghiên cứu, 2.323 người: chương trình tha thứ có hướng dẫn tăng mức tha thứ rõ rệt so với không can thiệp, và giảm trầm cảm, lo âu; chương trình dài hơn hiệu quả hơn."
+    en: "53 studies, 2,323 people: guided forgiveness programmes clearly increase forgiveness compared with no treatment, and reduce depression and anxiety; longer programmes work better."
+  lktm2024:
+    trich: "Phân tích gộp thiền từ tâm/từ bi ở nơi làm việc, Stress & Health 2024 (PMID 37221984)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/37221984/"
+    vi: "21 thử nghiệm: giảm kiệt sức và căng thẳng, tăng lòng tự từ bi; các nghiên cứu khác nhau nhiều."
+    en: "21 trials: lower burnout and stress, higher self-compassion; results vary a lot between studies."
+  lee2025:
+    trich: "Lee et al. 2025, The Counseling Psychologist 53(6)"
+    url: "https://doi.org/10.1177/00110000251352566"
+    vi: "65 nghiên cứu: khiêm nhường đi kèm sức khỏe tinh thần tốt hơn một chút (liên hệ nhỏ). Đây là tương quan. Chưa có phân tích gộp về chương trình luyện khiêm nhường."
+    en: "65 studies: humility goes with slightly better mental health (small associations). This is a correlation. There is no meta-analysis of humility training yet."
+  gloster2020:
+    trich: "Gloster et al. 2020, Journal of Contextual Behavioral Science 18"
+    url: "https://doi.org/10.1016/j.jcbs.2020.09.009"
+    vi: "Tổng quan 20 phân tích gộp: liệu pháp chấp nhận và cam kết (ACT) hiệu quả với lo âu, trầm cảm, đau mạn tính; ngang liệu pháp nhận thức hành vi. Đây là trị liệu có hướng dẫn."
+    en: "Review of 20 meta-analyses: Acceptance and Commitment Therapy (ACT) works for anxiety, depression and chronic pain, about as well as CBT. This is guided therapy."
+  goncalves2015:
+    trich: "Gonçalves et al. 2015, Psychological Medicine 45(14)"
+    url: "https://doi.org/10.1017/S0033291715001166"
+    vi: "Phân tích gộp thử nghiệm ngẫu nhiên: can thiệp tôn giáo/tâm linh giảm lo âu; chương trình rất khác nhau, chất lượng nghiên cứu còn hạn chế."
+    en: "Meta-analysis of randomised trials: religious/spiritual interventions reduce anxiety; programmes vary widely and study quality is limited."
+  captari2018:
+    trich: "Captari et al. 2018, Journal of Clinical Psychology 74(11)"
+    url: "https://doi.org/10.1002/jclp.22681"
+    vi: "97 nghiên cứu, 7.181 người: trị liệu có lồng niềm tin của thân chủ giảm căng thẳng ngang trị liệu thông thường và tăng hạnh phúc tâm linh. Chưa có nghiên cứu tổng hợp riêng về lectio divina."
+    en: "97 studies, 7,181 people: therapy that integrates the client’s faith reduces distress as well as standard therapy and adds spiritual well-being. There is no review of lectio divina itself."
+  semnani2025:
+    trich: "Semnani-Azad et al. 2025, BMJ 389:e082007"
+    url: ""
+    vi: "99 thử nghiệm ngẫu nhiên: nhịn ăn gián đoạn giảm cân tương tự ăn bớt năng lượng mỗi ngày; không thấy lợi ích riêng về đường huyết."
+    en: "99 randomised trials: intermittent fasting gives weight loss similar to daily calorie restriction; no extra benefit for blood sugar."
+  iguacel2021:
+    trich: "Iguacel et al. 2021, Nutrition Reviews 79(4)"
+    url: "https://doi.org/10.1093/nutrit/nuaa030"
+    vi: "13 nghiên cứu quan sát: kết quả trái chiều về ăn chay và tâm trạng. Đây là tương quan; khoa học chưa cho thấy ăn chay cải thiện tâm trạng."
+    en: "13 observational studies: mixed results on vegetarian diets and mood. This is a correlation; science has not shown that a vegetarian diet improves mood."
+  berthelot2021:
+    trich: "Berthelot et al. 2021, Nutrients 13(11)"
+    url: "https://doi.org/10.3390/nu13113947"
+    vi: "11 nghiên cứu, 1.436 người: điểm căng thẳng, lo âu sau Ramadan thấp hơn trước, nhưng hầu hết không có nhóm chứng."
+    en: "11 studies, 1,436 people: stress and anxiety scores were lower after Ramadan than before, but most studies had no control group."
+  heun2018:
+    trich: "Heun 2018, Global Psychiatry 1(1)"
+    url: "https://doi.org/10.2478/gp-2018-0002"
+    vi: "Tổng quan: tác động của Ramadan lên sức khỏe tinh thần nhìn chung nhỏ, nhưng người mắc tâm thần phân liệt hoặc rối loạn lưỡng cực có nguy cơ tái phát cao hơn."
+    en: "Review: Ramadan’s effect on mental health is generally small, but people with schizophrenia or bipolar disorder have a higher risk of relapse."
+
+khoa:
+  # ------------------------------------------------------------ GIAO THOA
+  - ma: GT0
+    slug: giao-thoa-0
+    slug_en: convergence-0
+    nhom: giao-thoa
+    ten: "Giao thoa 0: Sáu thói quen chung"
+    ten_en: "Convergence 0: Six shared habits"
+    mo_ta: "Dừng lại, biết ơn, Quy tắc Vàng, kỷ luật, nghỉ ngơi, phục vụ. Mỗi bài ba đoạn kinh từ ba truyền thống."
+    mo_ta_en: "Pausing, gratitude, the Golden Rule, discipline, rest and service. Each lesson has three passages from three traditions."
+    tang: "1"
+    phut: "10–15"
+    trang_thai: dang-soan
+    tien_do: "Đã soạn tuần 1–2, chờ người duyệt"
+    tien_do_en: "Weeks 1–2 drafted, awaiting reviewers"
+    duyet: truyen-thong
+    ra_mat: "Th11–12/2026"
+    ra_mat_en: "Nov–Dec 2026"
+    nghien_cuu: [goyal2014, cregg2021, curry2018, friese2017, wendsche2017, jenkinson2013]
+    bai:
+      - "Dừng lại | Pause | MN 10 · Thi thiên 46:10 · Epictetus (Long) || MN 10 · Psalm 46:10 · Epictetus (Long) | Dừng lại ít nhất 1 lần/ngày, ≥5/7 ngày | Pause at least once a day, on 5 of 7 days"
+      - "Biết ơn | Gratitude | AN 2.119 · Pirkei Avot 4:1 · Suy tưởng I.1–3 || AN 2.119 · Pirkei Avot 4:1 · Meditations I.1–3 | Ghi 3 điều biết ơn, ≥5/7 ngày | Write three things you are grateful for, on 5 of 7 days"
+      - "Quy tắc Vàng | The Golden Rule | Mt 7:12 · Talmud Shabbat 31a · Nawawi 40 số 13 || Matthew 7:12 · Talmud Shabbat 31a · Nawawi 40 no. 13 | 1 hành động \"đổi vai\" mỗi ngày, ghi lại ≥5/7 | One ‘swap places’ action a day, noted on 5 of 7 days"
+      - "Kỷ luật | Discipline | Đạo Đức Kinh 33 · Bukhari 6464 · Seneca, Thư 1 || Tao Te Ching 33 · Bukhari 6464 · Seneca, Letter 1 | Giữ 1 việc nhỏ cố định ≥6/7 ngày | Keep one small fixed task on 6 of 7 days"
+      - "Nghỉ ngơi | Rest | Xuất hành 20:8–10 · Mc 6:31 · Đạo Đức Kinh 15 || Exodus 20:8–10 · Mark 6:31 · Tao Te Ching 15 | 1 khoảng ngưng việc ≥60 phút/tuần, 15 phút/ngày không thiết bị | One work-free block of 60+ minutes a week; 15 device-free minutes a day"
+      - "Phục vụ | Service | Gita 3:19 · Qur'an 76:8–9 · Suy tưởng V.6 || Gita 3:19 · Qur'an 76:8–9 · Meditations V.6 | 2 việc giúp người không cần đáp lại trong tuần | Two acts of help a week that expect nothing back"
+    gioi_han: "Bằng chứng khoa học cho từng thói quen có mức khác nhau, phần lớn là hiệu quả nhỏ. Bài không thay thế điều trị."
+    gioi_han_en: "The scientific evidence differs for each habit and most effects are small. Lessons do not replace treatment."
+
+  - ma: GT1
+    slug: giao-thoa-1
+    slug_en: convergence-1
+    nhom: giao-thoa
+    ten: "Giao thoa 1: Lòng rộng mở"
+    ten_en: "Convergence 1: An open heart"
+    mo_ta: "Lòng từ, tha thứ, buông cái tôi, chấp nhận vô thường, im lặng, cho đi."
+    mo_ta_en: "Loving-kindness, forgiveness, letting go of self, accepting change, silence, giving."
+    tang: "1–2"
+    phut: "15"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "Th3–6/2027"
+    ra_mat_en: "Mar–Jun 2027"
+    nghien_cuu: [lktm2024, wade2014, lee2025, gloster2020, goyal2014, goncalves2015, curry2018]
+    bai:
+      - "Lòng từ | Loving-kindness | Snp 1.8 · Đạo Đức Kinh 67 · Gita 12:13 || Snp 1.8 · Tao Te Ching 67 · Gita 12:13 | Thiền từ tâm 10 phút ≥5/7 ngày | Loving-kindness practice 10 minutes on 5 of 7 days"
+      - "Tha thứ | Forgiveness | Dhp 5 · Mt 18:21–22 · Qur'an 24:22 || Dhp 5 · Matthew 18:21–22 · Qur'an 24:22 | Viết 1 thư tha thứ không gửi; tự chấm mức oán 0–10 đầu và cuối tuần | Write one unsent letter of forgiveness; rate resentment 0–10 at the start and end of the week"
+      - "Buông cái tôi | Letting go of self | Đạo Đức Kinh 8 · Gita 2:47 · Gương Chúa Giêsu I.2 || Tao Te Ching 8 · Gita 2:47 · The Imitation of Christ I.2 | 1 lần nhường lời hoặc nhận sai mỗi ngày, ≥5/7 | Once a day, give way or admit a mistake, on 5 of 7 days"
+      - "Chấp nhận vô thường | Accepting change | Enchiridion 1 · Dhp 277 · Qur'an 2:286 | Phân loại 3 lo âu/ngày: đổi được hay không, ≥5/7 | Sort three worries a day into ‘can change / cannot’, on 5 of 7 days"
+      - "Im lặng | Silence | Brother Lawrence · 1 Các Vua 19:11–12 · Katha Upanishad || Brother Lawrence · 1 Kings 19:11–12 · Katha Upanishad | Ngồi im 15 phút ≥5/7 ngày | Sit in silence 15 minutes on 5 of 7 days"
+      - "Cho đi và ôn tập | Giving and review | Dhp 223–224 · Qur'an 2:261 · Pirkei Avot 5:10 | Cho đi 1 lần/tuần; tự chấm lại 12 thói quen | Give once a week; re-rate all 12 habits"
+    gioi_han: "Bài tha thứ chỉ dành cho tổn thương nhẹ đến vừa. Không truyền thống nào đòi người bị hại phải hòa giải với người còn đang gây hại."
+    gioi_han_en: "The forgiveness lesson is only for mild to moderate hurts. No tradition asks someone who was harmed to reconcile with a person who is still causing harm."
+
+  # ------------------------------------------------------------ KHẮC KỶ
+  - ma: KK1
+    slug: khac-ky-1
+    slug_en: stoicism-1
+    nhom: khac-ky
+    ten: "Điều trong tay ta"
+    ten_en: "What is in our power"
+    mo_ta: "Đọc chậm Epictetus, Seneca, Marcus Aurelius để phân biệt điều mình làm được và điều không."
+    mo_ta_en: "Slow reading of Epictetus, Seneca and Marcus Aurelius to tell apart what is up to us and what is not."
+    tang: "1"
+    phut: "10–15"
+    trang_thai: chua-bat-dau
+    duyet: chu-du-an
+    ra_mat: "Th1–2/2027"
+    ra_mat_en: "Jan–Feb 2027"
+    nghien_cuu: []
+    bai:
+      - "Trong tay và ngoài tay | Up to us, not up to us | Enchiridion 1 | Phân loại ≥3 lo âu/ngày, ≥5/7 | Sort at least three worries a day, on 5 of 7 days"
+      - "Thời gian là của ta | Time is ours | Seneca, Thư 1 || Seneca, Letter 1 | 1 \"giờ giữ\" mỗi ngày, ≥5/7 | One protected hour a day, on 5 of 7 days"
+      - "Khổ trong tưởng tượng | Suffering in imagination | Seneca, Thư 13 || Seneca, Letter 13 | Chấm khả năng xảy ra cho 3 nỗi lo/tuần | Rate how likely three worries are, each week"
+      - "Chuẩn bị buổi sáng | Preparing the morning | Suy tưởng II.1 || Meditations II.1 | Đọc câu chuẩn bị ≥5/7 buổi sáng | Read the morning preparation on 5 of 7 mornings"
+      - "Người \"bên dưới\" | Those ‘below’ us | Seneca, Thư 47 || Seneca, Letter 47 | 1 hành vi tôn trọng người phục vụ mỗi ngày | One act of respect for someone who serves you, each day"
+      - "Xét mình buổi tối | Evening review | Seneca, Bàn về giận dữ III.36 || Seneca, On Anger III.36 | 3 câu hỏi buổi tối ≥5/7 | Three evening questions on 5 of 7 days"
+    gioi_han: "Chúng tôi chưa tìm được tổng quan có bình duyệt riêng về chương trình Khắc kỷ. Cách làm gần với liệu pháp nhận thức, nhưng đó là suy luận."
+    gioi_han_en: "We have not found a peer-reviewed review of Stoic programmes as such. The approach is close to cognitive therapy, but that is an inference."
+
+  - ma: KK2
+    slug: khac-ky-2
+    slug_en: stoicism-2
+    nhom: khac-ky
+    ten: "Ba kỷ luật của Epictetus"
+    ten_en: "Epictetus’ three disciplines"
+    mo_ta: "Kỷ luật mong muốn, hành động và phán đoán qua 8 tuần nhật ký."
+    mo_ta_en: "The disciplines of desire, action and judgement through eight weeks of journaling."
+    tang: "2"
+    phut: "20–30"
+    trang_thai: chua-bat-dau
+    duyet: chu-du-an
+    ra_mat: "Nửa cuối 2027"
+    ra_mat_en: "Second half of 2027"
+    bai:
+      - "Điều thuộc về ta | What belongs to us | Discourses I.1"
+      - "Không phải sự việc, mà ý nghĩ về nó | Not things, but our opinions of them | Enchiridion 5"
+      - "Nơi ẩn náu bên trong | The inner retreat | Suy tưởng IV.3 || Meditations IV.3"
+      - "Đọc ít mà sâu | Reading a few books deeply | Seneca, Thư 2 || Seneca, Letter 2"
+      - "Tập thiếu thốn nhẹ | Practising mild hardship | Seneca, Thư 18 || Seneca, Letter 18"
+      - "Hành động vì cái chung | Acting for the common good | Suy tưởng VI.30 || Meditations VI.30"
+      - "Bám chấp và mất mát | Attachment and loss | Discourses III.24"
+      - "Ôn tập | Review | –"
+    gioi_han: "Bài \"tập thiếu thốn\" chỉ là việc nhỏ như ngủ đất cứng hay mặc áo mỏng một buổi; không nhịn ăn."
+    gioi_han_en: "‘Practising hardship’ means small things like a plain meal or a thin coat for an afternoon; no fasting."
+
+  - ma: KK3
+    slug: khac-ky-3
+    slug_en: stoicism-3
+    nhom: khac-ky
+    ten: "Vô thường và cái chết theo Khắc kỷ"
+    ten_en: "Change and death in Stoicism"
+    mo_ta: "Seneca và Marcus Aurelius về thời gian, mất mát và cái chết. Không có Góc trẻ."
+    mo_ta_en: "Seneca and Marcus Aurelius on time, loss and death. No kids’ corner."
+    tang: "3"
+    phut: "30–45"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Tuổi già và từng ngày | Old age and each day | Seneca, Thư 12 || Seneca, Letter 12"
+      - "Nỗi sợ trước điều chưa đến | Fear of what has not come | Seneca, Thư 24 || Seneca, Letter 24"
+      - "Đời ngắn | Life is short | Seneca, Thư 49 || Seneca, Letter 49"
+      - "Mọi thứ trôi qua | Everything passes | Suy tưởng II.11 || Meditations II.11"
+      - "Những người đã đi trước | Those who went before | Suy tưởng IV.48 || Meditations IV.48"
+      - "Ôn tập | Review | –"
+
+  - ma: KK4
+    slug: khac-ky-4
+    slug_en: stoicism-4
+    nhom: khac-ky
+    ten: "Khắc kỷ ở nhà và chỗ làm"
+    ten_en: "Stoicism at home and at work"
+    mo_ta: "Công việc, giận dữ, gia đình và những vòng tròn quan tâm."
+    mo_ta_en: "Work, anger, family and the circles of concern."
+    tang: "4"
+    phut: "Theo nhịp sống"
+    phut_en: "Fits daily life"
+    trang_thai: chua-bat-dau
+    duyet: chu-du-an
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Dậy để làm việc của người | Rising to do human work | Suy tưởng V.1 || Meditations V.1"
+      - "Giận dữ | Anger | Seneca, Bàn về giận dữ || Seneca, On Anger"
+      - "Người làm cùng ta | The people who work with us | Seneca, Thư 47 || Seneca, Letter 47"
+      - "Gia đình | Family | Suy tưởng VI.39 || Meditations VI.39"
+      - "Những vòng tròn quan tâm | The circles of concern | Hierocles"
+      - "Ôn tập | Review | –"
+    gioi_han: "Giận dữ cấp tính và kỹ năng hạ nhiệt nhanh có trang gốc trên daynentang.com; ở đây chỉ đặt link."
+    gioi_han_en: "Acute anger and quick calming skills have their home on daynentang.com; we only link there."
+
+  # ------------------------------------------------------------ PHẬT GIÁO
+  - ma: PG1
+    slug: phat-giao-1
+    slug_en: buddhism-1
+    nhom: phat-giao
+    ten: "Chánh niệm và lòng tốt"
+    ten_en: "Mindfulness and kindness"
+    mo_ta: "Hơi thở, bốn sự thật, lời nói, không làm hại, từ tâm và tự kiểm chứng."
+    mo_ta_en: "The breath, the four truths, speech, non-harm, loving-kindness and testing for yourself."
+    tang: "1"
+    phut: "10–15"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "Th3–4/2027"
+    ra_mat_en: "Mar–Apr 2027"
+    nghien_cuu: [goyal2014, farias2020]
+    bai:
+      - "Ngồi với hơi thở | Sitting with the breath | MN 118 | Ngồi 10 phút ≥5/7 ngày | Sit 10 minutes on 5 of 7 days"
+      - "Bốn sự thật bằng lời mình | The four truths in your own words | SN 56.11 | Viết lại 4 ý trong ≤4 câu | Rewrite the four points in at most four sentences"
+      - "Lời nói | Speech | Dhp 223–224 | \"Nói thật, nói nhẹ\" ≥3 lần/tuần | ‘True and gentle speech’ at least 3 times a week"
+      - "Không làm hại | Non-harm | Dhp 129–130 | 1 việc \"không làm hại\" có chủ ý mỗi ngày | One deliberate act of non-harm a day"
+      - "Từ tâm | Loving-kindness | Snp 1.8 | Từ tâm 10 phút ≥5/7 ngày | Loving-kindness 10 minutes on 5 of 7 days"
+      - "Tự kiểm chứng | Testing for yourself | AN 3.65 | Viết 1 niềm tin đã thử qua trải nghiệm | Write down one belief you have tested in experience"
+    gioi_han: "Thở 1–3 phút có trang gốc trên daynentang.com. Thiền cũng có thể gây trải nghiệm khó chịu; mỗi bài có mục \"Dừng tập khi\"."
+    gioi_han_en: "1–3 minute breathing has its home on daynentang.com. Meditation can also bring difficult experiences; every lesson has a ‘Stop practising if’ section."
+
+  - ma: PG2
+    slug: phat-giao-2
+    slug_en: buddhism-2
+    nhom: phat-giao
+    ten: "Bốn niệm xứ trong 8 tuần"
+    ten_en: "The four foundations of mindfulness in 8 weeks"
+    mo_ta: "Thân, thọ, tâm, pháp theo kinh MN 10; ngồi 20–30 phút mỗi ngày."
+    mo_ta_en: "Body, feelings, mind and phenomena following MN 10; 20–30 minutes of sitting a day."
+    tang: "2"
+    phut: "20–30"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "Nửa cuối 2027"
+    ra_mat_en: "Second half of 2027"
+    nghien_cuu: [goyal2014, farias2020]
+    bai:
+      - "Niệm thân (1) | Mindfulness of the body (1) | MN 10"
+      - "Niệm thân (2) | Mindfulness of the body (2) | MN 10"
+      - "Niệm thọ | Mindfulness of feelings | MN 10"
+      - "Mũi tên thứ hai | The second arrow | SN 36.6"
+      - "Niệm tâm | Mindfulness of mind | MN 10"
+      - "Niệm pháp | Mindfulness of phenomena | MN 10"
+      - "Thay ý nghĩ | Replacing thoughts | MN 20"
+      - "Hai loại ý nghĩ và ôn tập | Two kinds of thought, and review | MN 19"
+
+  - ma: PG3
+    slug: phat-giao-3
+    slug_en: buddhism-3
+    nhom: phat-giao
+    ten: "Vô thường, vô ngã"
+    ten_en: "Impermanence and not-self"
+    mo_ta: "Năm uẩn, bọt nước, chiếc bè."
+    mo_ta_en: "The five aggregates, the lump of foam, the raft."
+    tang: "3"
+    phut: "30–45"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Đặc tính vô ngã | The characteristic of not-self | SN 22.59"
+      - "Bọt nước | The lump of foam | SN 22.95"
+      - "Chiếc bè | The raft | MN 22"
+      - "Gốc rễ mọi sự | The root of all things | MN 1"
+      - "Thực hành dài | Longer practice | –"
+      - "Ôn tập | Review | –"
+
+  - ma: PG4
+    slug: phat-giao-4
+    slug_en: buddhism-4
+    nhom: phat-giao
+    ten: "Pháp trong đời thường"
+    ten_en: "Dhamma in everyday life"
+    mo_ta: "Gia đình, nghề nghiệp, tiền bạc theo lời dạy cho người tại gia."
+    mo_ta_en: "Family, work and money in the teachings for lay people."
+    tang: "4"
+    phut: "Theo nhịp sống"
+    phut_en: "Fits daily life"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Bổn phận trong các mối quan hệ | Duties in relationships | DN 31"
+      - "Đời sống tại gia an lạc | A good lay life | AN 8.54"
+      - "Soi lại việc mình làm | Reflecting on our actions | MN 61"
+      - "Vợ chồng đồng hành | Partners together | AN 4.55"
+      - "Tiền bạc và cho đi | Money and giving | DN 31 · AN 8.54"
+      - "Ôn tập | Review | –"
+
+  # ------------------------------------------------------------ KITÔ GIÁO
+  - ma: KT1
+    slug: kito-giao-1
+    slug_en: christianity-1
+    nhom: kito-giao
+    ten: "Đọc chậm Lời Chúa (lectio divina)"
+    ten_en: "Slow reading of Scripture (lectio divina)"
+    mo_ta: "Sáu đoạn Tin Mừng và Thánh Vịnh theo bốn bước của lectio divina."
+    mo_ta_en: "Six Gospel and Psalm passages through the four steps of lectio divina."
+    tang: "1"
+    phut: "10–15"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "Nửa cuối 2027"
+    ra_mat_en: "Second half of 2027"
+    nghien_cuu: [captari2018, goncalves2015]
+    bai:
+      - "Người chăn | The shepherd | Thi thiên 23 || Psalm 23 | Đọc chậm 10 phút ≥5/7 ngày | Slow reading 10 minutes on 5 of 7 days"
+      - "Các mối phúc | The Beatitudes | Mt 5:3–9 || Matthew 5:3–9 | Ghi 1 dòng sau mỗi lần đọc | Write one line after each reading"
+      - "Kinh Lạy Cha (mô tả) | The Lord’s Prayer (described) | Mt 6:9–13 || Matthew 6:9–13 | Đọc và ghi 1 dòng, không bắt buộc đọc thành lời cầu | Read and note one line; praying it is optional"
+      - "Người Samari nhân hậu | The Good Samaritan | Lc 10:25–37 || Luke 10:25–37 | 1 việc giúp người lạ trong tuần | One act of help to a stranger this week"
+      - "Đừng lo lắng | Do not worry | Mt 6:25–34 || Matthew 6:25–34 | Viết 3 lo âu và đọc lại đoạn kinh | Write three worries and reread the passage"
+      - "Tình yêu là gì | What love is | 1 Cr 13:4–7 || 1 Corinthians 13:4–7 | Chọn 1 đức tính để tập trong tuần | Choose one quality to practise this week"
+    gioi_han: "Chưa có nghiên cứu tổng hợp riêng về lectio divina; bằng chứng gần nhất là gián tiếp."
+    gioi_han_en: "There is no review of lectio divina itself; the closest evidence is indirect."
+
+  - ma: KT2
+    slug: kito-giao-2
+    slug_en: christianity-2
+    nhom: kito-giao
+    ten: "Cầu nguyện và hiện diện"
+    ten_en: "Prayer and presence"
+    mo_ta: "Brother Lawrence, Gương Chúa Giêsu và cầu nguyện thầm."
+    mo_ta_en: "Brother Lawrence, The Imitation of Christ and silent prayer."
+    tang: "2"
+    phut: "20–30"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    nghien_cuu: [goncalves2015]
+    bai:
+      - "Hiện diện trong việc thường | Presence in ordinary work | Brother Lawrence"
+      - "Đời sống nội tâm | The inner life | Gương Chúa Giêsu II.1 || The Imitation of Christ II.1"
+      - "Vào phòng, đóng cửa | Go into your room | Mt 6:6 || Matthew 6:6"
+      - "Lòng lắng yên | A quieted soul | Thi thiên 131 || Psalm 131"
+      - "Lời cầu ngắn | A short prayer | Lc 18:13 || Luke 18:13"
+      - "Nhịp cầu nguyện trong ngày | A daily rhythm of prayer | Brother Lawrence"
+      - "Khô khan và kiên trì | Dryness and perseverance | Gương Chúa Giêsu || The Imitation of Christ"
+      - "Ôn tập | Review | –"
+
+  - ma: KT3
+    slug: kito-giao-3
+    slug_en: christianity-3
+    nhom: kito-giao
+    ten: "Thượng Đế vượt khái niệm"
+    ten_en: "God beyond concepts"
+    mo_ta: "Truyền thống chiêm niệm và thần học phủ định."
+    mo_ta_en: "The contemplative tradition and apophatic theology."
+    tang: "3"
+    phut: "30–45"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Đám mây không biết | The Cloud of Unknowing | The Cloud of Unknowing"
+      - "Thần học huyền nhiệm | Mystical Theology | Pseudo-Dionysius"
+      - "Im lặng trước mầu nhiệm | Silence before mystery | –"
+      - "Thực hành dài | Longer practice | –"
+      - "Đọc lại cùng người duyệt | Rereading with a reviewer | –"
+      - "Ôn tập | Review | –"
+
+  - ma: KT4
+    slug: kito-giao-4
+    slug_en: christianity-4
+    nhom: kito-giao
+    ten: "Đức tin thành việc làm"
+    ten_en: "Faith in action"
+    mo_ta: "Phục vụ, cộng đoàn và công việc."
+    mo_ta_en: "Service, community and work."
+    tang: "4"
+    phut: "Theo nhịp sống"
+    phut_en: "Fits daily life"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Những người bé nhỏ nhất | The least of these | Mt 25:31–46 || Matthew 25:31–46"
+      - "Đức tin và việc làm | Faith and works | Gc 2:14–17 || James 2:14–17"
+      - "Chia sẻ trong cộng đoàn | Sharing in community | Cv 2:44–47 || Acts 2:44–47"
+      - "Làm việc hết lòng | Working wholeheartedly | Col 3:23 || Colossians 3:23"
+      - "Gia đình | Family | –"
+      - "Ôn tập | Review | –"
+
+  # ------------------------------------------------------------ HỒI GIÁO
+  - ma: HG1
+    slug: hoi-giao-1
+    slug_en: islam-1
+    nhom: hoi-giao
+    ten: "Nhập môn: biết ơn, nhẫn nại, việc nhỏ đều đặn"
+    ten_en: "Introduction: gratitude, patience, small regular deeds"
+    mo_ta: "Năm trụ cột và sáu đoạn Qur'an, hadith ngắn, từ góc người tìm hiểu."
+    mo_ta_en: "The five pillars and six short Qur'an and hadith passages, for learners."
+    tang: "1"
+    phut: "10–15"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "Nửa cuối 2027"
+    ra_mat_en: "Second half of 2027"
+    bai:
+      - "Chương mở đầu | The Opening | Qur'an 1:1–7 | Đọc chậm và ghi 1 dòng | Read slowly and note one line"
+      - "Năm trụ cột (mô tả) | The five pillars (described) | Nawawi 40 số 2 || Nawawi 40 no. 2 | Viết lại năm trụ cột bằng lời mình | Describe the five pillars in your own words"
+      - "Biết ơn | Gratitude | Qur'an 14:7 | Ghi 1 điều biết ơn mỗi ngày | Note one thing you are grateful for each day"
+      - "Không quá sức | Not beyond capacity | Qur'an 2:286 | Phân loại việc trong tuần: trong sức hay quá sức | Sort the week’s tasks: within or beyond your capacity"
+      - "Các dân tộc để hiểu nhau | Nations, to know one another | Qur'an 49:13 | 1 cuộc trò chuyện tìm hiểu người khác văn hóa | One conversation to learn about someone from another culture"
+      - "Việc nhỏ đều đặn | Small regular deeds | Bukhari 6464 | Giữ 1 việc nhỏ ≥6/7 ngày | Keep one small deed on 6 of 7 days"
+    gioi_han: "Khóa mô tả, không hướng dẫn nghi lễ. Bài \"dừng lại năm lần mỗi ngày\" cho người không theo đạo không phải là salat. Trang tiếng Việt dẫn nguyên văn bản QuranEnc, không sửa."
+    gioi_han_en: "This course describes; it does not teach ritual. The ‘pause five times a day’ exercise for non-Muslims is not salat."
+
+  - ma: HG2
+    slug: hoi-giao-2
+    slug_en: islam-2
+    nhom: hoi-giao
+    ten: "Dhikr và nhịp ngày (mô tả)"
+    ten_en: "Dhikr and the rhythm of the day (described)"
+    mo_ta: "Năm lần cầu nguyện và dhikr được mô tả, không hướng dẫn nghi lễ."
+    mo_ta_en: "The five daily prayers and dhikr described, not taught as ritual."
+    tang: "2"
+    phut: "20–30"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Lòng an bình khi tưởng nhớ | Hearts at rest in remembrance | Qur'an 13:28"
+      - "Hãy nhớ đến Ta | Remember Me | Qur'an 2:152"
+      - "Năm lần cầu nguyện (mô tả) | The five prayers (described) | –"
+      - "Dhikr trong hadith | Dhikr in the hadith | –"
+      - "Nhịp ngày của người tìm hiểu | A learner’s daily rhythm | –"
+      - "Thứ Sáu và cộng đồng | Friday and community | –"
+      - "Kiên trì | Perseverance | –"
+      - "Ôn tập | Review | –"
+
+  - ma: HG3
+    slug: hoi-giao-3
+    slug_en: islam-3
+    nhom: hoi-giao
+    ten: "Rumi và truyền thống Sufi"
+    ten_en: "Rumi and the Sufi tradition"
+    mo_ta: "Masnavi bản Whinfield: tình yêu và buông cái tôi."
+    mo_ta_en: "The Masnavi in Whinfield’s version: love and letting go of self."
+    tang: "3"
+    phut: "30–45"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Cây sáo sậy | The reed flute | Masnavi I"
+      - "Xa cách và trở về | Separation and return | Masnavi I"
+      - "Tình yêu | Love | Masnavi"
+      - "Buông cái tôi | Letting go of self | Masnavi"
+      - "Rumi trong truyền thống Hồi giáo | Rumi within Islam | –"
+      - "Ôn tập | Review | –"
+
+  - ma: HG4
+    slug: hoi-giao-4
+    slug_en: islam-4
+    nhom: hoi-giao
+    ten: "Zakat, Ramadan và đời sống"
+    ten_en: "Zakat, Ramadan and daily life"
+    mo_ta: "Cho đi, nhịn ăn (mô tả) và gia đình."
+    mo_ta_en: "Giving, fasting (described) and family."
+    tang: "4"
+    phut: "Theo nhịp sống"
+    phut_en: "Fits daily life"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    nghien_cuu: [berthelot2021, heun2018]
+    bai:
+      - "Zakat cho ai | Who zakat is for | Qur'an 9:60"
+      - "Ramadan (mô tả) | Ramadan (described) | Qur'an 2:183–185"
+      - "Ai được miễn nhịn | Who is exempt from fasting | Qur'an 2:183–185"
+      - "Đối xử tốt với người thân | Kindness to family | Qur'an 4:36"
+      - "Láng giềng và người lỡ đường | Neighbours and travellers | Qur'an 4:36"
+      - "Ôn tập | Review | –"
+
+  # ------------------------------------------------------------ DO THÁI GIÁO
+  - ma: DT1
+    slug: do-thai-giao-1
+    slug_en: judaism-1
+    nhom: do-thai-giao
+    ten: "Torah, Shabbat và Đạo đức Tổ phụ"
+    ten_en: "Torah, Shabbat and the Ethics of the Fathers"
+    mo_ta: "Shema, yêu người lân cận, Shabbat, Pirkei Avot và Micah."
+    mo_ta_en: "The Shema, love of neighbour, Shabbat, Pirkei Avot and Micah."
+    tang: "1"
+    phut: "10–15"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "Nửa cuối 2027"
+    ra_mat_en: "Second half of 2027"
+    bai:
+      - "Shema | The Shema | Đnl 6:4–9 || Deuteronomy 6:4–9 | Đọc chậm và ghi 1 dòng ≥5/7 | Read slowly and note one line, on 5 of 7 days"
+      - "Yêu người lân cận | Love your neighbour | Lv 19:18 · Talmud Shabbat 31a || Leviticus 19:18 · Talmud Shabbat 31a | 1 việc tử tế với người gần mình mỗi ngày | One kindness to someone near you each day"
+      - "Ngày nghỉ | The day of rest | St 2:2–3 · Xuất hành 20:8–11 || Genesis 2:2–3 · Exodus 20:8–11 | 1 khoảng nghỉ có chủ ý trong tuần | One intentional rest period this week"
+      - "Nếu không phải bây giờ | If not now | Pirkei Avot 1:14 | Làm ngay 1 việc đã hoãn | Do one thing you have put off"
+      - "Không phải hoàn thành, nhưng không bỏ | Not to finish, but not to quit | Pirkei Avot 2:16 | Giữ 1 việc dài hạn mỗi ngày 10 phút | Ten minutes a day on one long-term task"
+      - "Công bằng, nhân hậu, khiêm tốn | Justice, kindness, humility | Micah 6:8 | Chọn 1 trong 3 để tập trong tuần | Choose one of the three to practise this week"
+    gioi_han: "Khóa mô tả cho người tìm hiểu, không hướng dẫn giữ Shabbat theo luật."
+    gioi_han_en: "A descriptive course for learners; it does not teach Shabbat observance as law."
+
+  - ma: DT2
+    slug: do-thai-giao-2
+    slug_en: judaism-2
+    nhom: do-thai-giao
+    ten: "Mussar: rèn tính cách"
+    ten_en: "Mussar: training character"
+    mo_ta: "Mỗi tuần một đức tính (middah) qua Pirkei Avot."
+    mo_ta_en: "One character trait (middah) a week through Pirkei Avot."
+    tang: "2"
+    phut: "20–30"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Ai là người khôn ngoan | Who is wise | Pirkei Avot 4:1"
+      - "Đón mọi người niềm nở | Greeting everyone cheerfully | Pirkei Avot 1:15"
+      - "Đừng phán xét | Do not judge | Pirkei Avot 2:4"
+      - "Tôn trọng người khác | Honouring others | Pirkei Avot 4:12"
+      - "Thận trọng | Watchfulness | Mesillat Yesharim"
+      - "Nhiệt thành | Zeal | Mesillat Yesharim"
+      - "Khiêm nhường | Humility | Pirkei Avot"
+      - "Ôn tập | Review | –"
+
+  - ma: DT3
+    slug: do-thai-giao-3
+    slug_en: judaism-3
+    nhom: do-thai-giao
+    ten: "Gióp và câu hỏi về đau khổ"
+    ten_en: "Job and the question of suffering"
+    mo_ta: "Đọc sách Gióp bản JPS 1917."
+    mo_ta_en: "Reading the Book of Job in the JPS 1917 translation."
+    tang: "3"
+    phut: "30–45"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Mở đầu câu chuyện | The story begins | Gióp 1–2 || Job 1–2"
+      - "Những người bạn | The friends | Gióp || Job"
+      - "Tiếng nói từ cơn gió lốc | The voice from the whirlwind | Gióp 38:1–7 || Job 38:1–7"
+      - "Lời đáp của Gióp | Job’s reply | Gióp 42:1–6 || Job 42:1–6"
+      - "Đọc cùng người duyệt | Reading with a reviewer | –"
+      - "Ôn tập | Review | –"
+
+  - ma: DT4
+    slug: do-thai-giao-4
+    slug_en: judaism-4
+    nhom: do-thai-giao
+    ten: "Shabbat trong gia đình"
+    ten_en: "Shabbat in the family"
+    mo_ta: "Nghỉ ngơi, bữa ăn chung và tzedakah."
+    mo_ta_en: "Rest, the shared table and tzedakah."
+    tang: "4"
+    phut: "Theo nhịp sống"
+    phut_en: "Fits daily life"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Ngày thứ bảy | The seventh day | St 2:1–3 || Genesis 2:1–3"
+      - "Nghỉ cho cả người làm | Rest for workers too | Đnl 5:12–15 || Deuteronomy 5:12–15"
+      - "Mở tay cho người nghèo | Open your hand to the poor | Đnl 15:7–11 || Deuteronomy 15:7–11"
+      - "Chừa góc ruộng | Leaving the corner of the field | Lv 19:9–10 || Leviticus 19:9–10"
+      - "Bữa ăn chung | The shared table | –"
+      - "Ôn tập | Review | –"
+
+  # ------------------------------------------------------------ BẤT NHỊ
+  - ma: BN1
+    slug: bat-nhi-1
+    slug_en: non-duality-1
+    nhom: bat-nhi
+    ten: "Gita và Upanishad nhập môn"
+    ten_en: "Introduction to the Gita and the Upanishads"
+    mo_ta: "Hành động không bám kết quả và người quan sát bên trong."
+    mo_ta_en: "Action without clinging to results, and the inner witness."
+    tang: "1"
+    phut: "10–15"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "Nửa cuối 2027"
+    ra_mat_en: "Second half of 2027"
+    bai:
+      - "Làm mà không bám quả | Work without clinging to fruits | Gita 2:47 | 1 việc làm hết sức rồi buông kết quả, mỗi ngày | One task a day done fully, letting go of the result"
+      - "Nóng lạnh qua đi | Heat and cold pass | Gita 2:14 | Ghi 1 cảm giác khó chịu và thời gian nó qua đi | Note one discomfort and how long it took to pass"
+      - "Tự nâng mình | Lifting yourself up | Gita 6:5 | 1 lời tự động viên mỗi sáng | One encouraging word to yourself each morning"
+      - "Cỗ xe | The chariot | Katha Upanishad 1.3.3–4 | Quan sát 1 \"con ngựa\" (thói quen) trong tuần | Watch one ‘horse’ (habit) this week"
+      - "Mọi thứ đều thấm Đấng Tối Cao | All is pervaded | Isha Upanishad 1 | Đọc chậm 10 phút ≥5/7 | Slow reading 10 minutes on 5 of 7 days"
+      - "Người không ghét ai | One who hates no being | Gita 12:13–14 | 1 lần chọn thân thiện với người khó | Once, choose friendliness towards a difficult person"
+
+  - ma: BN2
+    slug: bat-nhi-2
+    slug_en: non-duality-2
+    nhom: bat-nhi
+    ten: "Karma yoga và thiền theo Gita"
+    ten_en: "Karma yoga and meditation in the Gita"
+    mo_ta: "Gita chương 2, 3, 6; ngồi 20–30 phút."
+    mo_ta_en: "Gita chapters 2, 3 and 6; 20–30 minutes of sitting."
+    tang: "2"
+    phut: "20–30"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    nghien_cuu: [farias2020]
+    bai:
+      - "Bình thản trong thành bại | Even-minded in success and failure | Gita 2:48"
+      - "Làm phần việc của mình | Doing your part | Gita 3:8"
+      - "Chỗ ngồi và tư thế | The seat and posture | Gita 6:10–17"
+      - "Ăn ngủ điều độ | Moderation in food and sleep | Gita 6:10–17"
+      - "Tâm khó điều phục | The restless mind | Gita 6:35"
+      - "Tập và buông | Practice and detachment | Gita 6:35"
+      - "Hành động hằng ngày | Daily action | Gita 3:8"
+      - "Ôn tập | Review | –"
+
+  - ma: BN3
+    slug: bat-nhi-3
+    slug_en: non-duality-3
+    nhom: bat-nhi
+    ten: "Tự vấn: \"Ta là ai?\""
+    ten_en: "Self-inquiry: ‘Who am I?’"
+    mo_ta: "Neti neti, Mandukya, Chandogya."
+    mo_ta_en: "Neti neti, the Mandukya and the Chandogya."
+    tang: "3"
+    phut: "30–45"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Không phải cái này | Not this, not this | Brihadaranyaka Upanishad 2.3.6"
+      - "Bốn trạng thái | The four states | Mandukya Upanishad"
+      - "Ngươi là cái ấy | You are that | Chandogya Upanishad 6.8.7"
+      - "Tự vấn | Self-inquiry | –"
+      - "Thực hành dài | Longer practice | –"
+      - "Ôn tập | Review | –"
+
+  - ma: BN4
+    slug: bat-nhi-4
+    slug_en: non-duality-4
+    nhom: bat-nhi
+    ten: "Hiện diện trong việc thường"
+    ten_en: "Presence in ordinary tasks"
+    mo_ta: "Ăn, làm việc và chăm sóc như một thực hành."
+    mo_ta_en: "Eating, working and caring as practice."
+    tang: "4"
+    phut: "Theo nhịp sống"
+    phut_en: "Fits daily life"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Mọi việc như dâng hiến | Every act as offering | Gita 9:27"
+      - "Làm việc suốt đời | Working a full life | Isha Upanishad 2"
+      - "Thờ phụng bằng việc của mình | Worship through one’s own work | Gita 18:46"
+      - "Bữa ăn | The meal | –"
+      - "Chăm sóc người khác | Caring for others | –"
+      - "Ôn tập | Review | –"
+
+  # ------------------------------------------------------------ ĐẠO GIÁO
+  - ma: DG1
+    slug: dao-giao-1
+    slug_en: taoism-1
+    nhom: dao-giao
+    ten: "Nước, tĩnh và đủ"
+    ten_en: "Water, stillness and enough"
+    mo_ta: "Đạo Đức Kinh chương 8, 15, 16, 33, 67 và Trang Tử chương \"Dưỡng sinh chủ\"."
+    mo_ta_en: "Tao Te Ching chapters 8, 15, 16, 33 and 67, and the Zhuangzi chapter on nourishing life."
+    tang: "1"
+    phut: "10–15"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "Nửa cuối 2027"
+    ra_mat_en: "Second half of 2027"
+    bai:
+      - "Như nước | Like water | Đạo Đức Kinh 8 || Tao Te Ching 8 | 1 lần nhường thay vì tranh mỗi ngày | Once a day, yield instead of contending"
+      - "Để nước đục lắng trong | Letting muddy water clear | Đạo Đức Kinh 15 || Tao Te Ching 15 | Ngồi yên 10 phút ≥5/7 | Sit still 10 minutes on 5 of 7 days"
+      - "Trở về tĩnh lặng | Returning to stillness | Đạo Đức Kinh 16 || Tao Te Ching 16 | Ghi 1 lần thấy mình \"lắng xuống\" mỗi ngày | Note one moment of settling each day"
+      - "Thắng chính mình | Overcoming oneself | Đạo Đức Kinh 33 || Tao Te Ching 33 | Giữ 1 việc nhỏ ≥6/7 ngày | Keep one small task on 6 of 7 days"
+      - "Ba báu vật | Three treasures | Đạo Đức Kinh 67 || Tao Te Ching 67 | Chọn 1 trong 3 (mềm mỏng, tiết kiệm, không tranh trước) để tập | Practise one of the three: gentleness, economy, not pushing ahead"
+      - "Đầu bếp Đinh | Cook Ding | Trang Tử III || Zhuangzi III | Làm 1 việc quen thuộc thật chậm, chú tâm | Do one familiar task slowly and attentively"
+    gioi_han: "Khóa đọc văn bản Đạo gia, không dạy nghi lễ Đạo giáo. Bản Việt là bản tự dịch từ James Legge và Herbert Giles."
+    gioi_han_en: "The course reads Taoist texts; it does not teach Taoist ritual."
+
+  - ma: DG2
+    slug: dao-giao-2
+    slug_en: taoism-2
+    nhom: dao-giao
+    ten: "Vô vi trong thực hành"
+    ten_en: "Non-action in practice"
+    mo_ta: "\"Tâm trai\" (nhịn của tâm, không phải nhịn ăn), làm bớt, buông cố gắng."
+    mo_ta_en: "‘Fasting of the mind’ (not of the body), doing less, letting go of striving."
+    tang: "2"
+    phut: "20–30"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Cặp đối lập | Pairs of opposites | Đạo Đức Kinh 2 || Tao Te Ching 2"
+      - "Chỗ trống hữu dụng | Useful emptiness | Đạo Đức Kinh 11 || Tao Te Ching 11"
+      - "Cong thì toàn | Bend and be whole | Đạo Đức Kinh 22 || Tao Te Ching 22"
+      - "Bớt dần mỗi ngày | Less each day | Đạo Đức Kinh 48 || Tao Te Ching 48"
+      - "Tâm trai | Fasting of the mind | Trang Tử IV || Zhuangzi IV"
+      - "Làm mà không ép | Doing without forcing | –"
+      - "Thực hành dài | Longer practice | –"
+      - "Ôn tập | Review | –"
+
+  - ma: DG3
+    slug: dao-giao-3
+    slug_en: taoism-3
+    nhom: dao-giao
+    ten: "Sống chết theo Trang Tử"
+    ten_en: "Life and death in Zhuangzi"
+    mo_ta: "Biến hóa và cái chết. Không có Góc trẻ."
+    mo_ta_en: "Transformation and death. No kids’ corner."
+    tang: "3"
+    phut: "30–45"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Giấc mơ hóa bướm | The butterfly dream | Trang Tử II || Zhuangzi II"
+      - "Khi vợ Trang Tử mất | When Zhuangzi’s wife died | Trang Tử XVIII || Zhuangzi XVIII"
+      - "Biến hóa | Transformation | Trang Tử || Zhuangzi"
+      - "Thực hành dài | Longer practice | –"
+      - "Đọc cùng người duyệt | Reading with a reviewer | –"
+      - "Ôn tập | Review | –"
+
+  - ma: DG4
+    slug: dao-giao-4
+    slug_en: taoism-4
+    nhom: dao-giao
+    ten: "Đạo trong việc thường"
+    ten_en: "The Way in ordinary things"
+    mo_ta: "Tay nghề, khởi đầu nhỏ và biết đủ."
+    mo_ta_en: "Skill, small beginnings and knowing enough."
+    tang: "4"
+    phut: "Theo nhịp sống"
+    phut_en: "Fits daily life"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    bai:
+      - "Tay nghề như dòng chảy | Skill as flow | Trang Tử III || Zhuangzi III"
+      - "Ngàn dặm bắt đầu từ một bước | A journey of a thousand miles | Đạo Đức Kinh 64 || Tao Te Ching 64"
+      - "Biết đủ | Knowing enough | Đạo Đức Kinh 44 || Tao Te Ching 44"
+      - "Công việc | Work | –"
+      - "Gia đình | Family | –"
+      - "Ôn tập | Review | –"
+
+  # ------------------------------------------------------------ THÂN THỂ
+  - ma: TT1
+    slug: than-the-1
+    slug_en: body-1
+    nhom: than-the
+    ten: "Ăn chậm, ăn biết ơn"
+    ten_en: "Eating slowly, eating gratefully"
+    mo_ta: "Lời cảm ơn trước bữa ăn ở nhiều truyền thống và ăn chậm một bữa mỗi ngày. Không đếm calo."
+    mo_ta_en: "Grace before meals in many traditions, and one slow meal a day. No calorie counting."
+    tang: "1"
+    phut: "15"
+    trang_thai: chua-bat-dau
+    duyet: chu-du-an
+    ra_mat: "Th5–6/2027"
+    ra_mat_en: "May–Jun 2027"
+    bai:
+      - "Lời cảm ơn trước bữa ăn | Grace before meals | – | Dừng 1 phút trước 1 bữa mỗi ngày | Pause one minute before one meal a day"
+      - "Một bữa chậm | One slow meal | – | Ăn chậm 1 bữa/ngày, 15 phút | One slow 15-minute meal a day"
+      - "Bữa không màn hình | A screen-free meal | – | ≥3 bữa không màn hình/tuần | At least 3 screen-free meals a week"
+      - "Cảm ơn người trồng và người nấu | Thanking growers and cooks | – | 1 lời cảm ơn người làm ra bữa ăn | One thank-you to someone who made your food"
+    gioi_han: "Không đếm calo, không cân, không ăn kiêng. Ai đang hoặc từng có rối loạn ăn uống nên bàn với bác sĩ trước."
+    gioi_han_en: "No calorie counting, weighing or dieting. Anyone with a current or past eating disorder should talk to a doctor first."
+
+  - ma: TT2
+    slug: than-the-2
+    slug_en: body-2
+    nhom: than-the
+    ten: "Vận động chánh niệm"
+    ten_en: "Mindful movement"
+    mo_ta: "Đi thiền và giãn cơ chậm 10–20 phút."
+    mo_ta_en: "Walking meditation and slow stretching, 10–20 minutes."
+    tang: "2"
+    phut: "10–20"
+    trang_thai: chua-bat-dau
+    duyet: chu-du-an
+    ra_mat: "Nửa cuối 2027"
+    ra_mat_en: "Second half of 2027"
+    bai:
+      - "Đi thiền | Walking meditation | – | Đi chậm 10 phút ≥5/7 | Walk slowly 10 minutes on 5 of 7 days"
+      - "Giãn cơ chậm | Slow stretching | – | Giãn cơ 10 phút ≥5/7 | Stretch 10 minutes on 5 of 7 days"
+      - "Chảy như nước | Flowing like water | – | Nối đi và giãn cơ thành 15 phút | Combine walking and stretching for 15 minutes"
+      - "Ôn tập | Review | – | Tự chọn nhịp cho tháng sau | Choose your own rhythm for next month"
+    gioi_han: "Giấc ngủ có trang gốc trên daynentang.com; ở đây chỉ đặt link. Người có bệnh tim mạch, xương khớp nên hỏi bác sĩ về mức vận động."
+    gioi_han_en: "Sleep has its home on daynentang.com; we only link there. People with heart or joint conditions should ask a doctor about how much to move."
+
+  - ma: TT3
+    slug: than-the-3
+    slug_en: body-3
+    nhom: than-the
+    ten: "Kỷ luật ăn tùy chọn: ăn thực vật và 16:8"
+    ten_en: "Optional eating disciplines: plant-based eating and 16:8"
+    mo_ta: "Chỉ cho người lớn khỏe mạnh. Có danh sách người không nên làm."
+    mo_ta_en: "For healthy adults only, with a list of people who should not do this."
+    tang: "4"
+    phut: "Theo nhịp sống"
+    phut_en: "Fits daily life"
+    trang_thai: chua-bat-dau
+    duyet: noi-bo
+    ra_mat: "Sau khi chuyên gia dinh dưỡng duyệt"
+    ra_mat_en: "After review by a dietitian"
+    nghien_cuu: [semnani2025, iguacel2021]
+    bai:
+      - "Ai không nên làm | Who should not do this | –"
+      - "Ăn thực vật như một kỷ luật | Plant-based eating as a discipline | –"
+      - "Khung giờ ăn 16:8 | The 16:8 eating window | –"
+      - "Lắng nghe cơ thể và dừng lại | Listening to the body and stopping | –"
+    gioi_han: "Không nên làm: phụ nữ mang thai, cho con bú; trẻ em và thanh thiếu niên; người đái tháo đường đang dùng thuốc; người từng có rối loạn ăn uống. Hãy hỏi bác sĩ trước. Nhịn ăn gián đoạn không phải phép màu."
+    gioi_han_en: "Not for: pregnant or breastfeeding women; children and teenagers; people with diabetes on medication; anyone with a past eating disorder. Ask a doctor first. Intermittent fasting is not magic."
+
+  - ma: TT4
+    slug: than-the-4
+    slug_en: body-4
+    nhom: than-the
+    ten: "Nhịn ăn trong các truyền thống (mô tả)"
+    ten_en: "Fasting in the traditions (described)"
+    mo_ta: "Ramadan, Yom Kippur, Mùa Chay, bát quan trai: mô tả, không hướng dẫn."
+    mo_ta_en: "Ramadan, Yom Kippur, Lent and the Buddhist eight precepts: described, not taught."
+    tang: "4"
+    phut: "Đọc"
+    phut_en: "Reading"
+    trang_thai: chua-bat-dau
+    duyet: truyen-thong
+    ra_mat: "2028"
+    ra_mat_en: "2028"
+    nghien_cuu: [berthelot2021, heun2018]
+    bai:
+      - "Ramadan | Ramadan | Qur'an 2:183–185"
+      - "Yom Kippur | Yom Kippur | Lv 16:29–31 || Leviticus 16:29–31"
+      - "Mùa Chay | Lent | Mt 4:1–2 · Mt 6:16–18 || Matthew 4:1–2 · Matthew 6:16–18"
+      - "Bát quan trai | The eight precepts | AN 8.41"
+    gioi_han: "Chính các truyền thống có miễn trừ cho người bệnh, phụ nữ mang thai, trẻ em, người đi đường. Khóa chỉ mô tả, không hướng dẫn nhịn ăn."
+    gioi_han_en: "The traditions themselves exempt the sick, pregnant women, children and travellers. The course only describes; it does not teach fasting."
+
+  # ------------------------------------------------------------ GÓC TRẺ
+  - ma: GTR
+    slug: goc-tre
+    slug_en: kids-corner
+    nhom: goc-tre
+    ten: "Góc trẻ 6+"
+    ten_en: "Kids’ corner 6+"
+    mo_ta: "Mười hai hoạt động 5–10 phút đi cùng 12 tuần Giao thoa. Chỉ lên trang sau khi đã dạy thử."
+    mo_ta_en: "Twelve 5–10 minute activities that go with the 12 Convergence weeks. Published only after trial teaching."
+    tang: "–"
+    phut: "5–10"
+    trang_thai: chua-bat-dau
+    duyet: chu-du-an
+    ra_mat: "Theo từng tuần Giao thoa"
+    ra_mat_en: "With each Convergence week"
+    bai:
+      - "Một phút dừng lại | One-minute pause | –"
+      - "Ba điều cảm ơn | Three thank-yous | –"
+      - "Đổi giày | Swapping shoes | –"
+      - "Một viên sỏi mỗi ngày | A pebble a day | –"
+      - "Lọ nước đục | The muddy jar | –"
+      - "Việc nhà cho người khác | A chore for someone else | –"
+      - "Gửi lời chúc | Sending good wishes | –"
+      - "Làm lành | Making up | –"
+      - "Nước chảy chỗ thấp | Water flows low | –"
+      - "Lá rơi | Falling leaves | –"
+      - "Nghe chuông tắt dần | Listening to the bell fade | –"
+      - "Tặng một món đồ chơi | Giving a toy | –"
+    gioi_han: "Không nhịn ăn, không ăn kiêng, không nói về sang chấn, không ép bàn về cái chết. Luôn có người lớn đi cùng."
+    gioi_han_en: "No fasting, no dieting, no talk of trauma, no pressure to discuss death. Always with an adult."

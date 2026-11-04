@@ -36,8 +36,18 @@ Every new article starts in the internal area. It goes live only when the answer
 1. **Descriptive, not judgemental**: written as "this tradition teaches…", never "you should believe…".
 2. **Not divisive**: no ranking, no criticism of any religion, belief or group, no politics.
 3. **Clean sources**: every passage checked against the original, licence recorded.
-4. **Reviewed**: an article on one tradition has at least one reviewer from within that tradition; a Convergence article has at least two reviewers from two different traditions.
+4. **Reviewed**, according to how sensitive the course is (see below).
 5. **Safe**: includes a "Stop practising if" section, no medical advice, no fasting or dieting in the kids' corner.
+
+### Who reviews, by sensitivity
+
+| Level | Includes | Reviewed by |
+|---|---|---|
+| Less sensitive | Content that does not set out the doctrine or ritual of one religion: core pages, the curriculum outline, Stoicism courses, Body (slow eating, movement) | The project owner. The page says clearly that no reviewer from a tradition has checked it |
+| Needs someone from the tradition | Courses about one religion; Convergence courses | At least one reviewer from within that tradition; Convergence needs two reviewers from two traditions |
+| Drafted internally first | Level 3 (God, self, death), deep doctrinal comparison, detailed fasting, content still being debated | Goes live only after a suitable reviewer |
+
+The other four questions (descriptive, not divisive, clean sources, safe) apply to every article at every level. Unverified claims never go live.
 
 The Vietnamese and English versions of an article go live together, and only when both have passed. When in doubt, an article stays internal. Every change of this kind is recorded in the [Changelog](/en/changelog/).
 
@@ -74,7 +84,7 @@ What AI does not decide:
 
 - **Sources and licences**: Peter opens the original page, reads the terms and confirms before any source is used.
 - **The meaning of passages**: translations must be checked by someone from that tradition.
-- **Going live**: an article goes live only when the reviewers and Peter agree, according to the five questions above.
+- **Going live**: an article goes live only when Peter agrees, and, where required, reviewers from the tradition too, according to the five questions above.
 
 AI can be wrong. If you see a mistranslated passage, a wrong figure, or a presentation that is not fair, please let us know; every correction is recorded in the [Changelog](/en/changelog/).
 

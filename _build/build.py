@@ -16,6 +16,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from khung import (DAYNENTANG_GIUP, DAYNENTANG_GIUP_EN, GATE_KEYS, GATE_TEN, HEADERS_CHUNG,
                    HEADERS_NOIBO_THEM, KHE, KHE_EN, LICENSE_TEN, LICENSE_TEN_EN, LoiNoiDung,
                    doc_nguon, doc_tat_ca_bai, en_path, render_bai, trang)
+import khoa_hoc
 
 NHAN_STATUS = {'nhap': 'Bản nháp', 'day-thu': 'Đang dạy thử', 'da-duyet': 'Đã duyệt'}
 NHAN_STATUS_EN = {'nhap': 'Draft', 'day-thu': 'In trial teaching', 'da-duyet': 'Reviewed'}
@@ -42,6 +43,7 @@ def _ds(bais, che_do, en=False):
 
 def build(src, out, che_do):
     nguon = doc_nguon(os.path.join(src, 'sources.yaml'))
+    kh = khoa_hoc.doc(src)
     bais = doc_tat_ca_bai(os.path.join(src, 'content'))
     if che_do == 'public':
         sai = [b.rel for b in bais if not b.qua_cong()[0]]
@@ -83,10 +85,19 @@ def build(src, out, che_do):
                               + (f' · <a href="{html.escape(nguon[s]["url"])}" rel="noopener">link</a>'
                                  if nguon[s].get('url') else '')
                               + '</li>' for s in ds_nguon) + '</ul></section>')
+        ghi_duyet = ''
+        if b.meta.get('muc_duyet') == 'chu-du-an' and not b.rel.startswith('trang/'):
+            ghi_duyet = ('<div class="box small"><p>Published after review by the project owner. No reviewer from '
+                         'within a tradition has checked this page yet.</p></div>' if en else
+                         '<div class="box small"><p>Bài lên trang theo duyệt của chủ dự án. Chưa có người duyệt từ '
+                         'trong truyền thống kiểm bài này.</p></div>')
         trang(out, b.url, b.title, str(b.meta.get('description', b.title)),
-              f'<article class="lesson">{meta}<h1>{html.escape(b.title)}</h1>{noi_dung}{nguon_html}</article>',
+              f'<article class="lesson">{meta}<h1>{html.escape(b.title)}</h1>{ghi_duyet}{noi_dung}{nguon_html}</article>',
               che_do, giay_phep=gp, lang=b.lang, alt=alt)
         da_co.add(b.url)
+
+    khoa_hoc.build(kh, out, che_do, trang, da_co)
+    tk = lambda nhom_id, en=False: khoa_hoc.the_nhom(kh, nhom_id, en)
 
     vi_bais = [b for b in bais if b.lang == 'vi']
     en_bais = [b for b in bais if b.lang == 'en']
@@ -117,15 +128,17 @@ def build(src, out, che_do):
         '<a class="btn" href="/en/traditions/">Traditions</a>'
         f'<a class="btn warm" href="{DAYNENTANG_GIUP_EN}">I need help now</a></div>', current='/')
     muc('/giao-thoa/', 'Giao thoa', 'Những điểm chung trong thực hành của các truyền thống.',
-        '<h1>Giao thoa</h1>' + _ds(nhom(vi_bais, 'giao-thoa/'), che_do),
+        '<h1>Giao thoa</h1>' + _ds(nhom(vi_bais, 'giao-thoa/'), che_do) + tk('giao-thoa'),
         'Convergence', 'Practices that many traditions share – and where they differ.',
-        '<h1>Convergence</h1>' + _ds(nhom(en_bais, 'giao-thoa/'), che_do, en=True), current='/giao-thoa/')
+        '<h1>Convergence</h1>' + _ds(nhom(en_bais, 'giao-thoa/'), che_do, en=True) + tk('giao-thoa', True),
+        current='/giao-thoa/')
     khe_html, khe_html_en = '', ''
     for slug, ten in KHE:
         ds, ds_en = nhom(vi_bais, f'khe/{slug}/'), nhom(en_bais, f'khe/{slug}/')
         ten_en = KHE_EN[slug]
-        muc(f'/khe/{slug}/', ten, f'Khe {ten} trên tamhonkhoe.com', f'<h1>{ten}</h1>' + _ds(ds, che_do),
-            ten_en, f'{ten_en} on tamhonkhoe.com', f'<h1>{ten_en}</h1>' + _ds(ds_en, che_do, en=True))
+        muc(f'/khe/{slug}/', ten, f'Khe {ten} trên tamhonkhoe.com', f'<h1>{ten}</h1>' + _ds(ds, che_do) + tk(slug),
+            ten_en, f'{ten_en} on tamhonkhoe.com',
+            f'<h1>{ten_en}</h1>' + _ds(ds_en, che_do, en=True) + tk(slug, True))
         khe_html += f'<a class="card" href="/khe/{slug}/"><h3>{ten}</h3><p class="muted">{len(ds)} bài</p></a>'
         khe_html_en += (f'<a class="card" href="{en_path(f"/khe/{slug}/")}"><h3>{ten_en}</h3>'
                         f'<p class="muted">{len(ds_en)} {"article" if len(ds_en) == 1 else "articles"}</p></a>')
@@ -136,9 +149,10 @@ def build(src, out, che_do):
         '<h1>Traditions</h1><p>Each tradition is presented in its own words, without ranking one above another.</p>'
         '<div class="grid">' + khe_html_en + '</div>', current='/khe/')
     muc('/than-the/', 'Thân thể', 'Ăn uống và kỷ luật thân thể như một lựa chọn tùy ý cho người lớn khỏe mạnh.',
-        '<h1>Thân thể</h1>' + _ds(nhom(vi_bais, 'than-the/'), che_do),
+        '<h1>Thân thể</h1>' + _ds(nhom(vi_bais, 'than-the/'), che_do) + tk('than-the'),
         'Body', 'Eating and bodily discipline as an optional choice for healthy adults.',
-        '<h1>Body</h1>' + _ds(nhom(en_bais, 'than-the/'), che_do, en=True), current='/than-the/')
+        '<h1>Body</h1>' + _ds(nhom(en_bais, 'than-the/'), che_do, en=True) + tk('than-the', True),
+        current='/than-the/')
 
     # Nguồn và bản quyền – sinh tự động từ sources.yaml
     def bang_nguon(en):

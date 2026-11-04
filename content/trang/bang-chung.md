@@ -29,6 +29,8 @@ Nhận định chưa tìm được nguồn đủ tin cậy được đánh dấu
 | 27 nghiên cứu, 3.675 người: bài tập biết ơn giảm triệu chứng trầm cảm và lo âu ở mức nhỏ (g = −0,29 sau bài tập; −0,23 lúc theo dõi); nhỏ hơn khi so với nhóm đối chứng tích cực | [Đã xác nhận] | Cregg & Cheavens 2021, Journal of Happiness Studies 22(1), [doi:10.1007/s10902-020-00236-6](https://doi.org/10.1007/s10902-020-00236-6) | Giao thoa 0 – Tuần 2 (chưa đăng) |
 | 64 thử nghiệm ngẫu nhiên về bài tập biết ơn: đa số có nguy cơ sai lệch cao; mức chắc chắn của bằng chứng thấp hoặc rất thấp | [Đã xác nhận] | Diniz et al. 2023, Einstein (São Paulo) 21, [doi:10.31744/einstein_journal/2023RW0371](https://doi.org/10.31744/einstein_journal/2023RW0371) | Giao thoa 0 – Tuần 2 (chưa đăng) |
 
+Nghiên cứu dùng trong khung chương trình (chưa dùng trong bài nào) nằm ở [Khóa học – Nghiên cứu dùng trong khung](/khoa-hoc/#nghien-cuu).
+
 ## Bảng 2. Đoạn kinh đã đối chiếu với trang gốc
 
 | Đoạn kinh | Truyền thống | Bản dùng | Giấy phép | Trang tiếng Việt | Trang tiếng Anh | Đối chiếu nguyên văn | Người duyệt nghĩa | Dùng ở |

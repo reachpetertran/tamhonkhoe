@@ -27,5 +27,6 @@ Người lớn muốn tự đọc kinh điển gốc và tập một chút mỗi
 
 - Câu kinh lấy từ bản gốc có giấy phép rõ ràng, có link để bạn tự đối chiếu. Xem [Nguồn và bản quyền](/nguon-va-ban-quyen/).
 - Lời dạy truyền thống và kết quả khoa học được tách riêng, có nhãn. Xem [Bằng chứng](/bang-chung/).
-- Bài chỉ lên trang khi đã có người trong truyền thống đó duyệt. Xem [Giới thiệu và nguyên tắc](/gioi-thieu/).
+- Bài về một tôn giáo chỉ lên trang khi đã có người trong truyền thống đó duyệt. Xem [Giới thiệu và nguyên tắc](/gioi-thieu/).
+- Toàn bộ kế hoạch nội dung: [Khóa học](/khoa-hoc/).
 - Không quảng cáo, không cookie, không theo dõi. Xem [Riêng tư](/rieng-tu/).

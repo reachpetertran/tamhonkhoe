@@ -51,16 +51,19 @@ KHE = [
     ('do-thai-giao', 'Do Thái giáo'),
     ('khac-ky', 'Khắc kỷ'),
     ('bat-nhi', 'Bất nhị / Hiện diện'),
+    ('dao-giao', 'Đạo giáo'),
 ]
 KHE_EN = {
     'phat-giao': 'Buddhism', 'kito-giao': 'Christianity', 'hoi-giao': 'Islam',
     'do-thai-giao': 'Judaism', 'khac-ky': 'Stoicism', 'bat-nhi': 'Non-duality / Presence',
+    'dao-giao': 'Taoism',
 }
 # Thư mục tiếng Việt -> chữ dùng trong địa chỉ /en/
 THU_MUC_EN = {
     'giao-thoa': 'convergence', 'khe': 'traditions', 'than-the': 'body', 'goc-rieng': 'family-corner',
     'phat-giao': 'buddhism', 'kito-giao': 'christianity', 'hoi-giao': 'islam',
-    'do-thai-giao': 'judaism', 'khac-ky': 'stoicism', 'bat-nhi': 'non-duality',
+    'do-thai-giao': 'judaism', 'khac-ky': 'stoicism', 'bat-nhi': 'non-duality', 'dao-giao': 'taoism',
+    'khoa-hoc': 'courses',
     'nguon-va-ban-quyen': 'sources-and-licences', 'gioi-thieu': 'about', 'rieng-tu': 'privacy',
     'bang-chung': 'evidence', 'nhat-ky-sua-doi': 'changelog',
 }
@@ -349,6 +352,7 @@ def render_bai(bai, nguon, che_do):
 # ---------------------------------------------------------------- khuôn trang
 NAV = [
     ('/', 'Trang chủ'),
+    ('/khoa-hoc/', 'Khóa học'),
     ('/giao-thoa/', 'Giao thoa'),
     ('/khe/', 'Các truyền thống'),
     ('/than-the/', 'Thân thể'),
@@ -356,6 +360,7 @@ NAV = [
 ]
 NAV_EN = [
     ('/en/', 'Home'),
+    ('/en/courses/', 'Courses'),
     ('/en/convergence/', 'Convergence'),
     ('/en/traditions/', 'Traditions'),
     ('/en/body/', 'Body'),

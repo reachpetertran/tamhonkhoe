@@ -29,5 +29,6 @@ The site is written in Vietnamese first. Every article also has this English ver
 
 - Scripture passages come from originals with a clear licence, with links so you can check them yourself. See [Sources and licences](/en/sources-and-licences/).
 - Traditional teaching and scientific findings are kept apart and labelled. See [Evidence](/en/evidence/).
-- An article goes live only after someone from that tradition has reviewed it. See [About and principles](/en/about/).
+- An article about one religion goes live only after someone from that tradition has reviewed it. See [About and principles](/en/about/).
+- The full content plan: [Courses](/en/courses/).
 - No ads, no cookies, no tracking. See [Privacy](/en/privacy/).
