@@ -57,7 +57,7 @@ nghien_cuu:
     en: "38,124 workers: people who detach from work when off duty report less exhaustion and better sleep. This is a correlation."
   jenkinson2013:
     trich: "Jenkinson et al. 2013, BMC Public Health 13:773"
-    url: ""
+    url: "https://doi.org/10.1186/1471-2458-13-773"
     vi: "5 nghiên cứu đoàn hệ: người làm tình nguyện có nguy cơ tử vong thấp hơn. Đây là tương quan; thử nghiệm ngẫu nhiên chưa cho thấy lợi ích rõ."
     en: "5 cohort studies: volunteers had lower mortality. This is a correlation; randomised trials have not shown clear benefit."
   wade2014:
@@ -150,6 +150,11 @@ nghien_cuu:
     url: "https://doi.org/10.1016/j.jad.2017.01.030"
     vi: "14 nghiên cứu trên người lớn có người thân mất (không do bạo lực): khoảng 9,8% có nguy cơ rối loạn tang kéo dài; phương pháp các nghiên cứu khác nhau nhiều."
     en: "14 studies of bereaved adults (non-violent loss): about 9.8% were at risk of prolonged grief disorder; methods varied widely."
+  kjaervik2024:
+    trich: "Kjærvik & Bushman 2024, Clinical Psychology Review 109"
+    url: "https://doi.org/10.1016/j.cpr.2024.102414"
+    vi: "Phân tích gộp 154 nghiên cứu, 10.189 người: hoạt động làm dịu cơ thể (thở chậm, chánh niệm, thư giãn) giảm giận dữ và gây hấn ở mức vừa (g = −0,63); hoạt động làm hưng phấn (đấm bao cát, chạy bộ để xả giận) nhìn chung không hiệu quả."
+    en: "Meta-analysis of 154 studies, 10,189 people: activities that calm the body (slow breathing, mindfulness, relaxation) reduced anger and aggression moderately (g = −0.63); arousal-raising activities (hitting a punch bag, running to let off steam) were ineffective overall."
 
 khoa:
   # ------------------------------------------------------------ GIAO THOA
@@ -303,24 +308,28 @@ khoa:
     nhom: khac-ky
     ten: "Khắc kỷ ở nhà và chỗ làm"
     ten_en: "Stoicism at home and at work"
-    mo_ta: "Công việc, giận dữ, gia đình và những vòng tròn quan tâm."
-    mo_ta_en: "Work, anger, family and the circles of concern."
+    mo_ta: "Công việc, giận dữ, người làm cùng, gia đình và những vòng tròn quan tâm."
+    mo_ta_en: "Work, anger, the people we work with, family and the circles of concern."
     tang: "4"
     phut: "Theo nhịp sống"
     phut_en: "Fits daily life"
-    trang_thai: chua-bat-dau
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
     duyet: chu-du-an
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [wendsche2017, kjaervik2024, curry2018, karl2022, jenkinson2013, friese2017]
+    bai_tep: [khe/khac-ky/kk4-tuan-01, khe/khac-ky/kk4-tuan-02, khe/khac-ky/kk4-tuan-03, khe/khac-ky/kk4-tuan-04, khe/khac-ky/kk4-tuan-05, khe/khac-ky/kk4-tuan-06]
     bai:
-      - "Dậy để làm việc của người | Rising to do human work | Suy tưởng V.1 || Meditations V.1"
-      - "Giận dữ | Anger | Seneca, Bàn về giận dữ || Seneca, On Anger"
-      - "Người làm cùng ta | The people who work with us | Seneca, Thư 47 || Seneca, Letter 47"
-      - "Gia đình | Family | Suy tưởng VI.39 || Meditations VI.39"
-      - "Những vòng tròn quan tâm | The circles of concern | Hierocles"
-      - "Ôn tập | Review | –"
-    gioi_han: "Giận dữ cấp tính và kỹ năng hạ nhiệt nhanh có trang gốc trên daynentang.com; ở đây chỉ đặt link."
-    gioi_han_en: "Acute anger and quick calming skills have their home on daynentang.com; we only link there."
+      - "Dậy để làm việc của người | Rising to do human work | Suy tưởng V.1 || Meditations V.1 | Gọi tên 1 \"việc của người\" mỗi sáng + nghỉ ≥30 phút mỗi tối, ≥5/7 | Name one piece of ‘human work’ each morning and take 30 minutes off each evening, on 5 of 7 days"
+      - "Giận dữ | Anger | Seneca, Bàn về giận dữ II.28–29 || Seneca, On Anger II.28–29 | Ghi 1 lần hoãn phản ứng khi bực/ngày, ≥5/7 | Note one delay before reacting when annoyed, on 5 of 7 days"
+      - "Người làm cùng ta | The people who work with us | Seneca, Thư 47 || Seneca, Letter 47 | 1 hành động thấy người làm cùng như một con người/ngày, ≥5/7 | One action a day that treats someone you work with as a person, on 5 of 7 days"
+      - "Gia đình | Family | Suy tưởng VI.39 · Encheiridion XXX || Meditations VI.39 · Encheiridion XXX | 1 việc theo vai + 10 phút trọn vẹn với người nhà/ngày, ≥5/7 | One task from a role and 10 full minutes with family a day, on 5 of 7 days"
+      - "Những vòng tròn quan tâm | The circles of concern | Hierocles (tóm ý) · Suy tưởng VI.44 || Hierocles (summary) · Meditations VI.44 | 1 việc nhỏ cho người ở vòng ngoài/ngày, ≥5/7 | One small thing a day for someone in an outer circle, on 5 of 7 days"
+      - "Ôn tập | Review | Suy tưởng V.1, VI.39 || Meditations V.1, VI.39 | Tự chấm 5 thói quen, giữ 2, ≥5/7 | Rate five habits, keep two, on 5 of 7 days"
+    gioi_han: "Giận dữ cấp tính và kỹ năng hạ nhiệt nhanh có trang gốc trên daynentang.com; ở đây chỉ đặt link. Khóa không theo các ý trong kinh văn về làm việc quên ăn quên ngủ, về cách đối xử với nô lệ thời La Mã, hay về chịu đựng người cha đánh đập; không bài tập nào dành cho hoàn cảnh có bạo lực, đe dọa hay quấy rối. Đoạn về các vòng tròn của Hierocles là lời tóm ý, không trích nguyên văn. Chưa có nghiên cứu đánh giá trực tiếp chương trình này."
+    gioi_han_en: "Acute anger and quick calming skills have their home on daynentang.com; we only link there. The course does not follow the passages about working without eating or sleeping, the treatment of slaves in Roman times, or submitting to a father who strikes you; no exercise is meant for situations involving violence, threats or harassment. Hierocles’ circles are given as a summary, not quoted. No study has evaluated this programme directly."
 
   # ------------------------------------------------------------ PHẬT GIÁO
   - ma: PG1
