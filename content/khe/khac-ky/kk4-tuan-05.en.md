@@ -6,7 +6,7 @@ visibility: public
 status: da-duyet
 muc_duyet: chu-du-an
 reviewers: ["Project owner"]
-sources: [meditations-long]
+sources: [hierocles-taylor, meditations-long]
 thuc_hanh_phut: 15
 gate: {mo-ta: true, khong-chia-re: true, nguon-sach: true, da-duyet: true, an-toan: true}
 ---
@@ -21,7 +21,15 @@ gate: {mo-ta: true, khong-chia-re: true, nguon-sach: true, da-duyet: true, an-to
 
 [Traditional teaching] Stoicism teaches that all people share one rational nature, so we belong to the community of humankind, not only to our family or our city.
 
-Hierocles, a Stoic of the 2nd century CE, left a famous image for this idea. His work survives only in fragments copied by Stobaeus. In tamhonkhoe’s own summary: each person stands at the centre of many circles. The innermost circle is one’s own mind; next comes close family; then relatives; then the community one lives in; then people of neighbouring towns; then one’s fellow countrymen; and the outermost circle is the whole human race. Hierocles advises drawing the circles closer to the centre: treating people in the outer circles a little more closely than their place would suggest.
+Hierocles, a Stoic of the 2nd century CE, left a famous image for this idea. His work survives only in fragments copied by Stobaeus.
+
+::: kinh hierocles-taylor nguyen-van | Hierocles, "How we ought to conduct ourselves towards our [other] kindred" (excerpt)
+For, in short, each of us is, as it were, circumscribed by many circles; […] For the first, indeed, and most proximate circle is that which every one describes about his own mind as a centre, in which circle the body, and whatever is assumed for the sake of the body, are comprehended. […] The second from this, and which is at a greater distance from the centre, but comprehends the first circle, is that in which parents, brothers, wife, and children are arranged. […] But the outermost and greatest circle, and which comprehends all the other circles, is that of the whole human race.
+:::
+
+::: kinh hierocles-taylor nguyen-van | Hierocles, same section (excerpt)
+These things being thus considered, it is the province of him who strives to conduct himself properly in each of these connections to collect, in a certain respect, the circles, as it were, to one centre, and always to endeavour earnestly to transfer himself from the comprehending circles to the several particulars which they comprehend.
+:::
 
 Marcus Aurelius says the same thing another way:
 
@@ -31,7 +39,9 @@ But my nature is rational and social; and my city and country, so far as I am An
 
 ### Reading it in context
 
-- The description of Hierocles’ circles above is tamhonkhoe’s summary, not a verbatim translation. The order of the circles follows the fragment preserved by Stobaeus; English readers can look for Thomas Taylor’s translation (1822).
+- The parts left out […] list the circles in between. In Taylor’s translation they run, from the inside out: one’s own mind (with the body); parents, brothers and sisters, spouse and children; uncles and aunts, grandparents, nephews and nieces; other relatives; the common people; those of the same tribe; fellow citizens; those living near the city; those of the same province; and finally the whole human race.
+- Hierocles wrote for a male reader of his time, so the second circle names a "wife". The course reads it as a spouse, whoever the reader is.
+- Later in the same section Hierocles admits that "something of benevolence must be taken away" from more distant relatives, while still trying to bring them closer. He does not ask us to treat everyone exactly alike; he asks us to shorten the distance.
 - "Antoninus" is Marcus Aurelius’s name as emperor. His line does not tell anyone to give up their homeland: he still carried out the duties of a Roman emperor, while remembering that he was one person among all people.
 - [Expert judgement] Drawing the outer circles closer does not mean neglecting the inner ones. Hierocles starts from oneself and one’s family; caring for distant people does not replace looking after yourself and those at home.
 - This exercise is about small everyday actions; it does not discuss politics or nations.
@@ -46,7 +56,7 @@ But my nature is rational and social; and my city and country, so far as I am An
 
 About 15 minutes the first time, a few minutes each day.
 
-1. **Read (first time, 3 minutes).** Read the summary of Hierocles and Marcus’s passage.
+1. **Read (first time, 3 minutes).** Read the two passages from Hierocles and Marcus’s passage.
 2. **Draw your circles (10 minutes, once).** Draw 5–7 concentric circles on a sheet of paper. Write names or groups in each: yourself; family; relatives and close friends; colleagues and neighbours; people in your city; people far away.
 3. **One action each day.** Choose someone in an outer circle and do one small thing: greet the building’s security guard and learn their name; help a colleague from another department; give directions to a stranger; pick up litter in a shared walkway; message a relative you have not contacted for a long time.
 4. **One line (2 minutes, evening).** Whom did I draw one circle closer today? Draw a small arrow on your sheet.

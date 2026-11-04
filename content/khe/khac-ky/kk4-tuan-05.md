@@ -5,7 +5,7 @@ visibility: public
 status: da-duyet
 muc_duyet: chu-du-an
 reviewers: ["Chủ dự án"]
-sources: [meditations-long]
+sources: [hierocles-taylor, meditations-long]
 thuc_hanh_phut: 15
 gate: {mo-ta: true, khong-chia-re: true, nguon-sach: true, da-duyet: true, an-toan: true}
 ---
@@ -20,7 +20,15 @@ gate: {mo-ta: true, khong-chia-re: true, nguon-sach: true, da-duyet: true, an-to
 
 [Lời dạy truyền thống] Truyền thống Khắc kỷ dạy rằng mọi người cùng chung một bản tính có lý trí, nên ta là thành viên của cộng đồng loài người, không chỉ của gia đình hay thành phố mình.
 
-Hierocles, một nhà Khắc kỷ thế kỷ 2 Công nguyên, để lại một hình ảnh nổi tiếng cho ý này. Tác phẩm của ông chỉ còn lại từng mảnh, do Stobaeus chép lại. Theo tóm ý của tamhonkhoe: mỗi người như đứng ở tâm của nhiều vòng tròn. Vòng trong cùng là tâm trí của chính mình; tiếp đến là gia đình gần; rồi họ hàng; rồi cộng đồng nơi mình sống; rồi người ở các vùng lân cận; rồi đồng bào; và vòng ngoài cùng là cả loài người. Hierocles khuyên kéo các vòng lại gần tâm hơn: đối xử với người ở vòng ngoài thân thiết hơn một chút so với vị trí của họ.
+Hierocles, một nhà Khắc kỷ thế kỷ 2 Công nguyên, để lại một hình ảnh nổi tiếng cho ý này. Tác phẩm của ông chỉ còn lại từng mảnh, do Stobaeus chép lại.
+
+::: kinh hierocles-taylor tu-dich | Hierocles, mục "Nên cư xử thế nào với họ hàng" (trích)
+Nói gọn, mỗi chúng ta như được bao quanh bởi nhiều vòng tròn; […] Vòng thứ nhất, gần nhất, là vòng mỗi người vẽ quanh tâm trí của chính mình như quanh một tâm điểm; trong vòng này có thân thể và những gì ta dùng cho thân thể. […] Vòng thứ hai, xa tâm hơn và bao lấy vòng thứ nhất, là vòng của cha mẹ, anh chị em, vợ và con cái. […] Còn vòng ngoài cùng và lớn nhất, bao lấy mọi vòng khác, là vòng của cả loài người.
+:::
+
+::: kinh hierocles-taylor tu-dich | Hierocles, cùng mục (trích)
+Xét những điều ấy, người muốn cư xử cho phải trong từng mối quan hệ này có việc phải làm: theo một cách nào đó, gom các vòng tròn lại về một tâm, và luôn tận tâm đưa mình từ những vòng bao bên ngoài vào những người cụ thể ở bên trong chúng.
+:::
 
 Marcus Aurelius nói cùng một ý theo cách khác:
 
@@ -30,7 +38,9 @@ Nhưng bản tính của ta là có lý trí và sống cùng người khác; v�
 
 ### Đọc đúng bối cảnh
 
-- Đoạn về các vòng tròn của Hierocles ở trên là lời tóm ý của tamhonkhoe, không phải bản dịch nguyên văn. Thứ tự các vòng theo đoạn trích do Stobaeus lưu lại; người đọc tiếng Anh có thể tìm bản dịch của Thomas Taylor (1822).
+- Những chỗ lược […] kể các vòng ở giữa. Theo bản Taylor, từ trong ra ngoài: tâm trí của mình (cùng thân thể); cha mẹ, anh chị em, vợ chồng và con cái; cô dì chú bác, ông bà, cháu (con của anh chị em); những họ hàng còn lại; dân chúng; người cùng bộ tộc; người cùng thành; người sống quanh thành; người cùng tỉnh; và sau cùng là cả loài người.
+- Hierocles viết cho người đọc là nam giới thời của ông, nên vòng thứ hai ghi "vợ". Khóa hiểu là vợ hoặc chồng, tùy người đọc.
+- Ở đoạn sau trong cùng mục, Hierocles thừa nhận với họ hàng xa hơn thì "phải bớt đi phần nào thiện cảm", dù vẫn cố kéo họ lại gần. Ông không đòi đối xử với mọi người y hệt nhau; ông khuyên rút ngắn khoảng cách.
 - "Antoninus" là tên của Marcus Aurelius với tư cách hoàng đế. Câu của ông không bảo người ta bỏ quê hương: ông vẫn làm tròn việc của một hoàng đế La Mã, đồng thời nhớ mình là một người giữa mọi người.
 - [Đánh giá chuyên môn] Kéo vòng ngoài lại gần không có nghĩa là bỏ bê vòng trong. Hierocles bắt đầu từ chính mình và gia đình; quan tâm tới người xa không thay cho việc chăm sóc bản thân và người nhà.
 - Bài tập này về những việc nhỏ hằng ngày, không bàn chuyện chính trị hay quốc gia.
@@ -45,7 +55,7 @@ Nhưng bản tính của ta là có lý trí và sống cùng người khác; v�
 
 Khoảng 15 phút lần đầu, vài phút mỗi ngày.
 
-1. **Đọc (lần đầu, 3 phút).** Đọc phần tóm ý về Hierocles và đoạn kinh của Marcus.
+1. **Đọc (lần đầu, 3 phút).** Đọc chậm hai đoạn của Hierocles và đoạn kinh của Marcus.
 2. **Vẽ vòng tròn (10 phút, làm một lần).** Vẽ 5–7 vòng tròn đồng tâm trên một tờ giấy. Ghi tên hoặc nhóm người vào từng vòng: mình; gia đình; họ hàng, bạn thân; đồng nghiệp, hàng xóm; người trong thành phố; người ở xa.
 3. **Một việc mỗi ngày.** Chọn một người ở vòng ngoài và làm một việc nhỏ: chào hỏi và nhớ tên bác bảo vệ tòa nhà; giúp một đồng nghiệp ở bộ phận khác; chỉ đường cho người lạ; nhặt rác ở lối đi chung; nhắn hỏi thăm một người họ hàng lâu không liên lạc.
 4. **Ghi một dòng (2 phút, buổi tối).** Hôm nay mình đã kéo ai vào gần một vòng? Vẽ một mũi tên nhỏ trên tờ giấy.

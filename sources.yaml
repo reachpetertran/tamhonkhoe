@@ -263,6 +263,17 @@ seneca-gummere:
   checked_on: 2026-11-04
   url_status: "Claude lấy nguyên văn Thư 1, 13, 47 từ Wikisource ngày 2026-11-04. Trang mục lục gắn nhãn {{PD/US|1969}}: phạm vi công cộng tại Mỹ (xuất bản 1917–1925); dịch giả Gummere mất 1969. Theo quy tắc đời dịch giả + 50 năm (Peter quyết định 04/11/2026): Gummere mất 1969, hết bảo hộ sau 2019 → được tự dịch. Peter xác nhận 2026-11-04 qua ảnh 15 do Claude chụp (giay-phep/2026-11-04/). Không có bản Gutenberg."
 
+hierocles-taylor:
+  title: "Political Fragments of Archytas … and also, Ethical Fragments of Hierocles"
+  khe: khac-ky
+  lang: en
+  translator: "Thomas Taylor (1822)"
+  url: "https://www.gutenberg.org/ebooks/75184"
+  license: PD
+  may_translate: true
+  checked_on: 2026-11-04
+  url_status: "Claude mở trang Gutenberg #75184 ngày 2026-11-04: Translator = Taylor, Thomas, 1758-1835; Copyright = Public domain in the USA; xuất bản Chiswick 1822. Dịch giả mất 1835, đạt quy tắc đời + 50 năm. Peter cấp phép dùng bản này 2026-11-04. Đoạn các vòng tròn: mục \"How we ought to conduct ourselves towards our [other] kindred\"."
+
 seneca-stewart:
   title: "Minor Dialogues, Together with the Dialogue on Clemency (On Anger)"
   khe: khac-ky
