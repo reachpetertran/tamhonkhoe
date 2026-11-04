@@ -40,6 +40,7 @@ Of course I do not forbid you to possess it, but I would have you reach the poin
 ### Reading it in context
 
 - Seneca advises his friend to eat plainly for three or four days at a time. [Expert judgement] tamhonkhoe leaves food out of the exercise: restricting food can harm people with health conditions, people who are pregnant or breastfeeding, and people with a history of eating disorders. Seneca’s main point still works with other comforts.
+- [Expert judgement] What Seneca aims at is not going hungry. He wants the learner to choose simple living, to see that we need less than we think and to fear loss less. For a healthy adult, the closest thing to that idea is eating simple, inexpensive food while still eating enough, not eating less. Food practice belongs to the Body courses, which list who should not follow it.
 - Seneca himself says this is "nothing great", because many poor people live this way every day without choosing it. The exercise is about fearing loss less, not about looking down on poverty or feeling proud of oneself.
 - Seneca does not say to give up wealth. He wants the learner to have it without being ruled by the fear of losing it.
 - "Fortune" (Fortuna) is how Romans named what happens beyond our control.

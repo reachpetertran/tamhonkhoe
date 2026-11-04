@@ -39,6 +39,7 @@ Dĩ nhiên tôi không cấm bạn có của cải, nhưng tôi muốn bạn đ�
 ### Đọc đúng bối cảnh
 
 - Seneca khuyên bạn mình ăn đạm bạc ba bốn ngày liền. [Đánh giá chuyên môn] tamhonkhoe không đưa phần ăn uống vào bài tập: hạn chế ăn có thể gây hại cho người có bệnh lý, người mang thai hay cho con bú, người từng có rối loạn ăn uống. Ý chính của Seneca vẫn giữ được bằng những tiện nghi khác.
+- [Đánh giá chuyên môn] Điều Seneca nhắm tới không phải là chịu đói. Ông muốn người học tự chọn sống đơn giản, để thấy mình cần ít hơn mình tưởng và bớt sợ mất. Với người lớn khỏe mạnh, cách gần nhất với ý ấy là ăn món đơn giản, rẻ, nhưng vẫn đủ no, chứ không phải ăn ít đi. Phần thực hành ăn uống sẽ nằm ở khóa Thân thể, nơi có danh sách những người không nên áp dụng.
 - Chính Seneca nói việc này "không có gì to tát", vì nhiều người nghèo sống như thế mỗi ngày mà không được chọn. Bài tập này là để bớt sợ mất, không phải để coi thường cảnh nghèo hay để tự hào về mình.
 - Seneca không bảo bỏ của cải. Ông muốn người học có của cải mà không bị nỗi sợ mất nó điều khiển.
 - "Vận may" (Fortuna) là cách người La Mã gọi những điều xảy ra ngoài tầm tay ta.
