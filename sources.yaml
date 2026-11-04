@@ -23,9 +23,9 @@ mn10-sujato:
   translator: "Bhikkhu Sujato"
   url: "https://suttacentral.net/mn10/en/sujato"
   license: CC0
-  may_translate: true
+  may_translate: false   # CC0 cho phép, nhưng tamhonkhoe không dịch: tôn trọng đề nghị của dịch giả về AI (Peter quyết định 04/11/2026)
   checked_on: 2026-11-03
-  url_status: "Peter mở 2026-11-03, mục Info → License: Creative Commons Zero (CC0), Bhikkhu Sujato từ bỏ mọi quyền với Middle Discourses. Đã chụp màn hình."
+  url_status: "KHÔNG DÙNG từ 04/11/2026 (Peter chọn hướng 3): mục About this license có lời đề nghị không dùng bản dịch với AI (ảnh 19); thay bằng mn10-thanissaro. Peter mở 2026-11-03, mục Info → License: Creative Commons Zero (CC0), Bhikkhu Sujato từ bỏ mọi quyền với Middle Discourses. Đã chụp màn hình."
 
 an2-sujato:
   title: "AN 2.118–129 (Numbered Discourses)"
@@ -34,9 +34,31 @@ an2-sujato:
   translator: "Bhikkhu Sujato"
   url: "https://suttacentral.net/an2.118-129/en/sujato"
   license: CC0
-  may_translate: true
+  may_translate: false   # CC0 cho phép, nhưng tamhonkhoe không dịch: tôn trọng đề nghị của dịch giả về AI (Peter quyết định 04/11/2026)
   checked_on:
-  url_status: "Claude lấy nguyên văn AN 2.119 ngày 2026-11-04 từ kho bilara-data của SuttaCentral trên GitHub (nhánh published, file an2.118-129_translation-en-sujato.json). [Suy luận] Cùng dịch giả và cùng chính sách CC0 như MN 10, nhưng Peter mới xác nhận trang giấy phép cho Middle Discourses. Peter mở trang này, mục Info → License, chụp màn hình rồi ghi checked_on. Claude chụp trang Info → License ngày 2026-11-04 (giay-phep/2026-11-04/18-suttacentral-an2-sujato-license.png): CC0, Sujato từ bỏ mọi quyền với Numbered Discourses. Mục About this license có lời đề nghị (không ràng buộc pháp lý theo CC0) dùng theo giá trị của cộng đồng Phật giáo và không dùng bản dịch trong dữ liệu huấn luyện AI, phát triển mô hình AI hay công nghệ dẫn xuất từ AI. MN 10 có cùng lời đề nghị (ảnh 19). Chờ Peter quyết định."
+  url_status: "KHÔNG DÙNG từ 04/11/2026 (Peter chọn hướng 3), thay bằng an2-thanissaro. Claude lấy nguyên văn AN 2.119 ngày 2026-11-04 từ kho bilara-data của SuttaCentral trên GitHub (nhánh published, file an2.118-129_translation-en-sujato.json). [Suy luận] Cùng dịch giả và cùng chính sách CC0 như MN 10, nhưng Peter mới xác nhận trang giấy phép cho Middle Discourses. Peter mở trang này, mục Info → License, chụp màn hình rồi ghi checked_on. Claude chụp trang Info → License ngày 2026-11-04 (giay-phep/2026-11-04/18-suttacentral-an2-sujato-license.png): CC0, Sujato từ bỏ mọi quyền với Numbered Discourses. Mục About this license có lời đề nghị (không ràng buộc pháp lý theo CC0) dùng theo giá trị của cộng đồng Phật giáo và không dùng bản dịch trong dữ liệu huấn luyện AI, phát triển mô hình AI hay công nghệ dẫn xuất từ AI. MN 10 có cùng lời đề nghị (ảnh 19). Chờ Peter quyết định."
+
+mn10-thanissaro:
+  title: "MN 10 Satipatthana Sutta: Frames of Reference"
+  khe: phat-giao
+  lang: en
+  translator: "Thanissaro Bhikkhu (Access to Insight)"
+  url: "https://www.accesstoinsight.org/tipitaka/mn/mn.010.than.html"
+  license: CC-BY-NC
+  may_translate: true
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/20-ati-mn10-thanissaro.png); chờ Peter xác nhận. Chân trang: ©1995 Thanissaro Bhikkhu; nội dung trang theo Creative Commons Attribution-NonCommercial 4.0 International; bản sửa cho Access to Insight ngày 30/11/2013. Không thấy lời đề nghị về AI trên trang. Thay mn10-sujato theo quyết định của Peter (04/11/2026, hướng 3): tôn trọng lời đề nghị của Sujato không dùng bản dịch của ông với công nghệ AI. Trang có bản tự dịch từ nguồn này dùng CC BY-NC 4.0. Peter xác nhận 2026-11-04 qua ảnh 20 do Claude chụp."
+
+an2-thanissaro:
+  title: "AN 2.119 Dullabha Sutta: Hard to Find"
+  khe: phat-giao
+  lang: en
+  translator: "Thanissaro Bhikkhu (Access to Insight)"
+  url: "https://www.accesstoinsight.org/tipitaka/an/an02/an02.119.than.html"
+  license: CC-BY-NC
+  may_translate: true
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/21-ati-an2-119-thanissaro.png); chờ Peter xác nhận. Chân trang: ©2002 Thanissaro Bhikkhu; Creative Commons Attribution-NonCommercial 4.0 International; bản sửa cho Access to Insight ngày 04/8/2010. Không thấy lời đề nghị về AI trên trang. Thay an2-sujato theo quyết định của Peter (04/11/2026, hướng 3). Peter xác nhận 2026-11-04 qua ảnh 21 do Claude chụp."
 
 minhchau-nikaya:
   title: "Kinh tạng Nikaya (bản Việt)"

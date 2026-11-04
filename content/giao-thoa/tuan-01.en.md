@@ -6,7 +6,7 @@ visibility: public
 status: da-duyet
 muc_duyet: chu-du-an
 reviewers: ["Project owner"]
-sources: [mn10-sujato, web-bible, epictetus-long]
+sources: [mn10-thanissaro, web-bible, epictetus-long]
 thuc_hanh_phut: 10
 gate: {mo-ta: true, khong-chia-re: true, nguon-sach: true, da-duyet: true, an-toan: true}
 ---
@@ -23,16 +23,10 @@ The three traditions below differ deeply in what they believe. This week only pl
 
 [Traditional teaching] This tradition teaches that practice begins by sitting down, setting the body straight and bringing awareness to the present. The practitioner does not force the breath to be long or short, but simply knows clearly how the breath is, and lets the whole body settle.
 
-::: kinh mn10-sujato nguyen-van | MN 10, segments 4.3–4.7
-Just mindful, they breathe in. Mindful, they breathe out.
+::: kinh mn10-thanissaro nguyen-van | MN 10, section A (Body), [1] breathing
+Always mindful, he breathes in; mindful he breathes out.
 
-Breathing in heavily they know: ‘I’m breathing in heavily.’ Breathing out heavily they know: ‘I’m breathing out heavily.’
-
-Breathing in lightly they know: ‘I’m breathing in lightly.’ Breathing out lightly they know: ‘I’m breathing out lightly.’
-
-They practice like this: ‘I’ll breathe in experiencing the whole body.’ They practice like this: ‘I’ll breathe out experiencing the whole body.’
-
-They practice like this: ‘I’ll breathe in stilling the physical process.’ They practice like this: ‘I’ll breathe out stilling the physical process.’
+"Breathing in long, he discerns, 'I am breathing in long'; or breathing out long, he discerns, 'I am breathing out long.' Or breathing in short, he discerns, 'I am breathing in short'; or breathing out short, he discerns, 'I am breathing out short.' He trains himself, 'I will breathe in sensitive to the entire body.' He trains himself, 'I will breathe out sensitive to the entire body.' He trains himself, 'I will breathe in calming bodily fabrication.' He trains himself, 'I will breathe out calming bodily fabrication.'
 :::
 
 ### Christianity: being still before God

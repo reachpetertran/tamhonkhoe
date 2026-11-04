@@ -5,7 +5,7 @@ visibility: public
 status: da-duyet
 muc_duyet: chu-du-an
 reviewers: ["Chủ dự án"]
-sources: [mn10-sujato, web-bible, epictetus-long]
+sources: [mn10-thanissaro, web-bible, epictetus-long]
 thuc_hanh_phut: 10
 gate: {mo-ta: true, khong-chia-re: true, nguon-sach: true, da-duyet: true, an-toan: true}
 ---
@@ -22,16 +22,12 @@ Ba truyền thống dưới đây khác nhau rất xa về niềm tin. Tuần n�
 
 [Lời dạy truyền thống] Truyền thống này dạy rằng việc tu tập bắt đầu bằng cách ngồi xuống, giữ thân thẳng và đưa sự chú tâm về hiện tại. Người tập không ép hơi thở phải dài hay ngắn, mà chỉ biết rõ hơi thở đang như thế nào, rồi để toàn thân lắng dịu theo.
 
-::: kinh mn10-sujato tu-dich | MN 10, đoạn 4.3–4.7
-Chỉ chú tâm, người ấy thở vào. Chú tâm, người ấy thở ra.
+::: kinh mn10-thanissaro tu-dich | MN 10, phần Thân, mục 1 (hơi thở)
+Luôn chú tâm, vị ấy thở vào; chú tâm, vị ấy thở ra.
 
-Thở vào mạnh, người ấy biết: "Tôi đang thở vào mạnh." Thở ra mạnh, người ấy biết: "Tôi đang thở ra mạnh."
+Thở vào dài, vị ấy biết rõ: "Tôi đang thở vào dài"; hoặc thở ra dài, vị ấy biết rõ: "Tôi đang thở ra dài." Hoặc thở vào ngắn, vị ấy biết rõ: "Tôi đang thở vào ngắn"; hoặc thở ra ngắn, vị ấy biết rõ: "Tôi đang thở ra ngắn."
 
-Thở vào nhẹ, người ấy biết: "Tôi đang thở vào nhẹ." Thở ra nhẹ, người ấy biết: "Tôi đang thở ra nhẹ."
-
-Người ấy tập như vầy: "Tôi sẽ thở vào, cảm nhận toàn thân." Người ấy tập như vầy: "Tôi sẽ thở ra, cảm nhận toàn thân."
-
-Người ấy tập như vầy: "Tôi sẽ thở vào, làm lắng dịu hoạt động của thân." Người ấy tập như vầy: "Tôi sẽ thở ra, làm lắng dịu hoạt động của thân."
+Vị ấy tự tập: "Tôi sẽ thở vào, cảm nhận toàn thân." Vị ấy tự tập: "Tôi sẽ thở ra, cảm nhận toàn thân." Vị ấy tự tập: "Tôi sẽ thở vào, làm lắng dịu thân hành." Vị ấy tự tập: "Tôi sẽ thở ra, làm lắng dịu thân hành."
 :::
 
 ### Kitô giáo: yên lặng trước Thiên Chúa
