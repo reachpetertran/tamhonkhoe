@@ -96,7 +96,9 @@ def build(src, out, che_do):
               che_do, giay_phep=gp, lang=b.lang, alt=alt)
         da_co.add(b.url)
 
-    khoa_hoc.build(kh, out, che_do, trang, da_co)
+    # Bài thật của từng khóa (khoa-hoc.yaml: bai_tep) -> link trong lịch tuần, chỉ khi bài có trong bản build này
+    bai_url = {b.rel_vi[:-3]: (b.url, b.cap.url if b.cap else b.url) for b in bais if b.lang == 'vi'}
+    khoa_hoc.build(kh, out, che_do, trang, da_co, bai_url)
     tk = lambda nhom_id, en=False: khoa_hoc.the_nhom(kh, nhom_id, en)
 
     vi_bais = [b for b in bais if b.lang == 'vi']

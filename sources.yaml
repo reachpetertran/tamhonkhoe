@@ -181,6 +181,28 @@ meditations-long:
   checked_on: 2026-11-04
   url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. Gutenberg #15877: Translator Long, George, 1800-1879; Public domain in the USA. CHÚ Ý: #2680 không ghi dịch giả Long – không dùng. Peter xác nhận 2026-11-04 qua ảnh 08 do Claude chụp."
 
+seneca-gummere:
+  title: "Moral Letters to Lucilius (Epistulae morales)"
+  khe: khac-ky
+  lang: en
+  translator: "Richard M. Gummere (Loeb, 1917–1925)"
+  url: "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius"
+  license: PD
+  may_translate: true
+  checked_on:
+  url_status: "Claude lấy nguyên văn Thư 1, 13, 47 từ Wikisource ngày 2026-11-04. Trang mục lục gắn nhãn {{PD/US|1969}}: phạm vi công cộng tại Mỹ (xuất bản 1917–1925); dịch giả Gummere mất 1969. Chưa đạt chuẩn \"dịch giả mất >70 năm\" dự án vẫn dùng (57 năm). [Cần kiểm chứng] thời hạn bảo hộ theo luật Việt Nam hiện hành (các trang tư vấn ghi đời tác giả + 50 năm; có đề xuất nâng lên 75 năm). Peter quyết định rồi mới ghi checked_on. Không có bản Gutenberg."
+
+seneca-stewart:
+  title: "Minor Dialogues, Together with the Dialogue on Clemency (On Anger)"
+  khe: khac-ky
+  lang: en
+  translator: "Aubrey Stewart (1889)"
+  url: "https://www.gutenberg.org/ebooks/64576"
+  license: PD
+  may_translate: true
+  checked_on:
+  url_status: "Claude mở trang Gutenberg #64576 ngày 2026-11-04: Translator = Stewart, Aubrey, 1844-1918; Copyright = Public domain in the USA. Bàn về giận dữ quyển III = \"The Fifth Book of the Dialogues\" trong bản này; chương XXXVI. Peter mở trang, chụp màn hình rồi ghi checked_on."
+
 # ---------------- Bất nhị / Hiện diện ----------------
 gita-arnold:
   title: "The Song Celestial; or, Bhagavad-Gîtâ"

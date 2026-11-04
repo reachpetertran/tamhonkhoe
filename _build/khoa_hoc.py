@@ -72,6 +72,11 @@ def doc(src):
             if nid not in nc:
                 raise LoiNoiDung(f'{TEP}: khóa {k["ma"]} dùng nghiên cứu "{nid}" chưa khai báo')
         k['_bai'] = [_tach_bai(k['ma'], d) for d in k.get('bai') or []]
+        tep = k.get('bai_tep') or []
+        if len(tep) > len(k['_bai']):
+            raise LoiNoiDung(f'{TEP}: khóa {k["ma"]} có bai_tep dài hơn danh sách bai')
+        for b, f in zip(k['_bai'], tep):
+            b['tep'] = f or ''
     return data
 
 
@@ -169,7 +174,7 @@ def _nc_li(nc, nid, en):
     return f'<li>{e(n["en"] if en else n["vi"])} <span class="muted small">({e(n["trich"])}{link})</span></li>'
 
 
-def trang_khoa(k, data, en):
+def trang_khoa(k, data, en, bai_url=None):
     nhom = {n['id']: n for n in data['nhom']}[k['nhom']]
     tt = TRANG_THAI[k['trang_thai']][1 if en else 0]
     ten = k['ten_en'] if en else k['ten']
@@ -200,6 +205,14 @@ def trang_khoa(k, data, en):
     bang = ('<div class="table-wrap"><table><tbody>' +
             ''.join(f'<tr><th scope="row">{e(a)}</th><td>{e(str(b))}</td></tr>' for a, b in rows) +
             '</tbody></table></div>')
+    bai_url = bai_url or {}
+    da_len = [b for b in k['_bai'] if b.get('tep') in bai_url]
+    if da_len:
+        du_kien = ('<div class="box"><p><strong>Lessons with a link are published.</strong> Lessons without a link '
+                   'are still a planned outline; their titles and passages may change during writing and review.</p></div>'
+                   ) if en else (
+                  '<div class="box"><p><strong>Bài có link đã lên trang.</strong> Bài chưa có link vẫn là khung dự kiến; '
+                  'tên bài và đoạn kinh có thể đổi khi soạn và duyệt.</p></div>')
     co_muc = any(b['muc'] for b in k['_bai'])
     don_vi = ('Activity' if en else 'Hoạt động') if k['nhom'] == 'goc-tre' else ('Week' if en else 'Tuần')
     head = (f'<th>{don_vi}</th><th>{"Lesson" if en else "Bài"}</th><th>{"Passages" if en else "Đoạn kinh"}</th>'
@@ -207,7 +220,10 @@ def trang_khoa(k, data, en):
     body = ''
     for i, b in enumerate(k['_bai'], 1):
         kinh = b['kinh_en'] if en else b['kinh']
-        body += (f'<tr><td>{i}</td><td>{e(b["ten_en"] if en else b["ten"])}</td><td>{e(kinh or "–")}</td>'
+        ten_bai = e(b["ten_en"] if en else b["ten"])
+        if b.get('tep') in bai_url:
+            ten_bai = f'<a href="{e(bai_url[b["tep"]][1 if en else 0])}">{ten_bai}</a>'
+        body += (f'<tr><td>{i}</td><td>{ten_bai}</td><td>{e(kinh or "–")}</td>'
                  + (f'<td>{e(b["muc_en"] if en else b["muc"])}</td>' if co_muc else '') + '</tr>')
     lich_tieu = (f'Plan: {_so_tuan(k, True)}' if en else f'Lịch {_so_tuan(k, False)}')
     lich = (f'<h2>{e(lich_tieu)}</h2><div class="table-wrap"><table><thead><tr>{head}</tr></thead>'
@@ -305,7 +321,7 @@ def trang_muc_luc(data, en):
     return mo + muc + tang_html + nhom_html + lo_trinh + dang + nghien
 
 
-def build(data, out, che_do, trang, da_co):
+def build(data, out, che_do, trang, da_co, bai_url=None):
     """Sinh trang mục lục và trang từng khóa, cả hai ngôn ngữ."""
     if not data:
         return
@@ -320,8 +336,8 @@ def build(data, out, che_do, trang, da_co):
     da_co.update({GOC_VI, GOC_EN})
     for k in data['khoa']:
         vi, en = url(k, False), url(k, True)
-        trang(out, vi, f'{k["ma"]} · {k["ten"]}', k['mo_ta'], trang_khoa(k, data, False), che_do,
+        trang(out, vi, f'{k["ma"]} · {k["ten"]}', k['mo_ta'], trang_khoa(k, data, False, bai_url), che_do,
               current=GOC_VI, alt=en)
-        trang(out, en, f'{k["ma"]} · {k["ten_en"]}', k['mo_ta_en'], trang_khoa(k, data, True), che_do,
+        trang(out, en, f'{k["ma"]} · {k["ten_en"]}', k['mo_ta_en'], trang_khoa(k, data, True, bai_url), che_do,
               current=GOC_EN, lang='en', alt=vi)
         da_co.update({vi, en})

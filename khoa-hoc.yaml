@@ -75,6 +75,11 @@ nghien_cuu:
     url: "https://doi.org/10.1177/00110000251352566"
     vi: "65 nghiên cứu: khiêm nhường đi kèm sức khỏe tinh thần tốt hơn một chút (liên hệ nhỏ). Đây là tương quan. Chưa có phân tích gộp về chương trình luyện khiêm nhường."
     en: "65 studies: humility goes with slightly better mental health (small associations). This is a correlation. There is no meta-analysis of humility training yet."
+  karl2022:
+    trich: "Karl et al. 2022, Journal of Happiness Studies 23(7)"
+    url: "https://doi.org/10.1007/s10902-022-00563-w"
+    vi: "Nghiên cứu có đăng ký trước, 1.307 người ở 3 nước: cách hiểu phổ biến nhưng sai về Khắc kỷ (muốn ít bộc lộ cảm xúc, muốn cảm thấy ít đi) đi kèm mức hạnh phúc thấp hơn. Đây là tương quan."
+    en: "Pre-registered study, 1,307 people in 3 countries: a popular but mistaken reading of Stoicism (wanting to show fewer emotions and to feel less) went with lower well-being. This is a correlation."
   gloster2020:
     trich: "Gloster et al. 2020, Journal of Contextual Behavioral Science 18"
     url: "https://doi.org/10.1016/j.jcbs.2020.09.009"
@@ -176,11 +181,14 @@ khoa:
     mo_ta_en: "Slow reading of Epictetus, Seneca and Marcus Aurelius to tell apart what is up to us and what is not."
     tang: "1"
     phut: "10–15"
-    trang_thai: chua-bat-dau
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang tuần 1 và 4; tuần 2, 3, 5, 6 chờ xác nhận giấy phép bản dịch Seneca"
+    tien_do_en: "Weeks 1 and 4 published; weeks 2, 3, 5 and 6 await confirmation of the Seneca translations’ licences"
     duyet: chu-du-an
-    ra_mat: "Th1–2/2027"
-    ra_mat_en: "Jan–Feb 2027"
-    nghien_cuu: []
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [karl2022, gloster2020, curry2018]
+    bai_tep: [khe/khac-ky/kk1-tuan-01, khe/khac-ky/kk1-tuan-02, khe/khac-ky/kk1-tuan-03, khe/khac-ky/kk1-tuan-04, khe/khac-ky/kk1-tuan-05, khe/khac-ky/kk1-tuan-06]
     bai:
       - "Trong tay và ngoài tay | Up to us, not up to us | Enchiridion 1 | Phân loại ≥3 lo âu/ngày, ≥5/7 | Sort at least three worries a day, on 5 of 7 days"
       - "Thời gian là của ta | Time is ours | Seneca, Thư 1 || Seneca, Letter 1 | 1 \"giờ giữ\" mỗi ngày, ≥5/7 | One protected hour a day, on 5 of 7 days"
