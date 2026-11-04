@@ -93,7 +93,7 @@ quranenc-vi-hassan:
   license: NO-MODIFY
   may_translate: false
   checked_on: 2026-11-04
-  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. Hộp \"Terms and Policies\" trên trang bản dịch: được tải và đăng lại với 7 điều kiện, gồm không sửa/thêm/bớt, ghi rõ QuranEnc.com, ghi số phiên bản, cập nhật theo bản mới nhất, không kèm quảng cáo không phù hợp. Giữ NO-MODIFY. Peter xác nhận 2026-11-04 qua ảnh 01 do Claude chụp."
+  url_status: "Ghi chú 2026-11-04 (phiên Giao thoa 0 tuần 3–6): danh sách API quranenc.com/api/v1/translations/list hiện chỉ liệt kê bản vietnamese_rwwad (1.0.9); trang và API từng câu của vietnamese_hassan vẫn trả kết quả nhưng không ghi số phiên bản. Peter xem lại bản Hasan còn được duy trì không. Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. Hộp \"Terms and Policies\" trên trang bản dịch: được tải và đăng lại với 7 điều kiện, gồm không sửa/thêm/bớt, ghi rõ QuranEnc.com, ghi số phiên bản, cập nhật theo bản mới nhất, không kèm quảng cáo không phù hợp. Giữ NO-MODIFY. Peter xác nhận 2026-11-04 qua ảnh 01 do Claude chụp."
 
 tanzil-arabic:
   title: "Văn bản Qur'an tiếng Ả Rập (Tanzil)"
@@ -105,6 +105,17 @@ tanzil-arabic:
   may_translate: false
   checked_on: 2026-11-04
   url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. Trang Text License: Creative Commons Attribution 3.0; được chép và phân phối bản nguyên văn, KHÔNG được thay đổi; phải ghi nguồn Tanzil, link tanzil.net, giữ thông báo bản quyền. Giữ NO-MODIFY. Peter xác nhận 2026-11-04 qua ảnh 02 do Claude chụp."
+
+quran-pickthall:
+  title: "The Meaning of the Glorious Koran (Pickthall), trong \"Three translations of the Koran side by side\""
+  khe: hoi-giao
+  lang: en
+  translator: "Marmaduke Pickthall"
+  url: "https://www.gutenberg.org/ebooks/16955"
+  license: PD
+  may_translate: true
+  checked_on:
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/17-gutenberg-16955-pickthall.png); chờ Peter xác nhận. Gutenberg #16955: Translator Pickthall, Marmaduke William, 1875-1936; Public domain in the USA. Dịch giả mất 1936, đạt quy tắc đời + 50 năm. CHỈ dùng dòng \"P:\" (Pickthall); KHÔNG dùng dòng Y: (Yusuf Ali, không rõ bản 1934 hay bản sửa) và S: (Shakir). Lời đầu tệp ghi văn bản gốc không rõ xuất xứ, đã đối chiếu lại với bản in. Dùng cho bản tiếng Anh; bản Việt dùng QuranEnc (nguyên văn)."
 
 khattab-qurancom:
   title: "The Clear Quran"
@@ -207,6 +218,18 @@ seneca-stewart:
   may_translate: true
   checked_on: 2026-11-04
   url_status: "Claude mở trang Gutenberg #64576 ngày 2026-11-04: Translator = Stewart, Aubrey, 1844-1918; Copyright = Public domain in the USA. Bàn về giận dữ quyển III = \"The Fifth Book of the Dialogues\" trong bản này; chương XXXVI. Dịch giả mất 1918, đạt quy tắc đời + 50 năm. Peter xác nhận 2026-11-04 qua ảnh 14 do Claude chụp (giay-phep/2026-11-04/)."
+
+# ---------------- Đạo giáo ----------------
+ddk-legge:
+  title: "The Tao Teh King (Đạo Đức Kinh)"
+  khe: dao-giao
+  lang: en
+  translator: "James Legge"
+  url: "https://www.gutenberg.org/ebooks/216"
+  license: PD
+  may_translate: true
+  checked_on:
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/16-gutenberg-216-legge.png); chờ Peter xác nhận. Gutenberg #216: Translator Legge, James, 1815-1897; Public domain in the USA. Dịch giả mất 1897, đạt quy tắc đời + 50 năm. Bản Việt Nguyễn Hiến Lê, Nguyễn Duy Cần còn bản quyền: chỉ link hoặc trích ngắn."
 
 # ---------------- Bất nhị / Hiện diện ----------------
 gita-arnold:

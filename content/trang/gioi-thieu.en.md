@@ -44,7 +44,7 @@ Every new article starts in the internal area. It goes live only when the answer
 | Level | Includes | Reviewed by |
 |---|---|---|
 | Less sensitive | Content that does not set out the doctrine or ritual of one religion: core pages, the curriculum outline, Stoicism courses, Body (slow eating, movement) | The project owner. The page says clearly that no reviewer from a tradition has checked it |
-| Needs someone from the tradition | Courses about one religion; Convergence courses | At least one reviewer from within that tradition; Convergence needs two reviewers from two traditions |
+| Needs someone from the tradition | Courses about one religion; Convergence courses | At least one reviewer from within that tradition; Convergence needs two reviewers from two traditions. Exception: Convergence 0 was published early by decision of the project owner; each lesson says clearly that no reviewer from a tradition has checked it yet, and it will be reviewed again once reviewers join |
 | Drafted internally first | Level 3 (God, self, death), deep doctrinal comparison, detailed fasting, content still being debated | Goes live only after a suitable reviewer |
 
 The other four questions (descriptive, not divisive, clean sources, safe) apply to every article at every level. Unverified claims never go live.
