@@ -23,9 +23,9 @@ mn10-sujato:
   translator: "Bhikkhu Sujato"
   url: "https://suttacentral.net/mn10/en/sujato"
   license: CC0
-  may_translate: false   # CC0 cho phép, nhưng tamhonkhoe không dịch: tôn trọng đề nghị của dịch giả về AI (Peter quyết định 04/11/2026)
+  may_translate: true   # Peter quyết định lại 04/11/2026 (phiên Giao thoa 1): CC0 cho phép, dùng lại bản Sujato
   checked_on: 2026-11-03
-  url_status: "KHÔNG DÙNG từ 04/11/2026 (Peter chọn hướng 3): mục About this license có lời đề nghị không dùng bản dịch với AI (ảnh 19); thay bằng mn10-thanissaro. Peter mở 2026-11-03, mục Info → License: Creative Commons Zero (CC0), Bhikkhu Sujato từ bỏ mọi quyền với Middle Discourses. Đã chụp màn hình."
+  url_status: "DÙNG LẠI từ 04/11/2026 (phiên Giao thoa 1): Peter quyết định bản Sujato là CC0, dùng hợp pháp; coi việc dùng cho dự án phục vụ cộng đồng là hợp lý dù có lời đề nghị của dịch giả về AI (ảnh 19). Giao thoa 0 Tuần 1 vẫn dùng mn10-thanissaro (không đổi lại). Trước đó (04/11, phiên 6): KHÔNG DÙNG, Peter chọn hướng 3: mục About this license có lời đề nghị không dùng bản dịch với AI (ảnh 19); thay bằng mn10-thanissaro. Peter mở 2026-11-03, mục Info → License: Creative Commons Zero (CC0), Bhikkhu Sujato từ bỏ mọi quyền với Middle Discourses. Đã chụp màn hình."
 
 an2-sujato:
   title: "AN 2.118–129 (Numbered Discourses)"
@@ -34,9 +34,9 @@ an2-sujato:
   translator: "Bhikkhu Sujato"
   url: "https://suttacentral.net/an2.118-129/en/sujato"
   license: CC0
-  may_translate: false   # CC0 cho phép, nhưng tamhonkhoe không dịch: tôn trọng đề nghị của dịch giả về AI (Peter quyết định 04/11/2026)
+  may_translate: true   # Peter quyết định lại 04/11/2026 (phiên Giao thoa 1): CC0 cho phép, dùng lại bản Sujato
   checked_on:
-  url_status: "KHÔNG DÙNG từ 04/11/2026 (Peter chọn hướng 3), thay bằng an2-thanissaro. Claude lấy nguyên văn AN 2.119 ngày 2026-11-04 từ kho bilara-data của SuttaCentral trên GitHub (nhánh published, file an2.118-129_translation-en-sujato.json). [Suy luận] Cùng dịch giả và cùng chính sách CC0 như MN 10, nhưng Peter mới xác nhận trang giấy phép cho Middle Discourses. Peter mở trang này, mục Info → License, chụp màn hình rồi ghi checked_on. Claude chụp trang Info → License ngày 2026-11-04 (giay-phep/2026-11-04/18-suttacentral-an2-sujato-license.png): CC0, Sujato từ bỏ mọi quyền với Numbered Discourses. Mục About this license có lời đề nghị (không ràng buộc pháp lý theo CC0) dùng theo giá trị của cộng đồng Phật giáo và không dùng bản dịch trong dữ liệu huấn luyện AI, phát triển mô hình AI hay công nghệ dẫn xuất từ AI. MN 10 có cùng lời đề nghị (ảnh 19). Chờ Peter quyết định."
+  url_status: "Peter quyết định dùng lại bản Sujato 04/11/2026 (phiên Giao thoa 1); checked_on vẫn trống đến khi Peter xem ảnh 18. Giao thoa 0 Tuần 2 vẫn dùng an2-thanissaro. Trước đó: KHÔNG DÙNG từ 04/11/2026 (Peter chọn hướng 3), thay bằng an2-thanissaro. Claude lấy nguyên văn AN 2.119 ngày 2026-11-04 từ kho bilara-data của SuttaCentral trên GitHub (nhánh published, file an2.118-129_translation-en-sujato.json). [Suy luận] Cùng dịch giả và cùng chính sách CC0 như MN 10, nhưng Peter mới xác nhận trang giấy phép cho Middle Discourses. Peter mở trang này, mục Info → License, chụp màn hình rồi ghi checked_on. Claude chụp trang Info → License ngày 2026-11-04 (giay-phep/2026-11-04/18-suttacentral-an2-sujato-license.png): CC0, Sujato từ bỏ mọi quyền với Numbered Discourses. Mục About this license có lời đề nghị (không ràng buộc pháp lý theo CC0) dùng theo giá trị của cộng đồng Phật giáo và không dùng bản dịch trong dữ liệu huấn luyện AI, phát triển mô hình AI hay công nghệ dẫn xuất từ AI. MN 10 có cùng lời đề nghị (ảnh 19). Chờ Peter quyết định."
 
 mn10-thanissaro:
   title: "MN 10 Satipatthana Sutta: Frames of Reference"
@@ -59,6 +59,28 @@ an2-thanissaro:
   may_translate: true
   checked_on: 2026-11-04
   url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/21-ati-an2-119-thanissaro.png); chờ Peter xác nhận. Chân trang: ©2002 Thanissaro Bhikkhu; Creative Commons Attribution-NonCommercial 4.0 International; bản sửa cho Access to Insight ngày 04/8/2010. Không thấy lời đề nghị về AI trên trang. Thay an2-sujato theo quyết định của Peter (04/11/2026, hướng 3). Peter xác nhận 2026-11-04 qua ảnh 21 do Claude chụp."
+
+snp-sujato:
+  title: "Anthology of Discourses (Suttanipāta)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/snp1.8/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình mục Info → License (giay-phep/2026-11-04/22-suttacentral-snp-sujato-license.png); chờ Peter xác nhận. Trang ghi Creative Commons Zero (CC0), khuyến khích chép, sửa, dùng lại; dịch giả đề nghị (không ràng buộc pháp lý) dùng theo giá trị của cộng đồng Phật giáo và không dùng trong dữ liệu huấn luyện AI, phát triển mô hình AI hay công nghệ dẫn xuất từ AI. Dữ liệu xuất bản bilara-data (_publication-v2.json, scpub17) cũng ghi CC0. Nguyên văn lấy từ bilara-data nhánh published, file snp1.8_translation-en-sujato.json. Peter quyết định dùng bản Sujato 04/11/2026. Peter xác nhận 2026-11-04 qua ảnh 22 do Claude chụp."
+
+dhp-sujato:
+  title: "Sayings of the Dhamma (Dhammapada)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/dhp1-20/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình mục Info → License (giay-phep/2026-11-04/23-suttacentral-dhp-sujato-license.png); chờ Peter xác nhận. Cùng nội dung giấy phép và lời đề nghị về AI như snp-sujato; bilara-data ghi CC0 (scpub7). Nguyên văn lấy từ bilara-data, các file dhp1-20, dhp221-234, dhp273-289. Peter quyết định dùng bản Sujato 04/11/2026. Peter xác nhận 2026-11-04 qua ảnh 23 do Claude chụp."
 
 minhchau-nikaya:
   title: "Kinh tạng Nikaya (bản Việt)"
@@ -104,6 +126,17 @@ lawrence-practice:
   may_translate: true
   checked_on: 2026-11-04
   url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. Gutenberg #13871: Public domain in the USA. KHÔNG dùng CCEL (chỉ cho dùng cá nhân/giáo dục/phi lợi nhuận, đăng lại phải xin phép) và KHÔNG dùng Gutenberg #5657 (ghi Copyrighted). [Cần kiểm chứng] tên dịch giả bản #13871. Peter xác nhận 2026-11-04 qua ảnh 07 do Claude chụp."
+
+kempis-benham:
+  title: "The Imitation of Christ (Gương Chúa Giêsu)"
+  khe: kito-giao
+  lang: en
+  translator: "William Benham"
+  url: "https://www.gutenberg.org/ebooks/1653"
+  license: PD
+  may_translate: true
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/24-gutenberg-1653-kempis-benham.png); chờ Peter xác nhận. Gutenberg #1653: Translator Benham, William, 1831-1910; Copyright: Public domain in the USA. Dịch giả mất 1910, đạt quy tắc đời + 50 năm. Peter xác nhận 2026-11-04 qua ảnh 24 do Claude chụp."
 
 # ---------------- Hồi giáo ----------------
 quranenc-vi-hassan:
@@ -275,3 +308,14 @@ upanishads-muller:
   may_translate: true
   checked_on:
   url_status: "[Cần kiểm chứng] Wikisource có Sacred Books of the East tập 1 (1879) và tập 15, dịch F. Max Müller; tập 1 ghi chưa chép xong. Chân trang Wikisource ghi CC BY-SA (Peter chụp trang CC BY-SA 4.0, giay-phep/2026-11-04/13-cc-by-sa-4-peter-chup.png). [Suy luận] CC BY-SA ở chân trang là giấy phép chung của trang wiki; bản dịch Müller 1879 có thể thuộc phạm vi công cộng – chưa xác nhận. Nếu coi là CC BY-SA thì trang tự dịch phải dùng CC BY-SA, mà build.py chưa hỗ trợ. Chưa cần cho Giao thoa 0."
+
+upan-paramananda:
+  title: "The Upanishads"
+  khe: bat-nhi
+  lang: en
+  translator: "Swami Paramananda"
+  url: "https://www.gutenberg.org/ebooks/3283"
+  license: PD
+  may_translate: true
+  checked_on: 2026-11-04
+  url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/25-gutenberg-3283-upanishads-paramananda.png); chờ Peter xác nhận. Gutenberg #3283: Translator Paramananda, Swami, 1884-1940; Copyright: Public domain in the USA. Dịch giả mất 1940, đạt quy tắc đời + 50 năm. Chỉ dùng phần kinh, không dùng phần bình giảng của dịch giả trừ khi ghi rõ. Peter xác nhận 2026-11-04 qua ảnh 25 do Claude chụp."

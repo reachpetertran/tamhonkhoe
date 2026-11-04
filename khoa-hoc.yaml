@@ -66,8 +66,8 @@ nghien_cuu:
     vi: "53 nghiên cứu, 2.323 người: chương trình tha thứ có hướng dẫn tăng mức tha thứ rõ rệt so với không can thiệp, và giảm trầm cảm, lo âu; chương trình dài hơn hiệu quả hơn."
     en: "53 studies, 2,323 people: guided forgiveness programmes clearly increase forgiveness compared with no treatment, and reduce depression and anxiety; longer programmes work better."
   lktm2024:
-    trich: "Phân tích gộp thiền từ tâm/từ bi ở nơi làm việc, Stress & Health 2024 (PMID 37221984)"
-    url: "https://pubmed.ncbi.nlm.nih.gov/37221984/"
+    trich: "Wang et al. 2024, Stress and Health 40(1)"
+    url: "https://doi.org/10.1002/smi.3273"
     vi: "21 thử nghiệm: giảm kiệt sức và căng thẳng, tăng lòng tự từ bi; các nghiên cứu khác nhau nhiều."
     en: "21 trials: lower burnout and stress, higher self-compassion; results vary a lot between studies."
   lee2025:
@@ -85,6 +85,16 @@ nghien_cuu:
     url: "https://doi.org/10.1016/j.jcbs.2020.09.009"
     vi: "Tổng quan 20 phân tích gộp: liệu pháp chấp nhận và cam kết (ACT) hiệu quả với lo âu, trầm cảm, đau mạn tính; ngang liệu pháp nhận thức hành vi. Đây là trị liệu có hướng dẫn."
     en: "Review of 20 meta-analyses: Acceptance and Commitment Therapy (ACT) works for anxiety, depression and chronic pain, about as well as CBT. This is guided therapy."
+  atjak2015:
+    trich: "A-Tjak et al. 2015, Psychotherapy and Psychosomatics 84(1)"
+    url: "https://doi.org/10.1159/000365764"
+    vi: "39 thử nghiệm ngẫu nhiên, 1.821 người: ACT tốt hơn nhóm đối chứng (g = 0,57), không khác biệt rõ so với liệu pháp nhận thức hành vi."
+    en: "39 randomised trials, 1,821 people: ACT did better than control conditions (g = 0.57), with no clear difference from CBT."
+  dunn2008:
+    trich: "Dunn, Aknin & Norton 2008, Science 319(5870)"
+    url: "https://doi.org/10.1126/science.1150952"
+    vi: "Khảo sát, theo dõi và một thí nghiệm ngẫu nhiên: tiêu tiền cho người khác đi kèm, và trong thí nghiệm làm tăng, cảm giác hạnh phúc. Phần khảo sát là tương quan; một nhóm nghiên cứu."
+    en: "A survey, a follow-up and a randomised experiment: spending money on others went with, and in the experiment raised, happiness. The survey part is a correlation; one research group."
   goncalves2015:
     trich: "Gonçalves et al. 2015, Psychological Medicine 45(14)"
     url: "https://doi.org/10.1017/S0033291715001166"
@@ -155,18 +165,21 @@ khoa:
     mo_ta: "Lòng từ, tha thứ, buông cái tôi, chấp nhận vô thường, im lặng, cho đi."
     mo_ta_en: "Loving-kindness, forgiveness, letting go of self, accepting change, silence, giving."
     tang: "1–2"
-    phut: "15"
-    trang_thai: chua-bat-dau
-    duyet: truyen-thong
-    ra_mat: "Th3–6/2027"
-    ra_mat_en: "Mar–Jun 2027"
-    nghien_cuu: [lktm2024, wade2014, lee2025, gloster2020, goyal2014, goncalves2015, curry2018]
+    phut: "10–18"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [lktm2024, farias2020, wade2014, lee2025, gloster2020, atjak2015, goyal2014, goncalves2015, curry2018, dunn2008]
+    bai_tep: [giao-thoa/tuan-07, giao-thoa/tuan-08, giao-thoa/tuan-09, giao-thoa/tuan-10, giao-thoa/tuan-11, giao-thoa/tuan-12]
     bai:
       - "Lòng từ | Loving-kindness | Snp 1.8 · Đạo Đức Kinh 67 · Gita 12:13 || Snp 1.8 · Tao Te Ching 67 · Gita 12:13 | Thiền từ tâm 10 phút ≥5/7 ngày | Loving-kindness practice 10 minutes on 5 of 7 days"
       - "Tha thứ | Forgiveness | Dhp 5 · Mt 18:21–22 · Qur'an 24:22 || Dhp 5 · Matthew 18:21–22 · Qur'an 24:22 | Viết 1 thư tha thứ không gửi; tự chấm mức oán 0–10 đầu và cuối tuần | Write one unsent letter of forgiveness; rate resentment 0–10 at the start and end of the week"
       - "Buông cái tôi | Letting go of self | Đạo Đức Kinh 8 · Gita 2:47 · Gương Chúa Giêsu I.2 || Tao Te Ching 8 · Gita 2:47 · The Imitation of Christ I.2 | 1 lần nhường lời hoặc nhận sai mỗi ngày, ≥5/7 | Once a day, give way or admit a mistake, on 5 of 7 days"
       - "Chấp nhận vô thường | Accepting change | Enchiridion 1 · Dhp 277 · Qur'an 2:286 | Phân loại 3 lo âu/ngày: đổi được hay không, ≥5/7 | Sort three worries a day into ‘can change / cannot’, on 5 of 7 days"
-      - "Im lặng | Silence | Brother Lawrence · 1 Các Vua 19:11–12 · Katha Upanishad || Brother Lawrence · 1 Kings 19:11–12 · Katha Upanishad | Ngồi im 15 phút ≥5/7 ngày | Sit in silence 15 minutes on 5 of 7 days"
+      - "Im lặng | Silence | Brother Lawrence · 1 Các Vua 19:11–12 · Katha Upanishad || Brother Lawrence · 1 Kings 19:11–12 · Katha Upanishad | Ngồi im 15 phút ≥5/7 ngày (tăng dần từ 5 phút) | Sit in silence 15 minutes on 5 of 7 days (building up from 5)"
       - "Cho đi và ôn tập | Giving and review | Dhp 223–224 · Qur'an 2:261 · Pirkei Avot 5:10 | Cho đi 1 lần/tuần; tự chấm lại 12 thói quen | Give once a week; re-rate all 12 habits"
     gioi_han: "Bài tha thứ chỉ dành cho tổn thương nhẹ đến vừa. Không truyền thống nào đòi người bị hại phải hòa giải với người còn đang gây hại."
     gioi_han_en: "The forgiveness lesson is only for mild to moderate hurts. No tradition asks someone who was harmed to reconcile with a person who is still causing harm."

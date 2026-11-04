@@ -44,7 +44,7 @@ Bài chỉ lên trang khi trả lời "có" cả năm câu:
 | Mức | Gồm | Ai duyệt |
 |---|---|---|
 | Ít nhạy cảm | Nội dung không trình bày giáo lý hay nghi lễ riêng của một tôn giáo: trang nền, khung chương trình, khóa Khắc kỷ, Thân thể (ăn chậm, vận động) | Chủ dự án. Trang ghi rõ là chưa có người duyệt từ trong truyền thống |
-| Cần người trong truyền thống | Khóa về một tôn giáo; khóa Giao thoa | Ít nhất một người duyệt từ trong truyền thống đó; Giao thoa cần hai người từ hai truyền thống. Ngoại lệ: Giao thoa 0 được đăng trước theo quyết định của chủ dự án; mỗi bài ghi rõ chưa có người duyệt từ trong truyền thống và sẽ được duyệt lại khi có người |
+| Cần người trong truyền thống | Khóa về một tôn giáo; khóa Giao thoa | Ít nhất một người duyệt từ trong truyền thống đó; Giao thoa cần hai người từ hai truyền thống. Ngoại lệ: Giao thoa 0 và Giao thoa 1 được đăng trước theo quyết định của chủ dự án; mỗi bài ghi rõ chưa có người duyệt từ trong truyền thống và sẽ được duyệt lại khi có người |
 | Soạn ở khu nội bộ trước | Tầng 3 (Thượng Đế, ngã, cái chết), so sánh giáo lý sâu, nhịn ăn chi tiết, nội dung đang tranh luận | Chỉ lên trang sau khi có người duyệt phù hợp |
 
 Bốn câu còn lại (mô tả, không chia rẽ, nguồn sạch, an toàn) áp dụng cho mọi bài, ở mọi mức. Nhận định chưa kiểm chứng không bao giờ lên trang.
