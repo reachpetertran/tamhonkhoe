@@ -161,6 +161,32 @@ nghien_cuu:
     vi: "Phân tích gộp 154 nghiên cứu, 10.189 người: hoạt động làm dịu cơ thể (thở chậm, chánh niệm, thư giãn) giảm giận dữ và gây hấn ở mức vừa (g = −0,63); hoạt động làm hưng phấn (đấm bao cát, chạy bộ để xả giận) nhìn chung không hiệu quả."
     en: "Meta-analysis of 154 studies, 10,189 people: activities that calm the body (slow breathing, mindfulness, relaxation) reduced anger and aggression moderately (g = −0.63); arousal-raising activities (hitting a punch bag, running to let off steam) were ineffective overall."
 
+  khoury2015:
+    trich: "Khoury et al. 2015, Journal of Psychosomatic Research 78(6)"
+    url: "https://doi.org/10.1016/j.jpsychores.2015.03.009"
+    vi: "Phân tích gộp 29 nghiên cứu, 2.668 người khỏe mạnh: chương trình MBSR giảm căng thẳng, lo âu, trầm cảm ở mức vừa (so giữa nhóm g = 0,53); các nghiên cứu khác nhau nhiều."
+    en: "Meta-analysis of 29 studies, 2,668 healthy adults: the MBSR programme reduced stress, anxiety and depression moderately (between-group g = 0.53); studies varied widely."
+  hilton2017:
+    trich: "Hilton et al. 2017, Annals of Behavioral Medicine 51(2)"
+    url: "https://doi.org/10.1007/s12160-016-9844-2"
+    vi: "38 thử nghiệm ngẫu nhiên về thiền chánh niệm cho người đau mạn tính: giảm đau ở mức nhỏ (30 thử nghiệm), bằng chứng chất lượng thấp; trầm cảm và chất lượng sống cũng cải thiện."
+    en: "38 randomised trials of mindfulness meditation for chronic pain: a small decrease in pain (30 trials), low-quality evidence; depression and quality of life also improved."
+  wei2025:
+    trich: "Wei et al. 2025, BMC Psychology 13"
+    url: "https://doi.org/10.1186/s40359-025-03348-x"
+    vi: "Phân tích gộp 29 thử nghiệm ngẫu nhiên, 2.535 người: liệu pháp nhận thức dựa trên chánh niệm (MBCT) giảm nghiền ngẫm ở mức vừa (SMD = −0,51), còn ở lần theo dõi sau."
+    en: "Meta-analysis of 29 randomised trials, 2,535 people: mindfulness-based cognitive therapy (MBCT) reduced rumination moderately (SMD = −0.51), with effects held at follow-up."
+  abramowitz2001:
+    trich: "Abramowitz, Tolin & Street 2001, Clinical Psychology Review 21(5)"
+    url: "https://doi.org/10.1016/S0272-7358(00)00057-X"
+    vi: "Phân tích gộp các nghiên cứu có đối chứng: cố đè nén một ý nghĩ làm nó quay lại nhiều hơn, ở mức nhỏ đến vừa; mức này thay đổi theo loại ý nghĩ và cách đo."
+    en: "Meta-analysis of controlled studies: trying to suppress a thought makes it come back more often, by a small-to-moderate amount; the effect varied with the kind of thought and how it was measured."
+  kuyken2016:
+    trich: "Kuyken et al. 2016, JAMA Psychiatry 73(6)"
+    url: "https://doi.org/10.1001/jamapsychiatry.2016.0076"
+    vi: "Phân tích gộp dữ liệu từng bệnh nhân, 9 thử nghiệm, 1.258 người có trầm cảm tái phát đang thuyên giảm: MBCT giảm nguy cơ tái phát trong 60 tuần (HR 0,69 so với không MBCT; 0,79 so với điều trị chủ động khác)."
+    en: "Individual patient data meta-analysis, 9 trials, 1,258 people with recurrent depression in remission: MBCT reduced relapse risk over 60 weeks (HR 0.69 vs no MBCT; 0.79 vs other active treatments)."
+
 khoa:
   # ------------------------------------------------------------ GIAO THOA
   - ma: GT0
@@ -372,23 +398,28 @@ khoa:
     ten: "Bốn niệm xứ trong 8 tuần"
     ten_en: "The four foundations of mindfulness in 8 weeks"
     mo_ta: "Thân, thọ, tâm, pháp theo kinh MN 10; ngồi 20–30 phút mỗi ngày."
-    mo_ta_en: "Body, feelings, mind and phenomena following MN 10; 20–30 minutes of sitting a day."
+    mo_ta_en: "Body, feelings, mind and principles following MN 10; 20–30 minutes of sitting a day."
     tang: "2"
     phut: "20–30"
-    trang_thai: chua-bat-dau
-    duyet: truyen-thong
-    ra_mat: "Nửa cuối 2027"
-    ra_mat_en: "Second half of 2027"
-    nghien_cuu: [goyal2014, farias2020]
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 8 tuần"
+    tien_do_en: "All 8 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [goyal2014, khoury2015, vandam2018, farias2020, hilton2017, gloster2020, wei2025, abramowitz2001, kuyken2016]
+    bai_tep: [khe/phat-giao/pg2-tuan-01, khe/phat-giao/pg2-tuan-02, khe/phat-giao/pg2-tuan-03, khe/phat-giao/pg2-tuan-04, khe/phat-giao/pg2-tuan-05, khe/phat-giao/pg2-tuan-06, khe/phat-giao/pg2-tuan-07, khe/phat-giao/pg2-tuan-08]
     bai:
-      - "Niệm thân (1) | Mindfulness of the body (1) | MN 10"
-      - "Niệm thân (2) | Mindfulness of the body (2) | MN 10"
-      - "Niệm thọ | Mindfulness of feelings | MN 10"
-      - "Mũi tên thứ hai | The second arrow | SN 36.6"
-      - "Niệm tâm | Mindfulness of mind | MN 10"
-      - "Niệm pháp | Mindfulness of phenomena | MN 10"
-      - "Thay ý nghĩ | Replacing thoughts | MN 20"
-      - "Hai loại ý nghĩ và ôn tập | Two kinds of thought, and review | MN 19"
+      - "Niệm thân (1): hơi thở | Mindfulness of the body (1): the breath | MN 10 (đoạn 2–5) || MN 10 (sections 2–5) | Ngồi ≥15 phút 5/7 ngày, trong đó ≥3 ngày 20 phút | Sit at least 15 minutes on 5 of 7 days, with at least 3 days at 20 minutes"
+      - "Niệm thân (2): tư thế, tỉnh giác, tứ đại | Mindfulness of the body (2): postures, awareness, elements | MN 10 (đoạn 6, 8, 12) || MN 10 (sections 6, 8, 12) | Đi chậm 10′ + ngồi 15′ ≥5/7; 1 việc thường ngày trong tỉnh giác ≥5/7 | Slow walking 10′ + sitting 15′ on 5 of 7 days; one routine task with awareness on 5 of 7 days"
+      - "Niệm thọ | Mindfulness of feelings | MN 10 (đoạn 32–33) || MN 10 (sections 32–33) | Ngồi 20′ ≥5/7; gọi tên cảm thọ 3 lần/ngày ≥5/7 | Sit 20′ on 5 of 7 days; name the feeling tone 3 times a day on 5 of 7 days"
+      - "Mũi tên thứ hai | The second arrow | SN 36.6 | Ngồi 25′ ≥5/7; ghi 1 cặp mũi tên/ngày ≥5/7 | Sit 25′ on 5 of 7 days; write one pair of arrows a day on 5 of 7 days"
+      - "Niệm tâm | Mindfulness of mind | MN 10 (đoạn 34–35) || MN 10 (sections 34–35) | Ngồi 25′ ≥5/7; 1 dòng \"thời tiết của tâm\" mỗi tối ≥5/7 | Sit 25′ on 5 of 7 days; one line of ‘mind weather’ each evening on 5 of 7 days"
+      - "Niệm pháp: năm triền cái | Mindfulness of principles: the five hindrances | MN 10 (đoạn 36) || MN 10 (section 36) | Ngồi ≥25′ 5/7; cuối tuần ghi triền cái ghé nhiều nhất và cách làm nó lắng | Sit at least 25′ on 5 of 7 days; at week’s end, note the most frequent hindrance and what helped it settle"
+      - "Thay ý nghĩ | Replacing thoughts | MN 20 | Ngồi ≥25′ 5/7; ghi ≥3 lần đã thử bốn cách | Sit at least 25′ on 5 of 7 days; record at least 3 times you tried the four approaches"
+      - "Hai loại ý nghĩ và ôn tập | Two kinds of thought, and review | MN 19 | Ngồi 30′ ≥5/7; tự chấm 8 tuần và viết kế hoạch 4 tuần | Sit 30′ on 5 of 7 days; complete the 8-week self-rating and a 4-week plan"
+    gioi_han: "Khóa Tầng 2: mỗi ngày ngồi 20–30 phút, nên học sau Phật giáo 1. Thiền dài hơn có thể gây trải nghiệm khó chịu; mỗi bài có mục \"Dừng tập khi\", và người từng có loạn thần, rối loạn lưỡng cực hay PTSD nặng nên hỏi bác sĩ trước. Khóa không tập quán 31 bộ phận của thân, quán tử thi (MN 10) và cách thứ năm \"dùng tâm khống chế tâm\" (MN 20). Khóa trình bày phần thực hành, không đòi người học chấp nhận niềm tin về tái sinh hay các tầng chứng đắc. Chưa có người duyệt từ trong truyền thống Phật giáo, và chưa có nghiên cứu đánh giá trực tiếp chương trình này."
+    gioi_han_en: "A Level 2 course: 20–30 minutes of sitting a day, best taken after Buddhism 1. Longer meditation can bring difficult experiences; every lesson has a ‘Stop practising if’ section, and people with a history of psychosis, bipolar disorder or severe PTSD should ask a doctor first. The course does not practise contemplating the 31 parts of the body or corpses (MN 10), or the fifth approach of ‘crushing mind with mind’ (MN 20). It presents the practice and does not ask learners to accept beliefs about rebirth or stages of attainment. No reviewer from within the Buddhist tradition has checked it yet, and no study has evaluated this programme directly."
 
   - ma: PG3
     slug: phat-giao-3

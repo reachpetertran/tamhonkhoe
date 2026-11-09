@@ -115,6 +115,39 @@ an3-65-sujato:
   checked_on: 2026-11-09
   url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/27-suttacentral-an3-65-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Numbered Discourses; cùng lời đề nghị về AI. bilara-data _publication-v2.json (scpub5) ghi CC0. Cùng ấn phẩm với an2-sujato (ảnh 18). Nguyên văn lấy từ bilara-data nhánh published, file an3.65_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-09 qua ảnh 27 do Claude chụp."
 
+sn36-6-sujato:
+  title: "SN 36.6 Salla Sutta: An Arrow (Linked Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/sn36.6/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-09
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/29-suttacentral-sn36-6-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Linked Discourses; cùng lời đề nghị về AI. Publication number scpub4, cùng ấn phẩm với sn56-11-sujato (ảnh 26). Nguyên văn lấy từ bilara-data nhánh published, file sn36.6_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-09 qua ảnh 29 do Claude chụp."
+
+mn20-sujato:
+  title: "MN 20 Vitakkasaṇṭhāna Sutta: How to Stop Thinking (Middle Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/mn20/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-09
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/30-suttacentral-mn20-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Middle Discourses; cùng lời đề nghị về AI. Publication number scpub3, cùng ấn phẩm với mn10-sujato, mn118-sujato. Nguyên văn lấy từ bilara-data nhánh published, file mn20_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-09 qua ảnh 30 do Claude chụp."
+
+mn19-sujato:
+  title: "MN 19 Dvedhāvitakka Sutta: Two Kinds of Thought (Middle Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/mn19/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-09
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/31-suttacentral-mn19-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Middle Discourses; cùng lời đề nghị về AI. Publication number scpub3. Nguyên văn lấy từ bilara-data nhánh published, file mn19_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-09 qua ảnh 31 do Claude chụp."
+
 minhchau-nikaya:
   title: "Kinh tạng Nikaya (bản Việt)"
   khe: phat-giao
