@@ -90,16 +90,7 @@ Lưu ý: [Đánh giá chuyên môn] nếu 15 phút quá dài, cứ giữ 10 phú
 
 ## 4. Góc trẻ 6+
 
-**Trò "Nghe chuông tắt dần"** (5 phút, người lớn chơi cùng)
-
-1. Người lớn gõ nhẹ vào một cái chuông nhỏ, hoặc gõ thìa vào cốc thủy tinh.
-2. Trẻ nhắm mắt (hoặc nhìn xuống), lắng nghe tiếng ngân nhỏ dần.
-3. Khi không còn nghe thấy gì nữa, trẻ giơ tay.
-4. Chơi ba lần. Sau đó hỏi: "Lúc im lặng, con nghe thấy những tiếng gì khác?"
-
-Mỗi lần im lặng chỉ vài chục giây. Không bắt trẻ ngồi yên lâu. Nếu trẻ không muốn nhắm mắt, cứ để trẻ mở mắt. Nếu trẻ chán, dừng trò chơi.
-
-Daynentang có thêm bài [Đi chậm, ăn chậm](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-9/g9-di-cham-an-cham/) cho gia đình có con 2–8 tuổi.
+Trò "Nghe chuông tắt dần" (5–10 phút, người lớn chơi cùng): người lớn gõ nhẹ chuông, trẻ lắng nghe tiếng ngân nhỏ dần và giơ tay khi không còn nghe thấy; mỗi lần im lặng chỉ vài chục giây. Cách chơi đầy đủ, cách điều chỉnh theo tuổi và lưu ý an toàn ở trang [Góc trẻ – Hoạt động 11](/goc-tre/gtr-11/).
 
 ## 5. Dừng tập khi
 

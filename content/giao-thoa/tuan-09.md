@@ -95,16 +95,7 @@ Lưu ý: [Đánh giá chuyên môn] khiêm nhường không phải là tự chê
 
 ## 4. Góc trẻ 6+
 
-**Trò "Nước chảy chỗ thấp"** (5–10 phút, người lớn chơi cùng)
-
-1. Đặt một cái khay hơi nghiêng. Trẻ nhỏ vài giọt nước ở đầu cao.
-2. Cùng xem: nước chảy về đâu? (Về chỗ thấp.)
-3. Người lớn kể: "Nước tưới cho cây lớn mà không khoe. Nước chịu chảy xuống chỗ thấp."
-4. Cùng nghĩ một việc "như nước" cho hôm nay: để em chọn đồ chơi trước, để bạn nói trước.
-
-Không chê trẻ là "tranh giành" hay "ích kỷ". Nếu trẻ chán, dừng trò chơi và lau khay cùng nhau.
-
-Daynentang có thêm bài [Nói thật, lòng nhẹ](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-1/g1-noi-that-long-nhe/) cho gia đình có con 2–8 tuổi.
+Trò "Nước chảy chỗ thấp" (5–10 phút, người lớn chơi cùng): nhỏ vài giọt nước lên chiếc khay hơi nghiêng, xem nước chảy về chỗ thấp, rồi chọn một việc "như nước" như để bạn nói trước. Cách chơi đầy đủ, cách điều chỉnh theo tuổi và lưu ý an toàn ở trang [Góc trẻ – Hoạt động 9](/goc-tre/gtr-09/).
 
 ## 5. Dừng tập khi
 

@@ -83,15 +83,7 @@ At the end of the week, read back your seven lines. There is no need to score yo
 
 ## 4. Kids' corner 6+
 
-**Game: "The breathing statue"** (5–10 minutes, with an adult playing too)
-
-1. Adult and child walk or bounce around the room together.
-2. When the adult says "Stop!", everyone freezes like a statue.
-3. While frozen, each person silently counts 3 breaths, then says one thing they noticed: feet on the floor, a sound, warm or cold hands.
-4. Swap roles: the child gets to call "Stop!".
-5. Finish with one question: "When at school or at home could I be a statue for a moment too?"
-
-Do not make the child close their eyes. If the child gets bored or uncomfortable, stop the game.
+Game "The breathing statue" (5–10 minutes, with an adult playing too): everyone moves around, freezes like a statue on "Stop!", counts 3 breaths and says one thing they notice. Full instructions, age adjustments and safety notes are on the page [Kids’ corner – Activity 1](/en/kids-corner/activity-01/).
 
 ## 5. Stop practising if
 

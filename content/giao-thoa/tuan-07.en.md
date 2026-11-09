@@ -122,16 +122,7 @@ Note: [Expert judgement] this week does not yet include anyone who has hurt you;
 
 ## 4. Kids' corner 6+
 
-**Game: "Sending good wishes"** (5–10 minutes, with an adult playing too)
-
-1. Adult and child sit side by side, each with a small piece of paper.
-2. The child chooses three people or things to wish well: grandparents, a classmate, the cat, the tree in the yard.
-3. For each, the child says or draws one wish: "I hope Grandma is well", "I hope the cat has enough to eat".
-4. The adult asks: "When you wished someone well, how did it feel inside?"
-
-Do not make the child wish well to someone they are angry with. If the child gets bored, stop the game.
-
-daynentang also has a lesson, [Kind to myself](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-11/g11-tu-te-voi-chinh-minh/) (in Vietnamese), for families with children aged 2–8.
+Game "Sending good wishes" (5–10 minutes, with an adult playing too): the child chooses three people or creatures, says or draws one wish for each, then talks about how it felt. Full instructions, age adjustments and safety notes are on the page [Kids’ corner – Activity 7](/en/kids-corner/activity-07/).
 
 ## 5. Stop practising if
 

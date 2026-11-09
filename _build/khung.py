@@ -60,7 +60,7 @@ KHE_EN = {
 }
 # Thư mục tiếng Việt -> chữ dùng trong địa chỉ /en/
 THU_MUC_EN = {
-    'giao-thoa': 'convergence', 'khe': 'traditions', 'than-the': 'body', 'goc-rieng': 'family-corner',
+    'giao-thoa': 'convergence', 'khe': 'traditions', 'than-the': 'body', 'goc-rieng': 'family-corner', 'goc-tre': 'kids-corner',
     'phat-giao': 'buddhism', 'kito-giao': 'christianity', 'hoi-giao': 'islam',
     'do-thai-giao': 'judaism', 'khac-ky': 'stoicism', 'bat-nhi': 'non-duality', 'dao-giao': 'taoism',
     'khoa-hoc': 'courses',

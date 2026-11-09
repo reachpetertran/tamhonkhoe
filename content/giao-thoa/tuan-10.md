@@ -88,16 +88,7 @@ Lưu ý: [Đánh giá chuyên môn] chấp nhận không có nghĩa là chịu �
 
 ## 4. Góc trẻ 6+
 
-**Trò "Lá rơi"** (5–10 phút, người lớn chơi cùng)
-
-1. Người lớn và trẻ nhặt vài chiếc lá ở sân hay công viên: lá xanh, lá vàng, lá nâu.
-2. Cùng xếp lá theo màu, từ xanh đến nâu.
-3. Người lớn hỏi: "Con có biết lá đổi màu thế nào không?" Cùng kể những thứ khác thay đổi: trời, mùa, chiều cao của con, cái cây trước nhà.
-4. Trẻ chọn một chiếc lá đẹp nhất để dán vào sổ.
-
-Chỉ nói về thay đổi của cây, mùa, đồ vật và việc trẻ lớn lên. Không đưa chuyện chết chóc vào trò chơi. Nếu trẻ tự hỏi, trả lời ngắn, nhẹ nhàng và thật. Nếu trẻ chán, dừng trò chơi.
-
-Daynentang có thêm bài [Chăm cây của mình](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-9/t9-cham-cay-cua-minh/) cho gia đình có con 2–8 tuổi.
+Trò "Lá rơi" (5–10 phút, người lớn chơi cùng): nhặt lá xanh, vàng, nâu, xếp theo màu và kể những thứ quanh mình thay đổi; chỉ nói về cây, mùa, đồ vật và việc trẻ lớn lên. Cách chơi đầy đủ, cách điều chỉnh theo tuổi và lưu ý an toàn ở trang [Góc trẻ – Hoạt động 10](/goc-tre/gtr-10/).
 
 ## 5. Dừng tập khi
 

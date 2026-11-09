@@ -92,14 +92,7 @@ Note: [Expert judgement] gratitude does not mean accepting wrongdoing or staying
 
 ## 4. Kids' corner 6+
 
-**Game: "Who helped me today?"** (5–10 minutes, with an adult playing too)
-
-1. Adult and child sit together. Each person names three things in order: one person who helped them today, one thing in nature they liked (sunshine, a tree, rain, the neighbour's cat), and one thing their body can do (run, laugh, hug).
-2. The adult goes first and is very specific, so the child has an example.
-3. The child picks one person from the first round and draws a small thank-you card.
-4. The next day, the child gives the card or says thank you to that person, with an adult if needed.
-
-Do not judge what the child says as "right" or "not enough". Do not compare with siblings or friends, and do not say things like "you should be grateful because you have more than others". If the child gets bored, stop the game.
+Game "Who helped me today?" (5–10 minutes, with an adult playing too): each person names someone who helped them, something in nature they like and something their body can do; then the child draws a thank-you card. Full instructions, age adjustments and safety notes are on the page [Kids’ corner – Activity 2](/en/kids-corner/activity-02/).
 
 ## 5. Stop practising if
 

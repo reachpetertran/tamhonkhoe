@@ -89,16 +89,7 @@ Note: [Expert judgement] acceptance does not mean putting up with everything. If
 
 ## 4. Kids' corner 6+
 
-**Game: "Falling leaves"** (5–10 minutes, with an adult playing too)
-
-1. Adult and child collect a few leaves in the yard or park: green, yellow and brown.
-2. Arrange the leaves together by colour, from green to brown.
-3. The adult asks: "Do you know how leaves change colour?" Together, name other things that change: the sky, the seasons, how tall you are, the tree outside.
-4. The child picks the prettiest leaf to stick in a notebook.
-
-Talk only about changes in trees, seasons, objects and the child growing up. Do not bring death into the game. If the child asks, answer briefly, gently and truthfully. If the child gets bored, stop the game.
-
-daynentang also has a lesson, [Looking after my plant](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-9/t9-cham-cay-cua-minh/) (in Vietnamese), for families with children aged 2–8.
+Game "Falling leaves" (5–10 minutes, with an adult playing too): collect green, yellow and brown leaves, line them up by colour and talk about things that change; only trees, seasons, objects and the child growing up. Full instructions, age adjustments and safety notes are on the page [Kids’ corner – Activity 10](/en/kids-corner/activity-10/).
 
 ## 5. Stop practising if
 

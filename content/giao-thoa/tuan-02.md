@@ -91,14 +91,7 @@ Lưu ý: [Đánh giá chuyên môn] biết ơn không có nghĩa là phải ch�
 
 ## 4. Góc trẻ 6+
 
-**Trò "Ai đã giúp mình hôm nay?"** (5–10 phút, người lớn chơi cùng)
-
-1. Người lớn và trẻ ngồi cùng nhau, mỗi người kể ba điều theo thứ tự: một người đã giúp mình hôm nay, một thứ trong thiên nhiên mình thấy thích (nắng, cây, mưa, con mèo nhà hàng xóm), và một việc cơ thể mình làm được (chạy, cười, ôm).
-2. Người lớn kể trước, kể thật cụ thể, để trẻ có mẫu.
-3. Trẻ chọn một người trong phần thứ nhất và vẽ một tấm thiệp cảm ơn nhỏ.
-4. Hôm sau, trẻ tự trao thiệp hoặc nói lời cảm ơn với người đó, có người lớn đi cùng nếu cần.
-
-Không chấm điều trẻ kể là "đúng" hay "chưa đủ". Không so sánh với anh chị em hay bạn khác, và không nói kiểu "con phải biết ơn vì có nhiều hơn bạn". Nếu trẻ chán, dừng trò chơi.
+Trò "Ai đã giúp mình hôm nay?" (5–10 phút, người lớn chơi cùng): mỗi người kể một người đã giúp mình, một điều trong thiên nhiên mình thích, một việc cơ thể làm được; rồi trẻ vẽ thiệp cảm ơn. Cách chơi đầy đủ, cách điều chỉnh theo tuổi và lưu ý an toàn ở trang [Góc trẻ – Hoạt động 2](/goc-tre/gtr-02/).
 
 ## 5. Dừng tập khi
 

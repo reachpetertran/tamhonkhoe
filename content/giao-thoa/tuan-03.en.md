@@ -90,16 +90,7 @@ Note: [Expert judgement] swapping places does not mean giving in to every demand
 
 ## 4. Kids' corner 6+
 
-**Game: "Swap shoes"** (5–10 minutes, with an adult playing too)
-
-1. Adult and child each draw a shoe on a sheet of paper, then swap sheets. "Now I'm walking in your shoes."
-2. The adult describes a small, real situation from the day: "Your little brother was building a tower and it fell down", "Mum came home tired from work".
-3. Ask the child: "If you were in your brother's (Mum's) shoes, how would you feel? What would you want someone to do for you?"
-4. Together, choose one small thing the child can do right away: help rebuild the tower, bring a glass of water, say "I'll help you".
-
-Do not judge the child's answers as right or wrong. Do not use the game to blame the child ("see, you made your brother sad"). Choose gentle situations; do not talk about bullying or frightening events. If the child gets bored, stop the game.
-
-daynentang also has a lesson, [Secret good deeds](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-3/g3-viec-tot-bi-mat/) (in Vietnamese), for families with children aged 2–8.
+Game "Swapping shoes" (5–10 minutes, with an adult playing too): each person draws a shoe and swaps it, imagines being the other person in a small situation and picks one thing to do right away. Full instructions, age adjustments and safety notes are on the page [Kids’ corner – Activity 3](/en/kids-corner/activity-03/).
 
 ## 5. Stop practising if
 

@@ -87,14 +87,7 @@ Note: [Expert judgement] if work, young children or caring for a relative leaves
 
 ## 4. Kids' corner 6+
 
-**Game: "The muddy jar"** (5–10 minutes, with an adult playing too)
-
-1. Pour water into a clear plastic jar with a lid, add a spoonful of soil or sand, and close it tightly.
-2. The child shakes the jar: the water turns cloudy. "Like when we rush, or it's noisy, or we're angry."
-3. Put the jar on the table. Adult and child sit still together, watching the jar and breathing slowly, without talking, for a minute or two.
-4. Ask the child: "What does the water look like now? We didn't do anything, so how did it get clear?"
-
-Use a plastic jar, not glass. The adult keeps hold of the lid. Do not use the game to tell the child they "must sit still". If the child gets bored, stop the game.
+Game "The muddy jar" (5–10 minutes, with an adult playing too): shake a jar of water with a little soil until it clouds, then sit still, breathe slowly and watch it clear by itself. Full instructions, age adjustments and safety notes are on the page [Kids’ corner – Activity 5](/en/kids-corner/activity-05/).
 
 ## 5. Stop practising if
 

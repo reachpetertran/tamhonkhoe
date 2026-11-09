@@ -90,16 +90,7 @@ Lưu ý: [Đánh giá chuyên môn] giúp người không có nghĩa là để n
 
 ## 4. Góc trẻ 6+
 
-**Trò "Việc tốt cho người trong nhà"** (5–10 phút, người lớn chơi cùng)
-
-1. Người lớn và trẻ cùng nghĩ: hôm nay ai trong nhà có thể cần giúp? Ông bà, bố mẹ, anh chị em.
-2. Trẻ chọn một việc nhỏ làm cho người đó: xếp dép, lấy cốc nước, cất đồ chơi chung, đưa khăn.
-3. Trẻ làm "bí mật", không cần nói ra.
-4. Buổi tối, người lớn hỏi: "Lúc làm việc đó, con thấy thế nào?"
-
-Không ép trẻ phải làm, không chê việc trẻ chọn là nhỏ. Không thưởng bằng đồ ăn hay tiền. Nếu trẻ chán, dừng trò chơi.
-
-Daynentang có thêm bài [Việc tốt bí mật](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-3/g3-viec-tot-bi-mat/) cho gia đình có con 2–8 tuổi.
+Trò "Việc tốt cho người trong nhà" (5–10 phút, người lớn chơi cùng): trẻ chọn một người trong nhà có thể cần giúp và làm "bí mật" một việc nhỏ cho người đó, buổi tối kể lại cảm giác. Cách chơi đầy đủ, cách điều chỉnh theo tuổi và lưu ý an toàn ở trang [Góc trẻ – Hoạt động 6](/goc-tre/gtr-06/).
 
 ## 5. Dừng tập khi
 

@@ -121,16 +121,7 @@ Lưu ý: [Đánh giá chuyên môn] tuần này chưa gửi lời chúc tới ng
 
 ## 4. Góc trẻ 6+
 
-**Trò "Gửi lời chúc"** (5–10 phút, người lớn chơi cùng)
-
-1. Người lớn và trẻ ngồi cạnh nhau, mỗi người cầm một tờ giấy nhỏ.
-2. Trẻ chọn ba người hoặc vật để chúc: ông bà, bạn ở lớp, con mèo, cái cây ngoài sân.
-3. Với mỗi người, trẻ nói hoặc vẽ một điều mong cho họ: "Mong bà khỏe", "Mong con mèo được ăn no".
-4. Người lớn hỏi: "Lúc chúc người khác, con thấy trong lòng thế nào?"
-
-Không ép trẻ chúc cho người trẻ đang giận. Nếu trẻ chán, dừng trò chơi.
-
-Daynentang có thêm bài [Tử tế với chính mình](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-11/g11-tu-te-voi-chinh-minh/) cho gia đình có con 2–8 tuổi.
+Trò "Gửi lời chúc" (5–10 phút, người lớn chơi cùng): trẻ chọn ba người hoặc vật để chúc, nói hoặc vẽ một điều mong cho từng người, rồi kể cảm giác trong lòng. Cách chơi đầy đủ, cách điều chỉnh theo tuổi và lưu ý an toàn ở trang [Góc trẻ – Hoạt động 7](/goc-tre/gtr-07/).
 
 ## 5. Dừng tập khi
 

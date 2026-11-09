@@ -86,14 +86,7 @@ Lưu ý: [Đánh giá chuyên môn] nếu công việc, con nhỏ hay việc ch�
 
 ## 4. Góc trẻ 6+
 
-**Trò "Lọ nước đục"** (5–10 phút, người lớn chơi cùng)
-
-1. Đổ nước vào một lọ nhựa trong có nắp, thêm một thìa đất hoặc cát, đậy chặt.
-2. Trẻ lắc lọ: nước đục ngầu. "Giống như khi mình vội, ồn ào, hay giận."
-3. Đặt lọ xuống bàn. Người lớn và trẻ cùng ngồi yên nhìn lọ, thở chậm, không nói gì trong một hai phút.
-4. Hỏi trẻ: "Nước bây giờ thế nào? Mình có làm gì đâu mà nước trong lại?"
-
-Dùng lọ nhựa, không dùng lọ thủy tinh. Người lớn giữ nắp lọ. Không dùng trò chơi để bảo trẻ "phải ngồi yên". Nếu trẻ chán, dừng trò chơi.
+Trò "Lọ nước đục" (5–10 phút, người lớn chơi cùng): lắc một lọ nước có chút đất cho đục, rồi cùng ngồi yên, thở chậm, nhìn nước tự trong lại. Cách chơi đầy đủ, cách điều chỉnh theo tuổi và lưu ý an toàn ở trang [Góc trẻ – Hoạt động 5](/goc-tre/gtr-05/).
 
 ## 5. Dừng tập khi
 

@@ -156,6 +156,16 @@ def build(src, out, che_do):
         '<h1>Body</h1>' + _ds(nhom(en_bais, 'than-the/'), che_do, en=True) + tk('than-the', True),
         current='/than-the/')
 
+    muc('/goc-tre/', 'Góc trẻ 6+', 'Hoạt động 5–10 phút cho trẻ từ 6 tuổi, luôn có người lớn chơi cùng.',
+        '<h1>Góc trẻ 6+</h1><p>Mười hai trò chơi ngắn đi cùng 12 tuần Giao thoa. Mỗi trò 5–10 phút, luôn có người lớn '
+        'chơi cùng. Không nhịn ăn, không ăn kiêng, không nói về sang chấn hay cái chết.</p>'
+        + _ds(nhom(vi_bais, 'goc-tre/'), che_do) + tk('goc-tre'),
+        'Kids’ corner 6+', '5–10 minute activities for children aged 6 and up, always with an adult playing too.',
+        '<h1>Kids’ corner 6+</h1><p>Twelve short games that go with the 12 Convergence weeks. Each takes 5–10 minutes, '
+        'always with an adult playing too. No fasting, no dieting, no talk of trauma or death.</p>'
+        + _ds(nhom(en_bais, 'goc-tre/'), che_do, en=True) + tk('goc-tre', True),
+        current='/goc-tre/')
+
     # Nguồn và bản quyền – sinh tự động từ sources.yaml
     def bang_nguon(en):
         lt = LICENSE_TEN_EN if en else LICENSE_TEN

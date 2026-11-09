@@ -111,16 +111,7 @@ Lưu ý: [Đánh giá chuyên môn] cho đi trong sức mình nghĩa là không 
 
 ## 4. Góc trẻ 6+
 
-**Trò "Món quà nhỏ"** (5–10 phút, người lớn chơi cùng)
-
-1. Người lớn và trẻ cùng chọn một người để tặng quà: ông bà, cô giáo, bác bảo vệ, một bạn nhỏ.
-2. Trẻ chọn cách tặng: vẽ một tấm thiệp, hoặc chọn một món đồ chơi còn tốt mà trẻ **tự muốn** cho.
-3. Trẻ cùng người lớn mang quà đi tặng.
-4. Buổi tối, người lớn hỏi: "Lúc tặng quà, con thấy thế nào?"
-
-Không ép trẻ cho đồ chơi trẻ còn quý. Vẽ thiệp cũng là một món quà đầy đủ. Không thưởng bằng đồ ăn hay tiền. Nếu trẻ chán, dừng trò chơi.
-
-Daynentang có thêm bài [Cảm ơn người lao động](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-8/g8-cam-on-nguoi-lao-dong/) cho gia đình có con 2–8 tuổi.
+Trò "Món quà nhỏ" (5–10 phút, người lớn chơi cùng): trẻ chọn một người để tặng một tấm thiệp tự vẽ hoặc một món đồ chơi trẻ tự muốn cho, rồi cùng người lớn mang đi tặng. Cách chơi đầy đủ, cách điều chỉnh theo tuổi và lưu ý an toàn ở trang [Góc trẻ – Hoạt động 12](/goc-tre/gtr-12/).
 
 ## 5. Dừng tập khi
 

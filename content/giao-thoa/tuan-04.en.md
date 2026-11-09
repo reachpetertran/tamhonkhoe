@@ -89,15 +89,7 @@ Note: [Expert judgement] this week does not set any discipline around food, fast
 
 ## 4. Kids' corner 6+
 
-**Game: "One pebble a day"** (5–10 minutes, with an adult playing too)
-
-1. Adult and child choose one small task the child can do each day: putting shoes on the rack, watering one plant, packing books into a school bag.
-2. Prepare a clear jar. Each time the child finishes the task, the child drops one large pebble (or puts a sticker) into the jar.
-3. At the end of the week, count the pebbles together and ask: "What was it like doing a little bit every day?"
-
-Use large pebbles that cannot fit in a child's mouth. If there is a child under 3 at home, use stickers instead. Do not reward with food, do not punish when the child forgets, and do not compare the child's jar with siblings'. If the child gets bored, stop the game.
-
-daynentang also has lessons on [children's chores](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-5/g5-viec-nha-cua-con/) and [keeping promises](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-10/g10-giu-loi-hua/) (in Vietnamese) for families with children aged 2–8.
+Game "A pebble a day" (5–10 minutes, with an adult playing too): choose one small task the child does each day; when it is done the child drops a pebble in a jar, and you count them at the end of the week. Full instructions, age adjustments and safety notes are on the page [Kids’ corner – Activity 4](/en/kids-corner/activity-04/).
 
 ## 5. Stop practising if
 

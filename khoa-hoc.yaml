@@ -25,6 +25,26 @@ nhom:
   - {id: goc-tre, ten: "Góc trẻ 6+", ten_en: "Kids’ corner 6+", mo_ta: "Hoạt động 5–10 phút, luôn có người lớn đi cùng.", mo_ta_en: "5–10 minute activities, always with an adult."}
 
 nghien_cuu:
+  dunning2019:
+    trich: "Dunning et al. 2019, Journal of Child Psychology and Psychiatry 60(3)"
+    url: "https://doi.org/10.1111/jcpp.12980"
+    vi: "Phân tích gộp 33 thử nghiệm ngẫu nhiên, 3.666 trẻ em và thanh thiếu niên: chương trình chánh niệm cải thiện chú ý, lo âu/căng thẳng, trầm cảm ở mức nhỏ (d 0,16–0,30); so với nhóm đối chứng có hoạt động khác, chỉ còn lợi ích về chánh niệm, trầm cảm, lo âu/căng thẳng."
+    en: "Meta-analysis of 33 randomised trials, 3,666 children and adolescents: mindfulness programmes improved attention, anxiety/stress and depression by a small amount (d 0.16–0.30); against active controls, benefits remained only for mindfulness, depression and anxiety/stress."
+  froh2008:
+    trich: "Froh, Sefick & Emmons 2008, Journal of School Psychology 46(2)"
+    url: "https://doi.org/10.1016/j.jsp.2007.03.005"
+    vi: "221 học sinh đầu tuổi thiếu niên, 11 lớp chia ngẫu nhiên: viết điều đáng biết ơn đi kèm biết ơn, lạc quan, hài lòng cuộc sống cao hơn, ít cảm xúc tiêu cực hơn; rõ nhất là hài lòng với trường học."
+    en: "221 early adolescents, 11 classes randomly assigned: writing down things to be grateful for went with more gratitude, optimism and life satisfaction and less negative feeling; clearest for satisfaction with school."
+  aknin2012:
+    trich: "Aknin, Hamlin & Dunn 2012, PLoS ONE 7(6)"
+    url: "https://doi.org/10.1371/journal.pone.0039211"
+    vi: "Trẻ chưa đầy 2 tuổi trông vui hơn khi cho người khác đồ ăn vặt so với khi tự nhận, và vui hơn nữa khi cho chính phần của mình. Một nghiên cứu nhỏ, đo một lần."
+    en: "Children under 2 looked happier giving treats to others than receiving them, and happier still when giving their own. One small study, measured once."
+  rapp2022:
+    trich: "Rapp, Wang Xu & Enright 2022, Child Development 93(5)"
+    url: "https://doi.org/10.1111/cdev.13771"
+    vi: "Phân tích gộp 20 nghiên cứu, 1.472 trẻ em và thanh thiếu niên (tuổi trung bình khoảng 12): chương trình giáo dục về tha thứ tăng tha thứ (g = 0,54) và giảm giận (g = 0,29)."
+    en: "Meta-analysis of 20 studies, 1,472 children and adolescents (mean age about 12): forgiveness education programmes increased forgiveness (g = 0.54) and reduced anger (g = 0.29)."
   goyal2014:
     trich: "Goyal et al. 2014, JAMA Internal Medicine 174(3)"
     url: "https://doi.org/10.1001/jamainternmed.2013.13018"
@@ -1145,26 +1165,42 @@ khoa:
     nhom: goc-tre
     ten: "Góc trẻ 6+"
     ten_en: "Kids’ corner 6+"
-    mo_ta: "Mười hai hoạt động 5–10 phút đi cùng 12 tuần Giao thoa. Chỉ lên trang sau khi đã dạy thử."
-    mo_ta_en: "Twelve 5–10 minute activities that go with the 12 Convergence weeks. Published only after trial teaching."
+    mo_ta: "Mười hai trò chơi 5–10 phút đi cùng 12 tuần Giao thoa: dừng lại, biết ơn, đổi vai, việc nhỏ mỗi ngày, lắng xuống, giúp người trong nhà, gửi lời chúc, làm lành, nhường, thay đổi trong tự nhiên, lắng nghe, tặng quà. Luôn có người lớn chơi cùng. Chưa dạy thử."
+    mo_ta_en: "Twelve 5–10 minute games that go with the 12 Convergence weeks: pausing, gratitude, swapping places, a small daily task, settling down, helping at home, good wishes, making up, letting others go first, change in nature, listening, giving. Always with an adult playing too. Not yet trial-taught."
     tang: "–"
     phut: "5–10"
-    trang_thai: chua-bat-dau
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 12 hoạt động, chưa dạy thử"
+    tien_do_en: "All 12 activities published, not yet trial-taught"
     duyet: chu-du-an
-    ra_mat: "Theo từng tuần Giao thoa"
-    ra_mat_en: "With each Convergence week"
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [dunning2019, froh2008, aknin2012, rapp2022]
+    bai_tep:
+      - goc-tre/gtr-01
+      - goc-tre/gtr-02
+      - goc-tre/gtr-03
+      - goc-tre/gtr-04
+      - goc-tre/gtr-05
+      - goc-tre/gtr-06
+      - goc-tre/gtr-07
+      - goc-tre/gtr-08
+      - goc-tre/gtr-09
+      - goc-tre/gtr-10
+      - goc-tre/gtr-11
+      - goc-tre/gtr-12
     bai:
-      - "Một phút dừng lại | One-minute pause | –"
-      - "Ba điều cảm ơn | Three thank-yous | –"
-      - "Đổi giày | Swapping shoes | –"
-      - "Một viên sỏi mỗi ngày | A pebble a day | –"
-      - "Lọ nước đục | The muddy jar | –"
-      - "Việc nhà cho người khác | A chore for someone else | –"
-      - "Gửi lời chúc | Sending good wishes | –"
-      - "Làm lành | Making up | –"
-      - "Nước chảy chỗ thấp | Water flows low | –"
-      - "Lá rơi | Falling leaves | –"
-      - "Nghe chuông tắt dần | Listening to the bell fade | –"
-      - "Tặng một món đồ chơi | Giving a toy | –"
-    gioi_han: "Không nhịn ăn, không ăn kiêng, không nói về sang chấn, không ép bàn về cái chết. Luôn có người lớn đi cùng."
-    gioi_han_en: "No fasting, no dieting, no talk of trauma, no pressure to discuss death. Always with an adult."
+      - "Tượng đá biết thở | The breathing statue | – | Chơi ít nhất 2 lần trong tuần | Play at least twice in the week"
+      - "Ai đã giúp mình hôm nay? | Who helped me today? | – | Chơi ít nhất 2 lần trong tuần | Play at least twice in the week"
+      - "Đổi giày | Swapping shoes | – | Chơi ít nhất 2 lần trong tuần | Play at least twice in the week"
+      - "Một viên sỏi mỗi ngày | A pebble a day | – | Chơi ít nhất 2 lần trong tuần | Play at least twice in the week"
+      - "Lọ nước đục | The muddy jar | – | Chơi ít nhất 2 lần trong tuần | Play at least twice in the week"
+      - "Việc tốt cho người trong nhà | A kind deed at home | – | Chơi ít nhất 2 lần trong tuần | Play at least twice in the week"
+      - "Gửi lời chúc | Sending good wishes | – | Chơi ít nhất 2 lần trong tuần | Play at least twice in the week"
+      - "Làm lành | Making up | – | Chơi ít nhất 2 lần trong tuần | Play at least twice in the week"
+      - "Nước chảy chỗ thấp | Water flows low | – | Chơi ít nhất 2 lần trong tuần | Play at least twice in the week"
+      - "Lá rơi | Falling leaves | – | Chơi ít nhất 2 lần trong tuần | Play at least twice in the week"
+      - "Nghe chuông tắt dần | Listening to the bell fade | – | Chơi ít nhất 2 lần trong tuần | Play at least twice in the week"
+      - "Món quà nhỏ | A small gift | – | Chơi ít nhất 2 lần trong tuần | Play at least twice in the week"
+    gioi_han: "Đăng trước khi dạy thử, theo quyết định của chủ dự án; mỗi trang ghi rõ \"chưa dạy thử\" và có mục ghi lại sau buổi chơi. Trò chơi không dạy giáo lý của tôn giáo nào. Không nhịn ăn, không ăn kiêng, không nói về sang chấn, không đưa chuyện chết chóc vào trò chơi; luôn có người lớn đi cùng. Chưa có nghiên cứu nào đo riêng các trò chơi này; nghiên cứu về chánh niệm, biết ơn và tha thứ ở trẻ là các chương trình nhiều buổi, nhiều nghiên cứu ở trẻ lớn hơn 10 tuổi. Kỹ năng cảm xúc cho trẻ 2–8 tuổi có trang gốc trên daynentang.com; ở đây chỉ đặt link."
+    gioi_han_en: "Published before trial teaching, by decision of the project owner; each page says \"not yet trial-taught\" and has a section for notes after playing. The games do not teach any religion’s doctrine. No fasting, no dieting, no talk of trauma, no death in the games; always with an adult. No study has measured these particular games; research on mindfulness, gratitude and forgiveness in children involves multi-session programmes, and many studies are of children older than 10. Emotional skills for children aged 2–8 have their home on daynentang.com; we only link there."

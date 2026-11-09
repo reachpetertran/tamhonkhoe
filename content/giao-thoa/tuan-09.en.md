@@ -96,16 +96,7 @@ Note: [Expert judgement] humility is not running yourself down, not taking blame
 
 ## 4. Kids' corner 6+
 
-**Game: "Water runs to the low place"** (5–10 minutes, with an adult playing too)
-
-1. Set a tray at a slight slope. The child drips a few drops of water at the high end.
-2. Watch together: where does the water go? (To the low place.)
-3. The adult says: "Water helps plants grow without showing off. Water is happy to run down to the low place."
-4. Think together of one "like water" thing for today: letting a sibling pick a toy first, letting a friend speak first.
-
-Do not call the child "grabby" or "selfish". If the child gets bored, stop the game and wipe the tray together.
-
-daynentang also has a lesson, [Telling the truth, a lighter heart](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-1/g1-noi-that-long-nhe/) (in Vietnamese), for families with children aged 2–8.
+Game "Water flows low" (5–10 minutes, with an adult playing too): drip water onto a slightly tilted tray, watch it run to the low end, then choose one "water-like" act such as letting a friend speak first. Full instructions, age adjustments and safety notes are on the page [Kids’ corner – Activity 9](/en/kids-corner/activity-09/).
 
 ## 5. Stop practising if
 

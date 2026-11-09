@@ -85,16 +85,7 @@ Lưu ý: [Đánh giá chuyên môn] đổi vai không có nghĩa là chiều the
 
 ## 4. Góc trẻ 6+
 
-**Trò "Đổi giày"** (5–10 phút, người lớn chơi cùng)
-
-1. Người lớn và trẻ mỗi người vẽ một chiếc giày lên tờ giấy, rồi đổi giấy cho nhau. "Bây giờ mình đang đi giày của người kia."
-2. Người lớn kể một tình huống nhỏ, có thật trong ngày: "Em bé đang xếp tháp thì bị đổ", "Mẹ đi làm về mệt".
-3. Hỏi trẻ: "Nếu con đang đi giày của em bé (của mẹ), con thấy thế nào? Con mong người khác làm gì cho con?"
-4. Cùng chọn một việc nhỏ trẻ làm được ngay: giúp xếp lại tháp, mang cốc nước, nói "con giúp mẹ nhé".
-
-Không chấm câu trả lời của trẻ là đúng hay sai. Không dùng trò chơi để trách trẻ ("con thấy chưa, con làm em buồn đấy"). Chọn tình huống nhẹ nhàng, không nói về bắt nạt hay chuyện đáng sợ. Nếu trẻ chán, dừng trò chơi.
-
-Daynentang có thêm bài [Việc tốt bí mật](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-3/g3-viec-tot-bi-mat/) cho gia đình có con 2–8 tuổi.
+Trò "Đổi giày" (5–10 phút, người lớn chơi cùng): mỗi người vẽ một chiếc giày rồi đổi cho nhau, tưởng tượng mình là người kia trong một tình huống nhỏ và chọn một việc giúp được ngay. Cách chơi đầy đủ, cách điều chỉnh theo tuổi và lưu ý an toàn ở trang [Góc trẻ – Hoạt động 3](/goc-tre/gtr-03/).
 
 ## 5. Dừng tập khi
 

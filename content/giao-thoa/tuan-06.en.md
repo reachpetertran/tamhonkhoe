@@ -91,16 +91,7 @@ Note: [Expert judgement] helping does not mean letting others take advantage of 
 
 ## 4. Kids' corner 6+
 
-**Game: "A good deed for someone at home"** (5–10 minutes, with an adult playing too)
-
-1. Adult and child think together: who at home might need help today? Grandparents, parents, brothers or sisters.
-2. The child chooses one small thing to do for that person: lining up their shoes, bringing a glass of water, putting away shared toys, handing them a towel.
-3. The child does it "in secret", without announcing it.
-4. In the evening, the adult asks: "How did you feel when you did it?"
-
-Do not force the child, and do not belittle the deed they choose as too small. Do not reward with food or money. If the child gets bored, stop the game.
-
-daynentang also has a lesson, [Secret good deeds](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-3/g3-viec-tot-bi-mat/) (in Vietnamese), for families with children aged 2–8.
+Game "A kind deed at home" (5–10 minutes, with an adult playing too): the child picks someone at home who might need help and secretly does one small thing for them, then talks about it in the evening. Full instructions, age adjustments and safety notes are on the page [Kids’ corner – Activity 6](/en/kids-corner/activity-06/).
 
 ## 5. Stop practising if
 

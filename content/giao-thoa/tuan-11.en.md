@@ -91,16 +91,7 @@ Note: [Expert judgement] if 15 minutes is too long, stay at 10; the aim is to si
 
 ## 4. Kids' corner 6+
 
-**Game: "Listening to the bell fade"** (5 minutes, with an adult playing too)
-
-1. The adult lightly strikes a small bell, or taps a spoon on a glass.
-2. The child closes their eyes (or looks down) and listens as the ringing fades.
-3. When they can no longer hear anything, the child raises a hand.
-4. Play three times. Then ask: "When it was quiet, what other sounds did you hear?"
-
-Each silence lasts only a few tens of seconds. Do not make the child sit still for long. If the child does not want to close their eyes, let them keep them open. If the child gets bored, stop the game.
-
-daynentang also has a lesson, [Walking slowly, eating slowly](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-9/g9-di-cham-an-cham/) (in Vietnamese), for families with children aged 2–8.
+Game "Listening to the bell fade" (5–10 minutes, with an adult playing too): the adult strikes a bell gently, the child listens as the sound fades and raises a hand when it has gone; each silence lasts only a few dozen seconds. Full instructions, age adjustments and safety notes are on the page [Kids’ corner – Activity 11](/en/kids-corner/activity-11/).
 
 ## 5. Stop practising if
 

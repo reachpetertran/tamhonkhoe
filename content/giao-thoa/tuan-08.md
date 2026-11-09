@@ -98,18 +98,7 @@ Lưu ý: [Đánh giá chuyên môn] tha thứ không phải là quên, không ph
 
 ## 4. Góc trẻ 6+
 
-**Trò "Làm lành"** (5–10 phút, người lớn đi cùng)
-
-Dùng sau một lần cãi nhau nhỏ, ví dụ hai anh em giành đồ chơi.
-
-1. Khi cả hai đã bình tĩnh, người lớn ngồi cùng hai bé.
-2. Mỗi bé nói một câu: "Lúc đó em thấy ___."
-3. Cả hai cùng nghĩ một cách sửa: chia lượt, cùng chơi, đổi đồ chơi khác.
-4. Người lớn hỏi: "Bây giờ con thấy thế nào?"
-
-Không ép trẻ nói "con xin lỗi" hay "con tha cho bạn" khi trẻ chưa sẵn sàng. Không dùng trò này cho chuyện bắt nạt, hay khi có người làm trẻ đau hoặc sợ: khi đó người lớn phải can thiệp và bảo vệ trẻ.
-
-Daynentang có thêm bài [Nhận lỗi và sửa lỗi](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-6/g6-nhan-loi-va-sua-loi/) cho gia đình có con 2–8 tuổi.
+Trò "Làm lành" (5–10 phút, người lớn chơi cùng): sau một lần cãi nhau nhỏ, khi cả hai đã bình tĩnh, mỗi bé nói "lúc đó em thấy…" và cùng nghĩ một cách sửa; không dùng cho bắt nạt hay khi có người làm trẻ đau. Cách chơi đầy đủ, cách điều chỉnh theo tuổi và lưu ý an toàn ở trang [Góc trẻ – Hoạt động 8](/goc-tre/gtr-08/).
 
 ## 5. Dừng tập khi
 

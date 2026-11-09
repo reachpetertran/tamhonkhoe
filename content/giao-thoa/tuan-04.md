@@ -84,15 +84,7 @@ Lưu ý: [Đánh giá chuyên môn] tuần này không đưa ra kỷ luật về
 
 ## 4. Góc trẻ 6+
 
-**Trò "Một viên sỏi mỗi ngày"** (5–10 phút, người lớn chơi cùng)
-
-1. Người lớn và trẻ cùng chọn một việc nhỏ trẻ làm được mỗi ngày: cất dép lên kệ, tưới một chậu cây, xếp sách vào cặp.
-2. Chuẩn bị một chiếc lọ trong. Mỗi lần trẻ làm xong việc, trẻ tự thả một viên sỏi to (hoặc dán một nhãn dán) vào lọ.
-3. Cuối tuần, cùng đếm sỏi và hỏi trẻ: "Làm mỗi ngày một chút thì thấy thế nào?"
-
-Dùng sỏi to, không vừa miệng trẻ. Nếu nhà có trẻ dưới 3 tuổi, dùng nhãn dán thay sỏi. Không thưởng bằng đồ ăn, không phạt khi trẻ quên, không so lọ của trẻ với anh chị em. Nếu trẻ chán, dừng trò chơi.
-
-Daynentang có thêm bài [Việc nhà của con](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-5/g5-viec-nha-cua-con/) và [Giữ lời hứa](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-10/g10-giu-loi-hua/) cho gia đình có con 2–8 tuổi.
+Trò "Một viên sỏi mỗi ngày" (5–10 phút, người lớn chơi cùng): chọn một việc nhỏ trẻ làm mỗi ngày; làm xong thì trẻ thả một viên sỏi vào lọ, cuối tuần cùng đếm. Cách chơi đầy đủ, cách điều chỉnh theo tuổi và lưu ý an toàn ở trang [Góc trẻ – Hoạt động 4](/goc-tre/gtr-04/).
 
 ## 5. Dừng tập khi
 

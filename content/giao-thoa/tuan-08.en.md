@@ -97,18 +97,7 @@ Note: [Expert judgement] forgiving is not forgetting, is not calling a wrong rig
 
 ## 4. Kids' corner 6+
 
-**Game: "Making up"** (5–10 minutes, with an adult)
-
-Use it after a small quarrel, for example two siblings fighting over a toy.
-
-1. When both have calmed down, the adult sits with the two children.
-2. Each child says one sentence: "At that moment I felt ___."
-3. Together they think of a way to fix it: take turns, play together, swap to another toy.
-4. The adult asks: "How do you feel now?"
-
-Do not make a child say "sorry" or "I forgive you" before they are ready. Do not use this game for bullying, or when someone has hurt or frightened the child: then the adult must step in and protect the child.
-
-daynentang also has a lesson, [Owning and fixing mistakes](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-6/g6-nhan-loi-va-sua-loi/) (in Vietnamese), for families with children aged 2–8.
+Game "Making up" (5–10 minutes, with an adult playing too): after a small quarrel, once both are calm, each child says "I felt…" and together they find a fix; never for bullying or when someone has hurt the child. Full instructions, age adjustments and safety notes are on the page [Kids’ corner – Activity 8](/en/kids-corner/activity-08/).
 
 ## 5. Stop practising if
 

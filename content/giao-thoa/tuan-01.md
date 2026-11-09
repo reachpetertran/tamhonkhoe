@@ -84,15 +84,7 @@ Cuối tuần, đọc lại bảy dòng đã ghi. Không cần chấm điểm m�
 
 ## 4. Góc trẻ 6+
 
-**Trò "Tượng đá biết thở"** (5–10 phút, người lớn chơi cùng)
-
-1. Người lớn và trẻ cùng đi lại hoặc nhún nhảy trong phòng.
-2. Người lớn nói "Dừng!" thì mọi người đứng yên như tượng đá.
-3. Lúc đứng yên, mỗi người thầm đếm 3 hơi thở, rồi kể một điều mình nhận ra: chân đang chạm sàn, một âm thanh, tay ấm hay lạnh.
-4. Đổi vai: trẻ được hô "Dừng!".
-5. Kết thúc bằng một câu hỏi: "Khi nào ở trường hay ở nhà, mình cũng có thể làm tượng đá một chút?"
-
-Không ép trẻ nhắm mắt. Nếu trẻ thấy chán hoặc khó chịu, dừng trò chơi.
+Trò "Tượng đá biết thở" (5–10 phút, người lớn chơi cùng): cả nhà đi lại, nghe hô "Dừng!" thì đứng yên như tượng đá, đếm 3 hơi thở và kể một điều mình nhận ra. Cách chơi đầy đủ, cách điều chỉnh theo tuổi và lưu ý an toàn ở trang [Góc trẻ – Hoạt động 1](/goc-tre/gtr-01/).
 
 ## 5. Dừng tập khi
 

@@ -112,16 +112,7 @@ Note: [Expert judgement] giving within your means means not giving away money or
 
 ## 4. Kids' corner 6+
 
-**Game: "A small gift"** (5–10 minutes, with an adult playing too)
-
-1. Adult and child choose someone to give a gift to: grandparents, a teacher, the building guard, a younger child.
-2. The child chooses how to give: draw a card, or pick a toy in good condition that they **want** to give away.
-3. The child and adult take the gift together.
-4. In the evening, the adult asks: "How did you feel when you gave the gift?"
-
-Do not make the child give away a toy they still treasure. A drawn card is a complete gift. Do not reward with food or money. If the child gets bored, stop the game.
-
-daynentang also has a lesson, [Thanking working people](https://daynentang.com/khoa-hoc/gia-dinh-2-8/tuan-8/g8-cam-on-nguoi-lao-dong/) (in Vietnamese), for families with children aged 2–8.
+Game "A small gift" (5–10 minutes, with an adult playing too): the child chooses someone to receive a hand-drawn card or a toy they want to give, then delivers it with an adult. Full instructions, age adjustments and safety notes are on the page [Kids’ corner – Activity 12](/en/kids-corner/activity-12/).
 
 ## 5. Stop practising if
 
