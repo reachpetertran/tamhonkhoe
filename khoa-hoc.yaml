@@ -30,6 +30,11 @@ nghien_cuu:
     url: "https://doi.org/10.1001/jamainternmed.2013.13018"
     vi: "47 thử nghiệm ngẫu nhiên, 3.515 người: chương trình thiền chánh niệm giảm lo âu, trầm cảm ở mức nhỏ đến vừa; không tốt hơn các can thiệp chủ động khác."
     en: "47 randomised trials, 3,515 people: mindfulness meditation programmes reduce anxiety and depression by a small-to-moderate amount; not better than other active treatments."
+  vandam2018:
+    trich: "Van Dam et al. 2018, Perspectives on Psychological Science 13(1)"
+    url: "https://doi.org/10.1177/1745691617709589"
+    vi: "Tổng quan phê bình: \"chánh niệm\" chưa có định nghĩa thống nhất, nhiều nghiên cứu yếu về phương pháp và dựa nhiều vào tự báo cáo, tác dụng không mong muốn chưa được theo dõi đủ."
+    en: "Critical review: \"mindfulness\" has no agreed definition, many studies are methodologically weak and rely heavily on self-report, and adverse effects are not monitored enough."
   farias2020:
     trich: "Farias et al. 2020, Acta Psychiatrica Scandinavica 142(5)"
     url: "https://doi.org/10.1111/acps.13225"
@@ -342,20 +347,23 @@ khoa:
     mo_ta_en: "The breath, the four truths, speech, non-harm, loving-kindness and testing for yourself."
     tang: "1"
     phut: "10–15"
-    trang_thai: chua-bat-dau
-    duyet: truyen-thong
-    ra_mat: "Th3–4/2027"
-    ra_mat_en: "Mar–Apr 2027"
-    nghien_cuu: [goyal2014, farias2020]
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [goyal2014, vandam2018, farias2020, gloster2020, kjaervik2024, curry2018, lktm2024]
+    bai_tep: [khe/phat-giao/pg1-tuan-01, khe/phat-giao/pg1-tuan-02, khe/phat-giao/pg1-tuan-03, khe/phat-giao/pg1-tuan-04, khe/phat-giao/pg1-tuan-05, khe/phat-giao/pg1-tuan-06]
     bai:
-      - "Ngồi với hơi thở | Sitting with the breath | MN 118 | Ngồi 10 phút ≥5/7 ngày | Sit 10 minutes on 5 of 7 days"
-      - "Bốn sự thật bằng lời mình | The four truths in your own words | SN 56.11 | Viết lại 4 ý trong ≤4 câu | Rewrite the four points in at most four sentences"
+      - "Ngồi với hơi thở | Sitting with the breath | MN 118 (đoạn 15–18) || MN 118 (sections 15–18) | Ngồi 10 phút ≥5/7 ngày | Sit 10 minutes on 5 of 7 days"
+      - "Bốn sự thật bằng lời mình | The four truths in your own words | SN 56.11 | Viết lại 4 ý trong ≤4 câu; khung bốn câu hỏi ≥5/7 ngày | Rewrite the four points in at most four sentences; use the four-question frame on 5 of 7 days"
       - "Lời nói | Speech | Dhp 223–224 | \"Nói thật, nói nhẹ\" ≥3 lần/tuần | ‘True and gentle speech’ at least 3 times a week"
       - "Không làm hại | Non-harm | Dhp 129–130 | 1 việc \"không làm hại\" có chủ ý mỗi ngày | One deliberate act of non-harm a day"
       - "Từ tâm | Loving-kindness | Snp 1.8 | Từ tâm 10 phút ≥5/7 ngày | Loving-kindness 10 minutes on 5 of 7 days"
-      - "Tự kiểm chứng | Testing for yourself | AN 3.65 | Viết 1 niềm tin đã thử qua trải nghiệm | Write down one belief you have tested in experience"
-    gioi_han: "Thở 1–3 phút có trang gốc trên daynentang.com. Thiền cũng có thể gây trải nghiệm khó chịu; mỗi bài có mục \"Dừng tập khi\"."
-    gioi_han_en: "1–3 minute breathing has its home on daynentang.com. Meditation can also bring difficult experiences; every lesson has a ‘Stop practising if’ section."
+      - "Tự kiểm chứng | Testing for yourself | AN 3.65 | Viết 1 niềm tin đã thử qua trải nghiệm; chấm 5 thói quen, giữ 2 | Write down one belief you have tested in experience; rate five habits, keep two"
+    gioi_han: "Thở 1–3 phút có trang gốc trên daynentang.com. Thiền cũng có thể gây trải nghiệm khó chịu; mỗi bài có mục \"Dừng tập khi\". Khóa trình bày phần thực hành, không đòi người học chấp nhận niềm tin về tái sinh hay các cõi; bài tập không có phần đổi chế độ ăn hay hành hạ thân. Chưa có người duyệt từ trong truyền thống Phật giáo, và chưa có nghiên cứu đánh giá trực tiếp chương trình này."
+    gioi_han_en: "1–3 minute breathing has its home on daynentang.com. Meditation can also bring difficult experiences; every lesson has a ‘Stop practising if’ section. The course presents the practice and does not ask learners to accept beliefs about rebirth or other realms; no exercise involves changing your diet or harming the body. No reviewer from within the Buddhist tradition has checked it yet, and no study has evaluated this programme directly."
 
   - ma: PG2
     slug: phat-giao-2

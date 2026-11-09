@@ -82,6 +82,39 @@ dhp-sujato:
   checked_on: 2026-11-04
   url_status: "Claude mở 2026-11-04 và chụp màn hình mục Info → License (giay-phep/2026-11-04/23-suttacentral-dhp-sujato-license.png); chờ Peter xác nhận. Cùng nội dung giấy phép và lời đề nghị về AI như snp-sujato; bilara-data ghi CC0 (scpub7). Nguyên văn lấy từ bilara-data, các file dhp1-20, dhp221-234, dhp273-289. Peter quyết định dùng bản Sujato 04/11/2026. Peter xác nhận 2026-11-04 qua ảnh 23 do Claude chụp."
 
+mn118-sujato:
+  title: "MN 118 Ānāpānassati Sutta: Mindfulness of Breathing (Middle Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/mn118/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-09
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/28-suttacentral-mn118-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Middle Discourses; cùng lời đề nghị về AI như các bản Sujato khác. bilara-data _publication-v2.json (scpub3) ghi CC0. Cùng ấn phẩm Middle Discourses với mn10-sujato mà Peter đã xác nhận 2026-11-03. Nguyên văn lấy từ bilara-data nhánh published, file mn118_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-09 qua ảnh 28 do Claude chụp."
+
+sn56-11-sujato:
+  title: "SN 56.11 Dhammacakkappavattana Sutta: Rolling Forth the Wheel of Dhamma (Linked Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/sn56.11/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-09
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/26-suttacentral-sn-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Linked Discourses; cùng lời đề nghị về AI. bilara-data _publication-v2.json (scpub4) ghi CC0. Nguyên văn lấy từ bilara-data nhánh published, file sn56.11_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-09 qua ảnh 26 do Claude chụp."
+
+an3-65-sujato:
+  title: "AN 3.65 Kesamutti Sutta: With the Kālāmas of Kesamutta (Numbered Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/an3.65/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-09
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/27-suttacentral-an3-65-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Numbered Discourses; cùng lời đề nghị về AI. bilara-data _publication-v2.json (scpub5) ghi CC0. Cùng ấn phẩm với an2-sujato (ảnh 18). Nguyên văn lấy từ bilara-data nhánh published, file an3.65_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-09 qua ảnh 27 do Claude chụp."
+
 minhchau-nikaya:
   title: "Kinh tạng Nikaya (bản Việt)"
   khe: phat-giao
