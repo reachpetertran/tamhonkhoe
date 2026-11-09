@@ -466,22 +466,28 @@ khoa:
     nhom: phat-giao
     ten: "Pháp trong đời thường"
     ten_en: "Dhamma in everyday life"
-    mo_ta: "Gia đình, nghề nghiệp, tiền bạc theo lời dạy cho người tại gia."
-    mo_ta_en: "Family, work and money in the teachings for lay people."
+    mo_ta: "Gia đình, nghề nghiệp, tiền bạc theo lời dạy cho người tại gia: sáu phương, tấm gương của Rāhula, cha mẹ của Nakula; khoảng 10 phút đọc mỗi ngày và một việc nhỏ trong đời thường."
+    mo_ta_en: "Family, work and money in the teachings for lay people: the six directions, Rāhula's mirror, Nakula's parents; about 10 minutes of reading a day and one small action in daily life."
     tang: "4"
     phut: "Theo nhịp sống"
     phut_en: "Fits daily life"
-    trang_thai: chua-bat-dau
-    duyet: truyen-thong
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [curry2018, frattaroli2006, dunn2008]
+    bai_tep: [khe/phat-giao/pg4-tuan-01, khe/phat-giao/pg4-tuan-02, khe/phat-giao/pg4-tuan-03, khe/phat-giao/pg4-tuan-04, khe/phat-giao/pg4-tuan-05, khe/phat-giao/pg4-tuan-06]
     bai:
-      - "Bổn phận trong các mối quan hệ | Duties in relationships | DN 31"
-      - "Đời sống tại gia an lạc | A good lay life | AN 8.54"
-      - "Soi lại việc mình làm | Reflecting on our actions | MN 61"
-      - "Vợ chồng đồng hành | Partners together | AN 4.55"
-      - "Tiền bạc và cho đi | Money and giving | DN 31 · AN 8.54"
-      - "Ôn tập | Review | –"
+      - "Bổn phận trong các mối quan hệ | Duties in relationships | DN 31 | 1 việc nhỏ cho 1 \"phương\"/ngày ≥5/7; chạm ≥4/6 phương | One small thing for one ‘direction’ a day on 5 of 7 days; reach at least 4 of 6 directions"
+      - "Đời sống tại gia an lạc | A good lay life | AN 8.54 · DN 31 | Làm xong 1 việc đã chọn ≥5/7; 1 cuộc trò chuyện với bạn tốt | Finish one chosen task on 5 of 7 days; one conversation with a good friend"
+      - "Soi lại việc mình làm | Reflecting on our actions | MN 61 | Soi 3 lần 1 việc/ngày ≥5/7; ghi ≥2 việc tốt | Check one action three times a day on 5 of 7 days; note at least 2 good deeds"
+      - "Vợ chồng đồng hành | Partners together | AN 4.55 | 1 lời cảm ơn cụ thể ≥5/7; 1 buổi nói chuyện 20′ | One specific thank-you on 5 of 7 days; one 20′ conversation"
+      - "Tiền bạc và cho đi | Money and giving | AN 8.54 · DN 31 | Ghi thu chi ≥6/7; cho đi 1 lần | Track money on 6 of 7 days; give once"
+      - "Ôn tập | Review | DN 31 · MN 61 · AN 8.54 | Tự chấm 5 thói quen, giữ 2 ≥5/7; kế hoạch 4 tuần | Rate five habits, keep two on 5 of 7 days; a 4-week plan"
+    gioi_han: "Khóa Tầng 4: không có buổi ngồi dài, chỉ đọc khoảng 10 phút mỗi ngày và tập trong việc nhà, việc làm, các mối quan hệ. Các bài kinh phản ánh xã hội Ấn Độ cổ (gia nhân, hôn nhân do cha mẹ sắp đặt, chia việc theo giới); khóa giữ ý bổn phận đi hai chiều, không giữ các cách phân vai ấy. Khóa không dùng lời kinh để khuyên ai ở lại trong một mối quan hệ có bạo lực hay kiểm soát. Phần tiền bạc chỉ mô tả lời dạy, không phải lời khuyên tài chính; khóa không xin tiền và không gợi ý cho tổ chức nào. Người học không cần tin vào tái sinh. Chưa có người duyệt từ trong truyền thống Phật giáo, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; tuần 2 và 4 không có bằng chứng khoa học."
+    gioi_han_en: "A Level 4 course: no long sitting, only about 10 minutes of reading a day and practice in housework, work and relationships. The discourses reflect ancient Indian society (bondservants, marriages arranged by parents, roles divided by gender); the course keeps the idea that duties go both ways, not those divisions of roles. The course does not use the discourses to advise anyone to stay in a relationship with violence or control. The money lessons only describe the teaching and are not financial advice; the course asks for no money and recommends no organisation. Learners do not need to believe in rebirth. No reviewer from within the Buddhist tradition has checked it yet, and no study has evaluated this programme directly; weeks 2 and 4 have no scientific evidence."
 
   # ------------------------------------------------------------ KITÔ GIÁO
   - ma: KT1

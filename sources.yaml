@@ -440,3 +440,47 @@ mn1-sujato:
   may_translate: true
   checked_on: 2026-11-09
   url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/35-suttacentral-mn1-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Middle Discourses; cùng lời đề nghị về AI. Publication number scpub3. Nguyên văn lấy từ bilara-data nhánh published, file mn1_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-09 qua ảnh 35 do Claude chụp."
+
+dn31-sujato:
+  title: "DN 31 Sigālaka Sutta: Advice to Sigālaka (Long Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/dn31/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-10
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/36-suttacentral-dn31-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Long Discourses; cùng lời đề nghị về AI. Publication number scpub2. Nguyên văn lấy từ bilara-data nhánh published, file dn31_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-10 qua ảnh 36 do Claude chụp."
+
+mn61-sujato:
+  title: "MN 61 Ambalaṭṭhikarāhulovāda Sutta: Advice to Rāhula at Ambalaṭṭhika (Middle Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/mn61/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-10
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/37-suttacentral-mn61-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Middle Discourses; cùng lời đề nghị về AI. Publication number scpub3. Nguyên văn lấy từ bilara-data nhánh published, file mn61_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-10 qua ảnh 37 do Claude chụp."
+
+an8-54-sujato:
+  title: "AN 8.54 Dīghajāṇu Sutta: With Dīghajāṇu (Numbered Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/an8.54/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-10
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/38-suttacentral-an8-54-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Numbered Discourses; cùng lời đề nghị về AI. Publication number scpub5. Nguyên văn lấy từ bilara-data nhánh published, file an8.54_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-10 qua ảnh 38 do Claude chụp."
+
+an4-55-sujato:
+  title: "AN 4.55 Paṭhamasamajīvī Sutta: Equality (1st) (Numbered Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/an4.55/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-10
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/39-suttacentral-an4-55-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Numbered Discourses; cùng lời đề nghị về AI. Publication number scpub5. Nguyên văn lấy từ bilara-data nhánh published, file an4.55_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-10 qua ảnh 39 do Claude chụp."
