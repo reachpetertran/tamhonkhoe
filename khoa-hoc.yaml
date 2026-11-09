@@ -143,13 +143,13 @@ nghien_cuu:
   berthelot2021:
     trich: "Berthelot et al. 2021, Nutrients 13(11)"
     url: "https://doi.org/10.3390/nu13113947"
-    vi: "11 nghiên cứu, 1.436 người: điểm căng thẳng, lo âu sau Ramadan thấp hơn trước, nhưng hầu hết không có nhóm chứng."
-    en: "11 studies, 1,436 people: stress and anxiety scores were lower after Ramadan than before, but most studies had no control group."
+    vi: "11 nghiên cứu, 1.436 người, về các kiểu nhịn ăn nói chung: trong các thử nghiệm ngẫu nhiên ít nguy cơ sai lệch, nhóm nhịn ăn có điểm lo âu, trầm cảm thấp hơn nhóm chứng. Tác giả gọi kết quả là sơ bộ; chưa có nghiên cứu ở người có bệnh tâm thần."
+    en: "11 studies, 1,436 people, on fasting interventions in general: in randomised trials at low risk of bias, fasting groups had lower anxiety and depression scores than controls. The authors call the results preliminary; no study included people with psychiatric conditions."
   heun2018:
     trich: "Heun 2018, Global Psychiatry 1(1)"
     url: "https://doi.org/10.2478/gp-2018-0002"
-    vi: "Tổng quan: tác động của Ramadan lên sức khỏe tinh thần nhìn chung nhỏ, nhưng người mắc tâm thần phân liệt hoặc rối loạn lưỡng cực có nguy cơ tái phát cao hơn."
-    en: "Review: Ramadan’s effect on mental health is generally small, but people with schizophrenia or bipolar disorder have a higher risk of relapse."
+    vi: "Tổng quan 22 bài: tác động của Ramadan lên sức khỏe tinh thần nhìn chung nhỏ, nhưng người mắc tâm thần phân liệt hoặc rối loạn lưỡng cực có nguy cơ tái phát cao hơn."
+    en: "Review of 22 papers: Ramadan’s effect on mental health is generally small, but people with schizophrenia or bipolar disorder have a higher risk of relapse."
   pinquart2012:
     trich: "Pinquart & Forstmeier 2012, Aging & Mental Health 16(5)"
     url: "https://doi.org/10.1080/13607863.2011.651434"
@@ -1112,23 +1112,31 @@ khoa:
     nhom: than-the
     ten: "Nhịn ăn trong các truyền thống (mô tả)"
     ten_en: "Fasting in the traditions (described)"
-    mo_ta: "Ramadan, Yom Kippur, Mùa Chay, bát quan trai: mô tả, không hướng dẫn."
-    mo_ta_en: "Ramadan, Yom Kippur, Lent and the Buddhist eight precepts: described, not taught."
+    mo_ta: "Ramadan, Yom Kippur, Mùa Chay, bát quan trai: đọc kinh văn, xem mỗi truyền thống nói gì về thời gian, mục đích và người được miễn. Chỉ mô tả, không hướng dẫn nhịn ăn; thực hành mỗi tuần không liên quan đến ăn uống (cho đi, sửa lỗi, việc tốt kín đáo, một buổi tối không giải trí)."
+    mo_ta_en: "Ramadan, Yom Kippur, Lent and the Buddhist eight precepts: read the texts and see what each tradition says about timing, purpose and who is exempt. Described, not taught; each week's practice has nothing to do with food (giving, putting a wrong right, a good deed in secret, an evening without entertainment)."
     tang: "4"
-    phut: "Đọc"
-    phut_en: "Reading"
-    trang_thai: chua-bat-dau
-    duyet: truyen-thong
-    ra_mat: "2028"
-    ra_mat_en: "2028"
-    nghien_cuu: [berthelot2021, heun2018]
+    phut: "10"
+    phut_en: "10"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 4 tuần"
+    tien_do_en: "All 4 weeks published"
+    duyet: chu-du-an
+    co_goc_tre: true
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [heun2018, berthelot2021, wade2014, curry2018, semnani2025]
+    bai_tep:
+      - than-the/tt4-tuan-01
+      - than-the/tt4-tuan-02
+      - than-the/tt4-tuan-03
+      - than-the/tt4-tuan-04
     bai:
-      - "Ramadan | Ramadan | Qur'an 2:183–185"
-      - "Yom Kippur | Yom Kippur | Lv 16:29–31 || Leviticus 16:29–31"
-      - "Mùa Chay | Lent | Mt 4:1–2 · Mt 6:16–18 || Matthew 4:1–2 · Matthew 6:16–18"
-      - "Bát quan trai | The eight precepts | AN 8.41"
-    gioi_han: "Chính các truyền thống có miễn trừ cho người bệnh, phụ nữ mang thai, trẻ em, người đi đường. Khóa chỉ mô tả, không hướng dẫn nhịn ăn."
-    gioi_han_en: "The traditions themselves exempt the sick, pregnant women, children and travellers. The course only describes; it does not teach fasting."
+      - "Ramadan | Ramadan | Qur'an 2:183–185 | Đọc ≥5/7; viết 3 điều kinh văn nói; 1 việc cho đi | Read on 5 of 7 days; write 3 things the text says; one act of giving"
+      - "Yom Kippur | Yom Kippur | Lê-vi Ký 16:29–31 · Ê-sai 58:6–7 || Leviticus 16:29–31 · Isaiah 58:6–7 | Đọc ≥5/7; sửa xong 1 lỗi nhỏ với người khác | Read on 5 of 7 days; put right one small wrong done to someone"
+      - "Mùa Chay | Lent | Ma-thi-ơ 4:1–2 · 6:16–18 || Matthew 4:1–2 · 6:16–18 | Đọc ≥5/7; ≥2 việc tốt kín đáo | Read on 5 of 7 days; at least 2 good deeds in secret"
+      - "Bát quan trai và ôn tập | The eight precepts and review | AN 8.41 | 1 buổi tối không giải trí; điền bảng so sánh; giữ ≥1 thực hành | One evening without entertainment; complete the comparison table; keep at least one practice"
+    gioi_han: "Khóa chỉ mô tả, không hướng dẫn nhịn ăn và không mời ai nhịn theo. Ai đang giữ chay theo đức tin của mình nên hỏi lãnh đạo tôn giáo về luật và hỏi bác sĩ về sức khỏe, nhất là khi có bệnh mạn tính, đái tháo đường đang dùng thuốc, đang mang thai hay cho con bú, tiền sử tâm thần phân liệt hay rối loạn lưỡng cực. Ai đang có hoặc từng có rối loạn ăn uống nên bàn với bác sĩ trước khi đọc. Phần mô tả tập quán của từng truyền thống là đánh giá của người viết, chưa có người duyệt từ trong các truyền thống. Chưa có nghiên cứu tổng hợp về Yom Kippur, Mùa Chay hay bát quan trai; nghiên cứu về Ramadan khó có nhóm chứng thật sự."
+    gioi_han_en: "The course only describes; it does not teach fasting or invite anyone to fast. Anyone who fasts as part of their faith should ask their religious leaders about the rules and a doctor about their health, especially with a chronic illness, diabetes treated with medication, pregnancy or breastfeeding, or a history of schizophrenia or bipolar disorder. Anyone with a current or past eating disorder should talk to a doctor before reading. The descriptions of each tradition's practice are the writer's judgement and have not yet been reviewed by people within the traditions. There are no reviews on Yom Kippur, Lent or the eight precepts; studies of Ramadan can hardly have a true control group."
 
   # ------------------------------------------------------------ GÓC TRẺ
   - ma: GTR
