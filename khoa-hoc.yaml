@@ -944,23 +944,28 @@ khoa:
     nhom: dao-giao
     ten: "Nước, tĩnh và đủ"
     ten_en: "Water, stillness and enough"
-    mo_ta: "Đạo Đức Kinh chương 8, 15, 16, 33, 67 và Trang Tử chương \"Dưỡng sinh chủ\"."
-    mo_ta_en: "Tao Te Ching chapters 8, 15, 16, 33 and 67, and the Zhuangzi chapter on nourishing life."
+    mo_ta: "Đạo Đức Kinh chương 8, 15, 16, 33, 67 và chuyện người đầu bếp trong Trang Tử chương III; mỗi ngày đọc chậm, ngồi yên một lúc và một việc nhỏ trong đời thường."
+    mo_ta_en: "Tao Te Ching chapters 8, 15, 16, 33 and 67, and the story of the cook in Zhuangzi chapter III; each day slow reading, a short time sitting still and one small action in daily life."
     tang: "1"
     phut: "10–15"
-    trang_thai: chua-bat-dau
-    duyet: truyen-thong
-    ra_mat: "Nửa cuối 2027"
-    ra_mat_en: "Second half of 2027"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [lee2025, goyal2014, farias2020, vandam2018, friese2017, kjaervik2024]
+    bai_tep: [khe/dao-giao/dg1-tuan-01, khe/dao-giao/dg1-tuan-02, khe/dao-giao/dg1-tuan-03, khe/dao-giao/dg1-tuan-04, khe/dao-giao/dg1-tuan-05, khe/dao-giao/dg1-tuan-06]
     bai:
-      - "Như nước | Like water | Đạo Đức Kinh 8 || Tao Te Ching 8 | 1 lần nhường thay vì tranh mỗi ngày | Once a day, yield instead of contending"
+      - "Như nước | Like water | Đạo Đức Kinh 8 || Tao Te Ching 8 | 1 lần nhường thay vì tranh mỗi ngày ≥5/7 | Yield instead of contending once a day on 5 of 7 days"
       - "Để nước đục lắng trong | Letting muddy water clear | Đạo Đức Kinh 15 || Tao Te Ching 15 | Ngồi yên 10 phút ≥5/7 | Sit still 10 minutes on 5 of 7 days"
-      - "Trở về tĩnh lặng | Returning to stillness | Đạo Đức Kinh 16 || Tao Te Ching 16 | Ghi 1 lần thấy mình \"lắng xuống\" mỗi ngày | Note one moment of settling each day"
+      - "Trở về tĩnh lặng | Returning to stillness | Đạo Đức Kinh 16 || Tao Te Ching 16 | Ghi 1 lần thấy mình \"lắng xuống\" mỗi ngày ≥5/7 | Note one moment of settling a day on 5 of 7 days"
       - "Thắng chính mình | Overcoming oneself | Đạo Đức Kinh 33 || Tao Te Ching 33 | Giữ 1 việc nhỏ ≥6/7 ngày | Keep one small task on 6 of 7 days"
-      - "Ba báu vật | Three treasures | Đạo Đức Kinh 67 || Tao Te Ching 67 | Chọn 1 trong 3 (mềm mỏng, tiết kiệm, không tranh trước) để tập | Practise one of the three: gentleness, economy, not pushing ahead"
-      - "Đầu bếp Đinh | Cook Ding | Trang Tử III || Zhuangzi III | Làm 1 việc quen thuộc thật chậm, chú tâm | Do one familiar task slowly and attentively"
-    gioi_han: "Khóa đọc văn bản Đạo gia, không dạy nghi lễ Đạo giáo. Bản Việt là bản tự dịch từ James Legge và Herbert Giles."
-    gioi_han_en: "The course reads Taoist texts; it does not teach Taoist ritual."
+      - "Ba báu vật | Three treasures | Đạo Đức Kinh 67 || Tao Te Ching 67 | Tập 1 trong 3 báu vật (hiền hòa, tiết kiệm, không tranh trước) ≥5/7 | Practise one of the three treasures (gentleness, economy, not taking precedence) on 5 of 7 days"
+      - "Đầu bếp Đinh và ôn tập | Cook Ding and review | Trang Tử III || Zhuangzi III | Làm chậm 1 việc quen ≥5/7; tự chấm 6 thói quen, giữ 2 | Do one familiar task slowly on 5 of 7 days; rate six habits, keep two"
+    gioi_han: "Khóa đọc văn bản Đạo gia, không dạy nghi lễ hay phép tu luyện của Đạo giáo. Bản Việt là bản tamhonkhoe tự dịch từ James Legge (1891) và Herbert Giles (1889); chưa đối chiếu với nguyên văn Hán. Khóa bỏ đoạn 1 chương 67 vì đoạn ấy so Đạo với các học thuyết khác. \"Không tranh\" và \"nhường\" không có nghĩa là chịu bị hại; \"tiết kiệm\" không phải lời khuyên tài chính. Chưa có người duyệt từ trong truyền thống Đạo giáo, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; khoa học trong bài chỉ là bằng chứng gần."
+    gioi_han_en: "The course reads Taoist texts; it does not teach Taoist ritual or cultivation methods. The Vietnamese is tamhonkhoe's own translation from James Legge (1891) and Herbert Giles (1889), not yet checked against the Chinese original. The course leaves out paragraph 1 of chapter 67 because it compares the Tao with other teachings. \"Not striving\" and \"yielding\" do not mean accepting harm; \"economy\" is not financial advice. No reviewer from within the Taoist tradition has checked it yet, and no study has evaluated this programme directly; the science in the lessons is only nearby evidence."
 
   - ma: DG2
     slug: dao-giao-2

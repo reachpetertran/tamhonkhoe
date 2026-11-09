@@ -363,6 +363,17 @@ ddk-legge:
   checked_on: 2026-11-04
   url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/16-gutenberg-216-legge.png); chờ Peter xác nhận. Gutenberg #216: Translator Legge, James, 1815-1897; Public domain in the USA. Dịch giả mất 1897, đạt quy tắc đời + 50 năm. Bản Việt Nguyễn Hiến Lê, Nguyễn Duy Cần còn bản quyền: chỉ link hoặc trích ngắn. Peter xác nhận 2026-11-04 qua ảnh 16 do Claude chụp."
 
+zhuangzi-giles:
+  title: "Chuang Tzu: Mystic, Moralist, and Social Reformer (Trang Tử)"
+  khe: dao-giao
+  lang: en
+  translator: "Herbert A. Giles (1889)"
+  url: "https://www.gutenberg.org/ebooks/59709"
+  license: PD
+  may_translate: true
+  checked_on: 2026-11-10
+  url_status: "Claude mở 2026-11-10 và chụp màn hình (giay-phep/2026-11-10/41-gutenberg-59709-giles.png). Peter xác nhận 2026-11-10 qua ảnh 41 do Claude chụp. Gutenberg #59709: Translator Giles, Herbert Allen, 1845-1935; Contributor Moore, Aubrey L., 1848-1890; Copyright: Public domain in the USA. Dịch giả mất 1935, đạt quy tắc đời + 50 năm. Bỏ các chú thích của Giles khi trích; khóa không theo phần diễn giải \"soul\" của Giles."
+
 # ---------------- Bất nhị / Hiện diện ----------------
 gita-arnold:
   title: "The Song Celestial; or, Bhagavad-Gîtâ"
