@@ -117,9 +117,24 @@ nghien_cuu:
     en: "97 studies, 7,181 people: therapy that integrates the client’s faith reduces distress as well as standard therapy and adds spiritual well-being. There is no review of lectio divina itself."
   semnani2025:
     trich: "Semnani-Azad et al. 2025, BMJ 389:e082007"
-    url: ""
-    vi: "99 thử nghiệm ngẫu nhiên: nhịn ăn gián đoạn giảm cân tương tự ăn bớt năng lượng mỗi ngày; không thấy lợi ích riêng về đường huyết."
-    en: "99 randomised trials: intermittent fasting gives weight loss similar to daily calorie restriction; no extra benefit for blood sugar."
+    url: "https://doi.org/10.1136/bmj-2024-082007"
+    vi: "99 thử nghiệm ngẫu nhiên, 6.582 người lớn (đa số thừa cân hay có bệnh): nhịn ăn gián đoạn giảm cân tương tự ăn bớt năng lượng mỗi ngày; ăn trong khung giờ (như 16:8) không hơn; không khác về HbA1c."
+    en: "99 randomised trials, 6,582 adults (most with overweight or illness): intermittent fasting gives weight loss similar to daily calorie restriction; time-restricted eating (such as 16:8) is no better; no difference in HbA1c."
+  koch2023:
+    trich: "Koch et al. 2023, European Heart Journal 44(28)"
+    url: "https://doi.org/10.1093/eurheartj/ehad211"
+    vi: "30 thử nghiệm ngẫu nhiên: ăn chay hoặc thuần chay giảm cholesterol toàn phần, LDL-cholesterol và apolipoprotein B so với ăn tạp; không khác về triglyceride. Đo mỡ máu, không đo sức khỏe tinh thần."
+    en: "30 randomised trials: vegetarian or vegan diets lowered total cholesterol, LDL cholesterol and apolipoprotein B compared with an omnivorous diet; no difference in triglycerides. Measures blood fats, not mental health."
+  lowe2020:
+    trich: "Lowe et al. 2020, JAMA Internal Medicine 180(11)"
+    url: "https://doi.org/10.1001/jamainternmed.2020.4153"
+    vi: "Thử nghiệm ngẫu nhiên 12 tuần, 116 người thừa cân hay béo phì: ăn trong khung 16:8 không giảm cân hơn ăn 3 bữa đúng giờ; nhóm 16:8 mất nhiều khối nạc hơn."
+    en: "12-week randomised trial, 116 adults with overweight or obesity: a 16:8 eating window gave no more weight loss than three regular meals; the 16:8 group lost more lean mass."
+  liu2022:
+    trich: "Liu et al. 2022, NEJM 386(16)"
+    url: "https://doi.org/10.1056/NEJMoa2114833"
+    vi: "Thử nghiệm ngẫu nhiên 12 tháng, 139 người béo phì: thêm khung giờ ăn 8 tiếng vào chế độ ăn bớt năng lượng không giảm cân, mỡ hay chỉ số chuyển hóa hơn chỉ ăn bớt."
+    en: "12-month randomised trial, 139 people with obesity: adding an 8-hour eating window to calorie restriction did not reduce weight, fat or metabolic markers more than calorie restriction alone."
   iguacel2021:
     trich: "Iguacel et al. 2021, Nutrition Reviews 79(4)"
     url: "https://doi.org/10.1093/nutrit/nuaa030"
@@ -1065,23 +1080,31 @@ khoa:
     nhom: than-the
     ten: "Kỷ luật ăn tùy chọn: ăn thực vật và 16:8"
     ten_en: "Optional eating disciplines: plant-based eating and 16:8"
-    mo_ta: "Chỉ cho người lớn khỏe mạnh. Có danh sách người không nên làm."
-    mo_ta_en: "For healthy adults only, with a list of people who should not do this."
+    mo_ta: "Chỉ cho người lớn khỏe mạnh. Tuần đầu là danh sách người không nên làm và bảng tự kiểm tra; sau đó thử ăn thực vật ở mức vừa sức, thu hẹp dần khung giờ ăn tới 16:8 nếu thấy ổn, rồi lắng nghe cơ thể để giữ, giảm hay dừng. Không đếm calo, không nhằm giảm cân. Chưa có chuyên gia dinh dưỡng duyệt."
+    mo_ta_en: "For healthy adults only. The first week is a list of people who should not do this and a self-check; then you try plant-based eating at a manageable level, narrow your eating window step by step to 16:8 if it feels fine, and listen to your body to keep, reduce or stop. No calorie counting, not aimed at weight loss. Not yet reviewed by a dietitian."
     tang: "4"
-    phut: "Theo nhịp sống"
-    phut_en: "Fits daily life"
-    trang_thai: chua-bat-dau
-    duyet: noi-bo
-    ra_mat: "Sau khi chuyên gia dinh dưỡng duyệt"
-    ra_mat_en: "After review by a dietitian"
-    nghien_cuu: [semnani2025, iguacel2021]
+    phut: "10 + bữa ăn"
+    phut_en: "10 + meals"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 4 tuần"
+    tien_do_en: "All 4 weeks published"
+    duyet: chu-du-an
+    co_goc_tre: true
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [semnani2025, koch2023, iguacel2021, lowe2020, liu2022]
+    bai_tep:
+      - than-the/tt3-tuan-01
+      - than-the/tt3-tuan-02
+      - than-the/tt3-tuan-03
+      - than-the/tt3-tuan-04
     bai:
-      - "Ai không nên làm | Who should not do this | –"
-      - "Ăn thực vật như một kỷ luật | Plant-based eating as a discipline | –"
-      - "Khung giờ ăn 16:8 | The 16:8 eating window | –"
-      - "Lắng nghe cơ thể và dừng lại | Listening to the body and stopping | –"
-    gioi_han: "Không nên làm: phụ nữ mang thai, cho con bú; trẻ em và thanh thiếu niên; người đái tháo đường đang dùng thuốc; người từng có rối loạn ăn uống. Hãy hỏi bác sĩ trước. Nhịn ăn gián đoạn không phải phép màu."
-    gioi_han_en: "Not for: pregnant or breastfeeding women; children and teenagers; people with diabetes on medication; anyone with a past eating disorder. Ask a doctor first. Intermittent fasting is not magic."
+      - "Ai không nên làm | Who should not do this | Bhagavad Gita 6:16–17 · Pháp Cú 204 || Bhagavad Gita 6:16–17 · Dhammapada 204 | Làm bảng tự kiểm tra; ghi giờ ăn 3 ngày | Complete the self-check; note meal times for 3 days"
+      - "Ăn thực vật như một kỷ luật | Plant-based eating as a discipline | Sáng thế 1:29 · Đa-ni-ên 1:12–15 · Seneca Thư 108 || Genesis 1:29 · Daniel 1:12–15 · Seneca Letter 108 | Giữ mức đã chọn ≥5/7 | Keep your chosen level on 5 of 7 days"
+      - "Khung giờ ăn 16:8 | The 16:8 eating window | Encheiridion XLVII · Truyền đạo 3:1 || Encheiridion XLVII · Ecclesiastes 3:1 | Giữ khung 12, 10 hay 8 giờ ≥4/7 | Keep a 12, 10 or 8-hour window on 4 of 7 days"
+      - "Lắng nghe cơ thể và dừng lại | Listening to the body and stopping | Đạo Đức Kinh 44 · Bukhari 1975 || Tao Te Ching 44 · Bukhari 1975 | Nghe cơ thể 2 phút ≥5/7; viết quyết định giữ, giảm hay dừng | Listen to the body 2 minutes on 5 of 7 days; write a decision to keep, reduce or stop"
+    gioi_han: "Không nên làm: phụ nữ mang thai, cho con bú; trẻ em và thanh thiếu niên; người đái tháo đường đang dùng thuốc (nhất là insulin, sulfonylurea); người đang có hoặc từng có rối loạn ăn uống. Người thiếu cân, dùng thuốc phải uống theo bữa, người lớn tuổi yếu hay đang điều trị bệnh mạn tính: hỏi bác sĩ trước. Khóa chưa có chuyên gia dinh dưỡng hay bác sĩ duyệt; các bước thực hành là đánh giá của người viết. Các đoạn kinh được đọc để hiểu cách mỗi truyền thống nhìn chuyện ăn uống; không đoạn nào là lời khuyên ăn kiêng, và khóa không thay thế nhịn chay trong tôn giáo. Bằng chứng: 16:8 không giảm cân hơn ăn bớt mỗi ngày; ăn chay giảm mỡ máu trong thử nghiệm; chưa có bằng chứng tốt rằng hai kỷ luật này giúp đời sống tinh thần. Nhịn ăn gián đoạn không phải phép màu."
+    gioi_han_en: "Not for: pregnant or breastfeeding women; children and teenagers; people with diabetes on medication (especially insulin or a sulfonylurea); anyone with a current or past eating disorder. People who are underweight, take medication that must be taken with food, are older and frail, or are being treated for a chronic illness should ask a doctor first. The course has not been reviewed by a dietitian or doctor; the practice steps are the writer's judgement. The passages are read to understand how each tradition sees eating; none is dietary advice, and the course does not replace religious fasting. Evidence: 16:8 gives no more weight loss than daily calorie restriction; vegetarian diets lower blood fats in trials; there is no good evidence that either discipline helps inner life. Intermittent fasting is not magic."
 
   - ma: TT4
     slug: than-the-4
