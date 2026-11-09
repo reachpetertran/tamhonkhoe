@@ -196,6 +196,21 @@ nghien_cuu:
     url: "https://doi.org/10.1371/journal.pone.0176239"
     vi: "Nghiên cứu phỏng vấn người tập thiền Phật giáo phương Tây và các thầy: 59 loại trải nghiệm liên quan tới thiền trong 7 nhóm, có nhóm \"cảm nhận về bản thân\"; mức ảnh hưởng từ nhẹ, thoáng qua tới nặng, kéo dài; 26 nhóm yếu tố ảnh hưởng."
     en: "Interview study of Western Buddhist meditators and teachers: 59 kinds of meditation-related experience in 7 domains, including \"sense of self\"; impact ranged from minimal and passing to severe and lasting; 26 categories of influencing factors."
+  robinson2013:
+    trich: "Robinson et al. 2013, The American Journal of Clinical Nutrition 97(4)"
+    url: "https://doi.org/10.3945/ajcn.112.045245"
+    vi: "Phân tích gộp 24 nghiên cứu thực nghiệm: ăn khi bị phân tâm làm ăn nhiều hơn ở mức vừa trong bữa (SMD 0,39) và nhiều hơn ở bữa sau (SMD 0,76); nhớ rõ bữa vừa ăn làm bữa sau ăn ít hơn."
+    en: "Meta-analysis of 24 experimental studies: eating while distracted increased intake moderately in that meal (SMD 0.39) and more at a later meal (SMD 0.76); remembering the meal reduced later intake."
+  robinson2014:
+    trich: "Robinson et al. 2014, The American Journal of Clinical Nutrition 100(1)"
+    url: "https://doi.org/10.3945/ajcn.113.081745"
+    vi: "Phân tích gộp 22 nghiên cứu: ăn chậm đi kèm ăn ít hơn trong bữa (SMD 0,45); cảm giác đói cuối bữa và đến 3,5 giờ sau không khác; các nghiên cứu khác nhau nhiều."
+    en: "Meta-analysis of 22 studies: eating slowly went with lower intake in the meal (SMD 0.45); hunger at the end of the meal and up to 3.5 hours later did not differ; studies varied widely."
+  hammons2011:
+    trich: "Hammons & Fiese 2011, Pediatrics 127(6)"
+    url: "https://doi.org/10.1542/peds.2010-1440"
+    vi: "Phân tích gộp 17 nghiên cứu, 182.836 trẻ em và thanh thiếu niên: ăn cùng gia đình từ 3 bữa/tuần trở lên đi kèm thói quen ăn lành mạnh hơn và ít hành vi ăn uống rối loạn hơn (tương quan)."
+    en: "Meta-analysis of 17 studies, 182,836 children and adolescents: 3 or more family meals a week went with healthier eating and less disordered eating (correlational)."
 
 khoa:
   # ------------------------------------------------------------ GIAO THOA
@@ -968,21 +983,30 @@ khoa:
     nhom: than-the
     ten: "Ăn chậm, ăn biết ơn"
     ten_en: "Eating slowly, eating gratefully"
-    mo_ta: "Lời cảm ơn trước bữa ăn ở nhiều truyền thống và ăn chậm một bữa mỗi ngày. Không đếm calo."
-    mo_ta_en: "Grace before meals in many traditions, and one slow meal a day. No calorie counting."
+    mo_ta: "Lời cảm ơn trước bữa ăn ở nhiều truyền thống, một bữa ăn chậm mỗi ngày, bữa không màn hình và lời cảm ơn người làm ra bữa ăn. Không đếm calo, không ăn kiêng."
+    mo_ta_en: "Grace before meals in many traditions, one slow meal a day, screen-free meals and thanking the people who make our food. No calorie counting, no dieting."
     tang: "1"
     phut: "15"
-    trang_thai: chua-bat-dau
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 4 tuần"
+    tien_do_en: "All 4 weeks published"
     duyet: chu-du-an
-    ra_mat: "Th5–6/2027"
-    ra_mat_en: "May–Jun 2027"
+    co_goc_tre: true
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [cregg2021, robinson2013, robinson2014, hammons2011]
+    bai_tep:
+      - than-the/tt1-tuan-01
+      - than-the/tt1-tuan-02
+      - than-the/tt1-tuan-03
+      - than-the/tt1-tuan-04
     bai:
-      - "Lời cảm ơn trước bữa ăn | Grace before meals | – | Dừng 1 phút trước 1 bữa mỗi ngày | Pause one minute before one meal a day"
-      - "Một bữa chậm | One slow meal | – | Ăn chậm 1 bữa/ngày, 15 phút | One slow 15-minute meal a day"
-      - "Bữa không màn hình | A screen-free meal | – | ≥3 bữa không màn hình/tuần | At least 3 screen-free meals a week"
-      - "Cảm ơn người trồng và người nấu | Thanking growers and cooks | – | 1 lời cảm ơn người làm ra bữa ăn | One thank-you to someone who made your food"
-    gioi_han: "Không đếm calo, không cân, không ăn kiêng. Ai đang hoặc từng có rối loạn ăn uống nên bàn với bác sĩ trước."
-    gioi_han_en: "No calorie counting, weighing or dieting. Anyone with a current or past eating disorder should talk to a doctor first."
+      - "Lời cảm ơn trước bữa ăn | Grace before meals | Phục truyền 8:10 · Ma-thi-ơ 14:19 · Qur'an 2:172 || Deuteronomy 8:10 · Matthew 14:19 · Qur'an 2:172 | Dừng 1 phút trước 1 bữa/ngày ≥5/7 | Pause one minute before one meal a day on 5 of 7 days"
+      - "Một bữa chậm | One slow meal | MN 10 · Đạo Đức Kinh 12 || MN 10 · Tao Te Ching 12 | Ăn chậm 1 bữa/ngày khoảng 15′, ≥5/7 | One slow meal of about 15′ a day on 5 of 7 days"
+      - "Bữa không màn hình | A screen-free meal | Pirkei Avot III.4 · Công vụ 2:46–47 · Truyền đạo 9:7 || Pirkei Avot III.4 · Acts 2:46–47 · Ecclesiastes 9:7 | ≥3 bữa không màn hình/tuần, ghi ăn với ai | At least 3 screen-free meals a week, noting who you ate with"
+      - "Cảm ơn người trồng và người nấu | Thanking growers and cooks | Qur'an 80:24–32 · Berakhot 58a | 1 lời cảm ơn cụ thể; tự chấm 4 thói quen, giữ ≥1 | One specific thank-you; rate the four habits, keep at least one"
+    gioi_han: "Không đếm calo, không cân, không ăn kiêng và không nhằm giảm cân. Ai đang hoặc từng có rối loạn ăn uống nên bàn với bác sĩ trước. Các đoạn kinh được đọc để hiểu lời cảm tạ trong từng truyền thống; khóa không hướng dẫn nghi lễ hay luật ăn uống của truyền thống nào. Chưa có nghiên cứu nào đánh giá trực tiếp lời cảm ơn trước bữa ăn; các nghiên cứu về ăn chậm, ăn có chú ý là thí nghiệm ngắn trong phòng thí nghiệm, nghiên cứu về bữa ăn gia đình là tương quan. Tuần 4 dùng bản Talmud Steinsaltz nên trang ấy theo giấy phép CC BY-NC 4.0."
+    gioi_han_en: "No calorie counting, weighing or dieting, and not aimed at weight loss. Anyone with a current or past eating disorder should talk to a doctor first. The passages are read to understand thanksgiving in each tradition; the course gives no ritual or dietary instruction for any tradition. No study has evaluated grace before meals directly; the studies on slow and attentive eating are short laboratory experiments, and the study on family meals is correlational. Week 4 uses the Steinsaltz Talmud, so that page is licensed CC BY-NC 4.0."
 
   - ma: TT2
     slug: than-the-2

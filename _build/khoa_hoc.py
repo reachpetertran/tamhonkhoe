@@ -190,7 +190,7 @@ def trang_khoa(k, data, en, bai_url=None):
         cho = 'Children 6+ with an adult' if en else 'Trẻ từ 6 tuổi, luôn có người lớn đi cùng'
     else:
         cho = ('Adults learning on their own' if en else 'Người lớn tự học') + (
-            '' if (k.get('tang') in ('3',) and not k.get('co_goc_tre')) or k['nhom'] == 'than-the' else
+            '' if (k.get('tang') in ('3',) or k['nhom'] == 'than-the') and not k.get('co_goc_tre') else
             ('; each lesson has a short kids’ corner' if en else '; mỗi bài có mục Góc trẻ ngắn'))
     tien_do = k.get('tien_do_en' if en else 'tien_do')
     tinh_trang = tt + (f' – {tien_do}' if tien_do else '')
