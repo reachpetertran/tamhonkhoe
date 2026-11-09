@@ -211,6 +211,26 @@ nghien_cuu:
     url: "https://doi.org/10.1542/peds.2010-1440"
     vi: "Phân tích gộp 17 nghiên cứu, 182.836 trẻ em và thanh thiếu niên: ăn cùng gia đình từ 3 bữa/tuần trở lên đi kèm thói quen ăn lành mạnh hơn và ít hành vi ăn uống rối loạn hơn (tương quan)."
     en: "Meta-analysis of 17 studies, 182,836 children and adolescents: 3 or more family meals a week went with healthier eating and less disordered eating (correlational)."
+  singh2023:
+    trich: "Singh et al. 2023, British Journal of Sports Medicine 57(18)"
+    url: "https://doi.org/10.1136/bjsports-2022-106195"
+    vi: "Tổng quan gộp 97 tổng quan hệ thống (1.039 thử nghiệm, 128.119 người lớn): chương trình tăng vận động giảm trầm cảm (cỡ hiệu quả trung vị −0,43), lo âu (−0,42) so với chăm sóc thông thường; cường độ cao hơn đi kèm cải thiện nhiều hơn; hiệu quả nhỏ dần ở chương trình dài hơn; phần lớn tổng quan chất lượng rất thấp."
+    en: "Overview of 97 systematic reviews (1,039 trials, 128,119 adults): physical activity programmes reduced depression (median effect size −0.43) and anxiety (−0.42) compared with usual care; higher intensity went with larger gains; effects were smaller in longer programmes; most reviews were of critically low quality."
+  hanson2015:
+    trich: "Hanson & Jones 2015, British Journal of Sports Medicine 49(11)"
+    url: "https://doi.org/10.1136/bjsports-2014-094157"
+    vi: "Phân tích gộp 42 nghiên cứu, 1.843 người lớn trong nhóm đi bộ ngoài trời: huyết áp tâm thu giảm khoảng 3,7 mmHg, nhịp tim lúc nghỉ giảm, điểm trầm cảm giảm (SMD −0,67); không ghi nhận tác dụng phụ đáng kể; phần lớn so sánh trước–sau, không có nhóm chứng."
+    en: "Meta-analysis of 42 studies, 1,843 adults in outdoor walking groups: systolic blood pressure about 3.7 mmHg lower, lower resting heart rate, lower depression scores (SMD −0.67); no notable side effects; mostly before–after comparisons without a control group."
+  paluch2022:
+    trich: "Paluch et al. 2022, The Lancet Public Health 7(3)"
+    url: "https://doi.org/10.1016/S2468-2667%2821%2900302-9"
+    vi: "Phân tích gộp 15 nhóm đoàn hệ, 47.471 người lớn: đi nhiều bước hơn mỗi ngày đi kèm nguy cơ tử vong thấp hơn, chững lại ở khoảng 6.000–8.000 bước (từ 60 tuổi) và 8.000–10.000 bước (dưới 60 tuổi); tương quan."
+    en: "Meta-analysis of 15 cohorts, 47,471 adults: more daily steps went with a lower risk of death, levelling off at about 6,000–8,000 steps (aged 60+) and 8,000–10,000 steps (under 60); correlational."
+  phoobangkerdphol2022:
+    trich: "Phoobangkerdphol et al. 2022, Clinical Rehabilitation 36(4)"
+    url: "https://doi.org/10.1177/02692155211068232"
+    vi: "Thử nghiệm ngẫu nhiên, 68 người cao tuổi từng té ngã: đi thiền 20–30 phút/ngày trong 24 tuần cải thiện thăng bằng ngang với tập thăng bằng thông thường; hai nhóm không khác nhau; không có biến cố nghiêm trọng."
+    en: "Randomised trial, 68 older adults who had fallen: walking meditation 20–30 minutes a day for 24 weeks improved balance about as much as standard balance training; the groups did not differ; no serious adverse events."
 
 khoa:
   # ------------------------------------------------------------ GIAO THOA
@@ -1014,21 +1034,30 @@ khoa:
     nhom: than-the
     ten: "Vận động chánh niệm"
     ten_en: "Mindful movement"
-    mo_ta: "Đi thiền và giãn cơ chậm 10–20 phút."
-    mo_ta_en: "Walking meditation and slow stretching, 10–20 minutes."
+    mo_ta: "Đi thiền, giãn cơ chậm và một buổi vận động liền mạch 10–15 phút, cùng các lời dạy về thân thể trong nhiều truyền thống. Không nhằm giảm cân hay đạt thành tích."
+    mo_ta_en: "Walking meditation, slow stretching and one continuous 10–15 minute movement session, with teachings on the body from several traditions. Not aimed at weight loss or performance."
     tang: "2"
-    phut: "10–20"
-    trang_thai: chua-bat-dau
+    phut: "10–15"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 4 tuần"
+    tien_do_en: "All 4 weeks published"
     duyet: chu-du-an
-    ra_mat: "Nửa cuối 2027"
-    ra_mat_en: "Second half of 2027"
+    co_goc_tre: true
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [phoobangkerdphol2022, farias2020, singh2023, hanson2015, paluch2022]
+    bai_tep:
+      - than-the/tt2-tuan-01
+      - than-the/tt2-tuan-02
+      - than-the/tt2-tuan-03
+      - than-the/tt2-tuan-04
     bai:
-      - "Đi thiền | Walking meditation | – | Đi chậm 10 phút ≥5/7 | Walk slowly 10 minutes on 5 of 7 days"
-      - "Giãn cơ chậm | Slow stretching | – | Giãn cơ 10 phút ≥5/7 | Stretch 10 minutes on 5 of 7 days"
-      - "Chảy như nước | Flowing like water | – | Nối đi và giãn cơ thành 15 phút | Combine walking and stretching for 15 minutes"
-      - "Ôn tập | Review | – | Tự chọn nhịp cho tháng sau | Choose your own rhythm for next month"
-    gioi_han: "Giấc ngủ có trang gốc trên daynentang.com; ở đây chỉ đặt link. Người có bệnh tim mạch, xương khớp nên hỏi bác sĩ về mức vận động."
-    gioi_han_en: "Sleep has its home on daynentang.com; we only link there. People with heart or joint conditions should ask a doctor about how much to move."
+      - "Đi thiền | Walking meditation | MN 10 · Đạo Đức Kinh 64 || MN 10 · Tao Te Ching 64 | Đi chậm 10 phút ≥5/7 | Walk slowly 10 minutes on 5 of 7 days"
+      - "Giãn cơ chậm | Slow stretching | MN 10 · 1 Cô-rinh-tô 6:19–20 || MN 10 · 1 Corinthians 6:19–20 | Giãn cơ 10 phút ≥5/7 | Stretch 10 minutes on 5 of 7 days"
+      - "Chảy như nước | Flowing like water | Đạo Đức Kinh 78 · Ê-sai 40:29–31 · Seneca Thư 15 || Tao Te Ching 78 · Isaiah 40:29–31 · Seneca Letter 15 | Buổi liền mạch 15 phút ≥5/7 | One continuous 15-minute session on 5 of 7 days"
+      - "Ôn tập và nhịp của riêng mình | Review and a rhythm of your own | Encheiridion XLI · 1 Ti-mô-thê 4:8 · Bukhari 1975 || Encheiridion XLI · 1 Timothy 4:8 · Bukhari 1975 | ≥4 buổi; viết nhịp cho tháng sau | At least 4 sessions; write a rhythm for next month"
+    gioi_han: "Vận động nhẹ, không nhằm giảm cân hay đạt thành tích, không đếm bước, không thay chương trình tập của bác sĩ hay chuyên viên vật lý trị liệu. Người có bệnh tim mạch, huyết áp chưa kiểm soát, bệnh xương khớp, vừa mổ, đang mang thai hay dễ té ngã nên hỏi bác sĩ trước. Các đoạn kinh được đọc để hiểu cách mỗi truyền thống nhìn thân thể; không đoạn nào là lời khuyên tập thể dục. Chưa có phân tích gộp riêng về đi thiền hay giãn cơ chậm với sức khỏe tinh thần; bằng chứng chủ yếu về vận động nói chung, nghiên cứu về số bước là tương quan. Giấc ngủ có trang gốc trên daynentang.com; ở đây chỉ đặt link."
+    gioi_han_en: "Gentle movement, not aimed at weight loss or performance, no step counting, and not a replacement for an exercise programme from a doctor or physiotherapist. People with heart disease, uncontrolled blood pressure, joint or bone problems, recent surgery, pregnancy or a tendency to fall should ask a doctor first. The passages are read to understand how each tradition sees the body; none is exercise advice. There is no meta-analysis of walking meditation or slow stretching and mental health; the evidence is mostly about physical activity in general, and the study on steps is correlational. Sleep has its home on daynentang.com; we only link there."
 
   - ma: TT3
     slug: than-the-3
