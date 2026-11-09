@@ -973,23 +973,30 @@ khoa:
     nhom: dao-giao
     ten: "Vô vi trong thực hành"
     ten_en: "Non-action in practice"
-    mo_ta: "\"Tâm trai\" (nhịn của tâm, không phải nhịn ăn), làm bớt, buông cố gắng."
-    mo_ta_en: "‘Fasting of the mind’ (not of the body), doing less, letting go of striving."
+    mo_ta: "Đạo Đức Kinh chương 2, 11, 22, 48, 37, 63, 43 và hai chuyện trong Trang Tử chương IV (\"tâm trai\", cây lịch); mỗi ngày ngồi 20–30 phút và một việc nhỏ: bớt, nghe, không ép. \"Tâm trai\" là nhịn của tâm, không phải nhịn ăn."
+    mo_ta_en: "Tao Te Ching chapters 2, 11, 22, 48, 37, 63 and 43, and two stories from Zhuangzi chapter IV (‘fasting of the mind’, the li tree); each day 20–30 minutes of sitting and one small action: doing less, listening, not forcing. ‘Fasting of the mind’ is of the mind, not of the body."
     tang: "2"
     phut: "20–30"
-    trang_thai: chua-bat-dau
-    duyet: noi-bo
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 8 tuần"
+    tien_do_en: "All 8 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [goyal2014, bernstein2015, wendsche2017, farias2020, lee2025, khoury2015, vandam2018, lindahl2017, abramowitz2001, friese2017]
+    bai_tep: [khe/dao-giao/dg2-tuan-01, khe/dao-giao/dg2-tuan-02, khe/dao-giao/dg2-tuan-03, khe/dao-giao/dg2-tuan-04, khe/dao-giao/dg2-tuan-05, khe/dao-giao/dg2-tuan-06, khe/dao-giao/dg2-tuan-07, khe/dao-giao/dg2-tuan-08]
     bai:
-      - "Cặp đối lập | Pairs of opposites | Đạo Đức Kinh 2 || Tao Te Ching 2"
-      - "Chỗ trống hữu dụng | Useful emptiness | Đạo Đức Kinh 11 || Tao Te Ching 11"
-      - "Cong thì toàn | Bend and be whole | Đạo Đức Kinh 22 || Tao Te Ching 22"
-      - "Bớt dần mỗi ngày | Less each day | Đạo Đức Kinh 48 || Tao Te Ching 48"
-      - "Tâm trai | Fasting of the mind | Trang Tử IV || Zhuangzi IV"
-      - "Làm mà không ép | Doing without forcing | –"
-      - "Thực hành dài | Longer practice | –"
-      - "Ôn tập | Review | –"
+      - "Cặp đối lập | Pairs of opposites | Đạo Đức Kinh 2 || Tao Te Ching 2 | Ngồi 20′ ≥5/7; ghi 1 cặp nhãn/ngày ≥5/7 | Sit 20′ on 5 of 7 days; note one pair of labels a day on 5 of 7 days"
+      - "Chỗ trống hữu dụng | Useful emptiness | Đạo Đức Kinh 11 || Tao Te Ching 11 | Ngồi 20′ ≥5/7; 1 khoảng trống 10′ không lịch, không điện thoại ≥5/7 | Sit 20′ on 5 of 7 days; one 10-minute gap with no plans and no phone on 5 of 7 days"
+      - "Cong thì toàn | Bend and be whole | Đạo Đức Kinh 22 || Tao Te Ching 22 | Ngồi 20′ ≥5/7; 1 lần không tranh trong chuyện nhỏ/ngày ≥5/7 | Sit 20′ on 5 of 7 days; not contending over something small once a day on 5 of 7 days"
+      - "Bớt dần mỗi ngày | Less each day | Đạo Đức Kinh 48 || Tao Te Ching 48 | Ngồi 25′ ≥5/7; bớt 1 việc không cần thiết/ngày ≥5/7 | Sit 25′ on 5 of 7 days; drop one unnecessary thing a day on 5 of 7 days"
+      - "Tâm trai | Fasting of the mind | Trang Tử IV || Zhuangzi IV | Ngồi nghe 25′ ≥5/7; nghe trọn lời 1 người/ngày ≥5/7 | Sit and listen 25′ on 5 of 7 days; hear one person out a day on 5 of 7 days"
+      - "Làm mà không ép | Doing without forcing | Đạo Đức Kinh 37, 63 || Tao Te Ching 37, 63 | Ngồi 25′ ≥5/7; 1 bước nhỏ (≤5′) của việc đang ngại/ngày ≥5/7 | Sit 25′ on 5 of 7 days; one small step (≤5′) of a task you are putting off a day on 5 of 7 days"
+      - "Thực hành dài | Longer practice | Trang Tử IV (cây lịch) || Zhuangzi IV (the li tree) | Buổi 30′ (hoặc 20′ ngồi + 10′ đi chậm) ≥5/7; 10′ không nhằm có ích ≥5/7 | A 30′ session (or 20′ sitting + 10′ slow walking) on 5 of 7 days; 10′ of not being useful on 5 of 7 days"
+      - "Ôn tập | Review | Đạo Đức Kinh 43 || Tao Te Ching 43 | Ngồi 30′ ≥5/7; tự chấm 7 thói quen, giữ 2, kế hoạch 4 tuần | Sit 30′ on 5 of 7 days; rate seven habits, keep two, write a 4-week plan"
+    gioi_han: "Khóa Tầng 2: mỗi ngày ngồi 20–30 phút, nên học sau Đạo giáo 1. Thiền dài hơn có thể gây trải nghiệm khó chịu; mỗi bài có mục \"Dừng tập khi\", và người từng có loạn thần, rối loạn lưỡng cực hay PTSD nặng nên hỏi bác sĩ trước. \"Vô vi\" trong khóa là không làm thừa, không ép; không có nghĩa là bỏ mặc trách nhiệm, chịu bị hại hay im lặng trước bất công. \"Tâm trai\" là nhịn của tâm: khóa và Góc trẻ không có nhịn ăn. Khóa đọc văn bản Đạo gia, không dạy nghi lễ hay phép tu luyện của Đạo giáo; cách ngồi trong khóa là cách áp dụng của tamhonkhoe. Bản Việt là bản tamhonkhoe tự dịch từ James Legge (1891) và Herbert Giles (1889), chưa đối chiếu với nguyên văn Hán; khóa lược một câu Giles dịch chữ Trời thành \"God\" và không theo cách hiểu \"soul\" của Giles. Chưa có người duyệt từ trong truyền thống Đạo giáo, và chưa có nghiên cứu đánh giá trực tiếp chương trình này."
+    gioi_han_en: "A Level 2 course: 20–30 minutes of sitting a day, best taken after Taoism 1. Longer meditation can bring difficult experiences; every lesson has a ‘Stop practising if’ section, and people with a history of psychosis, bipolar disorder or severe PTSD should ask a doctor first. ‘Non-action’ in this course means not doing what is not needed and not forcing; it does not mean giving up responsibilities, accepting harm or keeping quiet in the face of injustice. ‘Fasting of the mind’ is of the mind: the course and its kids’ corner involve no fasting from food. The course reads Taoist texts and does not teach Taoist ritual or cultivation methods; the ways of sitting are tamhonkhoe’s own application. The Vietnamese is tamhonkhoe’s own translation from James Legge (1891) and Herbert Giles (1889), not yet checked against the Chinese original; the course leaves out one sentence where Giles renders Heaven as ‘God’ and does not follow Giles’s ‘soul’ interpretation. No reviewer from within the Taoist tradition has checked it yet, and no study has evaluated this programme directly."
 
   - ma: DG3
     slug: dao-giao-3
