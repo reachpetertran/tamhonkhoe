@@ -186,6 +186,16 @@ nghien_cuu:
     url: "https://doi.org/10.1001/jamapsychiatry.2016.0076"
     vi: "Phân tích gộp dữ liệu từng bệnh nhân, 9 thử nghiệm, 1.258 người có trầm cảm tái phát đang thuyên giảm: MBCT giảm nguy cơ tái phát trong 60 tuần (HR 0,69 so với không MBCT; 0,79 so với điều trị chủ động khác)."
     en: "Individual patient data meta-analysis, 9 trials, 1,258 people with recurrent depression in remission: MBCT reduced relapse risk over 60 weeks (HR 0.69 vs no MBCT; 0.79 vs other active treatments)."
+  bernstein2015:
+    trich: "Bernstein et al. 2015, Perspectives on Psychological Science 10(5)"
+    url: "https://doi.org/10.1177/1745691615594577"
+    vi: "Tổng quan phê bình về \"lùi ra khỏi trải nghiệm\" (decentering) và các khái niệm gần nó như gỡ dính khỏi ý nghĩ: đề xuất ba quá trình (biết mình đang trải nghiệm gì, không đồng nhất mình với trải nghiệm bên trong, ít bị cuốn theo nội dung ý nghĩ). Bài phân tích khái niệm, không đo hiệu quả."
+    en: "Critical review of \"decentering\" and related constructs such as cognitive defusion: proposes three processes (meta-awareness, disidentification from internal experience, reduced reactivity to thought content). A conceptual analysis, not a test of effectiveness."
+  lindahl2017:
+    trich: "Lindahl et al. 2017, PLoS ONE 12(5)"
+    url: "https://doi.org/10.1371/journal.pone.0176239"
+    vi: "Nghiên cứu phỏng vấn người tập thiền Phật giáo phương Tây và các thầy: 59 loại trải nghiệm liên quan tới thiền trong 7 nhóm, có nhóm \"cảm nhận về bản thân\"; mức ảnh hưởng từ nhẹ, thoáng qua tới nặng, kéo dài; 26 nhóm yếu tố ảnh hưởng."
+    en: "Interview study of Western Buddhist meditators and teachers: 59 kinds of meditation-related experience in 7 domains, including \"sense of self\"; impact ranged from minimal and passing to severe and lasting; 26 categories of influencing factors."
 
 khoa:
   # ------------------------------------------------------------ GIAO THOA
@@ -427,21 +437,28 @@ khoa:
     nhom: phat-giao
     ten: "Vô thường, vô ngã"
     ten_en: "Impermanence and not-self"
-    mo_ta: "Năm uẩn, bọt nước, chiếc bè."
-    mo_ta_en: "The five aggregates, the lump of foam, the raft."
+    mo_ta: "Năm uẩn, bọt nước, chiếc bè và Kinh Pháp môn căn bản; ngồi 30–45 phút mỗi ngày. Góc trẻ chỉ nói về thay đổi."
+    mo_ta_en: "The five aggregates, the lump of foam, the raft and the discourse on the root of all things; 30–45 minutes a day. The kids’ corner is only about change."
     tang: "3"
     phut: "30–45"
-    trang_thai: chua-bat-dau
-    duyet: noi-bo
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    co_goc_tre: true
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    nghien_cuu: [bernstein2015, lindahl2017, farias2020, goyal2014, vandam2018, gloster2020]
+    bai_tep: [khe/phat-giao/pg3-tuan-01, khe/phat-giao/pg3-tuan-02, khe/phat-giao/pg3-tuan-03, khe/phat-giao/pg3-tuan-04, khe/phat-giao/pg3-tuan-05, khe/phat-giao/pg3-tuan-06]
     bai:
-      - "Đặc tính vô ngã | The characteristic of not-self | SN 22.59"
-      - "Bọt nước | The lump of foam | SN 22.95"
-      - "Chiếc bè | The raft | MN 22"
-      - "Gốc rễ mọi sự | The root of all things | MN 1"
-      - "Thực hành dài | Longer practice | –"
-      - "Ôn tập | Review | –"
+      - "Đặc tính vô ngã | The characteristic of not-self | SN 22.59 | Ngồi 30′ ≥5/7; mỗi tối ghi 1 điều \"không theo ý mình\" ≥5/7 | Sit 30′ on 5 of 7 days; each evening, write one thing that ‘did not obey’ on 5 of 7 evenings"
+      - "Bọt nước | The lump of foam | SN 22.95 | Ngồi 30′ ≥5/7; ghi 1 điều thấy rõ lúc bắt đầu và lúc tan ≥5/7 | Sit 30′ on 5 of 7 days; write one thing clearly seen to begin and dissolve on 5 of 7 days"
+      - "Con rắn và chiếc bè | The cobra and the raft | MN 22 (đoạn 10–14) || MN 22 (sections 10–14) | Ngồi 25′ ≥5/7; viết về 1 \"chiếc bè\" ≥3 lần/tuần | Sit 25′ on 5 of 7 days; write about one ‘raft’ at least 3 times a week"
+      - "Gốc rễ mọi sự | The root of all things | MN 1 | Ngồi 35′ ≥5/7; ghi 1 lần \"thêm vào\"/ngày ≥5/7 | Sit 35′ on 5 of 7 days; note one ‘adding’ a day on 5 of 7 days"
+      - "Thực hành dài: buông điều không phải của mình | Longer practice: giving up what isn’t yours | MN 22 (đoạn 40–41) || MN 22 (sections 40–41) | Tập ≥40′/ngày (chia được 2 buổi) ≥5/7; ghi 1 điều nhỏ đã buông ≥5/7 | Practise at least 40′ a day (may be split) on 5 of 7 days; write one small thing let go of on 5 of 7 days"
+      - "Ôn tập | Review | SN 22.59, SN 22.95, MN 22 | Ngồi 30′ ≥5/7; tự chấm 5 bài và viết kế hoạch 4 tuần | Sit 30′ on 5 of 7 days; rate the five exercises and write a 4-week plan"
+    gioi_han: "Khóa Tầng 3: mỗi ngày 30–45 phút, nên học sau Phật giáo 1 và 2. Quán vô ngã có thể gây cảm giác tách khỏi bản thân hay thế giới \"không thật\"; mỗi buổi có bước \"về lại mặt đất\" và mục \"Dừng tập khi\". Người đang trầm cảm, có tang mới hay có ý nghĩ tự hại không nên học lúc này; người từng có loạn thần, rối loạn lưỡng cực, PTSD nặng hay cảm giác tách khỏi bản thân kéo dài không nên tự học. Khóa chỉ mô tả lời dạy Phật giáo, không so sánh với quan niệm về linh hồn hay tự ngã của truyền thống khác, không trích các khổ kệ về thân bị bỏ lại (SN 22.95), và không đòi người học tin vào tái sinh hay các tầng chứng đắc. Không có tonglen. Chưa có người duyệt từ trong truyền thống Phật giáo, và chưa có nghiên cứu đánh giá trực tiếp chương trình này."
+    gioi_han_en: "A Level 3 course: 30–45 minutes a day, best taken after Buddhism 1 and 2. Contemplating not-self can bring feelings of being detached from oneself or of the world being ‘not real’; every session ends with a ‘back to the ground’ step and every lesson has a ‘Stop practising if’ section. People who are depressed, recently bereaved or having thoughts of self-harm should not take it now; people with a history of psychosis, bipolar disorder, severe PTSD or lasting feelings of detachment should not take it alone. The course only describes Buddhist teaching, does not compare it with other traditions’ views of the soul or the self, does not quote the verses on the body left behind (SN 22.95), and does not ask learners to believe in rebirth or stages of attainment. It includes no tonglen. No reviewer from within the Buddhist tradition has checked it yet, and no study has evaluated this programme directly."
 
   - ma: PG4
     slug: phat-giao-4

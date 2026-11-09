@@ -396,3 +396,47 @@ upan-paramananda:
   may_translate: true
   checked_on: 2026-11-04
   url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/25-gutenberg-3283-upanishads-paramananda.png); chờ Peter xác nhận. Gutenberg #3283: Translator Paramananda, Swami, 1884-1940; Copyright: Public domain in the USA. Dịch giả mất 1940, đạt quy tắc đời + 50 năm. Chỉ dùng phần kinh, không dùng phần bình giảng của dịch giả trừ khi ghi rõ. Peter xác nhận 2026-11-04 qua ảnh 25 do Claude chụp."
+
+sn22-59-sujato:
+  title: "SN 22.59 Anattalakkhaṇa Sutta: The Characteristic of Not-Self (Linked Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/sn22.59/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-09
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/32-suttacentral-sn22-59-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Linked Discourses; cùng lời đề nghị về AI. Publication number scpub4. Nguyên văn lấy từ bilara-data nhánh published, file sn22.59_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-09 qua ảnh 32 do Claude chụp."
+
+sn22-95-sujato:
+  title: "SN 22.95 Pheṇapiṇḍūpama Sutta: A Lump of Foam (Linked Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/sn22.95/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-09
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/33-suttacentral-sn22-95-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Linked Discourses; cùng lời đề nghị về AI. Publication number scpub4. Nguyên văn lấy từ bilara-data nhánh published, file sn22.95_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-09 qua ảnh 33 do Claude chụp."
+
+mn22-sujato:
+  title: "MN 22 Alagaddūpama Sutta: The Simile of the Cobra (Middle Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/mn22/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-09
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/34-suttacentral-mn22-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Middle Discourses; cùng lời đề nghị về AI. Publication number scpub3. Nguyên văn lấy từ bilara-data nhánh published, file mn22_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-09 qua ảnh 34 do Claude chụp."
+
+mn1-sujato:
+  title: "MN 1 Mūlapariyāya Sutta: The Root of All Things (Middle Discourses)"
+  khe: phat-giao
+  lang: en
+  translator: "Bhikkhu Sujato (SuttaCentral)"
+  url: "https://suttacentral.net/mn1/en/sujato"
+  license: CC0
+  may_translate: true
+  checked_on: 2026-11-09
+  url_status: "Claude mở 2026-11-09 và chụp mục Info → License (giay-phep/2026-11-09/35-suttacentral-mn1-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Middle Discourses; cùng lời đề nghị về AI. Publication number scpub3. Nguyên văn lấy từ bilara-data nhánh published, file mn1_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-09 qua ảnh 35 do Claude chụp."
