@@ -852,23 +852,28 @@ khoa:
     nhom: do-thai-giao
     ten: "Torah, Shabbat và Đạo đức Tổ phụ"
     ten_en: "Torah, Shabbat and the Ethics of the Fathers"
-    mo_ta: "Shema, yêu người lân cận, Shabbat, Pirkei Avot và Micah."
-    mo_ta_en: "The Shema, love of neighbour, Shabbat, Pirkei Avot and Micah."
+    mo_ta: "Shema, lời \"Hãy nghe\" (Phục truyền 6:4–9); yêu người lân cận và người ngoại kiều (Lê-vi 19:17–18, 33–34; Hillel, Shabbat 31a); hai lý do của ngày Shabbat (Sáng thế 2:1–3, Phục truyền 5:12–15); ba câu hỏi của Hillel (Pirkei Avot I,14); \"không phải làm xong, nhưng không được bỏ\" của thầy Tarfon (Pirkei Avot II); công bằng, nhân hậu, khiêm tốn (Mi-chê 6:6–8). Chỉ mô tả luật và nghi lễ; bài tập là việc trong đời thường: đọc chậm, một việc tử tế, một khoảng nghỉ có chủ ý, làm ngay việc đã hoãn, mười phút cho việc dài hạn."
+    mo_ta_en: "The Shema, \"Hear\" (Deuteronomy 6:4–9); loving the neighbour and the stranger (Leviticus 19:17–18, 33–34; Hillel, Shabbat 31a); the two reasons for Shabbat (Genesis 2:1–3, Deuteronomy 5:12–15); Hillel's three questions (Pirkei Avot I, 14); Rabbi Tarfon's \"not to finish, but not to quit\" (Pirkei Avot II); justice, kindness, humility (Micah 6:6–8). Law and ritual are only described; the exercises are everyday actions: slow reading, one kindness, one intentional rest period, doing something put off, ten minutes on a long-term task."
     tang: "1"
     phut: "10–15"
-    trang_thai: chua-bat-dau
-    duyet: truyen-thong
-    ra_mat: "Nửa cuối 2027"
-    ra_mat_en: "Second half of 2027"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [captari2018, curry2018, wendsche2017, pega2021, gollwitzer2006, lally2010]
+    bai_tep: [khe/do-thai-giao/dt1-tuan-01, khe/do-thai-giao/dt1-tuan-02, khe/do-thai-giao/dt1-tuan-03, khe/do-thai-giao/dt1-tuan-04, khe/do-thai-giao/dt1-tuan-05, khe/do-thai-giao/dt1-tuan-06]
     bai:
-      - "Shema | The Shema | Đnl 6:4–9 || Deuteronomy 6:4–9 | Đọc chậm và ghi 1 dòng ≥5/7 | Read slowly and note one line, on 5 of 7 days"
-      - "Yêu người lân cận | Love your neighbour | Lv 19:18 · Talmud Shabbat 31a || Leviticus 19:18 · Talmud Shabbat 31a | 1 việc tử tế với người gần mình mỗi ngày | One kindness to someone near you each day"
-      - "Ngày nghỉ | The day of rest | St 2:2–3 · Xuất hành 20:8–11 || Genesis 2:2–3 · Exodus 20:8–11 | 1 khoảng nghỉ có chủ ý trong tuần | One intentional rest period this week"
-      - "Nếu không phải bây giờ | If not now | Pirkei Avot 1:14 | Làm ngay 1 việc đã hoãn | Do one thing you have put off"
-      - "Không phải hoàn thành, nhưng không bỏ | Not to finish, but not to quit | Pirkei Avot 2:16 | Giữ 1 việc dài hạn mỗi ngày 10 phút | Ten minutes a day on one long-term task"
-      - "Công bằng, nhân hậu, khiêm tốn | Justice, kindness, humility | Micah 6:8 | Chọn 1 trong 3 để tập trong tuần | Choose one of the three to practise this week"
-    gioi_han: "Khóa mô tả cho người tìm hiểu, không hướng dẫn giữ Shabbat theo luật."
-    gioi_han_en: "A descriptive course for learners; it does not teach Shabbat observance as law."
+      - "Shema | The Shema | Phục truyền 6:4–9 || Deuteronomy 6:4–9 | Đọc chậm sáu câu và ghi 1 dòng ≥5/7 | Read the six verses slowly and write one line, on 5 of 7 days"
+      - "Yêu người lân cận | Love your neighbour | Lê-vi 19:17–18, 33–34 · Shabbat 31a || Leviticus 19:17–18, 33–34 · Shabbat 31a | 1 việc tử tế với người ở gần ≥5/7 | One kindness to someone near you on 5 of 7 days"
+      - "Ngày nghỉ | The day of rest | Sáng thế 2:1–3 · Phục truyền 5:12–15 || Genesis 2:1–3 · Deuteronomy 5:12–15 | Đọc chậm ≥5/7; 1 khoảng nghỉ có chủ ý ≥90 phút, ghi 3 dòng | Slow reading on 5 of 7 days; one intentional rest of at least 90 minutes, then three lines"
+      - "Nếu không phải bây giờ | If not now | Pirkei Avot I,14 || Pirkei Avot I, 14 | 1 dòng trả lời ≥5/7; làm xong 1 việc đã hoãn | One line of answer on 5 of 7 days; finish one thing put off"
+      - "Không phải làm xong, nhưng không được bỏ | Not to finish, but not to quit | Pirkei Avot II,20–21 (2:15–16) || Pirkei Avot II, 20–21 (2:15–16) | 10 phút cho 1 việc dài hạn ≥5/7 | Ten minutes on one long-term task on 5 of 7 days"
+      - "Công bằng, nhân hậu, khiêm tốn | Justice, kindness, humility | Mi-chê 6:6–8 || Micah 6:6–8 | 1 việc cho điều đã chọn ≥5/7; tự chấm 6 thực hành, giữ 1–2 | One action for the chosen value on 5 of 7 days; rate six practices, keep one or two"
+    gioi_han: "Khóa Tầng 1, khoảng 10–15 phút mỗi ngày. Khóa mô tả điều truyền thống Do Thái dạy qua sáu đoạn ngắn trong Torah, Talmud, Pirkei Avot và sách Mi-chê; người học không cần theo đạo. Khóa không hướng dẫn giữ luật (halakha), không hướng dẫn giữ Shabbat hay nghi lễ, không dạy tiếng Hebrew, và không đề nghị ai đổi niềm tin. Các bài tập (đọc chậm, một khoảng nghỉ có chủ ý, một việc tử tế) là việc chung cho mọi người, không phải Shabbat và không thay cho việc học với thầy hay cộng đồng. Các đoạn Kinh Thánh trên trang tiếng Việt là bản tự dịch của tamhonkhoe từ bản tiếng Anh JPS 1917, không dịch từ tiếng Hebrew; trang tiếng Anh chép nguyên văn JPS 1917. Pirkei Avot dịch từ bản Gorfinkle (Gutenberg); Talmud chỉ được tóm ý. Phần mô tả tập quán là đánh giá của người viết; chưa có người duyệt từ trong truyền thống Do Thái, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; bằng chứng trong bài chỉ là gián tiếp."
+    gioi_han_en: "A Level 1 course, about 10–15 minutes a day. It describes what Jewish tradition teaches through six short passages from the Torah, the Talmud, Pirkei Avot and the Book of Micah; learners do not need to be Jewish. It does not teach Jewish law (halakha), Shabbat observance or ritual, does not teach Hebrew, and does not ask anyone to change their beliefs. The exercises (slow reading, an intentional rest period, a kind act) are for anyone; they are not Shabbat and do not replace study with a teacher or a community. Bible passages on the Vietnamese pages are tamhonkhoe's own translations from the English JPS 1917, not from Hebrew; the English pages quote JPS 1917 word for word. Pirkei Avot is translated from Gorfinkle's edition (Gutenberg); the Talmud is only summarised. The descriptions of practice are the writer's judgement; no reviewer from within the Jewish tradition has checked it yet, and no study has evaluated this programme directly; the evidence in the lessons is only indirect."
 
   - ma: DT2
     slug: do-thai-giao-2
