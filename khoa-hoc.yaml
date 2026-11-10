@@ -267,6 +267,22 @@ nghien_cuu:
     vi: "Thử nghiệm ngẫu nhiên, 68 người cao tuổi từng té ngã: đi thiền 20–30 phút/ngày trong 24 tuần cải thiện thăng bằng ngang với tập thăng bằng thông thường; hai nhóm không khác nhau; không có biến cố nghiêm trọng."
     en: "Randomised trial, 68 older adults who had fallen: walking meditation 20–30 minutes a day for 24 weeks improved balance about as much as standard balance training; the groups did not differ; no serious adverse events."
 
+  macnamara2014:
+    trich: "Macnamara, Hambrick & Oswald 2014, Psychological Science 25(8)"
+    url: "https://doi.org/10.1177/0956797614535810"
+    vi: "Phân tích gộp 88 nghiên cứu, hơn 11.000 người: luyện tập có chủ đích giải thích khoảng 26% khác biệt thành tích trong trò chơi trí tuệ, 21% âm nhạc, 18% thể thao, 4% học tập, dưới 1% nghề nghiệp. Phần lớn là tương quan."
+    en: "Meta-analysis of 88 studies, more than 11,000 people: deliberate practice explained about 26% of the differences in performance in games, 21% in music, 18% in sports, 4% in education and less than 1% in professions. Mostly correlational."
+  gollwitzer2006:
+    trich: "Gollwitzer & Sheeran 2006, Advances in Experimental Social Psychology 38"
+    url: "https://doi.org/10.1016/S0065-2601%2806%2938002-1"
+    vi: "Phân tích gộp 94 kiểm định độc lập, hơn 8.000 người: kế hoạch dạng \"nếu… thì…\" giúp đạt mục tiêu nhiều hơn chỉ có ý định, ở mức vừa đến lớn (d = 0,65); mục tiêu và cách đo rất khác nhau."
+    en: "Meta-analysis of 94 independent tests, more than 8,000 people: \"if… then…\" plans helped people reach goals more than intentions alone, by a medium-to-large amount (d = 0.65); goals and measures varied widely."
+  dittmar2014:
+    trich: "Dittmar, Bond, Hurst & Kasser 2014, Journal of Personality and Social Psychology 107(5)"
+    url: "https://doi.org/10.1037/a0037409"
+    vi: "Phân tích gộp 753 hệ số từ 259 mẫu độc lập: người đặt nặng tiền bạc, của cải có mức hạnh phúc thấp hơn một chút (r = −0,19 với thang đo giá trị và niềm tin vật chất). Đây là tương quan."
+    en: "Meta-analysis of 753 effect sizes from 259 independent samples: people who put more weight on money and possessions reported slightly lower well-being (r = −0.19 for measures of materialist values and beliefs). This is a correlation."
+
 khoa:
   # ------------------------------------------------------------ GIAO THOA
   - ma: GT0
@@ -1033,22 +1049,29 @@ khoa:
     nhom: dao-giao
     ten: "Đạo trong việc thường"
     ten_en: "The Way in ordinary things"
-    mo_ta: "Tay nghề, khởi đầu nhỏ và biết đủ."
-    mo_ta_en: "Skill, small beginnings and knowing enough."
+    mo_ta: "Chuyện người gù bắt ve, người thợ làm bánh xe, người chơi cược trong Trang Tử (chương XIX, XIII, III) và Đạo Đức Kinh chương 64, 44, 46, 54, 81, 9; mỗi ngày đọc vài phút rồi tập trong việc làm, việc nhà và gia đình: luyện từng phần nhỏ, lo việc khi còn nhỏ, biết đủ, cẩn thận lúc cuối, cho mà không giữ sổ."
+    mo_ta_en: "The stories of the hunchback catching cicadas, the wheelwright and the gambler in the Zhuangzi (chapters XIX, XIII and III), and Tao Te Ching chapters 64, 44, 46, 54, 81 and 9; each day a few minutes of reading, then practice in work, housework and family life: practising small parts, dealing with things while small, knowing enough, care at the end, giving without keeping score."
     tang: "4"
     phut: "Theo nhịp sống"
     phut_en: "Fits daily life"
-    trang_thai: chua-bat-dau
-    duyet: noi-bo
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [macnamara2014, gollwitzer2006, dittmar2014, wendsche2017, curry2018, friese2017]
+    bai_tep: [khe/dao-giao/dg4-tuan-01, khe/dao-giao/dg4-tuan-02, khe/dao-giao/dg4-tuan-03, khe/dao-giao/dg4-tuan-04, khe/dao-giao/dg4-tuan-05, khe/dao-giao/dg4-tuan-06]
     bai:
-      - "Tay nghề như dòng chảy | Skill as flow | Trang Tử III || Zhuangzi III"
-      - "Ngàn dặm bắt đầu từ một bước | A journey of a thousand miles | Đạo Đức Kinh 64 || Tao Te Ching 64"
-      - "Biết đủ | Knowing enough | Đạo Đức Kinh 44 || Tao Te Ching 44"
-      - "Công việc | Work | –"
-      - "Gia đình | Family | –"
-      - "Ôn tập | Review | –"
+      - "Tay nghề như dòng chảy | Skill as flow | Trang Tử XIX, XIII || Zhuangzi XIX, XIII | Luyện 1 phần nhỏ của kỹ năng 5–10′ ≥5/7 | Practise one small part of a skill for 5–10′ on 5 of 7 days"
+      - "Ngàn dặm bắt đầu từ một bước | A journey of a thousand miles | Đạo Đức Kinh 64 || Tao Te Ching 64 | Lo 1 việc khi còn nhỏ/ngày ≥5/7; 1 câu \"nếu… thì…\" và bước đầu của 1 việc lớn | Deal with one thing while small a day on 5 of 7 days; one \"if… then…\" sentence and the first step of one big task"
+      - "Biết đủ | Knowing enough | Đạo Đức Kinh 44, 46 || Tao Te Ching 44, 46 | 1 lần dừng \"đủ rồi\"/ngày ≥5/7; ghi 1 điều đã đủ mỗi tối ≥5/7 | One \"that's enough\" stop a day on 5 of 7 days; note one thing that was enough each evening on 5 of 7"
+      - "Công việc | Work | Trang Tử XIX, Đạo Đức Kinh 64 || Zhuangzi XIX, Tao Te Ching 64 | 1′ đặt món cược xuống trước 1 việc quan trọng ≥5/7; 2′ kiểm bước cuối ≥5/7 | One minute putting the stake down before an important task on 5 of 7 days; two minutes checking the last step on 5 of 7"
+      - "Gia đình | Family | Đạo Đức Kinh 54, 81 || Tao Te Ching 54, 81 | 1 việc không giữ sổ cho người trong nhà/ngày ≥5/7; 1 việc cả nhà làm chung/tuần | One act at home without keeping score a day on 5 of 7 days; one task together as a family in the week"
+      - "Ôn tập | Review | Trang Tử III, Đạo Đức Kinh 9 || Zhuangzi III, Tao Te Ching 9 | Bớt 1 cam kết; tự chấm 6 thói quen, giữ 2, kế hoạch 4 tuần | Drop one commitment; rate six habits, keep two, write a 4-week plan"
+    gioi_han: "Khóa Tầng 4: không có buổi ngồi dài, chỉ đọc vài phút mỗi ngày và tập trong việc làm, việc nhà, gia đình; nên học sau Đạo giáo 1. Khóa đọc văn bản Đạo gia, không dạy nghi lễ hay phép tu luyện của Đạo giáo. \"Biết đủ\" và \"không tích trữ\" không phải lời khuyên tài chính, không có nghĩa là chịu thiếu thốn hay không đòi quyền lợi chính đáng, và không dùng cho chuyện ăn uống; \"không giữ sổ\" không có nghĩa là một người gánh hết việc nhà; \"đặt món cược xuống\" không thay quy trình an toàn của nghề. Khóa không trích phần người lái đò \"xem lật thuyền như chuyện thường\" và các đoạn nói về chiến tranh, cúng tế. Chương 54 Legge dịch là \"của cải\", nguyên văn nói về \"đức\"; khóa không hứa giàu có. Bản Việt là bản tamhonkhoe tự dịch từ James Legge (1891) và Herbert Giles (1889), chưa đối chiếu với nguyên văn Hán. Chưa có người duyệt từ trong truyền thống Đạo giáo, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; khoa học trong bài chỉ là bằng chứng gần."
+    gioi_han_en: "A Level 4 course: no long sitting, just a few minutes of reading a day and practice in work, housework and family life; best taken after Taoism 1. The course reads Taoist texts; it does not teach Taoist ritual or cultivation methods. ‘Knowing enough’ and ‘not accumulating’ are not financial advice, do not mean accepting hardship or giving up fair rights, and are not about eating; ‘not keeping score’ does not mean one person carrying all the housework; ‘putting the stake down’ does not replace a trade’s safety procedures. The course does not quote the boatman who treats ‘an upset as an ordinary cart accident’, or the passages about war and sacrifices. In chapter 54 Legge writes ‘riches’ where the Chinese speaks of virtue; the course promises no wealth. The Vietnamese is tamhonkhoe’s own translation from James Legge (1891) and Herbert Giles (1889), not yet checked against the Chinese original. No reviewer from within the Taoist tradition has checked it yet, and no study has evaluated this programme directly; the science in the lessons is only nearby evidence."
 
   # ------------------------------------------------------------ THÂN THỂ
   - ma: TT1
