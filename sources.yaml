@@ -204,6 +204,28 @@ kempis-benham:
   checked_on: 2026-11-04
   url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/24-gutenberg-1653-kempis-benham.png); chờ Peter xác nhận. Gutenberg #1653: Translator Benham, William, 1831-1910; Copyright: Public domain in the USA. Dịch giả mất 1910, đạt quy tắc đời + 50 năm. Peter xác nhận 2026-11-04 qua ảnh 24 do Claude chụp."
 
+cloud-underhill:
+  title: "The Cloud of Unknowing (Đám mây không biết)"
+  khe: kito-giao
+  lang: en
+  translator: "Evelyn Underhill (biên tập, hiện đại hóa chính tả; bản in lần 2, London: J. M. Watkins, 1922)"
+  url: "https://archive.org/details/bookofcontemplat00unde"
+  license: PD
+  may_translate: true
+  checked_on: 2026-11-10
+  url_status: "Claude mở 2026-11-10 và chụp màn hình (giay-phep/2026-11-10/42-archive-underhill-1922.png): Internet Archive, bản scan của PIMS – University of Toronto; tác giả Underhill, Evelyn, 1875-1941; xuất bản 1922, London: J.M. Watkins. Nguyên tác thế kỷ 14, khuyết danh; Underhill mất 1941, đạt quy tắc đời + 50 năm; xuất bản trước 1930 nên cũng hết bảo hộ tại Mỹ. Peter duyệt nguồn 2026-11-10 trong phiên KT3 (trả lời câu hỏi của Claude). Chữ lấy từ tệp OCR của chính bản scan (bookofcontemplat00unde_djvu.txt), đã sửa lỗi OCR bằng cách đối chiếu. KHÔNG lấy từ CCEL (bản điện tử của CCEL ghi All rights reserved)."
+
+dionysius-rolt:
+  title: "Dionysius the Areopagite: On the Divine Names and the Mystical Theology"
+  khe: kito-giao
+  lang: en
+  translator: "C. E. Rolt (1880–1917); biên tập W. J. Sparrow-Simpson (1859–1952); London: SPCK, 1920"
+  url: "https://archive.org/details/dionysiusareopag00pseu"
+  license: PD
+  may_translate: true
+  checked_on: 2026-11-10
+  url_status: "Claude mở 2026-11-10 và chụp màn hình (giay-phep/2026-11-10/43-archive-rolt-1920.png): Internet Archive, bản scan của Wellesley College Library; Rolt, C. E. (Clarence Edwin); Sparrow-Simpson, W. J., 1859-1952; xuất bản 1920, London: SPCK / New York: Macmillan; metadata ghi possible-copyright-status NOT_IN_COPYRIGHT. Dịch giả mất 1917, người biên tập mất 1952: cả hai đạt quy tắc đời + 50 năm. Peter duyệt nguồn 2026-11-10 trong phiên KT3. Chỉ trích phần dịch, KHÔNG dùng chú thích và lời dẫn của Rolt/Sparrow-Simpson (có câu so sánh, phê phán các nhóm khác). KHÔNG lấy từ CCEL (All rights reserved cho bản điện tử)."
+
 # ---------------- Hồi giáo ----------------
 quranenc-vi-hassan:
   title: "Bản dịch nghĩa Qur'an tiếng Việt"

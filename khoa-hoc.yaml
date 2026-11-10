@@ -16,7 +16,7 @@ nhom:
      mo_ta_en: "Practices that many traditions share. Each week has three passages from three traditions and a section on where the traditions differ."}
   - {id: khac-ky, ten: "Khắc kỷ", ten_en: "Stoicism", mo_ta: "Epictetus, Seneca, Marcus Aurelius.", mo_ta_en: "Epictetus, Seneca, Marcus Aurelius."}
   - {id: phat-giao, ten: "Phật giáo", ten_en: "Buddhism", mo_ta: "Kinh Pali qua bản dịch của Bhikkhu Sujato (CC0).", mo_ta_en: "Pali suttas in Bhikkhu Sujato’s translation (CC0)."}
-  - {id: kito-giao, ten: "Kitô giáo", ten_en: "Christianity", mo_ta: "Kinh Thánh, Brother Lawrence, Gương Chúa Giêsu.", mo_ta_en: "The Bible, Brother Lawrence, The Imitation of Christ."}
+  - {id: kito-giao, ten: "Kitô giáo", ten_en: "Christianity", mo_ta: "Kinh Thánh, Brother Lawrence, Gương Chúa Giêsu, Đám mây không biết, Dionysius.", mo_ta_en: "The Bible, Brother Lawrence, The Imitation of Christ, The Cloud of Unknowing, Dionysius."}
   - {id: hoi-giao, ten: "Hồi giáo", ten_en: "Islam", mo_ta: "Qur'an và hadith, trình bày từ góc người tìm hiểu, không hướng dẫn nghi lễ.", mo_ta_en: "The Qur'an and hadith, presented for learners, not as ritual instruction."}
   - {id: do-thai-giao, ten: "Do Thái giáo", ten_en: "Judaism", mo_ta: "Torah, Talmud, Pirkei Avot.", mo_ta_en: "Torah, Talmud, Pirkei Avot."}
   - {id: bat-nhi, ten: "Bất nhị / Hiện diện", ten_en: "Non-duality / Presence", mo_ta: "Upanishad và Bhagavad Gita.", mo_ta_en: "The Upanishads and the Bhagavad Gita."}
@@ -282,6 +282,11 @@ nghien_cuu:
     url: "https://doi.org/10.1037/a0037409"
     vi: "Phân tích gộp 753 hệ số từ 259 mẫu độc lập: người đặt nặng tiền bạc, của cải có mức hạnh phúc thấp hơn một chút (r = −0,19 với thang đo giá trị và niềm tin vật chất). Đây là tương quan."
     en: "Meta-analysis of 753 effect sizes from 259 independent samples: people who put more weight on money and possessions reported slightly lower well-being (r = −0.19 for measures of materialist values and beliefs). This is a correlation."
+  rohde2024:
+    trich: "Rohde, Goldy, Graziosi, Ferguson, Thrul & Yaden 2024, BMC Psychology 12(1)"
+    url: "https://doi.org/10.1186/s40359-024-01836-0"
+    vi: "Thử nghiệm ngẫu nhiên trực tuyến, 702 người tự nhận là Kitô hữu, 28 ngày: Cầu nguyện hướng tâm có lời dẫn tôn giáo, cùng cách tập không có lời dẫn tôn giáo, và chỉ nhìn lại ngày của mình. Mức an lành ở thước đo chính một tuần sau không khác nhau giữa ba nhóm; cả ba nhóm đều tăng so với lúc đầu. Lời dẫn tôn giáo chỉ làm khác các thước đo về trải nghiệm tâm linh."
+    en: "Online randomised trial, 702 self-identified Christians, 28 days: Centering Prayer with a religious framing, the same practice without it, and simply reflecting on the day. Well-being on the main measure one week later did not differ between the three groups; all three improved from the start. The religious framing changed only measures of spiritual experience."
 
 khoa:
   # ------------------------------------------------------------ GIAO THOA
@@ -642,21 +647,28 @@ khoa:
     nhom: kito-giao
     ten: "Thượng Đế vượt khái niệm"
     ten_en: "God beyond concepts"
-    mo_ta: "Truyền thống chiêm niệm và thần học phủ định."
-    mo_ta_en: "The contemplative tradition and apophatic theology."
+    mo_ta: "Sách Đám mây không biết (thế kỷ 14) và Thần học huyền nhiệm của tác giả lấy tên Dionysius: truyền thống chiêm niệm Kitô giáo nói rằng trí hiểu không nắm được Thiên Chúa, chỉ tình yêu hướng về Ngài. Mỗi ngày ngồi im 25–40 phút: không cố hình dung, để ý nghĩ đi qua, quay về một chữ ngắn, đặt xuống một hình ảnh, và tập nhẹ nhàng không gồng ép."
+    mo_ta_en: "The Cloud of Unknowing (14th century) and The Mystical Theology by the author writing as Dionysius: the Christian contemplative tradition teaches that understanding cannot grasp God, only love turned towards Him. Each day, 25–40 minutes of silent sitting: not trying to picture anything, letting thoughts pass, returning to one short word, setting down an image, and practising gently without straining."
     tang: "3"
     phut: "30–45"
-    trang_thai: chua-bat-dau
-    duyet: noi-bo
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [rohde2024, lindahl2017, bernstein2015, farias2020, abramowitz2001, goncalves2015, goyal2014, vandam2018]
+    bai_tep: [khe/kito-giao/kt3-tuan-01, khe/kito-giao/kt3-tuan-02, khe/kito-giao/kt3-tuan-03, khe/kito-giao/kt3-tuan-04, khe/kito-giao/kt3-tuan-05, khe/kito-giao/kt3-tuan-06]
     bai:
-      - "Đám mây không biết | The Cloud of Unknowing | The Cloud of Unknowing"
-      - "Thần học huyền nhiệm | Mystical Theology | Pseudo-Dionysius"
-      - "Im lặng trước mầu nhiệm | Silence before mystery | –"
-      - "Thực hành dài | Longer practice | –"
-      - "Đọc lại cùng người duyệt | Rereading with a reviewer | –"
-      - "Ôn tập | Review | –"
+      - "Đám mây không biết | The cloud of unknowing | Đám mây không biết, ch. 3–4 || The Cloud of Unknowing, ch. 3–4 | Ngồi im 25′ ≥5/7; ghi 1 dòng/tối ≥5/7 | Sit in silence 25′ on 5 of 7 days; one line each evening on 5 of 7 evenings"
+      - "Yêu được, nghĩ không tới | Loved, but not thought | Đám mây không biết, ch. 5–6 || The Cloud of Unknowing, ch. 5–6 | Ngồi im 25′ ≥5/7; ghi 1 lần \"để yên\"/tối ≥5/7 | Sit in silence 25′ on 5 of 7 days; note one \"letting be\" each evening on 5 of 7 evenings"
+      - "Một chữ ngắn | One short word | Đám mây không biết, ch. 7 || The Cloud of Unknowing, ch. 7 | Ngồi im 30′ với một chữ ≥5/7; ghi số lần quay về | Sit in silence 30′ with one word on 5 of 7 days; note the number of returns"
+      - "Bóng tối thiêng liêng | The divine darkness | Thần học huyền nhiệm, ch. 1 || The Mystical Theology, ch. 1 | Viết 1 hình ảnh và ngồi im 30′ ≥5/7 | Write one image and sit in silence 30′ on 5 of 7 days"
+      - "Im lặng trước mầu nhiệm | Silence before mystery | Thần học huyền nhiệm, ch. 3 · Đám mây không biết, ch. 46 || The Mystical Theology, ch. 3 · The Cloud of Unknowing, ch. 46 | Buổi 40′ (hoặc 30′ ngồi + 10′ đi chậm) ≥5/7; 1 buổi đọc cùng 1 người | A 40′ session (or 30′ sitting + 10′ slow walking) on 5 of 7 days; one reading with another person"
+      - "Ôn tập | Review | Danh xưng Thiên Chúa, ch. 1 · Thần học huyền nhiệm, ch. 5 · Đám mây không biết, ch. 6 || The Divine Names, ch. 1 · The Mystical Theology, ch. 5 · The Cloud of Unknowing, ch. 6 | Ngồi 30–40′ ≥5/7; tự chấm 6 thói quen, giữ 2, kế hoạch 4 tuần | Sit 30–40′ on 5 of 7 days; rate six habits, keep two, write a 4-week plan"
+    gioi_han: "Khóa Tầng 3: mỗi ngày 30–45 phút, nên học sau Kitô giáo 1 và 2. Không dành cho người đang trầm cảm, có tang mới, đang trải qua biến cố lớn hay có ý nghĩ muốn chết; người từng có loạn thần, rối loạn lưỡng cực, PTSD nặng hay cảm giác tách khỏi bản thân kéo dài không nên tự học. Khóa chỉ đọc vài đoạn, trong khi lời mở đầu của Đám mây không biết xin người đọc đọc trọn sách và chỉ dành cho người muốn sống đời chiêm niệm; ai muốn theo con đường này nên đọc trọn sách cùng một người hướng dẫn trong truyền thống. Khóa không so sánh với cách các truyền thống khác nói về Thượng Đế, không trích các câu về ma quỷ, luyện ngục, đoạn dặn giữ kín với \"người chưa được khai tâm\" và các chú thích của người dịch. Bài tập dùng cách quay về nhẹ nhàng, không đè nén ý nghĩ, và có cách ngồi cho người không cầu nguyện (điều chỉnh của tamhonkhoe). Góc trẻ chỉ nói về những điều có thật mà không nhìn thấy hay gọi tên hết, không nói về Thượng Đế. Bản Việt là bản tamhonkhoe tự dịch từ bản Anh của Evelyn Underhill (1922) và C. E. Rolt (1920). Chưa có người duyệt từ trong truyền thống Kitô giáo, và chưa có nghiên cứu đánh giá trực tiếp chương trình này."
+    gioi_han_en: "A Level 3 course: 30–45 minutes a day, best taken after Christianity 1 and 2. It is not for people who are depressed, newly bereaved, going through a major upheaval or having thoughts of dying; people with a history of psychosis, bipolar disorder, severe PTSD or long-lasting feelings of being detached from themselves should not study it alone. The course reads only a few passages, while the prologue of The Cloud of Unknowing asks readers to read the whole book and keeps it for those who wish to live a contemplative life; anyone who wants to follow this path should read the whole book with a guide within the tradition. The course does not compare this with how other traditions speak of God, and does not quote the lines on fiends and purgatory, the passage on keeping these things from \"the uninitiated\", or the translator’s notes. The practice uses a gentle return rather than suppressing thoughts, and offers a way of sitting for those who do not pray (tamhonkhoe’s adaptation). The kids’ corner is only about things that are real but cannot be seen or fully named, and does not speak of God. The English quotes Evelyn Underhill (1922) and C. E. Rolt (1920). No reviewer from within the Christian tradition has checked it yet, and no study has evaluated this programme directly."
 
   - ma: KT4
     slug: kito-giao-4
