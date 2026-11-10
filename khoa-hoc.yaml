@@ -821,23 +821,29 @@ khoa:
     nhom: hoi-giao
     ten: "Zakat, Ramadan và đời sống"
     ten_en: "Zakat, Ramadan and daily life"
-    mo_ta: "Cho đi, nhịn ăn (mô tả) và gia đình."
-    mo_ta_en: "Giving, fasting (described) and family."
+    mo_ta: "Zakat dành cho ai (Qur'an 9:60) và cho đi không kể ơn (2:262–263); tháng Ramadan và Đêm Định Mệnh (97:1–5); giữ lời nói (49:12, Bukhari 1903) và người được miễn nhịn; cha mẹ (17:23–24); láng giềng và người lỡ đường (4:36, Bukhari 6014); cho mà không mong đền ơn (76:8–9). Chỉ mô tả zakat và nhịn chay; bài tập là việc trong đời thường: một việc cho đi, đọc chậm buổi tối, giữ một thói quen lời nói, hỏi thăm cha mẹ, biết tên hàng xóm, và một bài tiết chế nhẹ tùy chọn cho người lớn khỏe mạnh."
+    mo_ta_en: "Who zakat is for (Qur'an 9:60) and giving without reproach (2:262–263); the month of Ramadan and the Night of Power (97:1–5); guarding speech (49:12, Bukhari 1903) and who is exempt from fasting; parents (17:23–24); neighbours and the wayfarer (4:36, Bukhari 6014); giving without wanting thanks (76:8–9). Zakat and fasting are only described; the exercises are everyday actions: one act of giving, slow evening reading, guarding one speech habit, asking after parents, learning a neighbour's name, and an optional light restraint exercise for healthy adults."
     tang: "4"
     phut: "Theo nhịp sống"
     phut_en: "Fits daily life"
-    trang_thai: chua-bat-dau
-    duyet: noi-bo
-    ra_mat: "2028"
-    ra_mat_en: "2028"
-    nghien_cuu: [berthelot2021, heun2018]
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [dunn2008, curry2018, heun2018, berthelot2021, friese2017, gollwitzer2006, holtlunstad2010, lally2010]
+    bai_tep: [khe/hoi-giao/hg4-tuan-01, khe/hoi-giao/hg4-tuan-02, khe/hoi-giao/hg4-tuan-03, khe/hoi-giao/hg4-tuan-04, khe/hoi-giao/hg4-tuan-05, khe/hoi-giao/hg4-tuan-06]
     bai:
-      - "Zakat cho ai | Who zakat is for | Qur'an 9:60"
-      - "Ramadan (mô tả) | Ramadan (described) | Qur'an 2:183–185"
-      - "Ai được miễn nhịn | Who is exempt from fasting | Qur'an 2:183–185"
-      - "Đối xử tốt với người thân | Kindness to family | Qur'an 4:36"
-      - "Láng giềng và người lỡ đường | Neighbours and travellers | Qur'an 4:36"
-      - "Ôn tập | Review | –"
+      - "Zakat dành cho ai | Who zakat is for | Qur'an 9:60 · 2:262–263 | Viết 8 nhóm trong 9:60; 1 việc cho đi không nhắc lại; 1 lời tử tế/ngày ≥5/7 | Write the eight groups of 9:60; one act of giving never mentioned; one kind word a day on 5 of 7 days"
+      - "Ramadan, tháng của Qur'an | Ramadan, the month of the Qur'an | Qur'an 97:1–5 | Đọc chậm buổi tối 10 phút ≥5/7; viết 4 điều về Ramadan; tiết chế nhẹ tùy chọn | A 10-minute slow evening reading on 5 of 7 days; write 4 things about Ramadan; optional light restraint"
+      - "Giữ lời nói, và người được miễn | Guarding speech, and who is exempt | Qur'an 49:12 · Bukhari 1903 | 1 kế hoạch \"nếu… thì…\" cho một thói quen lời nói; ghi mỗi tối ≥5/7 | One \"if… then…\" plan for a speech habit; an evening note on 5 of 7 days"
+      - "Cha mẹ và người thân | Parents and family | Qur'an 17:23–24 | ≥3 lần hỏi thăm, mỗi lần ≥10 phút; 1 việc giúp cụ thể | At least 3 times asking after someone, 10 minutes each; one specific act of help"
+      - "Láng giềng và người lỡ đường | Neighbours and the wayfarer | Qur'an 4:36 · Bukhari 6014 | Biết tên 1 hàng xóm; 1 việc giúp hàng xóm; 1 việc tử tế với người xa nhà | Learn one neighbour's name; one help for a neighbour; one kindness to someone far from home"
+      - "Ôn tập | Review | Qur'an 76:8–9 | Tự chấm 7 thói quen, giữ 2, kế hoạch 4 tuần | Rate seven habits, keep two, write a 4-week plan"
+    gioi_han: "Khóa Tầng 4, khoảng 15 phút mỗi ngày cộng vài việc trong tuần. Khóa mô tả zakat, sadaqah và tháng Ramadan như người Hồi giáo hiểu và thực hành; người học không cần theo đạo. Khóa không hướng dẫn nghi lễ: không dạy cách tính zakat, không hướng dẫn nhịn chay Ramadan, và không đề nghị ai đổi niềm tin. Khóa không phải lời khuyên tài chính; bài tập cho đi là trong sức mình, không vay mượn, không bớt chi tiêu thiết yếu. Bài tiết chế nhẹ ở Tuần 2 là tùy chọn, chỉ cho người lớn khỏe mạnh: bỏ một món ăn vặt hay đồ uống ngọt trong 3 ngày, không bỏ bữa, không nhịn uống, không nhằm giảm cân; không dành cho người dưới 18 tuổi, người mang thai hay cho con bú, người đang có hay từng có rối loạn ăn uống, người đái tháo đường dùng thuốc hay có bệnh mạn tính đang điều trị. Góc trẻ không có nhịn ăn hay bỏ món. Các bài tập không phải zakat hay nhịn chay và không thay thế chúng. Trang tiếng Việt dẫn nguyên văn bản dịch nghĩa của Hasan Abdulkarim trên QuranEnc.com, không sửa; trang tiếng Anh dùng bản Pickthall. Hadith chỉ được tóm ý vì bản dịch trên sunnah.com còn bản quyền. Khóa ghi nhận một số khác biệt giữa người Sunni và Shi'a (khums, các đêm cuối Ramadan) mà không so sánh. Phần mô tả tập quán là đánh giá của người viết; chưa có người duyệt từ trong truyền thống Hồi giáo, chưa có chuyên gia dinh dưỡng xem bài tiết chế, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; bằng chứng trong bài chỉ là gián tiếp."
+    gioi_han_en: "A Level 4 course, about 15 minutes a day plus a few actions in the week. It describes zakat, sadaqah and the month of Ramadan as Muslims understand and practise them; learners do not need to be Muslim. It does not teach ritual: it does not teach how to calculate zakat, does not teach the Ramadan fast, and does not ask anyone to change their beliefs. It is not financial advice; the giving exercises are within your means, without borrowing or cutting essential spending. The light restraint exercise in Week 2 is optional and for healthy adults only: leaving out one snack or sweet drink on 3 days, with no skipped meals, no going without drinks and no weight-loss aim; it is not for anyone under 18, pregnant or breastfeeding, with a current or past eating disorder, with diabetes treated with medication or a chronic illness under treatment. The kids' corner has no fasting or giving up foods. The exercises are not zakat or fasting and do not replace them. The Vietnamese pages quote Hasan Abdulkarim's translation on QuranEnc.com word for word; the English pages quote Pickthall. Hadith are only summarised, because the translations on sunnah.com are in copyright. The course notes some differences between Sunni and Shi'a practice (khums, the last nights of Ramadan) without comparing them. The descriptions of practice are the writer's judgement; no reviewer from within the Islamic tradition has checked it yet, no nutrition expert has reviewed the restraint exercise, and no study has evaluated this programme directly; the evidence in the lessons is only indirect."
 
   # ------------------------------------------------------------ DO THÁI GIÁO
   - ma: DT1
