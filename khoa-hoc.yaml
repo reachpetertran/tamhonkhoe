@@ -287,6 +287,16 @@ nghien_cuu:
     url: "https://doi.org/10.1186/s40359-024-01836-0"
     vi: "Thử nghiệm ngẫu nhiên trực tuyến, 702 người tự nhận là Kitô hữu, 28 ngày: Cầu nguyện hướng tâm có lời dẫn tôn giáo, cùng cách tập không có lời dẫn tôn giáo, và chỉ nhìn lại ngày của mình. Mức an lành ở thước đo chính một tuần sau không khác nhau giữa ba nhóm; cả ba nhóm đều tăng so với lúc đầu. Lời dẫn tôn giáo chỉ làm khác các thước đo về trải nghiệm tâm linh."
     en: "Online randomised trial, 702 self-identified Christians, 28 days: Centering Prayer with a religious framing, the same practice without it, and simply reflecting on the day. Well-being on the main measure one week later did not differ between the three groups; all three improved from the start. The religious framing changed only measures of spiritual experience."
+  holtlunstad2010:
+    trich: "Holt-Lunstad, Smith & Layton 2010, PLoS Medicine 7(7)"
+    url: "https://doi.org/10.1371/journal.pmed.1000316"
+    vi: "Phân tích gộp 148 nghiên cứu, 308.849 người: người có các mối quan hệ xã hội mạnh hơn có khả năng sống sót cao hơn trong thời gian theo dõi (OR = 1,50). Đây là tương quan."
+    en: "Meta-analysis of 148 studies, 308,849 people: those with stronger social relationships were more likely to survive over the follow-up period (OR = 1.50). This is a correlation."
+  pega2021:
+    trich: "Pega et al. 2021, Environment International 154 (ước tính chung WHO/ILO)"
+    url: "https://doi.org/10.1016/j.envint.2021.106595"
+    vi: "Ước tính chung của WHO và ILO: năm 2016 khoảng 488 triệu người làm từ 55 giờ/tuần trở lên; khoảng 745.000 ca tử vong do bệnh tim thiếu máu cục bộ và đột quỵ được quy cho việc làm quá giờ. Đây là ước tính mô hình dựa trên các tổng quan hệ thống."
+    en: "Joint WHO/ILO estimates: in 2016 about 488 million people worked 55 or more hours a week; about 745,000 deaths from ischemic heart disease and stroke were attributed to such long hours. These are model estimates built on systematic reviews."
 
 khoa:
   # ------------------------------------------------------------ GIAO THOA
@@ -676,22 +686,29 @@ khoa:
     nhom: kito-giao
     ten: "Đức tin thành việc làm"
     ten_en: "Faith in action"
-    mo_ta: "Phục vụ, cộng đoàn và công việc."
-    mo_ta_en: "Service, community and work."
+    mo_ta: "Ma-thi-ơ 25 (những người bé nhỏ nhất), thư Gia-cơ (đức tin và việc làm), Công vụ 2 (đời sống chung), Cô-lô-se 3 (làm việc hết lòng; mặc lấy lòng yêu thương), 1 Giăng 3:18, Mi-chê 6:8 và Ma-thi-ơ 6:3–4: đem đức tin vào việc làm hằng ngày cho người đang thiếu, cho cộng đoàn, trong công việc và trong gia đình. Mỗi ngày đọc 5 phút buổi sáng, làm một việc trong ngày, nhìn lại 2 phút buổi tối."
+    mo_ta_en: "Matthew 25 (the least of these), James (faith and works), Acts 2 (shared life), Colossians 3 (working heartily; putting on love), 1 John 3:18, Micah 6:8 and Matthew 6:3–4: carrying faith into daily deeds for people in need, for a community, at work and in the family. Each day, 5 minutes of reading in the morning, one act during the day, 2 minutes of looking back in the evening."
     tang: "4"
     phut: "Theo nhịp sống"
     phut_en: "Fits daily life"
-    trang_thai: chua-bat-dau
-    duyet: truyen-thong
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [curry2018, jenkinson2013, gollwitzer2006, holtlunstad2010, dunn2008, wendsche2017, pega2021, hammons2011]
+    bai_tep: [khe/kito-giao/kt4-tuan-01, khe/kito-giao/kt4-tuan-02, khe/kito-giao/kt4-tuan-03, khe/kito-giao/kt4-tuan-04, khe/kito-giao/kt4-tuan-05, khe/kito-giao/kt4-tuan-06]
     bai:
-      - "Những người bé nhỏ nhất | The least of these | Mt 25:31–46 || Matthew 25:31–46"
-      - "Đức tin và việc làm | Faith and works | Gc 2:14–17 || James 2:14–17"
-      - "Chia sẻ trong cộng đoàn | Sharing in community | Cv 2:44–47 || Acts 2:44–47"
-      - "Làm việc hết lòng | Working wholeheartedly | Col 3:23 || Colossians 3:23"
-      - "Gia đình | Family | –"
-      - "Ôn tập | Review | –"
+      - "Những người bé nhỏ nhất | The least of these | Mt 25:34–40 || Matthew 25:34–40 | Đọc ≥5/7; 2 việc cho người đang thiếu trong tuần | Read on 5 of 7 mornings; 2 acts for someone in need during the week"
+      - "Đức tin và việc làm | Faith and works | Gc 2:14–17 || James 2:14–17 | Mỗi sáng 1 kế hoạch \"nếu… thì…\"; làm đúng ≥5/7 | One \"if… then…\" plan each morning; carried out on 5 of 7 days"
+      - "Chia sẻ trong cộng đoàn | Sharing in community | Cv 2:44–47 || Acts 2:44–47 | Đọc ≥5/7; góp 1 lần vào bữa ăn hay việc chung của một nhóm | Read on 5 of 7 mornings; contribute once to a shared meal or task of a group"
+      - "Làm việc hết lòng | Working wholeheartedly | Cl 3:17, 23 || Colossians 3:17, 23 | Làm trọn 1 việc ≥5/7; dừng đúng giờ ≥5/7 | Do one task fully on 5 of 7 days; stop on time on 5 of 7 days"
+      - "Gia đình | Family | Cl 3:12–14 · 1 Ga 3:18 || Colossians 3:12–14 · 1 John 3:18 | 1 việc thương cho từng người trong nhà; ≥3 bữa ăn chung không điện thoại | One act of love for each person at home; 3 or more shared meals without phones"
+      - "Ôn tập | Review | Mi 6:8 · Mt 6:3–4 || Micah 6:8 · Matthew 6:3–4 | 1 việc tốt kín đáo; tự chấm 6 thói quen, giữ 2, kế hoạch 4 tuần | One hidden good act; rate six habits, keep two, write a 4-week plan"
+    gioi_han: "Khóa Tầng 4: không thêm giờ ngồi, chỉ khoảng 10 phút đọc và nhìn lại mỗi ngày, phần còn lại nằm trong việc bạn vẫn làm. Khóa mô tả và tập điều truyền thống Kitô giáo dạy về việc làm của đức tin; người học không cần theo đạo, và bước nhìn lại buổi tối có cách cho người không cầu nguyện (viết một dòng), là điều chỉnh của tamhonkhoe. Khóa chỉ đọc vài đoạn ngắn: không giải thích giáo lý về phán xét, không bàn tranh luận Tin Lành – Công giáo về đức tin và việc làm, không dùng Công vụ 2 để bàn về kinh tế hay chính trị, không trích các lời dặn riêng cho vợ, chồng, con cái và tôi tớ trong Cô-lô-se 3:18–22. Việc giúp người luôn trong giới hạn an toàn và khả năng của mình; khóa không khuyên ai bán tài sản hay góp tiền cho một nhóm, và không phải lời khuyên tài chính. \"Làm việc hết lòng\" không có nghĩa là làm quá giờ hay chấp nhận điều kiện làm việc không an toàn. \"Nhường nhịn\" và \"tha thứ\" không dùng cho bạo lực, xâm hại hay kiểm soát trong nhà. Bản Việt dùng nguyên văn bản Kinh Thánh 1925 (Tin Lành); người Công giáo quen một bản dịch khác. Chưa có người duyệt từ trong truyền thống Kitô giáo, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; bằng chứng trong bài chỉ là gián tiếp."
+    gioi_han_en: "A Level 4 course: no extra sitting time, only about 10 minutes of reading and looking back each day; the rest lies within what you already do. The course describes and practises what the Christian tradition teaches about the works of faith; learners do not need to be Christian, and the evening look-back offers an option for those who do not pray (writing one line), which is tamhonkhoe’s adaptation. The course reads only a few short passages: it does not explain the doctrine of judgement, does not go into the Protestant–Catholic debate on faith and works, does not use Acts 2 to discuss economics or politics, and does not quote the instructions to wives, husbands, children and servants in Colossians 3:18–22. Helping others always stays within safe limits and your own means; the course does not advise anyone to sell property or give money to a group, and is not financial advice. ‘Working heartily’ does not mean working long hours or accepting unsafe working conditions. ‘Bearing with’ and ‘forgiving’ are not for violence, abuse or control at home. The English pages quote the World English Bible. No reviewer from within the Christian tradition has checked it yet, and no study has evaluated this programme directly; the evidence in the lessons is only indirect."
 
   # ------------------------------------------------------------ HỒI GIÁO
   - ma: HG1
