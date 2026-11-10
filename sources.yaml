@@ -528,3 +528,14 @@ an8-41-sujato:
   may_translate: true
   checked_on: 2026-11-10
   url_status: "Claude mở 2026-11-10 và chụp mục Info → License (giay-phep/2026-11-09/40-suttacentral-an8-41-sujato-license.png): CC0, Bhikkhu Sujato từ bỏ mọi quyền với Numbered Discourses; cùng lời đề nghị về AI. Publication number scpub5. Nguyên văn lấy từ bilara-data nhánh published, file an8.41_translation-en-sujato.json. Chờ Peter xác nhận. Peter xác nhận 2026-11-10 qua ảnh 40 do Claude chụp."
+
+masnavi-whinfield:
+  title: "Masnavi i Ma'navi: The Spiritual Couplets of Maulána Jalálu-'d-Dín Muhammad Rúmí"
+  khe: hoi-giao
+  lang: en
+  translator: "E. H. Whinfield (dịch và rút gọn; bản in lần 2, London: Kegan Paul, Trench, Trübner, 1898)"
+  url: "https://archive.org/details/masnaviimanavi"
+  license: PD
+  may_translate: true
+  checked_on: 2026-11-10
+  url_status: "Claude mở 2026-11-10 và chụp trang tên sách (giay-phep/2026-11-10/44-archive-whinfield-1898.png): Internet Archive, bản scan của University of California (số hóa bởi Google); metadata ghi người dịch Whinfield, E. H. (Edward Henry), 1836-1922, xuất bản 1898, giấy phép Public Domain Mark 1.0. Dịch giả mất 1922, đạt quy tắc đời + 50 năm; xuất bản trước 1930 nên cũng hết bảo hộ tại Mỹ. Rumi (1207-1273) là tác giả nguyên tác tiếng Ba Tư. Nguồn có trong khung chương trình (HG3: Masnavi I, Whinfield); Peter chưa xác nhận riêng ảnh 44. Chữ lấy từ tệp OCR của chính bản scan (Masnavi_i_Ma_navi_djvu.txt) và đã đối chiếu bằng mắt với ảnh trang (tr. 1-3, 46-48, 122-123) để sửa lỗi OCR. Số trang trong bài là số trang in của Whinfield; số trong ngoặc như (p. 77) là số trang của bản in Ba Tư mà Whinfield dùng."

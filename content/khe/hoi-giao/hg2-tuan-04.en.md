@@ -41,7 +41,7 @@ This is tamhonkhoe's summary, not a translation, because the English on sunnah.c
 
 ### Dhikr in daily life (described)
 
-[Traditional teaching] Many Muslims say short phrases of dhikr after each prayer, in the morning and evening, before sleep and when beginning a task. Some use prayer beads (*misbaha* or *subha*) to count. The Sufi tradition also has gatherings for shared dhikr; the course Islam 3 on Rumi and the Sufi tradition will cover this. This course does not teach reciting or counting.
+[Traditional teaching] Many Muslims say short phrases of dhikr after each prayer, in the morning and evening, before sleep and when beginning a task. Some use prayer beads (*misbaha* or *subha*) to count. The Sufi tradition also has gatherings for shared dhikr; the course [Islam 3 "Rumi and the Sufi tradition"](/en/courses/islam-3/) covers it. This course does not teach reciting or counting.
 
 ### Reading in context
 

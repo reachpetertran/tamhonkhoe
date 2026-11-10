@@ -40,7 +40,7 @@ Và khi bầy tôi của TA hỏi Ngươi (Muhammad) về TA, (hãy bảo họ) 
 
 ### Dhikr trong đời sống (mô tả)
 
-[Lời dạy truyền thống] Nhiều người Hồi giáo nói các câu dhikr ngắn sau mỗi lễ nguyện, buổi sáng, buổi tối, trước khi ngủ, và khi bắt đầu một việc. Một số người dùng chuỗi hạt (*misbaha* hay *subha*) để đếm. Trong truyền thống Sufi còn có những buổi dhikr chung; khóa Hồi giáo 3 về Rumi và truyền thống Sufi sẽ nói tới truyền thống này. Khóa này không hướng dẫn tụng niệm hay đếm.
+[Lời dạy truyền thống] Nhiều người Hồi giáo nói các câu dhikr ngắn sau mỗi lễ nguyện, buổi sáng, buổi tối, trước khi ngủ, và khi bắt đầu một việc. Một số người dùng chuỗi hạt (*misbaha* hay *subha*) để đếm. Trong truyền thống Sufi còn có những buổi dhikr chung; khóa [Hồi giáo 3 "Rumi và truyền thống Sufi"](/khoa-hoc/hoi-giao-3/) nói về truyền thống này. Khóa này không hướng dẫn tụng niệm hay đếm.
 
 ### Đọc đúng bối cảnh
 

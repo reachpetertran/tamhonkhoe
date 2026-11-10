@@ -792,21 +792,28 @@ khoa:
     nhom: hoi-giao
     ten: "Rumi và truyền thống Sufi"
     ten_en: "Rumi and the Sufi tradition"
-    mo_ta: "Masnavi bản Whinfield: tình yêu và buông cái tôi."
-    mo_ta_en: "The Masnavi in Whinfield’s version: love and letting go of self."
+    mo_ta: "Đọc chậm sách Masnavi của Rumi qua bản Whinfield (1898): cây sáo sậy, chiếc bình của lòng tham, tình yêu, người gõ cửa và tấm gương, con voi trong phòng tối; kèm Qur'an 2:156, 3:31, 50:16. Mô tả Rumi, Shams, dòng Mevlevi và nghi lễ sema; không hướng dẫn nghi lễ Sufi. Bài tập là nhịp trung tính do tamhonkhoe đặt ra: đọc chậm, ngồi im lắng nghe 20–25 phút, một ngày không mua thêm, việc chăm sóc và việc tốt không ai biết, trò chuyện với người đồng hành."
+    mo_ta_en: "Slow reading of Rumi's Masnavi in Whinfield's version (1898): the reed flute, the pitcher of greed, love, the man at the door and the mirror, the elephant in a dark room; with Qur'an 2:156, 3:31 and 50:16. Describes Rumi, Shams, the Mevlevi order and the sema ceremony; no Sufi ritual is taught. The exercises are neutral rhythms set by tamhonkhoe: slow reading, 20–25 minutes of sitting and listening, a day buying nothing extra, acts of care and unseen good deeds, talking with a companion."
     tang: "3"
     phut: "30–45"
-    trang_thai: chua-bat-dau
-    duyet: noi-bo
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [goyal2014, farias2020, dittmar2014, holtlunstad2010, curry2018, gollwitzer2006, lally2010]
+    bai_tep: [khe/hoi-giao/hg3-tuan-01, khe/hoi-giao/hg3-tuan-02, khe/hoi-giao/hg3-tuan-03, khe/hoi-giao/hg3-tuan-04, khe/hoi-giao/hg3-tuan-05, khe/hoi-giao/hg3-tuan-06]
     bai:
-      - "Cây sáo sậy | The reed flute | Masnavi I"
-      - "Xa cách và trở về | Separation and return | Masnavi I"
-      - "Tình yêu | Love | Masnavi"
-      - "Buông cái tôi | Letting go of self | Masnavi"
-      - "Rumi trong truyền thống Hồi giáo | Rumi within Islam | –"
-      - "Ôn tập | Review | –"
+      - "Cây sáo sậy | The reed flute | Masnavi I, Lời mở đầu | Đọc chậm ≥5/7; ngồi im 20 phút ≥5/7; viết 3 câu cây sáo than điều gì | Read slowly on 5 of 7 days; sit still 20 minutes on 5 of 7 days; write 3 sentences on what the flute laments"
+      - "Xa cách và trở về | Separation and return | Qur'an 2:156 · Masnavi I, Lời mở đầu | Ngồi im 20 phút ≥5/7; 1 ngày không mua thêm; viết 3 thứ đang giữ chân mình | Sit still 20 minutes on 5 of 7 days; one day buying nothing extra; write 3 things holding you back"
+      - "Tình yêu | Love | Masnavi I, Lời mở đầu · Qur'an 3:31 | Ngồi im 25 phút ≥5/7; 1 việc chăm sóc mỗi ngày ≥5/7 | Sit still 25 minutes on 5 of 7 days; one act of care a day on 5 of 7 days"
+      - "Buông cái tôi | Letting go of self | Masnavi I: người gõ cửa, tấm gương | 1 việc tốt không ai biết ≥5/7; mỗi tối ghi 1 lần muốn được đúng hay được khen | One unseen good deed on 5 of 7 days; each evening note one moment of wanting to be right or praised"
+      - "Rumi trong truyền thống Hồi giáo | Rumi within Islam | Qur'an 50:16 · Masnavi I | 1 cuộc trò chuyện 15 phút với người đồng hành; tìm nguồn 1 câu \"Rumi\" trên mạng | One 15-minute talk with a companion; trace the source of one \"Rumi\" quote online"
+      - "Ôn tập | Review | Masnavi III: con voi trong phòng tối | Tự chấm 6 thói quen, giữ 2, kế hoạch 4 tuần | Rate six habits, keep two, write a 4-week plan"
+    gioi_han: "Khóa Tầng 3, 30–45 phút mỗi ngày. Khóa mô tả Rumi và truyền thống Sufi (tasawwuf) như một phần của Hồi giáo; người học không cần theo đạo. Khóa không hướng dẫn nghi lễ Sufi: không dạy dhikr của một dòng tu, không dạy điệu xoay sema, không đưa ai vào một dòng tu và không đề nghị ai đổi niềm tin. Khái niệm fana (tan biến cái tôi trong Thượng Đế) chỉ được nêu tên. Không trích các câu Masnavi về việc phục tùng người hướng dẫn kể cả khi không hiểu việc thầy làm. Bài tập của khóa là nhịp trung tính do tamhonkhoe đặt ra, không phải thực hành Sufi và không thay thế nó. Thơ Rumi lấy từ bản dịch và rút gọn của Whinfield (1898, phạm vi công cộng); bản Việt là bản tamhonkhoe tự dịch từ bản Anh, nên đã qua hai lần chuyển ngữ. Qur'an: trang tiếng Việt dẫn nguyên văn bản dịch nghĩa của Hasan Abdulkarim trên QuranEnc.com, trang tiếng Anh dùng bản Pickthall. Khóa ghi nhận có những người Hồi giáo phê phán một số thực hành Sufi mà không đứng về bên nào. Ngồi im lâu có thể gây khó chịu; mỗi bài có mục Dừng tập khi. Chưa có người duyệt từ trong truyền thống Hồi giáo hay Sufi, chưa có người đọc tiếng Ba Tư đối chiếu, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; bằng chứng trong bài chỉ là gián tiếp."
+    gioi_han_en: "A Level 3 course, 30–45 minutes a day. It describes Rumi and the Sufi tradition (tasawwuf) as part of Islam; learners do not need to be Muslim. It does not teach Sufi ritual: no dhikr of any order, no sema turning, no initiation into an order, and it does not ask anyone to change their beliefs. The idea of fana (the passing away of the self in God) is only named. It does not quote the Masnavi lines on submitting to a guide even when the guide's actions make no sense. The course's exercises are neutral rhythms set by tamhonkhoe; they are not Sufi practice and do not replace it. Rumi's poetry comes from Whinfield's translation and abridgement (1898, public domain); the Vietnamese is tamhonkhoe's own translation from the English, so it has passed through two languages. Qur'an: the Vietnamese pages quote Hasan Abdulkarim's translation on QuranEnc.com word for word; the English pages quote Pickthall. The course notes that some Muslims criticise certain Sufi practices, without taking sides. Long sitting can be uncomfortable; every lesson has a Stop practising section. No reviewer from within the Islamic or Sufi tradition has checked it yet, no reader of Persian has compared it with the original, and no study has evaluated this programme directly; the evidence in the lessons is only indirect."
 
   - ma: HG4
     slug: hoi-giao-4
