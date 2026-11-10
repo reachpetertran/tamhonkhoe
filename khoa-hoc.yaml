@@ -582,24 +582,28 @@ khoa:
     nhom: kito-giao
     ten: "Đọc chậm Lời Chúa (lectio divina)"
     ten_en: "Slow reading of Scripture (lectio divina)"
-    mo_ta: "Sáu đoạn Tin Mừng và Thánh Vịnh theo bốn bước của lectio divina."
-    mo_ta_en: "Six Gospel and Psalm passages through the four steps of lectio divina."
+    mo_ta: "Thi thiên 23, các mối phúc, Kinh Lạy Cha, dụ ngôn người Sa-ma-ri, \"chim trời, hoa huệ\" và 1 Cô-rinh-tô 13, đọc chậm theo bốn bước của lectio divina: đọc, suy niệm, đáp lời, lặng yên; từ tuần 4 thêm một việc làm nhỏ."
+    mo_ta_en: "Psalm 23, the Beatitudes, the Lord’s Prayer, the parable of the Samaritan, \"the birds and the lilies\" and 1 Corinthians 13, read slowly in the four steps of lectio divina: reading, meditation, response, stillness; from week 4, one small action is added."
     tang: "1"
     phut: "10–15"
-    trang_thai: chua-bat-dau
-    duyet: truyen-thong
-    ra_mat: "Nửa cuối 2027"
-    ra_mat_en: "Second half of 2027"
-    nghien_cuu: [captari2018, goncalves2015]
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [captari2018, goncalves2015, wade2014, curry2018, gloster2020, friese2017]
+    bai_tep: [khe/kito-giao/kt1-tuan-01, khe/kito-giao/kt1-tuan-02, khe/kito-giao/kt1-tuan-03, khe/kito-giao/kt1-tuan-04, khe/kito-giao/kt1-tuan-05, khe/kito-giao/kt1-tuan-06]
     bai:
-      - "Người chăn | The shepherd | Thi thiên 23 || Psalm 23 | Đọc chậm 10 phút ≥5/7 ngày | Slow reading 10 minutes on 5 of 7 days"
-      - "Các mối phúc | The Beatitudes | Mt 5:3–9 || Matthew 5:3–9 | Ghi 1 dòng sau mỗi lần đọc | Write one line after each reading"
-      - "Kinh Lạy Cha (mô tả) | The Lord’s Prayer (described) | Mt 6:9–13 || Matthew 6:9–13 | Đọc và ghi 1 dòng, không bắt buộc đọc thành lời cầu | Read and note one line; praying it is optional"
-      - "Người Samari nhân hậu | The Good Samaritan | Lc 10:25–37 || Luke 10:25–37 | 1 việc giúp người lạ trong tuần | One act of help to a stranger this week"
-      - "Đừng lo lắng | Do not worry | Mt 6:25–34 || Matthew 6:25–34 | Viết 3 lo âu và đọc lại đoạn kinh | Write three worries and reread the passage"
-      - "Tình yêu là gì | What love is | 1 Cr 13:4–7 || 1 Corinthians 13:4–7 | Chọn 1 đức tính để tập trong tuần | Choose one quality to practise this week"
-    gioi_han: "Chưa có nghiên cứu tổng hợp riêng về lectio divina; bằng chứng gần nhất là gián tiếp."
-    gioi_han_en: "There is no review of lectio divina itself; the closest evidence is indirect."
+      - "Người chăn | The shepherd | Thi thiên 23 || Psalm 23 | Đọc chậm 10 phút theo bốn bước ≥5/7 | Slow reading for 10 minutes in four steps on 5 of 7 days"
+      - "Các mối phúc | The Beatitudes | Mt 5:3–9 || Matthew 5:3–9 | Đọc ≥5/7; ghi 1 dòng sau mỗi lần đọc | Read on 5 of 7 days; write one line after each reading"
+      - "Kinh Lạy Cha (mô tả) | The Lord’s Prayer (described) | Mt 6:9–13 || Matthew 6:9–13 | Đọc và ghi 1 dòng ≥5/7; đọc thành lời cầu là tùy chọn | Read and note one line on 5 of 7 days; praying it is optional"
+      - "Người Samari nhân hậu | The Good Samaritan | Lc 10:25–37 || Luke 10:25–37 | Đọc ≥5/7; 1 việc giúp người lạ trong tuần, trong giới hạn an toàn | Read on 5 of 7 days; one act of help to a stranger in the week, within safe limits"
+      - "Đừng lo lắng | Do not worry | Mt 6:25–34 || Matthew 6:25–34 | Đọc ≥5/7; 1 lần viết 3 nỗi lo, tách \"hôm nay\"/\"ngày mai\", đọc lại câu 34 | Read on 5 of 7 days; once, write three worries, sort \"today\"/\"tomorrow\", reread verse 34"
+      - "Tình yêu là gì (và ôn tập) | What love is (and review) | 1 Cr 13:4–7 || 1 Corinthians 13:4–7 | Tập 1 đức tính ≥5/7; tự chấm 6 thói quen, giữ 2, kế hoạch 4 tuần | Practise one quality on 5 of 7 days; rate six habits, keep two, write a 4-week plan"
+    gioi_han: "Khóa Tầng 1: mỗi ngày khoảng 12–15 phút. Khóa mô tả và tập cách đọc chậm của truyền thống Kitô giáo; người học không cần theo đạo, và bước \"đáp lời\" có cách cho người không cầu nguyện (viết một câu đáp lại), là điều chỉnh của tamhonkhoe chứ không phải hình thức của truyền thống. Bản Việt dùng nguyên văn bản Kinh Thánh 1925 (Tin Lành), chỉ sửa vài chữ bị lỗi mã hóa trong tệp điện tử và có ghi rõ; người Công giáo quen một bản dịch khác. Bài 3 không mời ai cầu nguyện theo một niềm tin mình không có. Câu \"tha\" và \"nín chịu mọi sự\" không dùng cho tổn thương do bạo lực, xâm hại hay kiểm soát. Bài 5 không thay cho điều trị lo âu, và không phải lời khuyên tài chính hay y tế. Chưa có người duyệt từ trong truyền thống Kitô giáo, và chưa có nghiên cứu tổng hợp riêng về lectio divina; bằng chứng trong bài chỉ là gián tiếp."
+    gioi_han_en: "A Level 1 course: about 12–15 minutes a day. The course describes and practises the Christian tradition’s way of slow reading; learners do not need to be Christian, and the ‘response’ step offers an option for those who do not pray (writing one sentence in response), which is tamhonkhoe’s adaptation rather than a form of the tradition. The English pages quote the World English Bible. Lesson 3 does not invite anyone to pray in a faith they do not hold. The lines on forgiving and ‘enduring all things’ are not for harm from violence, abuse or control. Lesson 5 is not a treatment for anxiety, nor financial or medical advice. No reviewer from within the Christian tradition has checked it yet, and there is no review of lectio divina itself; the evidence in the lessons is only indirect."
 
   - ma: KT2
     slug: kito-giao-2
