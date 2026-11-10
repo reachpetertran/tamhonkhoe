@@ -72,7 +72,7 @@ About 10 minutes a day; on day 7, 20 minutes for the review.
 
 **Then choose two habits to keep** (they need not be the two with the highest scores). Write a 4-week plan: what, when, after which fixed point, and where you will mark it.
 
-Muslims who want to go deeper should continue learning with a teacher in their community. The course Islam 2 on dhikr and the rhythm of the day is being prepared in the internal area.
+Muslims who want to go deeper should continue learning with a teacher in their community. The next course, [Islam 2 "Dhikr and the rhythm of the day (described)"](/en/courses/islam-2/), describes dhikr and the five daily prayers.
 
 ## 4. Kids' corner 6+
 

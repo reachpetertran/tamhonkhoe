@@ -68,7 +68,7 @@ Khoảng 10 phút mỗi ngày; ngày 7 dành 20 phút để ôn tập.
 
 **Sau đó, chọn giữ hai thói quen** (không cần là hai thói quen điểm cao nhất). Viết kế hoạch 4 tuần: làm gì, lúc nào, sau mốc nào, đánh dấu ở đâu.
 
-Người Hồi giáo muốn đi sâu hơn nên học tiếp với người hướng dẫn trong cộng đồng của mình. Khóa Hồi giáo 2 về dhikr và nhịp ngày đang được soạn ở khu nội bộ.
+Người Hồi giáo muốn đi sâu hơn nên học tiếp với người hướng dẫn trong cộng đồng của mình. Khóa tiếp theo, [Hồi giáo 2 "Dhikr và nhịp ngày (mô tả)"](/khoa-hoc/hoi-giao-2/), mô tả dhikr và năm lần cầu nguyện.
 
 ## 4. Góc trẻ 6+
 

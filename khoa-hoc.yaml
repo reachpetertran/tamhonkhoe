@@ -761,23 +761,30 @@ khoa:
     nhom: hoi-giao
     ten: "Dhikr và nhịp ngày (mô tả)"
     ten_en: "Dhikr and the rhythm of the day (described)"
-    mo_ta: "Năm lần cầu nguyện và dhikr được mô tả, không hướng dẫn nghi lễ."
-    mo_ta_en: "The five daily prayers and dhikr described, not taught as ritual."
+    mo_ta: "Dhikr (tưởng nhớ Allah) và năm lần cầu nguyện được mô tả qua Qur'an 13:28, 2:152, 33:41–42, 11:114, 29:45, 2:186, 3:190–191, 62:9–10, 2:153, 94:5–6, 7:205 và ba hadith (tóm ý). Không hướng dẫn nghi lễ. Bài tập là nhịp trung tính do tamhonkhoe đặt ra: đọc chậm buổi sáng, ngồi im 10–20 phút, ba lần dừng lại theo nếp ngày của mình (không theo giờ cầu nguyện), ghi một dòng buổi tối."
+    mo_ta_en: "Dhikr (remembrance of Allah) and the five daily prayers described through Qur'an 13:28, 2:152, 33:41–42, 11:114, 29:45, 2:186, 3:190–191, 62:9–10, 2:153, 94:5–6, 7:205 and three hadith (summarised). No ritual instruction. The exercises are neutral rhythms set by tamhonkhoe: slow reading in the morning, 10–20 minutes of sitting still, three pauses tied to your own day (not to prayer times), one line written in the evening."
     tang: "2"
     phut: "20–30"
-    trang_thai: chua-bat-dau
-    duyet: noi-bo
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 8 tuần"
+    tien_do_en: "All 8 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [captari2018, goncalves2015, cregg2021, wendsche2017, goyal2014, farias2020, gollwitzer2006, holtlunstad2010, lally2010, friese2017]
+    bai_tep: [khe/hoi-giao/hg2-tuan-01, khe/hoi-giao/hg2-tuan-02, khe/hoi-giao/hg2-tuan-03, khe/hoi-giao/hg2-tuan-04, khe/hoi-giao/hg2-tuan-05, khe/hoi-giao/hg2-tuan-06, khe/hoi-giao/hg2-tuan-07, khe/hoi-giao/hg2-tuan-08]
     bai:
-      - "Lòng an bình khi tưởng nhớ | Hearts at rest in remembrance | Qur'an 13:28"
-      - "Hãy nhớ đến Ta | Remember Me | Qur'an 2:152"
-      - "Năm lần cầu nguyện (mô tả) | The five prayers (described) | –"
-      - "Dhikr trong hadith | Dhikr in the hadith | –"
-      - "Nhịp ngày của người tìm hiểu | A learner’s daily rhythm | –"
-      - "Thứ Sáu và cộng đồng | Friday and community | –"
-      - "Kiên trì | Perseverance | –"
-      - "Ôn tập | Review | –"
+      - "Lòng an bình khi tưởng nhớ | Hearts at rest in remembrance | Qur'an 13:28 | Đọc ≥5/7; ngồi im 10 phút ≥5/7; 1 nhịp dừng giữa ngày ≥5/7 | Read on 5 of 7 days; sit still 10 minutes on 5 of 7 days; one midday pause on 5 of 7 days"
+      - "Hãy nhớ đến Ta | Remember Me | Qur'an 2:152 · 33:41–42 | 2 nhịp dừng kèm 1 điều biết ơn ≥5/7; viết nghĩa 4 câu dhikr bằng lời mình | Two pauses with one thing to be grateful for on 5 of 7 days; write the meaning of four phrases of dhikr in your own words"
+      - "Năm lần cầu nguyện (mô tả) | The five prayers (described) | Qur'an 11:114 · 29:45 · Bukhari 528 | Viết tên và lúc của 5 lễ nguyện; 3 nhịp dừng theo nếp ngày mình ≥5/7 | Write the names and times of the five prayers; three pauses tied to your own day on 5 of 7 days"
+      - "Dhikr trong hadith | Dhikr in the hadith | Qur'an 2:186 · Bukhari 6407 · Bukhari 7405 | Ngồi im 15 phút ≥5/7; kể lại ý chính 2 hadith | Sit still 15 minutes on 5 of 7 days; retell the main point of two hadith"
+      - "Nhịp ngày của người tìm hiểu | A learner’s daily rhythm | Qur'an 3:190–191 | 3 kế hoạch \"nếu… thì…\"; 1 phút nhìn trời ≥5/7 | Three \"if… then…\" plans; one minute looking at the sky on 5 of 7 days"
+      - "Thứ Sáu và cộng đồng | Friday and community | Qur'an 62:9–10 | 1 khối 60 phút cho người khác; 1 khối 30 phút tạm gác việc mua bán | One 60-minute block for others; one 30-minute block away from buying and selling"
+      - "Kiên trì | Perseverance | Qur'an 2:153 · 94:5–6 | Viết phiên bản tối thiểu; không bỏ 2 ngày liền; ngồi 20 phút ≥3 ngày | Write a minimum version; never miss two days in a row; sit 20 minutes on 3 or more days"
+      - "Ôn tập | Review | Qur'an 7:205 | Tự chấm 8 thói quen, giữ 2, kế hoạch 4 tuần | Rate eight habits, keep two, write a 4-week plan"
+    gioi_han: "Khóa Tầng 2, 20–30 phút mỗi ngày. Khóa mô tả dhikr và năm lần cầu nguyện (Salah) như người Hồi giáo hiểu và thực hành; người học không cần theo đạo. Khóa không hướng dẫn nghi lễ: không dạy cách cầu nguyện, tẩy rửa, tụng niệm hay đọc tiếng Ả Rập, và không đề nghị ai đổi niềm tin. Bài tập của khóa là nhịp trung tính do tamhonkhoe đặt ra (ba lần dừng lại theo nếp ngày của mình, ngồi im, ghi chép): nhịp này không theo giờ cầu nguyện, không có cúi lạy, không đọc lời kinh tiếng Ả Rập, không phải dhikr hay Salah và không thay thế chúng. Người Hồi giáo giữ dhikr và Salah theo cách cộng đồng và người hướng dẫn của mình dạy. Trang tiếng Việt dẫn nguyên văn bản dịch nghĩa của Hasan Abdulkarim trên QuranEnc.com, không sửa, kể cả chú thích; trang tiếng Anh dùng bản Pickthall. Hadith chỉ được tóm ý vì bản dịch trên sunnah.com còn bản quyền. Khóa ghi nhận một số khác biệt giữa người Sunni và Shi'a mà không so sánh, và không đi vào các cách chú giải gây tranh luận hay giáo lý về đời sau. Ngồi im lâu có thể gây khó chịu; mỗi bài có mục Dừng tập khi. Chưa có người duyệt từ trong truyền thống Hồi giáo, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; bằng chứng trong bài chỉ là gián tiếp."
+    gioi_han_en: "A Level 2 course, 20–30 minutes a day. It describes dhikr and the five daily prayers (Salah) as Muslims understand and practise them; learners do not need to be Muslim. It does not teach ritual: it does not teach how to pray, perform ablution, recite or read Arabic, and does not ask anyone to change their beliefs. The course's exercises are neutral rhythms set by tamhonkhoe (three pauses tied to your own day, sitting still, writing): they do not follow prayer times, involve no bowing, recite no Arabic words of scripture, are not dhikr or Salah and do not replace them. Muslims keep dhikr and Salah as their own community and teachers teach them. The Vietnamese pages quote Hasan Abdulkarim’s translation on QuranEnc.com word for word, footnotes included; the English pages quote Pickthall. Hadith are only summarised, because the translations on sunnah.com are in copyright. The course notes some differences between Sunni and Shi'a practice without comparing them, and does not go into disputed interpretations or teaching about the afterlife. Long sitting can be uncomfortable; every lesson has a Stop practising section. No reviewer from within the Islamic tradition has checked it yet, and no study has evaluated this programme directly; the evidence in the lessons is only indirect."
 
   - ma: HG3
     slug: hoi-giao-3
