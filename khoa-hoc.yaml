@@ -297,6 +297,21 @@ nghien_cuu:
     url: "https://doi.org/10.1016/j.envint.2021.106595"
     vi: "Ước tính chung của WHO và ILO: năm 2016 khoảng 488 triệu người làm từ 55 giờ/tuần trở lên; khoảng 745.000 ca tử vong do bệnh tim thiếu máu cục bộ và đột quỵ được quy cho việc làm quá giờ. Đây là ước tính mô hình dựa trên các tổng quan hệ thống."
     en: "Joint WHO/ILO estimates: in 2016 about 488 million people worked 55 or more hours a week; about 745,000 deaths from ischemic heart disease and stroke were attributed to such long hours. These are model estimates built on systematic reviews."
+  mir2026:
+    trich: "Mir et al. 2026, Cambridge Prisms: Global Mental Health 13"
+    url: "https://doi.org/10.1017/gmh.2026.10245"
+    vi: "Phân tích gộp dữ liệu từng người của 3 thử nghiệm, 266 người (Thổ Nhĩ Kỳ, Pakistan, Anh): trị liệu hoạt hóa hành vi có điều chỉnh theo đức tin cho người Hồi giáo (BA-M) giảm điểm trầm cảm PHQ-9 nhiều hơn trị liệu thường khoảng 2,7 điểm, người bệnh theo trị liệu đều hơn. Số người còn ít; đây là trị liệu có chuyên gia."
+    en: "Patient-level meta-analysis of 3 trials, 266 people (Turkey, Pakistan, UK): faith-adapted behavioural activation for Muslims (BA-M) reduced PHQ-9 depression scores by about 2.7 points more than standard treatment, with better retention. Still small; a therapist-led treatment."
+  pettigrew2006:
+    trich: "Pettigrew & Tropp 2006, Journal of Personality and Social Psychology 90(5)"
+    url: "https://doi.org/10.1037/0022-3514.90.5.751"
+    vi: "Phân tích gộp 515 nghiên cứu, 713 mẫu độc lập: tiếp xúc giữa các nhóm người thường làm giảm định kiến, lan ra cả nhóm kia; nghiên cứu chặt chẽ hơn cho kết quả rõ hơn."
+    en: "Meta-analysis of 515 studies, 713 independent samples: contact between groups typically reduces prejudice, extending to the whole other group; more rigorous studies show clearer effects."
+  lally2010:
+    trich: "Lally, van Jaarsveld, Potts & Wardle 2010, European Journal of Social Psychology 40(6)"
+    url: "https://doi.org/10.1002/ejsp.674"
+    vi: "96 người tự chọn một việc nhỏ làm mỗi ngày trong 12 tuần (82 người đủ số liệu): việc dần thành tự động sau 18 tới 254 ngày tùy người; bỏ lỡ một lần không ảnh hưởng đáng kể. Nghiên cứu nhỏ, tự báo cáo."
+    en: "96 people each chose a small daily action for 12 weeks (82 with enough data): it became automatic after 18 to 254 days depending on the person; missing one occasion did not materially affect this. Small study, self-reported."
 
 khoa:
   # ------------------------------------------------------------ GIAO THOA
@@ -717,23 +732,28 @@ khoa:
     nhom: hoi-giao
     ten: "Nhập môn: biết ơn, nhẫn nại, việc nhỏ đều đặn"
     ten_en: "Introduction: gratitude, patience, small regular deeds"
-    mo_ta: "Năm trụ cột và sáu đoạn Qur'an, hadith ngắn, từ góc người tìm hiểu."
-    mo_ta_en: "The five pillars and six short Qur'an and hadith passages, for learners."
+    mo_ta: "Al-Fatihah, năm trụ cột (mô tả theo hadith Jibril) và Qur'an 2:177, rồi biết ơn (14:7, 14:34), nhẫn nại và không quá sức (103, 2:286), để nhận biết lẫn nhau (49:13), việc nhỏ đều đặn (99:7–8, Bukhari 6464). Mỗi ngày đọc chậm 10 phút và làm một việc nhỏ. Khóa mô tả, không hướng dẫn nghi lễ."
+    mo_ta_en: "Al-Fatihah, the five pillars (as described in the hadith of Jibril) and Qur'an 2:177, then gratitude (14:7, 14:34), patience and not beyond capacity (103, 2:286), knowing one another (49:13), and small regular deeds (99:7–8, Bukhari 6464). Ten minutes of slow reading and one small deed a day. The course describes; it does not teach ritual."
     tang: "1"
     phut: "10–15"
-    trang_thai: chua-bat-dau
-    duyet: truyen-thong
-    ra_mat: "Nửa cuối 2027"
-    ra_mat_en: "Second half of 2027"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [captari2018, mir2026, heun2018, cregg2021, gloster2020, pettigrew2006, lally2010, friese2017]
+    bai_tep: [khe/hoi-giao/hg1-tuan-01, khe/hoi-giao/hg1-tuan-02, khe/hoi-giao/hg1-tuan-03, khe/hoi-giao/hg1-tuan-04, khe/hoi-giao/hg1-tuan-05, khe/hoi-giao/hg1-tuan-06]
     bai:
-      - "Chương mở đầu | The Opening | Qur'an 1:1–7 | Đọc chậm và ghi 1 dòng | Read slowly and note one line"
-      - "Năm trụ cột (mô tả) | The five pillars (described) | Nawawi 40 số 2 || Nawawi 40 no. 2 | Viết lại năm trụ cột bằng lời mình | Describe the five pillars in your own words"
-      - "Biết ơn | Gratitude | Qur'an 14:7 | Ghi 1 điều biết ơn mỗi ngày | Note one thing you are grateful for each day"
-      - "Không quá sức | Not beyond capacity | Qur'an 2:286 | Phân loại việc trong tuần: trong sức hay quá sức | Sort the week’s tasks: within or beyond your capacity"
-      - "Các dân tộc để hiểu nhau | Nations, to know one another | Qur'an 49:13 | 1 cuộc trò chuyện tìm hiểu người khác văn hóa | One conversation to learn about someone from another culture"
-      - "Việc nhỏ đều đặn | Small regular deeds | Bukhari 6464 | Giữ 1 việc nhỏ ≥6/7 ngày | Keep one small deed on 6 of 7 days"
-    gioi_han: "Khóa mô tả, không hướng dẫn nghi lễ. Bài \"dừng lại năm lần mỗi ngày\" cho người không theo đạo không phải là salat. Trang tiếng Việt dẫn nguyên văn bản QuranEnc, không sửa."
-    gioi_han_en: "This course describes; it does not teach ritual. The ‘pause five times a day’ exercise for non-Muslims is not salat."
+      - "Chương Mở đầu | The Opening | Qur'an 1:1–7 | Đọc chậm và ghi 1 dòng ≥5/7 | Read slowly and write one line on 5 of 7 days"
+      - "Năm trụ cột (mô tả) | The five pillars (described) | Nawawi 40 số 2 · Qur'an 2:177 || Nawawi 40 no. 2 · Qur'an 2:177 | Mô tả năm trụ cột bằng lời mình (<100 chữ); giữ trọn 1 lời hứa nhỏ | Describe the five pillars in your own words (under 100 words); keep one small promise in full"
+      - "Biết ơn | Gratitude | Qur'an 14:7, 14:34 · Abu Dawud 4811 | Ghi 1 điều biết ơn ≥5/7; cảm ơn trực tiếp 2 người | Note one thing you are grateful for on 5 of 7 days; thank 2 people in person"
+      - "Nhẫn nại, trong sức mình | Patience, within one’s capacity | Qur'an 103:1–3 · 2:286 | Tách việc trong sức/quá sức ≥5/7; 1 bước nhỏ cho việc khó ≥5/7; nhờ giúp 1 lần | Sort within/beyond capacity on 5 of 7 days; one small step on a hard task on 5 of 7 days; ask for help once"
+      - "Để nhận biết lẫn nhau | That you may know one another | Qur'an 49:13 | Đọc ≥5/7; 1 cuộc trò chuyện tìm hiểu người khác mình, ghi 3 điều | Read on 5 of 7 days; one conversation to learn about someone different, note three things"
+      - "Việc nhỏ đều đặn (và ôn tập) | Small regular deeds (and review) | Qur'an 99:7–8 · Bukhari 6464 | Giữ 1 việc nhỏ ≥6/7; tự chấm 6 thói quen, giữ 2, kế hoạch 4 tuần | Keep one small deed on 6 of 7 days; rate six habits, keep two, write a 4-week plan"
+    gioi_han: "Khóa mô tả và tập điều truyền thống Hồi giáo dạy về biết ơn, nhẫn nại và việc tốt nhỏ mà đều đặn; người học không cần theo đạo. Khóa không hướng dẫn nghi lễ (Salah, nhịn chay, Zakah, Hajj chỉ được mô tả), không dạy đọc tiếng Ả Rập, không có bài tập dừng lại theo giờ cầu nguyện, và không đề nghị ai đổi niềm tin. Bài đọc của người không theo đạo là để hiểu, không phải cầu nguyện. Trang tiếng Việt dẫn nguyên văn bản dịch nghĩa của Hasan Abdulkarim trên QuranEnc.com, không sửa, kể cả chú thích; trang tiếng Anh dùng bản Pickthall. Hadith chỉ được tóm ý (tiếng Việt) hoặc trích một cụm ngắn (tiếng Anh) vì bản dịch trên sunnah.com còn bản quyền. Khóa chỉ đọc vài đoạn ngắn và không đi vào các cách chú giải gây tranh luận. \"Nhẫn nại\" không có nghĩa là chịu đựng bạo lực, xâm hại hay bóc lột. Chưa có người duyệt từ trong truyền thống Hồi giáo, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; bằng chứng trong bài chỉ là gián tiếp."
+    gioi_han_en: "The course describes and practises what the Islamic tradition teaches about gratitude, patience and small good deeds done regularly; learners do not need to be Muslim. It does not teach ritual (Salah, fasting, Zakah and Hajj are only described), does not teach Arabic recitation, has no exercise of pausing at prayer times, and does not ask anyone to change their beliefs. For those who are not Muslim, the reading is for understanding, not prayer. The Vietnamese pages quote Hasan Abdulkarim’s translation on QuranEnc.com word for word, footnotes included; the English pages quote Pickthall. Hadith are only summarised (Vietnamese) or quoted in a short phrase (English), because the translations on sunnah.com are in copyright. The course reads only a few short passages and does not go into disputed interpretations. ‘Patience’ does not mean putting up with violence, abuse or exploitation. No reviewer from within the Islamic tradition has checked it yet, and no study has evaluated this programme directly; the evidence in the lessons is only indirect."
 
   - ma: HG2
     slug: hoi-giao-2
