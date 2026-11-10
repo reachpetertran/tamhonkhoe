@@ -1004,21 +1004,28 @@ khoa:
     nhom: dao-giao
     ten: "Sống chết theo Trang Tử"
     ten_en: "Life and death in Zhuangzi"
-    mo_ta: "Biến hóa và cái chết. Không có Góc trẻ."
-    mo_ta_en: "Transformation and death. No kids’ corner."
+    mo_ta: "Năm chuyện trong Trang Tử chương II, XVIII, VI, III và XXXII (giấc mơ hóa bướm, khi vợ Trang Tử mất, bốn người bạn, lò đúc lớn, lửa truyền sang củi khác); mỗi ngày ngồi 30–45 phút và một việc nhỏ: để ý lúc chuyển, nhìn mùa đổi, truyền tiếp điều đã học. Góc trẻ chỉ nói về thay đổi trong tự nhiên."
+    mo_ta_en: "Five stories from Zhuangzi chapters II, XVIII, VI, III and XXXII (the butterfly dream, the death of Zhuangzi’s wife, the four friends, the great furnace, the fire that passes on); each day 30–45 minutes of sitting and one small action: noticing change, watching the seasons turn, passing on what you have learned. The kids’ corner is only about change in nature."
     tang: "3"
     phut: "30–45"
-    trang_thai: chua-bat-dau
-    duyet: noi-bo
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [bernstein2015, lindahl2017, farias2020, lundorff2017, goyal2014, gloster2020, vandam2018]
+    bai_tep: [khe/dao-giao/dg3-tuan-01, khe/dao-giao/dg3-tuan-02, khe/dao-giao/dg3-tuan-03, khe/dao-giao/dg3-tuan-04, khe/dao-giao/dg3-tuan-05, khe/dao-giao/dg3-tuan-06]
     bai:
-      - "Giấc mơ hóa bướm | The butterfly dream | Trang Tử II || Zhuangzi II"
-      - "Khi vợ Trang Tử mất | When Zhuangzi’s wife died | Trang Tử XVIII || Zhuangzi XVIII"
-      - "Biến hóa | Transformation | Trang Tử || Zhuangzi"
-      - "Thực hành dài | Longer practice | –"
-      - "Đọc cùng người duyệt | Reading with a reviewer | –"
-      - "Ôn tập | Review | –"
+      - "Giấc mơ hóa bướm | The butterfly dream | Trang Tử II || Zhuangzi II | Ngồi 30′ ≥5/7; ghi 1 lần chuyển/tối ≥5/7 | Sit 30′ on 5 of 7 days; note one change each evening on 5 of 7 evenings"
+      - "Khi vợ Trang Tử mất | When Zhuangzi’s wife died | Trang Tử XVIII || Zhuangzi XVIII | Ngồi 30′ ≥5/7; ghi 1 thay đổi trong tự nhiên/ngày ≥5/7 | Sit 30′ on 5 of 7 days; note one change in nature a day on 5 of 7 days"
+      - "Biến hóa | Transformation | Trang Tử VI (bốn người bạn) || Zhuangzi VI (the four friends) | Ngồi 35′ quét thân ≥5/7; ghi 1 thay đổi nhỏ của thân/tối ≥5/7 | Sit 35′ with a body scan on 5 of 7 days; note one small change in the body each evening on 5 of 7 evenings"
+      - "Lửa truyền sang củi khác | The fire passes on | Trang Tử III || Zhuangzi III | Buổi 40′ (hoặc 30′ ngồi + 10′ đi chậm) ≥5/7; 1 việc truyền lửa/ngày ≥5/7 | A 40′ session (or 30′ sitting + 10′ slow walking) on 5 of 7 days; one act of passing on the fire a day on 5 of 7 days"
+      - "Đọc cùng một người | Reading with someone | Trang Tử VI (lò đúc lớn) || Zhuangzi VI (the great furnace) | Ngồi 40′ ≥5/7; 1 buổi đọc cùng 1 người trong tuần; 1 lần không đòi/ngày ≥5/7 | Sit 40′ on 5 of 7 days; read with one person once in the week; one moment of not demanding a day on 5 of 7 days"
+      - "Ôn tập | Review | Trang Tử XXXII, III || Zhuangzi XXXII, III | Ngồi 30–40′ ≥5/7; tự chấm 6 thói quen, giữ 2, kế hoạch 4 tuần | Sit 30–40′ on 5 of 7 days; rate six habits, keep two, write a 4-week plan"
+    gioi_han: "Khóa Tầng 3 về sống, chết và mất mát: mỗi ngày 30–45 phút, nên học sau Đạo giáo 1 và 2. Không dành cho người đang trầm cảm, có tang mới, bệnh nặng hay đang có ý nghĩ muốn chết; người có tang trong năm qua nên bỏ qua Tuần 2. Người từng có loạn thần, rối loạn lưỡng cực, PTSD nặng hay cảm giác tách khỏi bản thân kéo dài không nên tự học. Khóa không trích chuyện cái đầu lâu (chương XVIII) và câu Tử Lai nói về việc \"chết sớm\" (chương VI); khóa không chọn cách hiểu nào về đời sau và không theo các chú thích \"luân hồi\", \"linh hồn bất tử\" của Giles. Giles dịch Trời và Tạo Hóa thành \"God\"; bản Việt dịch theo nguyên văn Hán. Góc trẻ chỉ nói về thay đổi trong tự nhiên, không nhắc tới cái chết. Bản Việt là bản tamhonkhoe tự dịch từ Herbert Giles (1889), chưa đối chiếu với nguyên văn Hán. Chưa có người duyệt từ trong truyền thống Đạo giáo, và chưa có nghiên cứu đánh giá trực tiếp chương trình này."
+    gioi_han_en: "A Level 3 course on life, death and loss: 30–45 minutes a day, best taken after Taoism 1 and 2. It is not for people who are depressed, newly bereaved, seriously ill or having thoughts of dying; anyone bereaved in the past year should skip Week 2. People with a history of psychosis, bipolar disorder, severe PTSD or long-lasting feelings of being detached from themselves should not study it alone. The course does not quote the story of the skull (chapter XVIII) or Tzu Lai’s line about ‘dying quickly’ (chapter VI); it takes no position on any afterlife and does not follow Giles’s ‘metempsychosis’ and ‘immortal soul’ notes. Giles renders Heaven and the Creator as ‘God’; the Vietnamese follows the Chinese. The kids’ corner is only about change in nature and never mentions death. The Vietnamese is tamhonkhoe’s own translation from Herbert Giles (1889), not yet checked against the Chinese original. No reviewer from within the Taoist tradition has checked it yet, and no study has evaluated this programme directly."
 
   - ma: DG4
     slug: dao-giao-4
