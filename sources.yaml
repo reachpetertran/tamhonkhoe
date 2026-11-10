@@ -317,6 +317,17 @@ pirkei-avot-gorfinkle:
   checked_on: 2026-11-03
   url_status: "Peter mở trang sách #8547 2026-11-03: Copyright = Public domain in the USA. Đã chụp màn hình. [Cần kiểm chứng] tình trạng bảo hộ tại Việt Nam."
 
+mesillat-sebag:
+  title: "Mesillat Yesharim (Path of the Just)"
+  khe: do-thai-giao
+  lang: en
+  translator: "Rabbi Yosef Sebag (Sefaria; nguồn dafyomireview.com)"
+  url: "https://www.sefaria.org/Mesillat_Yesharim?ven=english|Path_of_the_Just._Trans._Rabbi_Yosef_Sebag&lang=en"
+  license: CC-BY
+  may_translate: true
+  checked_on: 2026-11-11
+  url_status: "Claude mở 2026-11-11 và chụp mục About This Text (giay-phep/2026-11-11/45-sefaria-sebag-mesillat-license.png): bản \"Path of the Just. Trans. Rabbi Yosef Sebag\", Source: dafyomireview.com, License: CC-BY. API Sefaria (versions) cũng ghi license CC-BY. Tác giả nguyên tác: Moshe Chaim Luzzatto (1707–1746); Sefaria ghi bản thảo sớm nhất 1738, in 1740 ở Amsterdam. CC BY cho dịch và sửa nếu ghi công và ghi rõ đã dịch; trang dùng nguồn này vẫn theo CC BY 4.0. Nguyên văn lấy qua API v3 của Sefaria ngày 2026-11-11 (Mesillat_Yesharim.2, .3, .6, .22 và Introduction). Nguồn có trong khung chương trình (DT2: Mesillat Yesharim). Chờ Peter xác nhận ảnh 45."
+
 # ---------------- Khắc kỷ ----------------
 epictetus-long:
   title: "A Selection from the Discourses of Epictetus with the Encheiridion"

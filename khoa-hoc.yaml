@@ -312,6 +312,11 @@ nghien_cuu:
     url: "https://doi.org/10.1002/ejsp.674"
     vi: "96 người tự chọn một việc nhỏ làm mỗi ngày trong 12 tuần (82 người đủ số liệu): việc dần thành tự động sau 18 tới 254 ngày tùy người; bỏ lỡ một lần không ảnh hưởng đáng kể. Nghiên cứu nhỏ, tự báo cáo."
     en: "96 people each chose a small daily action for 12 weeks (82 with enough data): it became automatic after 18 to 254 days depending on the person; missing one occasion did not materially affect this. Small study, self-reported."
+  harkin2016:
+    trich: "Harkin et al. 2016, Psychological Bulletin 142(2)"
+    url: "https://doi.org/10.1037/bul0000025"
+    vi: "Phân tích gộp 138 nghiên cứu ngẫu nhiên, 19.951 người: các cách giúp người ta theo dõi tiến bộ của mình làm tăng khả năng đạt mục tiêu ở mức nhỏ đến vừa (d = 0,40); hiệu quả lớn hơn khi kết quả được ghi ra giấy hoặc nói cho người khác biết. Nghiên cứu đo mục tiêu hành vi, không đo tính cách."
+    en: "Meta-analysis of 138 randomised studies, 19,951 people: interventions that help people monitor their progress made them more likely to reach their goals, by a small-to-medium amount (d = 0.40); the effect was larger when progress was physically recorded or reported to others. It measured behavioural goals, not character."
 
 khoa:
   # ------------------------------------------------------------ GIAO THOA
@@ -881,23 +886,30 @@ khoa:
     nhom: do-thai-giao
     ten: "Mussar: rèn tính cách"
     ten_en: "Mussar: training character"
-    mo_ta: "Mỗi tuần một đức tính (middah) qua Pirkei Avot."
-    mo_ta_en: "One character trait (middah) a week through Pirkei Avot."
+    mo_ta: "Mussar là truyền thống rèn tính cách (middot) của Do Thái giáo. Mỗi tuần một đức tính qua Pirkei Avot và sách Mesillat Yesharim (Luzzatto): học hỏi từ mọi người (Avot IV,1), đón người niềm nở (I,15), không vội phán xét (II,5 và I,6), tôn trọng người khác (IV,15), thận trọng và nhiệt thành (Mesillat Yesharim, chương 2 và 6), khiêm nhường (Avot IV,4; Mesillat Yesharim, chương 22), rồi ôn tập với việc \"tính sổ\" mỗi ngày (chương 3). Mỗi ngày: đọc chậm buổi sáng, một việc nhỏ của đức tính trong tuần, sổ đức tính buổi tối."
+    mo_ta_en: "Mussar is Judaism's tradition of training character traits (middot). One trait a week through Pirkei Avot and Luzzatto's Mesillat Yesharim: learning from everyone (Avot IV, 1), greeting people warmly (I, 15), not judging quickly (II, 5 and I, 6), honouring others (IV, 15), watchfulness and zeal (Mesillat Yesharim, chapters 2 and 6), humility (Avot IV, 4; Mesillat Yesharim, chapter 22), then a review built on daily \"accounting\" (chapter 3). Each day: slow morning reading, one small act of the week's trait, an evening trait notebook."
     tang: "2"
     phut: "20–30"
-    trang_thai: chua-bat-dau
-    duyet: truyen-thong
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 8 tuần"
+    tien_do_en: "All 8 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [harkin2016, curry2018, holtlunstad2010, gollwitzer2006, friese2017, lally2010, lee2025]
+    bai_tep: [khe/do-thai-giao/dt2-tuan-01, khe/do-thai-giao/dt2-tuan-02, khe/do-thai-giao/dt2-tuan-03, khe/do-thai-giao/dt2-tuan-04, khe/do-thai-giao/dt2-tuan-05, khe/do-thai-giao/dt2-tuan-06, khe/do-thai-giao/dt2-tuan-07, khe/do-thai-giao/dt2-tuan-08]
     bai:
-      - "Ai là người khôn ngoan | Who is wise | Pirkei Avot 4:1"
-      - "Đón mọi người niềm nở | Greeting everyone cheerfully | Pirkei Avot 1:15"
-      - "Đừng phán xét | Do not judge | Pirkei Avot 2:4"
-      - "Tôn trọng người khác | Honouring others | Pirkei Avot 4:12"
-      - "Thận trọng | Watchfulness | Mesillat Yesharim"
-      - "Nhiệt thành | Zeal | Mesillat Yesharim"
-      - "Khiêm nhường | Humility | Pirkei Avot"
-      - "Ôn tập | Review | –"
+      - "Ai là người khôn ngoan | Who is wise | Pirkei Avot IV,1 || Pirkei Avot IV, 1 | Tự chấm 7 đức tính; 1 điều học từ 1 người ≥5/7; sổ tối ≥5/7 | Rate the seven traits; one thing learned from one person on 5 of 7 days; evening notebook on 5 of 7 days"
+      - "Đón mọi người niềm nở | Greeting everyone cheerfully | Pirkei Avot I,15 || Pirkei Avot I, 15 | ≥3 lời chào trọn vẹn/ngày ≥5/7; 1 lần hứa ít làm nhiều | At least three full greetings a day on 5 of 7 days; once, promise little and do much"
+      - "Đừng vội phán xét | Do not judge too quickly | Pirkei Avot II,5 (2:4) · I,6 || Pirkei Avot II, 5 (2:4) · I, 6 | 1 lần \"hai cách giải thích khác\"/ngày ≥5/7 | ‘Two other explanations’ once a day on 5 of 7 days"
+      - "Tôn trọng người khác | Honouring others | Pirkei Avot IV,15 (4:12) || Pirkei Avot IV, 15 (4:12) | 1 việc tôn trọng cụ thể/ngày ≥5/7 | One specific act of respect a day on 5 of 7 days"
+      - "Thận trọng | Watchfulness | Mesillat Yesharim, chương 2 || Mesillat Yesharim, chapter 2 | ≥3 điểm dừng trước thói quen/ngày ≥5/7 | At least three pauses before a habit a day on 5 of 7 days"
+      - "Nhiệt thành | Zeal | Mesillat Yesharim, chương 6 || Mesillat Yesharim, chapter 6 | 1 việc tốt làm sớm ≥5/7; ghi ≥3 lời viện cớ | One good deed done early on 5 of 7 days; write down at least three excuses"
+      - "Khiêm nhường | Humility | Pirkei Avot IV,4 · Mesillat Yesharim, chương 22 || Pirkei Avot IV, 4 · Mesillat Yesharim, chapter 22 | 1 việc học, nhận lỗi hoặc giúp/ngày ≥5/7 | Learn, admit a mistake or help once a day on 5 of 7 days"
+      - "Ôn tập: tính sổ như người buôn | Review: keeping accounts like a merchant | Mesillat Yesharim, chương 3 || Mesillat Yesharim, chapter 3 | Sổ tối đúng giờ ≥5/7; chấm lại 7 đức tính; kế hoạch 4 tuần | Evening notebook at a fixed time on 5 of 7 days; re-rate the seven traits; a four-week plan"
+    gioi_han: "Khóa Tầng 2, khoảng 20–25 phút mỗi ngày; nên học sau Do Thái giáo 1. Khóa mô tả điều truyền thống Mussar dạy về tính cách qua Pirkei Avot và sách Mesillat Yesharim; người học không cần theo đạo. Trong truyền thống, rèn đức tính gắn với việc phụng sự Thiên Chúa và giữ các điều răn; khóa không hướng dẫn giữ luật (halakha) hay nghi lễ, không dạy tiếng Hebrew, và không đề nghị ai đổi niềm tin. Bài tập (đọc chậm, một việc nhỏ mỗi ngày, sổ buổi tối) là cách làm của tamhonkhoe phỏng theo lối \"mỗi tuần một đức tính\", không thay cho việc học với thầy, bạn học hay nhóm Mussar. Bài \"không vội phán xét\" không dùng để bào chữa cho người đang gây hại; bài \"nhiệt thành\" không bớt ngủ, bớt ăn hay bớt nghỉ; bài \"khiêm nhường\" không phải tự hạ thấp mình. Pirkei Avot dịch từ bản Gorfinkle (Gutenberg); Mesillat Yesharim dịch từ bản tiếng Anh của Rabbi Yosef Sebag (Sefaria, CC BY), không dịch từ tiếng Hebrew; trang tiếng Anh chép nguyên văn hai bản này. Phần mô tả tập quán là đánh giá của người viết; chưa có người duyệt từ trong truyền thống Do Thái, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; bằng chứng trong bài chỉ là gián tiếp."
+    gioi_han_en: "A Level 2 course, about 20–25 minutes a day; best taken after Judaism 1. It describes what the Mussar tradition teaches about character through Pirkei Avot and Mesillat Yesharim; learners do not need to be Jewish. In the tradition, training character is bound up with serving God and keeping the commandments; the course does not teach Jewish law (halakha) or ritual, does not teach Hebrew, and does not ask anyone to change their beliefs. The exercises (slow reading, one small act a day, an evening notebook) are tamhonkhoe's own, adapted from the \"one trait a week\" approach, and do not replace study with a teacher, a study partner or a Mussar group. The lesson on not judging quickly is not for excusing someone who is causing harm; the lesson on zeal involves no less sleep, food or rest; the lesson on humility is not about putting yourself down. Pirkei Avot is translated from Gorfinkle's edition (Gutenberg); Mesillat Yesharim from Rabbi Yosef Sebag's English translation (Sefaria, CC BY), not from Hebrew; the English pages quote both word for word. The descriptions of practice are the writer's judgement; no reviewer from within the Jewish tradition has checked it yet, and no study has evaluated this programme directly; the evidence in the lessons is only indirect."
 
   - ma: DT3
     slug: do-thai-giao-3
