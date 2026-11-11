@@ -987,21 +987,28 @@ khoa:
     nhom: bat-nhi
     ten: "Gita và Upanishad nhập môn"
     ten_en: "Introduction to the Gita and the Upanishads"
-    mo_ta: "Hành động không bám kết quả và người quan sát bên trong."
-    mo_ta_en: "Action without clinging to results, and the inner witness."
+    mo_ta: "Khóa Tầng 1 đọc chậm vài đoạn ngắn của Bhagavad Gita và Upanishad, hai loại văn bản mà nhiều truyền thống Hindu coi là kinh điển. Làm mà không bám quả (Gita 2:47), nóng lạnh đến rồi đi (2:14–15), tự nâng mình lên và làm bạn với chính mình (6:5–6), hình ảnh cỗ xe và những con ngựa (Katha Upanishad 1.3.3–6), mọi thứ được Đấng Chủ Tể bao phủ và không thèm muốn của người khác (Isha Upanishad 1, 6), người không ghét bỏ loài nào (Gita 12:13–14). Bài tập là việc nhỏ của đời thường: làm hết sức rồi buông kết quả, quan sát một khó chịu nhỏ cho tới khi nó qua, một câu động viên mỗi sáng, nhận ra một thói quen và dừng một hơi thở, đọc chậm, và một việc thân thiện với người khó."
+    mo_ta_en: "A Level 1 course of slow reading in short passages from the Bhagavad Gita and the Upanishads, two kinds of text that many Hindu traditions hold as scripture. Working without clinging to fruits (Gita 2:47), heat and cold that come and go (2:14–15), raising yourself up and being your own friend (6:5–6), the image of the chariot and the horses (Katha Upanishad 1.3.3–6), all things covered by the Lord and not coveting what is another's (Isha Upanishad 1, 6), the one who hates no being (Gita 12:13–14). The exercises are small everyday ones: doing a task fully and letting go of the result, watching a small discomfort until it passes, one encouraging sentence each morning, noticing a habit and pausing for one breath, slow reading, and one friendly act towards a difficult person."
     tang: "1"
     phut: "10–15"
-    trang_thai: chua-bat-dau
-    duyet: truyen-thong
-    ra_mat: "Nửa cuối 2027"
-    ra_mat_en: "Second half of 2027"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [gloster2020, abramowitz2001, atjak2015, lktm2024, friese2017, lally2010, harkin2016, dittmar2014, curry2018]
+    bai_tep: [khe/bat-nhi/bn1-tuan-01, khe/bat-nhi/bn1-tuan-02, khe/bat-nhi/bn1-tuan-03, khe/bat-nhi/bn1-tuan-04, khe/bat-nhi/bn1-tuan-05, khe/bat-nhi/bn1-tuan-06]
     bai:
-      - "Làm mà không bám quả | Work without clinging to fruits | Gita 2:47 | 1 việc làm hết sức rồi buông kết quả, mỗi ngày | One task a day done fully, letting go of the result"
-      - "Nóng lạnh qua đi | Heat and cold pass | Gita 2:14 | Ghi 1 cảm giác khó chịu và thời gian nó qua đi | Note one discomfort and how long it took to pass"
-      - "Tự nâng mình | Lifting yourself up | Gita 6:5 | 1 lời tự động viên mỗi sáng | One encouraging word to yourself each morning"
-      - "Cỗ xe | The chariot | Katha Upanishad 1.3.3–4 | Quan sát 1 \"con ngựa\" (thói quen) trong tuần | Watch one ‘horse’ (habit) this week"
-      - "Mọi thứ đều thấm Đấng Tối Cao | All is pervaded | Isha Upanishad 1 | Đọc chậm 10 phút ≥5/7 | Slow reading 10 minutes on 5 of 7 days"
-      - "Người không ghét ai | One who hates no being | Gita 12:13–14 | 1 lần chọn thân thiện với người khó | Once, choose friendliness towards a difficult person"
+      - "Làm mà không bám quả | Work without clinging to fruits | Gita 2:47 || Gita 2:47 | Mỗi ngày làm hết sức 1 việc rồi buông kết quả, ghi 1 dòng, ≥5/7 | One task a day done as well as you can, letting go of the result, one line written, on 5 of 7 days"
+      - "Nóng lạnh qua đi | Heat and cold pass | Gita 2:14–15 || Gita 2:14–15 | Ghi 1 khó chịu nhỏ và thời gian nó qua đi, ≥5/7 | Note one small discomfort and how long it took to pass, on 5 of 7 days"
+      - "Tự nâng mình | Lifting yourself up | Gita 6:5–6 || Gita 6:5–6 | 1 câu tự động viên mỗi sáng ≥5/7; đếm số câu tự chê đã đổi | One encouraging sentence each morning on 5 of 7 days; count the self-critical sentences you changed"
+      - "Cỗ xe | The chariot | Katha Upanishad 1.3.3–6 || Katha Upanishad 1.3.3–6 | Quan sát 1 \"con ngựa\" (thói quen): đếm lần nhận ra và lần dừng 1 hơi thở, ≥5/7 | Watch one ‘horse’ (habit): count the times you noticed it and the times you paused for one breath, on 5 of 7 days"
+      - "Tất cả được Đấng Chủ Tể bao phủ | All is covered by the Lord | Isha Upanishad 1, 6 || Isha Upanishad 1, 6 | Đọc chậm 10 phút ≥5/7; ghi 1 lần thèm muốn và 1 điều đã có | Slow reading 10 minutes on 5 of 7 days; note one moment of wanting and one thing you have"
+      - "Người không ghét ai (ôn tập) | One who hates no being (review) | Gita 12:13–14 || Gita 12:13–14 | 1 lần thân thiện với người khó; chấm 6 thói quen, giữ 2, kế hoạch 4 tuần | Once, friendliness towards a difficult person; rate six habits, keep two, a 4-week plan"
+    gioi_han: "Khóa Tầng 1, khoảng 10–15 phút mỗi ngày. Khóa mô tả điều Bhagavad Gita và Upanishad dạy; người học không cần theo đạo, và khóa không đề nghị ai đổi niềm tin hay sùng kính ai. Tên khe \"Bất nhị\" lấy theo một cách đọc (Advaita Vedanta); các trường phái khác như của Ramanuja, Madhva đọc cùng văn bản nhưng hiểu khác, và khóa không đứng về bên nào. Khóa không bàn về chiến tranh trong bối cảnh Gita, không dạy nghi lễ, mantra hay tiếng Sanskrit, và không bàn câu hỏi về cái chết của Katha Upanishad. Bài tập (chia \"phần của tôi\", quan sát khó chịu nhỏ, câu động viên, đếm \"con ngựa\", việc thân thiện với người khó) là cách làm của tamhonkhoe, không phải thực hành của truyền thống. \"Chịu đựng\" và \"không ghét ai\" không có nghĩa là chịu đau, bệnh hay bị người khác làm hại. Trên trang tiếng Việt, Gita là bản tamhonkhoe tự dịch từ bản thơ của Edwin Arnold (Gutenberg #2388; Arnold không đánh số câu, số câu ghép theo nội dung), Upanishad tự dịch từ bản Swami Paramananda (Gutenberg #3283); không dịch từ tiếng Sanskrit. Trang tiếng Anh chép nguyên văn hai bản này. Chưa có người duyệt từ trong truyền thống Hindu, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; bằng chứng trong bài chỉ là gián tiếp."
+    gioi_han_en: "A Level 1 course, about 10–15 minutes a day. It describes what the Bhagavad Gita and the Upanishads teach; learners do not need to be Hindu, and the course does not ask anyone to change their beliefs or to be devoted to anyone. The section name \"Non-duality\" comes from one reading (Advaita Vedanta); other schools, such as those of Ramanuja and Madhva, read the same texts differently, and the course takes no side. It does not discuss war in the Gita's setting, does not teach ritual, mantras or Sanskrit, and does not discuss the Katha Upanishad's question about death. The exercises (splitting \"my part\", watching small discomforts, the encouraging sentence, counting the \"horse\", the friendly act towards a difficult person) are tamhonkhoe's own, not practices of the tradition. \"Bear with it\" and \"hating no being\" do not mean putting up with pain, illness or being harmed by others. On the Vietnamese pages the Gita is tamhonkhoe's own translation from Edwin Arnold's verse version (Gutenberg #2388; Arnold does not number verses, so verse numbers are matched by content) and the Upanishads from Swami Paramananda's version (Gutenberg #3283); nothing is translated from Sanskrit. The English pages quote these two versions word for word. No reviewer from within the Hindu tradition has checked it yet, and no study has evaluated this programme directly; the evidence in the lessons is only indirect."
 
   - ma: BN2
     slug: bat-nhi-2
