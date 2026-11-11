@@ -420,15 +420,26 @@ gita-arnold:
   url_status: "Claude mở 2026-11-04 và chụp màn hình (giay-phep/2026-11-04/); chờ Peter xác nhận. Gutenberg #2388: Translator Arnold, Edwin, Sir, 1832-1904; Public domain in the USA. Peter xác nhận 2026-11-04 qua ảnh 09 do Claude chụp."
 
 upanishads-muller:
-  title: "The Upanishads"
+  title: "The Upanishads, Part I (Sacred Books of the East, vol. 1)"
   khe: bat-nhi
   lang: en
   translator: "F. Max Müller"
-  url: "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_1"
+  url: "https://archive.org/details/upanishads01mluoft"
   license: PD
   may_translate: true
-  checked_on:
-  url_status: "[Cần kiểm chứng] Wikisource có Sacred Books of the East tập 1 (1879) và tập 15, dịch F. Max Müller; tập 1 ghi chưa chép xong. Chân trang Wikisource ghi CC BY-SA (Peter chụp trang CC BY-SA 4.0, giay-phep/2026-11-04/13-cc-by-sa-4-peter-chup.png). [Suy luận] CC BY-SA ở chân trang là giấy phép chung của trang wiki; bản dịch Müller 1879 có thể thuộc phạm vi công cộng – chưa xác nhận. Nếu coi là CC BY-SA thì trang tự dịch phải dùng CC BY-SA, mà build.py chưa hỗ trợ. Chưa cần cho Giao thoa 0."
+  checked_on: 2026-11-11
+  url_status: "Đổi 11/11/2026 (phiên BN3): dùng cho Chandogya Upanishad. Bản in Oxford, Clarendon Press 1879. Dịch giả F. Max Müller 1823–1900 (mất 1900, đạt quy tắc đời + 50 năm). Claude chụp 2026-11-11: archive.org upanishads01mluoft (giay-phep/2026-11-11/47-archive-sbe1-upanishads-muller.png: Müller 1823–1900, ngày in 1879-84, Copyright-evidence 'no visible notice of copyright') và hộp giấy phép Wikisource trang Sacred Books of the East (46-wikisource-sbe-license.png: bản gốc PD toàn thế giới; bản dịch PD tại Mỹ vì in trước 1931). Ghi chú cũ về CC BY-SA: chân trang Wikisource là giấy phép chung của wiki; trang tác phẩm ghi rõ PD, nên không áp CC BY-SA. Nguyên văn lấy từ trang Page: Wikisource đã kiểm duyệt (mức 4) và đối chiếu OCR archive.org. Chờ Peter xác nhận. Peter xác nhận 2026-11-11 qua ảnh 46–48 do Claude chụp."
+
+upanishads-muller-15:
+  title: "The Upanishads, Part II (Sacred Books of the East, vol. 15)"
+  khe: bat-nhi
+  lang: en
+  translator: "F. Max Müller"
+  url: "https://archive.org/details/p2upanishads00mluoft"
+  license: PD
+  may_translate: true
+  checked_on: 2026-11-11
+  url_status: "Thêm 11/11/2026 (phiên BN3): dùng cho Brihadaranyaka và Mundaka Upanishad. Bản in Oxford, Clarendon Press 1884. Dịch giả F. Max Müller 1823–1900. Claude chụp 2026-11-11: archive.org p2upanishads00mluoft (giay-phep/2026-11-11/48-archive-sbe15-upanishads-muller.png) và hộp giấy phép Wikisource (46). Nguyên văn: Mundaka III.1 từ trang Page: Wikisource mức 3 (đã sửa); Brihadaranyaka II.3.6 (tr. 108), II.4.5 (tr. 110), III.4.2 (tr. 129) chép từ OCR rồi Claude đối chiếu từng chữ với ảnh trang in trên archive.org (leaf 165, 167, 186). Chờ Peter xác nhận. Peter xác nhận 2026-11-11 qua ảnh 46–48 do Claude chụp."
 
 upan-paramananda:
   title: "The Upanishads"
