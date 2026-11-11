@@ -317,6 +317,16 @@ nghien_cuu:
     url: "https://doi.org/10.1037/bul0000025"
     vi: "Phân tích gộp 138 nghiên cứu ngẫu nhiên, 19.951 người: các cách giúp người ta theo dõi tiến bộ của mình làm tăng khả năng đạt mục tiêu ở mức nhỏ đến vừa (d = 0,40); hiệu quả lớn hơn khi kết quả được ghi ra giấy hoặc nói cho người khác biết. Nghiên cứu đo mục tiêu hành vi, không đo tính cách."
     en: "Meta-analysis of 138 randomised studies, 19,951 people: interventions that help people monitor their progress made them more likely to reach their goals, by a small-to-medium amount (d = 0.40); the effect was larger when progress was physically recorded or reported to others. It measured behavioural goals, not character."
+  anovasconcelles2005:
+    trich: "Ano & Vasconcelles 2005, Journal of Clinical Psychology 61(4)"
+    url: "https://doi.org/10.1002/jclp.20049"
+    vi: "Phân tích gộp 49 nghiên cứu (105 hệ số) về cách dựa vào niềm tin tôn giáo khi gặp chuyện khó: cách \"tích cực\" (tìm chỗ dựa nơi Thượng Đế, nơi cộng đồng) đi kèm thích nghi tốt hơn (r = 0,33); cách \"tiêu cực\" (như cảm thấy bị Thượng Đế trừng phạt) đi kèm thích nghi kém hơn (r = 0,22). Đây là tương quan."
+    en: "Meta-analysis of 49 studies (105 effect sizes) on drawing on religious faith in hard times: \"positive\" forms (seeking support from God or a community) went with better adjustment (r = 0.33); \"negative\" forms (such as feeling punished by God) went with poorer adjustment (r = 0.22). These are correlations."
+  sturm2022:
+    trich: "Sturm et al. 2022, Emotion 22(5)"
+    url: "https://doi.org/10.1037/emo0000876"
+    vi: "Thử nghiệm ngẫu nhiên, 60 người lớn tuổi khỏe mạnh, mỗi tuần đi bộ ngoài trời 15 phút trong 8 tuần: nhóm được hướng dẫn để ý điều làm mình kinh ngạc (awe) có nhiều cảm xúc hướng về người khác hơn và ít căng thẳng hơn trong đời sống hằng ngày so với nhóm đi bộ thường. Nghiên cứu nhỏ."
+    en: "Randomised trial, 60 healthy older adults, a 15-minute outdoor walk each week for 8 weeks: the group taught to notice awe reported more prosocial emotions and less daily distress than the group taking ordinary walks. A small study."
 
 khoa:
   # ------------------------------------------------------------ GIAO THOA
@@ -917,21 +927,28 @@ khoa:
     nhom: do-thai-giao
     ten: "Gióp và câu hỏi về đau khổ"
     ten_en: "Job and the question of suffering"
-    mo_ta: "Đọc sách Gióp bản JPS 1917."
-    mo_ta_en: "Reading the Book of Job in the JPS 1917 translation."
+    mo_ta: "Đọc sáu đoạn trong sách Gióp (bản JPS 1917): phần mở đầu (chương 1–2), lời than của Gióp (7, 23), lời Ê-li-pha và lời Gióp đáp các bạn (4, 16), tiếng nói từ cơn gió lốc (38), lời đáp cuối của Gióp (42:1–6) và phần kết (42:7–11), cùng vài lời bàn của Talmud. Mỗi ngày đọc chậm và ngồi 25–30 phút; mỗi tuần một việc nhỏ: ghi câu hỏi mà không vội trả lời, viết lời than, lắng nghe không giải thích, đi bộ để ý điều lớn lao, đọc cùng một người, thăm hỏi người đang khổ. Khóa không giải thích vì sao một người cụ thể phải khổ."
+    mo_ta_en: "Six passages from the Book of Job (JPS 1917): the opening (chapters 1–2), Job’s lament (7, 23), Eliphaz and Job’s reply to his friends (4, 16), the voice from the whirlwind (38), Job’s final reply (42:1–6) and the ending (42:7–11), with a few Talmud discussions. Each day, slow reading and 25–30 minutes of sitting; each week one small practice: writing a question without rushing to answer, writing a lament, listening without explaining, walking to notice something vast, reading with someone, checking in on someone who is suffering. The course does not explain why any particular person suffers."
     tang: "3"
-    phut: "30–45"
-    trang_thai: chua-bat-dau
-    duyet: noi-bo
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    phut: "30–40"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [goyal2014, farias2020, frattaroli2006, anovasconcelles2005, holtlunstad2010, sturm2022, captari2018, vandam2018]
+    bai_tep: [khe/do-thai-giao/dt3-tuan-01, khe/do-thai-giao/dt3-tuan-02, khe/do-thai-giao/dt3-tuan-03, khe/do-thai-giao/dt3-tuan-04, khe/do-thai-giao/dt3-tuan-05, khe/do-thai-giao/dt3-tuan-06]
     bai:
-      - "Mở đầu câu chuyện | The story begins | Gióp 1–2 || Job 1–2"
-      - "Những người bạn | The friends | Gióp || Job"
-      - "Tiếng nói từ cơn gió lốc | The voice from the whirlwind | Gióp 38:1–7 || Job 38:1–7"
-      - "Lời đáp của Gióp | Job’s reply | Gióp 42:1–6 || Job 42:1–6"
-      - "Đọc cùng người duyệt | Reading with a reviewer | –"
-      - "Ôn tập | Review | –"
+      - "Một người ngay thẳng | An upright man | Gióp 1:1, 1:20–22, 2:11–13 || Job 1:1, 1:20–22, 2:11–13 | Đọc và ngồi 25′ ≥5/7; ghi 1 câu hỏi/tối ≥5/7 | Read and sit 25′ on 5 of 7 days; write one question each evening on 5 of 7 evenings"
+      - "Gióp lên tiếng | Job speaks out | Gióp 7:11, 23:3–4, 23:8–9 || Job 7:11, 23:3–4, 23:8–9 | Viết lời than 10′ ≥3 ngày; đọc và ngồi đủ buổi ≥5/7 | Write a 10′ lament on at least 3 days; a full session on 5 of 7 days"
+      - "Những người bạn | The friends | Gióp 4:3–8, 16:2–5 || Job 4:3–8, 16:2–5 | Ngồi 25′ ≥5/7; nghe 3′ không khuyên ≥5/7 | Sit 25′ on 5 of 7 days; listen 3′ without advice on 5 of 7 days"
+      - "Tiếng nói từ cơn gió lốc | The voice from the whirlwind | Gióp 38:1–7 || Job 38:1–7 | Đi bộ 15′ ≥3 lần; đọc và ngồi (hoặc đi) ≥5/7 | Walk 15′ at least 3 times; read and sit (or walk) on 5 of 7 days"
+      - "Lời đáp của Gióp | Job’s reply | Gióp 42:1–6 || Job 42:1–6 | Ngồi 30′ ≥5/7; 1 buổi đọc cùng 1 người trong tuần | Sit 30′ on 5 of 7 days; read with one person once in the week"
+      - "Ôn tập: cầu nguyện cho bạn, ăn bánh cùng nhau | Review: praying for friends, eating bread together | Gióp 42:7, 42:10–11 || Job 42:7, 42:10–11 | Tự chấm 6 thói quen, giữ 2, kế hoạch 4 tuần; 1 lần thăm hỏi | Rate six habits, keep two, write a 4-week plan; one visit or check-in"
+    gioi_han: "Khóa Tầng 3 về khổ đau và mất mát: mỗi ngày 30–40 phút, nên học sau Do Thái giáo 1 và 2. Không dành cho người đang trầm cảm, vừa mất người thân (nhất là mất con), đang bệnh nặng hay đang có ý nghĩ muốn chết; người từng có loạn thần, rối loạn lưỡng cực hay PTSD nặng không nên tự học. Khóa mô tả cách sách Gióp kể và vài cách truyền thống Do Thái đọc sách này; khóa không giải thích vì sao một người cụ thể phải khổ, không nói khổ đau là hình phạt hay phần thưởng, không đọc phần kết như lời hứa đền bù, và không so sánh với các truyền thống khác. Khóa không trích chương 3 (Gióp nguyền rủa ngày sinh) và câu 7:16. Bài viết lời than, đi bộ và đọc cùng một người là cách làm của tamhonkhoe, không phải nghi lễ của truyền thống. Talmud (Bava Batra 15a–16b, Moed Katan 28b) chỉ tóm ý. Bản Việt là bản tamhonkhoe tự dịch từ JPS 1917, không dịch từ tiếng Hebrew; trang tiếng Anh chép nguyên văn bản JPS. Góc trẻ chỉ nói về ngày khó nhỏ, không nói về cái chết, bệnh tật hay mất mát. Chưa có người duyệt từ trong truyền thống Do Thái, và chưa có nghiên cứu đánh giá trực tiếp chương trình này."
+    gioi_han_en: "A Level 3 course on suffering and loss: 30–40 minutes a day, best taken after Judaism 1 and 2. It is not for people who are depressed, recently bereaved (especially of a child), seriously ill or having thoughts of dying; people with a history of psychosis, bipolar disorder or severe PTSD should not study it alone. It describes what the Book of Job tells and some ways the Jewish tradition reads it; it does not explain why any particular person suffers, does not say that suffering is a punishment or a reward, does not read the ending as a promise of repayment, and does not compare with other traditions. It does not quote chapter 3 (Job cursing the day of his birth) or verse 7:16. The lament writing, walking and reading with someone are tamhonkhoe’s own exercises, not rituals of the tradition. The Talmud (Bava Batra 15a–16b, Moed Katan 28b) is only summarised. The Vietnamese is tamhonkhoe’s own translation from JPS 1917, not from Hebrew; the English pages quote JPS word for word. The kids’ corner is only about small hard days, never death, illness or loss. No reviewer from within the Jewish tradition has checked it yet, and no study has evaluated this programme directly."
 
   - ma: DT4
     slug: do-thai-giao-4
