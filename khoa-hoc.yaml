@@ -1016,24 +1016,30 @@ khoa:
     nhom: bat-nhi
     ten: "Karma yoga và thiền theo Gita"
     ten_en: "Karma yoga and meditation in the Gita"
-    mo_ta: "Gita chương 2, 3, 6; ngồi 20–30 phút."
-    mo_ta_en: "Gita chapters 2, 3 and 6; 20–30 minutes of sitting."
+    mo_ta: "Khóa Tầng 2 đọc chương 2, 3 và 6 của Bhagavad Gita về hai con đường: hành động không tìm lợi (karma yoga) và thiền định. Bình thản trong thành bại (2:48, 2:56), không ai sống mà không hành động (3:5, 3:7–8), chỗ ngồi, tư thế và ánh mắt khi thiền (6:10–14), ăn ngủ điều độ (6:16–17), tâm khó giữ như gió và ngọn đèn trong chỗ khuất gió (6:33–34, 6:19), tập đều và buông (6:35–36, 6:26), hành động vì người khác (3:20–21), người gắng sức không mất đi (6:40). Mỗi ngày ngồi 15 phút, tăng dần lên 25 phút, theo cách Gita tả chỗ ngồi và tư thế, cùng một việc nhỏ của đời thường."
+    mo_ta_en: "A Level 2 course reading chapters 2, 3 and 6 of the Bhagavad Gita on two paths: action without seeking gain (karma yoga) and meditation. Even-mindedness in success and failure (2:48, 2:56), no one lives without acting (3:5, 3:7–8), the seat, posture and gaze in meditation (6:10–14), moderation in food and sleep (6:16–17), a mind as hard to hold as the wind and the lamp sheltered from the wind (6:33–34, 6:19), steady practice and letting go (6:35–36, 6:26), acting for others (3:20–21), one who strives is not lost (6:40). Each day you sit for 15 minutes, rising to 25, following the Gita's description of seat and posture, along with one small everyday task."
     tang: "2"
     phut: "20–30"
-    trang_thai: chua-bat-dau
-    duyet: noi-bo
-    ra_mat: "2028"
-    ra_mat_en: "2028"
-    nghien_cuu: [farias2020]
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 8 tuần"
+    tien_do_en: "All 8 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [goyal2014, gloster2020, gollwitzer2006, farias2020, wendsche2017, pega2021, wei2025, khoury2015, lally2010, friese2017, curry2018, harkin2016]
+    bai_tep: [khe/bat-nhi/bn2-tuan-01, khe/bat-nhi/bn2-tuan-02, khe/bat-nhi/bn2-tuan-03, khe/bat-nhi/bn2-tuan-04, khe/bat-nhi/bn2-tuan-05, khe/bat-nhi/bn2-tuan-06, khe/bat-nhi/bn2-tuan-07, khe/bat-nhi/bn2-tuan-08]
     bai:
-      - "Bình thản trong thành bại | Even-minded in success and failure | Gita 2:48"
-      - "Làm phần việc của mình | Doing your part | Gita 3:8"
-      - "Chỗ ngồi và tư thế | The seat and posture | Gita 6:10–17"
-      - "Ăn ngủ điều độ | Moderation in food and sleep | Gita 6:10–17"
-      - "Tâm khó điều phục | The restless mind | Gita 6:35"
-      - "Tập và buông | Practice and detachment | Gita 6:35"
-      - "Hành động hằng ngày | Daily action | Gita 3:8"
-      - "Ôn tập | Review | –"
+      - "Bình thản trong thành bại | Even-minded in success and failure | Gita 2:48, 2:56 || Gita 2:48, 2:56 | Ngồi 15 phút ≥5/7; mỗi tối ghi 1 việc thành, 1 việc chưa thành, mức xao động 0–10 | Sit 15 minutes on 5 of 7 days; each evening note one thing that went well, one that did not, and how stirred up you were (0–10)"
+      - "Làm phần việc của mình | Doing your part | Gita 3:5, 3:7–8 || Gita 3:5, 3:7–8 | 1 việc hay né, làm theo kế hoạch \"nếu… thì…\" ≥5/7; ngồi 15 phút ≥5/7 | One avoided task done with an ‘if… then…’ plan on 5 of 7 days; sit 15 minutes on 5 of 7 days"
+      - "Chỗ ngồi và tư thế | The seat and posture | Gita 6:10–14 || Gita 6:10–14 | Ngồi 20 phút ở cùng một chỗ ≥5/7; chấm độ yên của thân, cổ, đầu 0–10 | Sit 20 minutes in the same place on 5 of 7 days; rate the stillness of body, neck and head 0–10"
+      - "Ăn ngủ điều độ | Moderation in food and sleep | Gita 6:16–17 || Gita 6:16–17 | Dậy quanh cùng một giờ (±30 phút) ≥5/7; ngồi 20 phút ≥5/7 | Wake within about 30 minutes of the same time on 5 of 7 days; sit 20 minutes on 5 of 7 days"
+      - "Tâm khó điều phục | The restless mind | Gita 6:33–34, 6:19 || Gita 6:33–34, 6:19 | Ngồi ≥20 phút 5/7 ngày, trong đó ≥3 ngày đủ 25 phút; ghi nơi tâm hay chạy tới | Sit at least 20 minutes on 5 of 7 days, at least 3 of them for 25; note where the mind tends to run"
+      - "Tập và buông | Practice and letting go | Gita 6:35–36, 6:26 || Gita 6:35–36, 6:26 | Ngồi 25 phút ≥5/7; mỗi ngày chờ 10 phút trước 1 ham muốn nhỏ (không liên quan ăn uống) | Sit 25 minutes on 5 of 7 days; each day wait 10 minutes before one small craving (not about food)"
+      - "Hành động hằng ngày | Daily action | Gita 3:20–21 || Gita 3:20–21 | 1 việc nhỏ có ích làm gương ≥5/7; ngồi 25 phút ≥5/7 | One small useful act as an example on 5 of 7 days; sit 25 minutes on 5 of 7 days"
+      - "Ôn tập – không ai mất đi | Review – no one is lost | Gita 6:40 || Gita 6:40 | Ngồi 25 phút ≥5/7; chấm 8 thói quen, giữ 2, kế hoạch 4 tuần | Sit 25 minutes on 5 of 7 days; rate eight habits, keep two, a 4-week plan"
+    gioi_han: "Khóa Tầng 2, khoảng 20–30 phút mỗi ngày trong 8 tuần, thời gian ngồi tăng từ 15 lên 25 phút; nên học sau Bất nhị 1. Khóa mô tả điều Bhagavad Gita dạy; người học không cần theo đạo, và khóa không đề nghị ai đổi niềm tin hay sùng kính ai. Tên khe \"Bất nhị\" lấy theo một cách đọc (Advaita Vedanta); các trường phái khác đọc cùng văn bản nhưng hiểu khác, và khóa không đứng về bên nào. Khóa không bàn về chiến tranh trong bối cảnh Gita, không dạy nghi lễ, mantra hay tiếng Sanskrit, không đề nghị ai giữ lời nguyện brahmacharya, và không bàn niềm tin về tái sinh. Phần thiền theo sát cách Gita tả chỗ ngồi, tư thế và ánh mắt, nhưng là cách tamhonkhoe đọc văn bản (ghế hay đệm thay cho cỏ kusa và da hươu; điểm đặt tâm trung tính cho người không theo đạo), không thay cho người thầy trong truyền thống; cách hiểu \"nhìn chóp mũi\" là hạ mắt nhìn nhẹ là đánh giá của người viết. Các bài tập khác (ghi thành bại, kế hoạch \"nếu… thì…\", giờ dậy đều, chờ 10 phút trước ham muốn nhỏ, việc nhỏ làm gương) là cách làm của tamhonkhoe. Phần điều độ không phải chế độ ăn hay lời khuyên y tế: không bỏ bữa, không đếm calo. Trên trang tiếng Việt, Gita là bản tamhonkhoe tự dịch từ bản thơ của Edwin Arnold (Gutenberg #2388; Arnold không đánh số câu, số câu ghép theo nội dung); không dịch từ tiếng Sanskrit. Trang tiếng Anh chép nguyên văn bản Arnold. Chưa có người duyệt từ trong truyền thống Hindu, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; bằng chứng trong bài chỉ là gián tiếp."
+    gioi_han_en: "A Level 2 course, about 20–30 minutes a day for 8 weeks, with sitting growing from 15 to 25 minutes; best taken after Non-duality 1. It describes what the Bhagavad Gita teaches; learners do not need to be Hindu, and the course does not ask anyone to change their beliefs or to be devoted to anyone. The section name \"Non-duality\" comes from one reading (Advaita Vedanta); other schools read the same text differently, and the course takes no side. It does not discuss war in the Gita's setting, does not teach ritual, mantras or Sanskrit, does not ask anyone to take the brahmacharya vow, and does not discuss the belief in rebirth. The meditation follows closely the Gita's description of seat, posture and gaze, but it is tamhonkhoe's reading of the text (a chair or cushion instead of kusa grass and deerskin; a neutral point of attention for those outside the tradition), not a substitute for a teacher within the tradition; reading \"gazing at the nose-tip\" as a soft, lowered gaze is the writer's judgement. The other exercises (noting success and failure, \"if… then…\" plans, a steady waking time, waiting 10 minutes before a small craving, small acts as an example) are tamhonkhoe's own. The part on moderation is not a diet or medical advice: no skipping meals, no counting calories. On the Vietnamese pages the Gita is tamhonkhoe's own translation from Edwin Arnold's verse version (Gutenberg #2388; Arnold does not number verses, so verse numbers are matched by content); nothing is translated from Sanskrit. The English pages quote Arnold word for word. No reviewer from within the Hindu tradition has checked it yet, and no study has evaluated this programme directly; the evidence in the lessons is only indirect."
 
   - ma: BN3
     slug: bat-nhi-3
