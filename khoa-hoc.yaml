@@ -1076,22 +1076,29 @@ khoa:
     nhom: bat-nhi
     ten: "Hiện diện trong việc thường"
     ten_en: "Presence in ordinary tasks"
-    mo_ta: "Ăn, làm việc và chăm sóc như một thực hành."
-    mo_ta_en: "Eating, working and caring as practice."
+    mo_ta: "Khóa Tầng 4 đem sự chú tâm vào những việc ai cũng làm: việc nhà, việc chính, bữa ăn, chăm sóc người khác. Mọi việc như lễ dâng (Gita 9:26–27), sống trăm năm mà làm việc chính đáng (Isha Upanishad câu 2), thờ phụng bằng việc của mình và lửa nào cũng có khói (Gita 18:45–46, 18:48), bữa ăn như lễ dâng nhỏ (Gita 3:13–14, 4:24), thấy một Sự sống trong mọi loài (Gita 6:29, 6:32), từ thiền trọn vẹn mà có hành động trọn vẹn (Gita 2:50). Mỗi ngày khoảng 15 phút, nằm ngay trong việc thường."
+    mo_ta_en: "A Level 4 course that carries attention into things everyone does: housework, main work, meals, caring for others. Every act as an offering (Gita 9:26–27), living a hundred years doing right action (Isha Upanishad verse 2), worship through one’s own work and every flame has smoke (Gita 18:45–46, 18:48), the meal as a small offering (Gita 3:13–14, 4:24), seeing one Life in all beings (Gita 6:29, 6:32), with perfect meditation comes perfect act (Gita 2:50). About 15 minutes a day, inside ordinary life."
     tang: "4"
     phut: "Theo nhịp sống"
     phut_en: "Fits daily life"
-    trang_thai: chua-bat-dau
-    duyet: noi-bo
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [goyal2014, pega2021, wendsche2017, macnamara2014, robinson2013, robinson2014, hammons2011, curry2018, holtlunstad2010, harkin2016, lally2010]
+    bai_tep: [khe/bat-nhi/bn4-tuan-01, khe/bat-nhi/bn4-tuan-02, khe/bat-nhi/bn4-tuan-03, khe/bat-nhi/bn4-tuan-04, khe/bat-nhi/bn4-tuan-05, khe/bat-nhi/bn4-tuan-06]
     bai:
-      - "Mọi việc như dâng hiến | Every act as offering | Gita 9:27"
-      - "Làm việc suốt đời | Working a full life | Isha Upanishad 2"
-      - "Thờ phụng bằng việc của mình | Worship through one’s own work | Gita 18:46"
-      - "Bữa ăn | The meal | –"
-      - "Chăm sóc người khác | Caring for others | –"
-      - "Ôn tập | Review | –"
+      - "Mọi việc như dâng hiến | Every act as offering | Gita 9:26–27 || Gita 9:26–27 | Một việc nhỏ trong nhà làm trọn, có câu ý định, ≥5/7; mỗi tối ghi 1 dòng | One small household task done fully, with a sentence of intention, on 5 of 7 days; one line each evening"
+      - "Làm việc suốt đời | Working a full life | Isha Upanishad 2 || Isha Upanishad 2 | Làm trọn 1 việc hay ngại ≥5/7; giữ giờ dừng việc buổi tối ≥5/7 | Do one task you put off, fully, on 5 of 7 days; keep an evening stop-work time on 5 of 7 days"
+      - "Thờ phụng bằng việc của mình | Worship through one’s own work | Gita 18:45–46, 18:48 || Gita 18:45–46, 18:48 | Một khoảng 25 phút chỉ làm việc chính ≥5/7; ghi \"đủ rồi cho hôm nay\" | One 25-minute block of main work, one thing only, on 5 of 7 days; write \"enough for today\""
+      - "Bữa ăn | The meal | Gita 3:13–14, 4:24 || Gita 3:13–14, 4:24 | Một bữa/ngày: dừng 3 hơi thở, cảm ơn, 5 miếng đầu chậm ≥5/7; không đếm calo | One meal a day: 3 breaths, thanks, 5 slow mouthfuls, on 5 of 7 days; no calorie counting"
+      - "Chăm sóc người khác | Caring for others | Gita 6:29, 6:32 || Gita 6:29, 6:32 | Một việc chăm sóc có 1 hơi thở dừng và 2 phút lắng nghe ≥5/7; 1 việc chăm sóc chính mình ≥5/7 | One act of care with a one-breath pause and 2 minutes of listening on 5 of 7 days; one act of self-care on 5 of 7 days"
+      - "Ôn tập | Review | Gita 2:50 || Gita 2:50 | Làm lại 1 thói quen/ngày ≥5/7; chấm 5 thói quen, giữ 2, kế hoạch 4 tuần | Repeat one habit a day on 5 of 7 days; rate five habits, keep two, a 4-week plan"
+    gioi_han: "Khóa Tầng 4 (Hòa nhập), khoảng 15 phút mỗi ngày trong 6 tuần, nằm ngay trong việc nhà, việc chính, bữa ăn và việc chăm sóc; nên học sau Bất nhị 1. Khóa mô tả điều Bhagavad Gita và Isha Upanishad dạy về việc làm hằng ngày; người học không cần theo đạo, và khóa không đề nghị ai đổi niềm tin hay sùng kính ai. Tên khe \"Bất nhị\" lấy theo một cách đọc (Advaita Vedanta); các trường phái khác đọc cùng các câu kinh nhưng hiểu khác, khóa không đứng về bên nào. Khóa không dạy nghi lễ, mantra hay tiếng Sanskrit, không bàn về varna, không hiểu \"phần việc được trao\" là việc định sẵn theo dòng dõi, và không dạy chịu đựng công việc nguy hiểm, bất công hay bị ép. Phần bữa ăn không có nhịn ăn, ăn kiêng, cân hay đếm calo. Phần chăm sóc không thay cho sự giúp đỡ của người có chuyên môn khi người chăm sóc kiệt sức hay người được chăm sóc gặp nguy hiểm. Khung ban đầu để trống kinh cho Tuần 4–6; khóa chọn thêm các câu Gita 2:50, 3:13–14, 4:24, 6:29, 6:32 và nửa sau 18:48 từ cùng bản Arnold. Các bài tập (câu ý định, việc hay ngại, giờ dừng việc, khoảng 25 phút một việc, ba hơi thở trước bữa ăn, hai phút lắng nghe, tự chấm và kế hoạch 4 tuần) là cách làm của tamhonkhoe, không thay cho người thầy trong truyền thống. Trên trang tiếng Việt, kinh là bản tamhonkhoe tự dịch từ bản tiếng Anh của Edwin Arnold (Gita) và Swami Paramananda (Isha Upanishad); không dịch từ tiếng Sanskrit. Trang tiếng Anh chép nguyên văn hai bản này. Chưa có người duyệt từ trong truyền thống Hindu, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; bằng chứng trong bài chỉ là gián tiếp."
+    gioi_han_en: "A Level 4 (Integration) course, about 15 minutes a day for 6 weeks, inside housework, main work, meals and caregiving; best taken after Non-duality 1. It describes what the Bhagavad Gita and the Isha Upanishad teach about daily work; learners do not need to be Hindu, and the course does not ask anyone to change their beliefs or to be devoted to anyone. The section name \"Non-duality\" comes from one reading (Advaita Vedanta); other schools read the same passages differently, and the course takes no side. It does not teach ritual, mantras or Sanskrit, does not discuss varna, does not take \"the work allotted\" as work fixed by birth, and does not teach putting up with dangerous, unfair or coerced work. The meal lesson has no fasting, dieting, weighing or calorie counting. The caregiving lesson is no substitute for expert help when a carer is exhausted or the person cared for is in danger. The original plan gave no passages for Weeks 4–6; the course adds Gita 2:50, 3:13–14, 4:24, 6:29, 6:32 and the second half of 18:48 from the same Arnold translation. The exercises (a sentence of intention, a task you put off, a stop-work time, a 25-minute single-task block, three breaths before a meal, two minutes of listening, self-rating and a 4-week plan) are tamhonkhoe's own and no substitute for a teacher within the tradition. On the Vietnamese pages the scripture is tamhonkhoe's own translation from the English of Edwin Arnold (Gita) and Swami Paramananda (Isha Upanishad); nothing is translated from Sanskrit. The English pages quote these two translations word for word. No reviewer from within the Hindu tradition has checked it yet, and no study has evaluated this programme directly; the evidence in the lessons is only indirect."
 
   # ------------------------------------------------------------ ĐẠO GIÁO
   - ma: DG1
