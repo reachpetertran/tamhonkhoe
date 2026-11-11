@@ -956,22 +956,29 @@ khoa:
     nhom: do-thai-giao
     ten: "Shabbat trong gia đình"
     ten_en: "Shabbat in the family"
-    mo_ta: "Nghỉ ngơi, bữa ăn chung và tzedakah."
-    mo_ta_en: "Rest, the shared table and tzedakah."
+    mo_ta: "Khóa Tầng 4 đưa ba điều của truyền thống Do Thái vào nhịp sống gia đình: ngày nghỉ, việc cho người nghèo (tzedakah) và bàn ăn chung. Đọc ngày sa-bát là dấu hiệu và niềm vui (Xuất hành 31:16–17, Ê-sai 58:13–14), ngày nghỉ cho cả người làm (Xuất hành 23:12), mở tay cho người túng thiếu (Phục truyền 15:7–11) cùng tám bậc cho đi của Maimonides (tóm ý), chừa góc ruộng và bó lúa bỏ quên (Lê-vi 19:9–10, Phục truyền 24:19), ngôi nhà mở cửa (Pirkei Avot I,5), và bài ca cho ngày sa-bát (Thi thiên 92). Bài tập là việc của một gia đình bất kỳ: một buổi nghỉ chung có chuẩn bị trước, chia lại việc nhà, một hộp chia sẻ, chừa phần cho người khác, bữa ăn không màn hình và mời khách."
+    mo_ta_en: "A Level 4 course bringing three things from the Jewish tradition into family life: the day of rest, giving to the poor (tzedakah) and the shared table. Readings: the sabbath as a sign and a delight (Exodus 31:16–17, Isaiah 58:13–14), rest for workers too (Exodus 23:12), opening your hand to the needy (Deuteronomy 15:7–11) with Maimonides' eight levels of giving (summarised), the corner of the field and the forgotten sheaf (Leviticus 19:9–10, Deuteronomy 24:19), the open house (Pirkei Avot I, 5), and the song for the sabbath day (Psalm 92). The exercises are for any family: a shared rest period prepared in advance, sharing housework again, a sharing box, setting something aside for others, meals without screens and inviting guests."
     tang: "4"
     phut: "Theo nhịp sống"
     phut_en: "Fits daily life"
-    trang_thai: chua-bat-dau
-    duyet: truyen-thong
-    ra_mat: "2028"
-    ra_mat_en: "2028"
+    trang_thai: dang-mo
+    tien_do: "Đã lên trang đủ 6 tuần"
+    tien_do_en: "All 6 weeks published"
+    duyet: chu-du-an
+    ra_mat: "Th11/2026"
+    ra_mat_en: "Nov 2026"
+    co_goc_tre: true
+    nghien_cuu: [wendsche2017, holtlunstad2010, pega2021, dunn2008, curry2018, gollwitzer2006, hammons2011, lally2010]
+    bai_tep: [khe/do-thai-giao/dt4-tuan-01, khe/do-thai-giao/dt4-tuan-02, khe/do-thai-giao/dt4-tuan-03, khe/do-thai-giao/dt4-tuan-04, khe/do-thai-giao/dt4-tuan-05, khe/do-thai-giao/dt4-tuan-06]
     bai:
-      - "Ngày thứ bảy | The seventh day | St 2:1–3 || Genesis 2:1–3"
-      - "Nghỉ cho cả người làm | Rest for workers too | Đnl 5:12–15 || Deuteronomy 5:12–15"
-      - "Mở tay cho người nghèo | Open your hand to the poor | Đnl 15:7–11 || Deuteronomy 15:7–11"
-      - "Chừa góc ruộng | Leaving the corner of the field | Lv 19:9–10 || Leviticus 19:9–10"
-      - "Bữa ăn chung | The shared table | –"
-      - "Ôn tập | Review | –"
+      - "Ngày thứ bảy, một niềm vui | The seventh day, a delight | Xuất hành 31:16–17 · Ê-sai 58:13–14 || Exodus 31:16–17 · Isaiah 58:13–14 | Đọc chậm ≥5/7; 1 buổi nghỉ chung ≥2 giờ có chuẩn bị từ hôm trước | Slow reading on 5 of 7 days; one shared rest of at least 2 hours, prepared the day before"
+      - "Nghỉ cho cả người làm | Rest for workers too | Xuất hành 23:12 || Exodus 23:12 | Bảng việc nhà; người nghỉ ít nhất có thêm ≥1 giờ nghỉ; không nhắn việc ngoài giờ cả tuần | A household task list; the person who rests least gets at least 1 extra hour; no out-of-hours work messages all week"
+      - "Mở tay cho người nghèo | Open your hand to the poor | Phục truyền 15:7–11 · Maimonides (tóm ý) || Deuteronomy 15:7–11 · Maimonides (summarised) | Hộp chia sẻ, mỗi người góp ≥1 lần; chọn nơi gửi | A sharing box, everyone contributes at least once; choose where to give"
+      - "Chừa góc ruộng | Leaving the corner of the field | Lê-vi 19:9–10 · Phục truyền 24:19 || Leviticus 19:9–10 · Deuteronomy 24:19 | Chừa phần cho người khác ≥3 lần; 1 lần cho kín đáo | Set something aside for others at least 3 times; give quietly once"
+      - "Bữa ăn chung | The shared table | Pirkei Avot I,5 || Pirkei Avot I, 5 | ≥2 bữa ăn chung không màn hình; mời 1 khách trong 4 tuần | At least 2 shared meals without screens; invite one guest within 4 weeks"
+      - "Ôn tập: bài ca cho ngày sa-bát | Review: a song for the sabbath day | Thi thiên 92:1–5 || Psalm 92:1–5 | Cảm tạ sáng, điều tốt tối ≥5/7; chấm 6 thói quen, giữ 2, kế hoạch 4 tuần | Morning thanks and evening good things on 5 of 7 days; rate six habits, keep two, a 4-week plan"
+    gioi_han: "Khóa Tầng 4, khoảng 15 phút mỗi ngày cộng một vài việc của cả nhà trong tuần; nên học sau Do Thái giáo 1. Khóa mô tả điều truyền thống Do Thái dạy về Shabbat, tzedakah và bàn ăn chung; người học không cần theo đạo. Khóa không hướng dẫn giữ luật (halakha), không hướng dẫn nghi lễ Shabbat (thắp nến, Kiddush, Havdalah), không dạy tiếng Hebrew, và không đề nghị ai đổi niềm tin. Buổi nghỉ chung, hộp chia sẻ, chừa phần và bữa ăn không màn hình là cách làm của tamhonkhoe, không phải Shabbat và không phải nghi lễ của truyền thống. Phần góp tiền không phải lời khuyên tài chính. Phần mô tả một tối thứ Sáu và tập quán trong nhà là đánh giá của người viết. Các đoạn Kinh Thánh trên trang tiếng Việt là bản tamhonkhoe tự dịch từ JPS 1917, không dịch từ tiếng Hebrew; trang tiếng Anh chép nguyên văn JPS 1917. Pirkei Avot dịch từ bản Gorfinkle (Gutenberg). Mishnah Pe'ah 1:1, Pirkei Avot III,4 và tám bậc cho đi của Maimonides chỉ được tóm ý. Chưa có người duyệt từ trong truyền thống Do Thái, và chưa có nghiên cứu đánh giá trực tiếp chương trình này; bằng chứng trong bài chỉ là gián tiếp."
+    gioi_han_en: "A Level 4 course, about 15 minutes a day plus a few family activities each week; best taken after Judaism 1. It describes what the Jewish tradition teaches about Shabbat, tzedakah and the shared table; learners do not need to be Jewish. It does not teach Jewish law (halakha) or Shabbat ritual (candles, Kiddush, Havdalah), does not teach Hebrew, and does not ask anyone to change their beliefs. The shared rest period, sharing box, setting aside and screen-free meals are tamhonkhoe's own exercises; they are not Shabbat and not rituals of the tradition. The giving exercise is not financial advice. The description of a Friday evening and of home customs is the writer's judgement. Bible passages on the Vietnamese pages are tamhonkhoe's own translations from JPS 1917, not from Hebrew; the English pages quote JPS 1917 word for word. Pirkei Avot is translated from Gorfinkle's edition (Gutenberg). Mishnah Pe'ah 1:1, Pirkei Avot III, 4 and Maimonides' eight levels of giving are only summarised. No reviewer from within the Jewish tradition has checked it yet, and no study has evaluated this programme directly; the evidence in the lessons is only indirect."
 
   # ------------------------------------------------------------ BẤT NHỊ
   - ma: BN1
